@@ -1,0 +1,43 @@
+# Dados, resultados e caches
+**/resultados/
+**/resultados-*/
+**/cache/
+**/.tmp/
+**/execucoes/
+*.parquet
+*.csv
+*.duckdb
+*.db
+*.partial
+*.joblib
+*.pkl
+*.pt
+*.pth
+*.onnx
+*.npy
+*.npz
+*.pdf
+*.png
+*.jpg
+*.jpeg
+*.log
+
+# Python e ambientes locais
+**/__pycache__/
+**/.venv/
+**/.pytest_cache/
+**/.ruff_cache/
+**/.mypy_cache/
+**/.ipynb_checkpoints/
+*.py[cod]
+.python-version
+
+# .NET
+**/bin/
+**/obj/
+
+# Configurações locais e editores
+.streamlit/
+.vscode/
+.env
+.env.*

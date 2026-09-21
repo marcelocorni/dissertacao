@@ -1,0 +1,8 @@
+{
+  "dados": {
+    "root_template": "F:\\ethereum-{year}"
+  },
+  "amostragem": {
+    "percentual_blocos": 1.0
+  }
+}
