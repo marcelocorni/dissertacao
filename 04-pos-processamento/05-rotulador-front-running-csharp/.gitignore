@@ -1,5 +1,3 @@
 bin/
 obj/
 *.duckdb
-resultados/
-resultados-v3/

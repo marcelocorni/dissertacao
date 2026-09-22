@@ -1,0 +1,32 @@
+{
+  "CreatedAtUtc": "2026-09-19T07:14:50.016853+00:00",
+  "ProjectVersion": "3.0.0-candidate-first",
+  "InputMode": "sampled",
+  "InputFile": "E:\\Mestrado\\src\\03-machine-learning\\01-features\\resultados-matrizes\\05_metadados.parquet",
+  "Configuration": "independent_sampled",
+  "Split": "treino_2024_pos_dencun",
+  "Detectors": [
+    "insertion",
+    "displacement",
+    "suppression"
+  ],
+  "RawRootTemplate": "F:\\ethereum-{year}",
+  "SourceDates": 275,
+  "SourceParquetFiles": 275,
+  "Anchors": 3210970,
+  "RelevantBlocks": 19679,
+  "RelevantTransactions": 3210970,
+  "CandidateEvents": 41542,
+  "ConfirmedEvents": 0,
+  "PatternAnchors": 39675,
+  "PositiveTransactions": 0,
+  "CandidateAttackerTransactions": 45679,
+  "VictimTransactions": 39730,
+  "EnrichmentTransactions": 56323,
+  "EventsFile": "E:\\Mestrado\\src\\04-pos-processamento\\05-rotulador-front-running-csharp\\resultados-v3\\sampled\\independent_sampled\\treino_2024_pos_dencun\\01_detection_events.parquet",
+  "LabelsFile": "E:\\Mestrado\\src\\04-pos-processamento\\05-rotulador-front-running-csharp\\resultados-v3\\sampled\\independent_sampled\\treino_2024_pos_dencun\\02_transaction_labels.parquet",
+  "SummaryFile": "E:\\Mestrado\\src\\04-pos-processamento\\05-rotulador-front-running-csharp\\resultados-v3\\sampled\\independent_sampled\\treino_2024_pos_dencun\\03_summary.csv",
+  "EnrichmentQueueFile": "E:\\Mestrado\\src\\04-pos-processamento\\05-rotulador-front-running-csharp\\resultados-v3\\sampled\\independent_sampled\\treino_2024_pos_dencun\\05_enrichment_queue.parquet",
+  "RequiresSemanticValidation": true,
+  "MethodologicalNote": "A vers\u00E3o 3 gera candidatos e n\u00E3o promove heur\u00EDsticas estruturais diretamente a ground truth. label=1 exige validation_status=confirmed, definido somente ap\u00F3s valida\u00E7\u00E3o sem\u00E2ntica por receipts/logs. O modo sampled \u00E9 independente da sele\u00E7\u00E3o AE/IF e \u00E9 o recomendado para avalia\u00E7\u00E3o."
+}

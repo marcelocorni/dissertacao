@@ -1,0 +1,6 @@
+configuration,matrix,family,features,training_rows_total,training_rows_fit,internal_validation_rows,best_epoch,epochs_executed,best_internal_validation_loss,fit_seconds,device,peak_gpu_memory_bytes,model_path,model_size_bytes
+a_completa,A,completa,13,3210970,2889873,321097,200,200,0.025963666968867236,35.59877750001033,cuda,350689792,E:\Mestrado\src\03-machine-learning\02-ae\resultados\modelos\a_completa.pt,8949
+b_completa,B,completa,21,3210970,2889873,321097,199,200,0.12304662497316401,36.12545040000987,cuda,455440896,E:\Mestrado\src\03-machine-learning\02-ae\resultados\modelos\b_completa.pt,10229
+c_completa,C,completa,23,3210970,2889873,321097,198,200,0.12124678628488543,35.85853689999203,cuda,481285632,E:\Mestrado\src\03-machine-learning\02-ae\resultados\modelos\c_completa.pt,10549
+b_sem_taxas_absolutas,B,sem_taxas_absolutas,18,3210970,2889873,321097,199,200,0.08138613160111455,37.301392399996985,cuda,415354368,E:\Mestrado\src\03-machine-learning\02-ae\resultados\modelos\b_sem_taxas_absolutas.pt,10043
+c_sem_taxas_absolutas,C,sem_taxas_absolutas,19,3210970,2889873,321097,200,200,0.09181162480349722,36.08988039998803,cuda,429778432,E:\Mestrado\src\03-machine-learning\02-ae\resultados\modelos\c_sem_taxas_absolutas.pt,10235

@@ -1,0 +1,18 @@
+{
+  "created_at_utc": "2026-09-20T09:18:17.947490+00:00",
+  "mode": "block_batch",
+  "dataset": "treino_2024_pos_dencun",
+  "source_queue": "E:\\Mestrado\\src\\04-pos-processamento\\05-rotulador-front-running-csharp\\resultados-v3\\sampled\\independent_sampled\\treino_2024_pos_dencun\\05_enrichment_queue.parquet",
+  "requested_blocks": 13326,
+  "requested_transactions": 56323,
+  "enriched_transactions": 56323,
+  "errors": 0,
+  "cache_hits_blocks": 0,
+  "new_blocks": 13326,
+  "http_requests": 7099,
+  "rpc_methods": 70934,
+  "blocks_per_batch": 5,
+  "rpc_provider_host": "eth-mainnet.g.alchemy.com",
+  "rpc_url_stored": false,
+  "queue_fingerprint": "bd63a980ad085fca1a51c1fdaa2d70a9a14e01ebe0ab5e6d21db323feb29b3cb"
+}

@@ -1,0 +1,17 @@
+{
+  "generated_at": "2026-09-17T20:01:34.319720-03:00",
+  "dataset_name": "teste_final_2025",
+  "start_date": "2025-06-01",
+  "end_date": "2025-11-30",
+  "source_parquet_files": 183,
+  "block_modulus": 100,
+  "sample_rows": 2827717,
+  "sample_blocks": 13083,
+  "sample_unique_hashes": 2827717,
+  "contract_creation_rows": 0,
+  "contract_creation_pct": 0.0,
+  "type_4_rows": 13598,
+  "matrix_A_features": 13,
+  "matrix_B_features": 21,
+  "matrix_C_features": 23
+}

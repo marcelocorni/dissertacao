@@ -1,0 +1,23 @@
+{
+  "created_at_utc": "2026-09-21T00:35:10.307205+00:00",
+  "source_dossier": "E:\\Mestrado\\src\\04-pos-processamento\\06-validacao-semantica-front-running\\resultados\\estresse_fusaka_2025\\08_dossie_auditoria.parquet",
+  "source_transactions": "E:\\Mestrado\\src\\04-pos-processamento\\06-validacao-semantica-front-running\\resultados\\estresse_fusaka_2025\\01_transacoes_rpc.parquet",
+  "decisions": "E:\\Mestrado\\src\\04-pos-processamento\\06-validacao-semantica-front-running\\resultados\\estresse_fusaka_2025\\15_decisoes_dossie.csv",
+  "reviewer": "Marcelo Corni Alves",
+  "method": "adjudicação assistida determinística com justificativa por evento",
+  "decision_policy": "final_assisted_without_manual_override",
+  "interface_mode": "read_only",
+  "legacy_column_names": [
+    "manual_label",
+    "manual_type"
+  ],
+  "generated": 112,
+  "preserved_existing": 0,
+  "overwrite": true,
+  "counts": {
+    "displacement:confirmado": 3,
+    "displacement:provável": 15,
+    "insertion:confirmado": 94
+  },
+  "caveat": "Rótulos produzidos por protocolo algorítmico assistido; não constituem observação independente de mempool."
+}

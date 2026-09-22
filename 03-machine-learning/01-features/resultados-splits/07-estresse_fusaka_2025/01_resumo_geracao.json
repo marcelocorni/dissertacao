@@ -1,0 +1,17 @@
+{
+  "generated_at": "2026-09-17T20:01:51.011493-03:00",
+  "dataset_name": "estresse_fusaka_2025",
+  "start_date": "2025-12-01",
+  "end_date": "2025-12-31",
+  "source_parquet_files": 31,
+  "block_modulus": 100,
+  "sample_rows": 512462,
+  "sample_blocks": 2209,
+  "sample_unique_hashes": 512462,
+  "contract_creation_rows": 0,
+  "contract_creation_pct": 0.0,
+  "type_4_rows": 3195,
+  "matrix_A_features": 13,
+  "matrix_B_features": 21,
+  "matrix_C_features": 23
+}

@@ -1,0 +1,25 @@
+{
+  "created_at_utc": "2026-09-18T03:06:50.898485+00:00",
+  "experiment_type": "hypothetical_binary_ground_truth",
+  "assumption": "Experimento hipotético: endereços presentes na categoria MEV Bot do Etherscan Label Cloud são classe positiva (1), e todos os demais endereços são tratados como classe negativa (0).",
+  "positive_definition": "from_address belongs to historical Etherscan Label Cloud category mev_bot",
+  "negative_definition": "from_address absent from the historical mev_bot category (hypothetical assumption)",
+  "join_key": "lower(metadata.from_address) = lower(tags.address)",
+  "tags_file": "E:\\Mestrado\\src\\04-pos-processamento\\resultados-labelcloud\\01_labelcloud_historico_normalizado.parquet",
+  "tags_sha256": "05b591a0e9d7aad815875e671f269d3a840ea7ade40fbb1c001da3f14032bd55",
+  "split_manifest": "E:\\Mestrado\\src\\03-machine-learning\\01-features\\resultados-splits\\00_manifest_splits_temporais.json",
+  "metadata_by_split": {
+    "estresse_pre_dencun_2024": "E:\\Mestrado\\src\\03-machine-learning\\01-features\\resultados-splits\\01-estresse_pre_dencun_2024\\05_metadados.parquet",
+    "transicao_dencun_2024": "E:\\Mestrado\\src\\03-machine-learning\\01-features\\resultados-splits\\02-transicao_dencun_2024\\05_metadados.parquet",
+    "treino_2024_pos_dencun": "E:\\Mestrado\\src\\03-machine-learning\\01-features\\resultados-matrizes\\05_metadados.parquet",
+    "validacao_2025_pre_pectra": "E:\\Mestrado\\src\\03-machine-learning\\01-features\\resultados-splits\\04-validacao_2025_pre_pectra\\05_metadados.parquet",
+    "transicao_pectra_2025": "E:\\Mestrado\\src\\03-machine-learning\\01-features\\resultados-splits\\05-transicao_pectra_2025\\05_metadados.parquet",
+    "teste_final_2025": "E:\\Mestrado\\src\\03-machine-learning\\01-features\\resultados-splits\\06-teste_final_2025\\05_metadados.parquet",
+    "estresse_fusaka_2025": "E:\\Mestrado\\src\\03-machine-learning\\01-features\\resultados-splits\\07-estresse_fusaka_2025\\05_metadados.parquet"
+  },
+  "labels_file": "E:\\Mestrado\\src\\04-pos-processamento\\resultados-labelcloud\\05_rotulos_binarios_hipoteticos_labelcloud.parquet",
+  "labels_sha256": "9d6ca9e9bf74a61b069abc626b1b5977db1f0797acca4082f1b674af59b9b58b",
+  "total_rows": 9494450,
+  "unique_split_row_id": 9494450,
+  "warning": "The class-0 assignment is an experimental assumption, not an observed negative label."
+}

@@ -1,0 +1,22 @@
+{
+  "generated_at": "2026-09-17T17:19:46.649054-03:00",
+  "start_date": "2024-04-01",
+  "end_date": "2024-12-31",
+  "number_of_parquet_files": 275,
+  "total_rows": 322293750,
+  "approximate_unique_hashes": 325954993,
+  "note_unique_hashes": "A cardinalidade global é aproximada para evitar uma agregação muito onerosa sobre centenas de milhões de hashes.",
+  "min_block_number": 19557289,
+  "max_block_number": 21525890,
+  "min_block_timestamp": "2024-04-01T00:00:11",
+  "max_block_timestamp": "2024-12-31T23:59:59",
+  "block_modulus": 100,
+  "sampled_rows": 3210970,
+  "sampled_blocks": 19679,
+  "sample_unique_hashes": 3210970,
+  "sample_duplicate_hashes": 0,
+  "sample_min_timestamp": "2024-04-01T00:02:23",
+  "sample_max_timestamp": "2024-12-31T23:41:47",
+  "correlation_rows_requested": 500000,
+  "seed": 20240916
+}

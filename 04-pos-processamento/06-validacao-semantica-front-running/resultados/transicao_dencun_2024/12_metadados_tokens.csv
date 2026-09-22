@@ -1,0 +1,66 @@
+﻿token_address,reference_block,symbol,name,decimals,metadata_status,provider_host
+0x0001a500a6b18995b03f44bb040a5ffc28e45cb0,19441600,OLAS,Autonolas,18,complete,eth-mainnet.g.alchemy.com
+0x0258f474786ddfd37abce6df6bbb1dd5dfc4434a,19490800,ORN,Orion Protocol,8,complete,eth-mainnet.g.alchemy.com
+0x0353e9f2e8783135f2b71063c66ff62345d95e53,19538000,VILLAIN,Mark Karpeles,9,complete,eth-mainnet.g.alchemy.com
+0x059956483753947536204e89bfad909e1a434cc6,19438000,ML,MLTToken,18,complete,eth-mainnet.g.alchemy.com
+0x05d66dc4aedd9ade3d775b2c47588832342d0c23,19543700,GMEOW,gmeow,9,complete,eth-mainnet.g.alchemy.com
+0x069d89974f4edabde69450f9cf5cf7d8cbd2568d,19447200,BVM,BVM,18,complete,eth-mainnet.g.alchemy.com
+0x1495bc9e44af1f8bcb62278d2bec4540cf0c05ea,19501800,DEAI,Zero1 Token,18,complete,eth-mainnet.g.alchemy.com
+0x168e209d7b2f58f1f24b8ae7b7d35e662bbf11cc,19441200,LAI,LayerAI Token,18,complete,eth-mainnet.g.alchemy.com
+0x17c50d62e6e8d20d2dc18e9ad79c43263d0720d9,19540700,NFAi,Not Financial Advice,18,complete,eth-mainnet.g.alchemy.com
+0x1ae7e1d0ce06364ced9ad58225a1705b3e5db92b,19511900,LMEOW,lmeow,9,complete,eth-mainnet.g.alchemy.com
+0x1ce270557c1f68cfb577b856766310bf8b47fd9c,19473400,$MONG,MongCoin,18,complete,eth-mainnet.g.alchemy.com
+0x2260fac5e5542a773aa44fbcfedf7c193bc2c599,19492700,WBTC,Wrapped BTC,8,complete,eth-mainnet.g.alchemy.com
+0x26c8afbbfe1ebaca03c2bb082e69d0476bffe099,19526200,CELL,Cellframe Token,18,complete,eth-mainnet.g.alchemy.com
+0x27c70cd1946795b66be9d954418546998b546634,19428200,LEASH,DOGE KILLER,18,complete,eth-mainnet.g.alchemy.com
+0x2833a71144fe14fe9e21d25b0fd6cc004136b084,19500600,FoDo,Forked Doge,18,complete,eth-mainnet.g.alchemy.com
+0x427a03fb96d9a94a6727fbcfbba143444090dd64,19446200,PIXL,PIXL,18,complete,eth-mainnet.g.alchemy.com
+0x467719ad09025fcc6cf6f8311755809d45a5e5f3,19516000,AXL,Axelar,6,complete,eth-mainnet.g.alchemy.com
+0x4d948c9da5f27f4a8570b1ae6b940175076ec453,19514600,ATMA,ATMA,10,complete,eth-mainnet.g.alchemy.com
+0x54a05afa62fe9c9c0892185d4f1b85e229be9a21,19540300,0xR,0xRender,9,complete,eth-mainnet.g.alchemy.com
+0x594daad7d77592a2b97b725a7ad59d7e188b5bfa,19498500,APU,Apu Apustaja,18,complete,eth-mainnet.g.alchemy.com
+0x5de8ab7e27f6e7a1fff3e5b337584aa43961beef,19438000,SDEX,SmarDex Token,18,complete,eth-mainnet.g.alchemy.com
+0x626e8036deb333b408be468f951bdb42433cbf18,19512000,AIOZ,AIOZ Network,18,complete,eth-mainnet.g.alchemy.com
+0x69c20d3fa3aa0c9af173b66b83394d7e85756969,19537100,0x69,0x69,9,complete,eth-mainnet.g.alchemy.com
+0x6ff2241756549b5816a177659e766eaf14b34429,19490500,AQTIS,AQTIS Token,18,complete,eth-mainnet.g.alchemy.com
+0x710287d1d39dcf62094a83ebb3e736e79400068a,19546300,ENQAI,enqAI,18,complete,eth-mainnet.g.alchemy.com
+0x73d7c860998ca3c01ce8c808f5577d94d545d1b4,19532500,IXS,Ixs Token,18,complete,eth-mainnet.g.alchemy.com
+0x73f718aba461a9819a0478ba46db298071e32740,19479100,PIRATES,Pirateflix,9,complete,eth-mainnet.g.alchemy.com
+0x76be46dd1e381898397c3488076a35de41198967,19470700,TAO,0xTao,9,complete,eth-mainnet.g.alchemy.com
+0x7d225c4cc612e61d26523b099b0718d03152edef,19542900,FORK,FlokiFork,18,complete,eth-mainnet.g.alchemy.com
+0x85e0b9d3e7e4dba7e59090c533906d0e9211d8b6,19518700,ISHI,Ishi,9,complete,eth-mainnet.g.alchemy.com
+0x873ec47bde28a13f0f92ef2e379b7550171506f8,19444900,IAI,IndexAI,18,complete,eth-mainnet.g.alchemy.com
+0x8afe4055ebc86bd2afb3940c0095c9aca511d852,19526300,AIUS,Arbius,18,complete,eth-mainnet.g.alchemy.com
+0x8f8afd9e75205707d458b6c832df23d37518ab11,19449100,SHIB2.0,SHIB2.0,9,complete,eth-mainnet.g.alchemy.com
+0x91fbb2503ac69702061f1ac6885759fc853e6eae,19540700,KNINE,K9 Finance DAO,18,complete,eth-mainnet.g.alchemy.com
+0x9385934f026d10c068d475e7058733251ed6791e,19520600,DTAI,DigitalTwinAI,18,complete,eth-mainnet.g.alchemy.com
+0x97225fae89b370e7721f961d1145e64df56f2482,19477000,BURN,Smoked Token Burn,18,complete,eth-mainnet.g.alchemy.com
+0x9c7d4fb43919def524c1a9d92fe836169eaf0615,19553800,Wolf,Landwolf,18,complete,eth-mainnet.g.alchemy.com
+0x9dc6136e335ac509aa3bf3561e98f28ace4c54a4,19437700,sec.gov,Page not found,9,complete,eth-mainnet.g.alchemy.com
+0x9e20461bc2c4c980f62f1b279d71734207a6a356,19546300,OMNI,OmniCat,18,complete,eth-mainnet.g.alchemy.com
+0x9fdfb933ee990955d3219d4f892fd1f786b47c9b,19474100,MK,Meme Kombat,18,complete,eth-mainnet.g.alchemy.com
+0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48,19423900,USDC,USD Coin,6,complete,eth-mainnet.g.alchemy.com
+0xa9e8acf069c58aec8825542845fd754e41a9489a,19481200,pepecoin,pepeCoin,18,complete,eth-mainnet.g.alchemy.com
+0xad913dcd987fe54ce823e4b755f90598cd62bb15,19542900,MFERS,MFERS,18,complete,eth-mainnet.g.alchemy.com
+0xae78736cd615f374d3085123a210448e74fc6393,19490000,rETH,Rocket Pool ETH,18,complete,eth-mainnet.g.alchemy.com
+0xb495fa01101aab6b057fb0b8649cf4e35e7510a3,19485700,ITV,IPFS Tao Validator,18,complete,eth-mainnet.g.alchemy.com
+0xb8521321d28cc98cfb047113b398d0fd5a04c131,19457400,CASH,CASH BACK,18,complete,eth-mainnet.g.alchemy.com
+0xbadff0ef41d2a68f22de21eabca8a59aaf495cf0,19556200,Kabosu,Kabosu,18,complete,eth-mainnet.g.alchemy.com
+0xbf930d7bf706cfa01f25b154951b580e8c97a5d2,19542200,DXTR,Dextro,18,complete,eth-mainnet.g.alchemy.com
+0xc01b1979e2244dc94e67891df0af4f7885e57fd4,19525400,LAN,Lanify,18,complete,eth-mainnet.g.alchemy.com
+0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2,19423900,WETH,Wrapped Ether,18,complete,eth-mainnet.g.alchemy.com
+0xc092a137df3cf2b9e5971ba1874d26487c12626d,19463800,RING,Ring AI,18,complete,eth-mainnet.g.alchemy.com
+0xc14b4d4ca66f40f352d7a50fd230ef8b2fb3b8d4,19466700,TOOLS,BLOCKTOOLS,18,complete,eth-mainnet.g.alchemy.com
+0xc82e3db60a52cf7529253b4ec688f631aad9e7c2,19530900,ARC,ARC,18,complete,eth-mainnet.g.alchemy.com
+0xce6e54daa1ea95fb3530859d69d4bdb978dd821b,19438000,ORBK,Ordibank,18,complete,eth-mainnet.g.alchemy.com
+0xdab396ccf3d84cf2d07c4454e10c8a6f5b008d2b,19424900,GFI,Goldfinch,18,complete,eth-mainnet.g.alchemy.com
+0xdac17f958d2ee523a2206206994597c13d831ec7,19423900,USDT,Tether USD,6,complete,eth-mainnet.g.alchemy.com
+0xe2cfd7a01ec63875cd9da6c7c1b7025166c2fa2f,19474800,HYPER,Hyper,18,complete,eth-mainnet.g.alchemy.com
+0xe453c3409f8ad2b1fe1ed08e189634d359705a5b,19441500,DGI,DGI Game,18,complete,eth-mainnet.g.alchemy.com
+0xe842e272a18625319cc36f64eb9f97e5ad0c32af,19510100,YAK,YAK,9,complete,eth-mainnet.g.alchemy.com
+0xee27bff55522dee83ff2a48d2f5d146f3eb234c5,19503000,SPA,0xSpade AI,9,complete,eth-mainnet.g.alchemy.com
+0xf19308f923582a6f7c465e5ce7a9dc1bec6665b1,19474800,TITANX,TITAN X,18,complete,eth-mainnet.g.alchemy.com
+0xf21661d0d1d76d3ecb8e1b9f1c923dbfffae4097,19523300,RIO,Realio Network,18,complete,eth-mainnet.g.alchemy.com
+0xf34a43471e4a9cbf28e004d1b95b52a59b449dd6,19441700,NODE,Nodify,9,complete,eth-mainnet.g.alchemy.com
+0xf411903cbc70a74d22900a5de66a2dda66507255,19443600,VRA,VERA,18,complete,eth-mainnet.g.alchemy.com
+0xff44b937788215eca197baaf9af69dbdc214aa04,19447500,ROCKI,ROCKI,18,complete,eth-mainnet.g.alchemy.com

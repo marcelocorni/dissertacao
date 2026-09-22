@@ -1,0 +1,123 @@
+{
+  "generated_at": "2026-09-17T21:00:12.541796-03:00",
+  "fit_split": "treino_2024_pos_dencun",
+  "fit_start_date": "2024-04-01",
+  "fit_end_date": "2024-12-31",
+  "method": "RobustScaler univariado com taxas EIP-1559 condicionais",
+  "formula": "(x - mediana_treino) / escala_treino",
+  "zero_iqr_policy": "usar escala 1 após centralização pela mediana",
+  "not_applicable_fee_policy": "max_fee e max_priority permanecem zero nos tipos 0 e 1; ajuste calculado somente nos tipos 2, 3 e 4",
+  "preprocessing_signature": "738226c43bc7b0172d7c45132fda4f07027bb0805e812b3b05dab4ee2c03256e",
+  "parameters": {
+    "gas_used_log": {
+      "q1": 9.952325334619427,
+      "median": 10.747229096720554,
+      "q3": 11.734243350770866,
+      "iqr": 1.7819180161514385,
+      "scale": 1.7819180161514385,
+      "scale_source": "iqr",
+      "fit_filter": null,
+      "formula": "(x - median) / scale"
+    },
+    "effective_gas_price_log": {
+      "q1": 22.33270374958051,
+      "median": 22.939025355506644,
+      "q3": 23.487963999752264,
+      "iqr": 1.1552602501717537,
+      "scale": 1.1552602501717537,
+      "scale_source": "iqr",
+      "fit_filter": null,
+      "formula": "(x - median) / scale"
+    },
+    "max_fee_per_gas_log": {
+      "q1": 22.63926093397219,
+      "median": 23.304859296730253,
+      "q3": 24.01456122964704,
+      "iqr": 1.375300295674851,
+      "scale": 1.375300295674851,
+      "scale_source": "iqr",
+      "fit_filter": "tx_type_0 = 0 AND tx_type_1 = 0",
+      "formula": "0 quando não aplicável; (x - median) / scale quando aplicável"
+    },
+    "max_priority_fee_log": {
+      "q1": 18.420680753952364,
+      "median": 20.72326583794641,
+      "q3": 21.416413018006356,
+      "iqr": 2.9957322640539914,
+      "scale": 2.9957322640539914,
+      "scale_source": "iqr",
+      "fit_filter": "tx_type_0 = 0 AND tx_type_1 = 0",
+      "formula": "0 quando não aplicável; (x - median) / scale quando aplicável"
+    },
+    "transaction_value_log": {
+      "q1": 0.0,
+      "median": 0.0,
+      "q3": 37.82343996031689,
+      "iqr": 37.82343996031689,
+      "scale": 37.82343996031689,
+      "scale_source": "iqr",
+      "fit_filter": null,
+      "formula": "(x - median) / scale"
+    },
+    "nonce_log": {
+      "q1": 2.302585092994046,
+      "median": 5.075173815233827,
+      "q3": 9.958165113826825,
+      "iqr": 7.655580020832779,
+      "scale": 7.655580020832779,
+      "scale_source": "iqr",
+      "fit_filter": null,
+      "formula": "(x - median) / scale"
+    },
+    "block_tx_count_log": {
+      "q1": 4.955827057601261,
+      "median": 5.14166355650266,
+      "q3": 5.365976015021851,
+      "iqr": 0.4101489574205903,
+      "scale": 0.4101489574205903,
+      "scale_source": "iqr",
+      "fit_filter": null,
+      "formula": "(x - median) / scale"
+    },
+    "sender_tx_count_block_log": {
+      "q1": 0.6931471805599453,
+      "median": 0.6931471805599453,
+      "q3": 0.6931471805599453,
+      "iqr": 0.0,
+      "scale": 1.0,
+      "scale_source": "unit_fallback_zero_iqr",
+      "fit_filter": null,
+      "formula": "(x - median) / scale"
+    },
+    "receiver_tx_count_block_log": {
+      "q1": 0.6931471805599453,
+      "median": 0.6931471805599453,
+      "q3": 1.9459101490553132,
+      "iqr": 1.252762968495368,
+      "scale": 1.252762968495368,
+      "scale_source": "iqr",
+      "fit_filter": null,
+      "formula": "(x - median) / scale"
+    },
+    "gas_limit_log": {
+      "q1": 10.003875726567397,
+      "median": 11.344707976542544,
+      "q3": 12.370321452919283,
+      "iqr": 2.366445726351886,
+      "scale": 2.366445726351886,
+      "scale_source": "iqr",
+      "fit_filter": null,
+      "formula": "(x - median) / scale"
+    },
+    "transaction_fee_paid_log": {
+      "q1": 32.9112003439338,
+      "median": 33.73922083408372,
+      "q3": 34.664108232878284,
+      "iqr": 1.7529078889444847,
+      "scale": 1.7529078889444847,
+      "scale_source": "iqr",
+      "fit_filter": null,
+      "formula": "(x - median) / scale"
+    }
+  }
+}

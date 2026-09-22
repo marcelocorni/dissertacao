@@ -1,0 +1,6 @@
+﻿detector,validation_status,economic_status,events
+displacement,confirmed,requires_token_valuation,1
+displacement,probable,requires_token_valuation,72
+insertion,confirmed,mixed_assets_requires_valuation,15
+insertion,confirmed,requires_token_valuation,6
+insertion,confirmed,weth_surplus_after_gas_observed,22

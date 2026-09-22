@@ -1,0 +1,12 @@
+{
+  "created_at_utc": "2026-09-20T21:51:52.502122+00:00",
+  "source_flows": "E:\\Mestrado\\src\\04-pos-processamento\\06-validacao-semantica-front-running\\resultados\\teste_final_2025\\09_fluxos_tokens_atacante.parquet",
+  "tokens_requested": 499,
+  "complete": 497,
+  "partial": 2,
+  "errors": 0,
+  "rpc_calls": 0,
+  "cache_hits": 499,
+  "rpc_provider_host": "eth-mainnet.g.alchemy.com",
+  "rpc_url_stored": false
+}

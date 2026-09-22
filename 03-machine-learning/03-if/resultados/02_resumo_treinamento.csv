@@ -1,0 +1,6 @@
+configuration,matrix,family,features,training_rows_total,training_rows_sample,sample_share,n_estimators,max_samples_tree,fit_seconds,model_path,model_size_bytes
+a_completa,A,completa,13,3210970,499909,0.155687845105996,200,8192,2.6297354999987874,E:\Mestrado\src\03-machine-learning\03-if\resultados\modelos\a_completa.joblib,9012728
+b_completa,B,completa,21,3210970,499909,0.155687845105996,200,8192,2.9054090999998152,E:\Mestrado\src\03-machine-learning\03-if\resultados\modelos\b_completa.joblib,10978316
+c_completa,C,completa,23,3210970,499909,0.155687845105996,200,8192,3.0860309999989113,E:\Mestrado\src\03-machine-learning\03-if\resultados\modelos\c_completa.joblib,10608384
+b_sem_taxas_absolutas,B,sem_taxas_absolutas,18,3210970,499909,0.155687845105996,200,8192,2.8097121000027983,E:\Mestrado\src\03-machine-learning\03-if\resultados\modelos\b_sem_taxas_absolutas.joblib,11905770
+c_sem_taxas_absolutas,C,sem_taxas_absolutas,19,3210970,499909,0.155687845105996,200,8192,2.8408660999994026,E:\Mestrado\src\03-machine-learning\03-if\resultados\modelos\c_sem_taxas_absolutas.joblib,11859535

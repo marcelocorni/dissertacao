@@ -1,0 +1,74 @@
+{
+  "created_at_utc": "2026-09-18T03:17:38.189327+00:00",
+  "experiment_type": "hypothetical_supervised_evaluation",
+  "assumption": "Hipótese experimental: endereços MEV Bot do Label Cloud são positivos; todos os endereços ausentes são negativos.",
+  "labels_file": "E:\\Mestrado\\src\\04-pos-processamento\\resultados-labelcloud\\05_rotulos_binarios_hipoteticos_labelcloud.parquet",
+  "splits": [
+    "estresse_pre_dencun_2024",
+    "transicao_dencun_2024",
+    "treino_2024_pos_dencun",
+    "validacao_2025_pre_pectra",
+    "transicao_pectra_2025",
+    "teste_final_2025",
+    "estresse_fusaka_2025"
+  ],
+  "configurations": [
+    "a_completa",
+    "b_completa",
+    "c_completa",
+    "b_sem_taxas_absolutas",
+    "c_sem_taxas_absolutas"
+  ],
+  "methods": [
+    "AE",
+    "IF"
+  ],
+  "thresholds": [
+    "q990",
+    "q995",
+    "q999"
+  ],
+  "top_fractions": [
+    0.001,
+    0.005,
+    0.01,
+    0.05
+  ],
+  "primary_test_split": "teste_final_2025",
+  "metric_note": "ROC/PR and confusion metrics are valid only under the stated hypothetical class-0 assumption.",
+  "artifacts": [
+    "01_metricas_discriminacao.csv",
+    "02_metricas_limiares.csv",
+    "03_metricas_top_k.csv",
+    "04_manifest_avaliacao.json",
+    "05_curvas_roc_pr_estresse_fusaka_2025.pdf",
+    "05_curvas_roc_pr_estresse_fusaka_2025.png",
+    "05_curvas_roc_pr_estresse_pre_dencun_2024.pdf",
+    "05_curvas_roc_pr_estresse_pre_dencun_2024.png",
+    "05_curvas_roc_pr_teste_final_2025.pdf",
+    "05_curvas_roc_pr_teste_final_2025.png",
+    "05_curvas_roc_pr_transicao_dencun_2024.pdf",
+    "05_curvas_roc_pr_transicao_dencun_2024.png",
+    "05_curvas_roc_pr_transicao_pectra_2025.pdf",
+    "05_curvas_roc_pr_transicao_pectra_2025.png",
+    "05_curvas_roc_pr_treino_2024_pos_dencun.pdf",
+    "05_curvas_roc_pr_treino_2024_pos_dencun.png",
+    "05_curvas_roc_pr_validacao_2025_pre_pectra.pdf",
+    "05_curvas_roc_pr_validacao_2025_pre_pectra.png",
+    "06_heatmap_roc_auc.pdf",
+    "06_heatmap_roc_auc.png",
+    "07_heatmap_pr_auc.pdf",
+    "07_heatmap_pr_auc.png",
+    "08_matrizes_confusao_teste_q990.pdf",
+    "08_matrizes_confusao_teste_q990.png",
+    "08_matrizes_confusao_teste_q995.pdf",
+    "08_matrizes_confusao_teste_q995.png",
+    "08_matrizes_confusao_teste_q999.pdf",
+    "08_matrizes_confusao_teste_q999.png",
+    "09_distribuicao_escores_teste.pdf",
+    "09_distribuicao_escores_teste.png",
+    "10_lift_top_k_teste.pdf",
+    "10_lift_top_k_teste.png",
+    "11_sintese_resultados.md"
+  ]
+}

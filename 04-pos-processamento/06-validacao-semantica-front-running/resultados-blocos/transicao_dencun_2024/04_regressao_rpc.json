@@ -1,0 +1,12 @@
+{
+  "baseline_rows": 3544,
+  "candidate_rows": 3544,
+  "missing": 0,
+  "extra": 0,
+  "field_mismatches": 0,
+  "logs_mismatches": 0,
+  "created_at_utc": "2026-09-20T23:11:24.843460+00:00",
+  "baseline": "E:\\Mestrado\\src\\04-pos-processamento\\06-validacao-semantica-front-running\\resultados\\transicao_dencun_2024\\01_transacoes_rpc.parquet",
+  "candidate": "E:\\Mestrado\\src\\04-pos-processamento\\06-validacao-semantica-front-running\\resultados-blocos\\transicao_dencun_2024\\01_transacoes_rpc.parquet",
+  "passed": true
+}

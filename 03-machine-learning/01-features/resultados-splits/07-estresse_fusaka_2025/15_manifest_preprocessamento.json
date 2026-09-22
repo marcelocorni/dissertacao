@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-09-17T21:00:27.129002-03:00",
+  "split": "estresse_fusaka_2025",
+  "preprocessing_signature": "738226c43bc7b0172d7c45132fda4f07027bb0805e812b3b05dab4ee2c03256e",
+  "fit_split": "treino_2024_pos_dencun",
+  "outputs": [
+    {
+      "split": "estresse_fusaka_2025",
+      "matrix": "A",
+      "rows": 512462,
+      "features": 13,
+      "invalid_values": 0,
+      "output_path": "E:\\Mestrado\\src\\03-machine-learning\\01-features\\resultados-splits\\07-estresse_fusaka_2025\\12_matriz_A_preprocessada.parquet",
+      "size_bytes": 17298239
+    },
+    {
+      "split": "estresse_fusaka_2025",
+      "matrix": "B",
+      "rows": 512462,
+      "features": 21,
+      "invalid_values": 0,
+      "output_path": "E:\\Mestrado\\src\\03-machine-learning\\01-features\\resultados-splits\\07-estresse_fusaka_2025\\13_matriz_B_preprocessada.parquet",
+      "size_bytes": 19776477
+    },
+    {
+      "split": "estresse_fusaka_2025",
+      "matrix": "C",
+      "rows": 512462,
+      "features": 23,
+      "invalid_values": 0,
+      "output_path": "E:\\Mestrado\\src\\03-machine-learning\\01-features\\resultados-splits\\07-estresse_fusaka_2025\\14_matriz_C_preprocessada.parquet",
+      "size_bytes": 24253240
+    }
+  ]
+}

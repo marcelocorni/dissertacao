@@ -1,6 +1,4 @@
-# Dados, resultados e caches
-**/resultados/
-**/resultados-*/
+# Dados volumosos, bancos locais e caches
 **/cache/
 **/.tmp/
 **/execucoes/
@@ -21,6 +19,17 @@
 *.jpg
 *.jpeg
 *.log
+
+# Os artefatos de resultados (CSV, JSON, imagens, PDFs, relatórios e
+# modelos treinados) são versionados. Os Parquet continuam excluídos,
+# inclusive quando estiverem dentro de diretórios resultados*.
+!**/resultados*/**/*.csv
+!**/resultados*/**/*.pdf
+!**/resultados*/**/*.png
+!**/resultados*/**/*.jpg
+!**/resultados*/**/*.jpeg
+!**/resultados*/**/*.joblib
+!**/resultados*/**/*.pt
 
 # Python e ambientes locais
 **/__pycache__/

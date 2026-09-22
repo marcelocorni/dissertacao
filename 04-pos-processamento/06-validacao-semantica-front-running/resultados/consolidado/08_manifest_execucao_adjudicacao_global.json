@@ -1,0 +1,72 @@
+{
+  "started_at_utc": "2026-09-21T00:34:59.848918+00:00",
+  "completed_at_utc": "2026-09-21T00:35:12.495931+00:00",
+  "status": "completed",
+  "decision_policy": "final_assisted_without_manual_override",
+  "reviewer": "Marcelo Corni Alves",
+  "splits": {
+    "estresse_pre_dencun_2024": {
+      "status": "completed",
+      "started_at_utc": "2026-09-21T00:34:59.849164+00:00",
+      "completed_at_utc": "2026-09-21T00:35:01.121271+00:00",
+      "adjudications": 587,
+      "validation_counts": {
+        "valid": 587
+      }
+    },
+    "transicao_dencun_2024": {
+      "status": "completed",
+      "started_at_utc": "2026-09-21T00:35:01.121538+00:00",
+      "completed_at_utc": "2026-09-21T00:35:01.982814+00:00",
+      "adjudications": 116,
+      "validation_counts": {
+        "valid": 116
+      }
+    },
+    "treino_2024_pos_dencun": {
+      "status": "completed",
+      "started_at_utc": "2026-09-21T00:35:01.983115+00:00",
+      "completed_at_utc": "2026-09-21T00:35:04.717142+00:00",
+      "adjudications": 2017,
+      "validation_counts": {
+        "valid": 2017
+      }
+    },
+    "validacao_2025_pre_pectra": {
+      "status": "completed",
+      "started_at_utc": "2026-09-21T00:35:04.717382+00:00",
+      "completed_at_utc": "2026-09-21T00:35:06.198771+00:00",
+      "adjudications": 500,
+      "validation_counts": {
+        "valid": 500
+      }
+    },
+    "transicao_pectra_2025": {
+      "status": "completed",
+      "started_at_utc": "2026-09-21T00:35:06.198987+00:00",
+      "completed_at_utc": "2026-09-21T00:35:07.195919+00:00",
+      "adjudications": 168,
+      "validation_counts": {
+        "valid": 168
+      }
+    },
+    "teste_final_2025": {
+      "status": "completed",
+      "started_at_utc": "2026-09-21T00:35:07.196125+00:00",
+      "completed_at_utc": "2026-09-21T00:35:09.732020+00:00",
+      "adjudications": 670,
+      "validation_counts": {
+        "valid": 670
+      }
+    },
+    "estresse_fusaka_2025": {
+      "status": "completed",
+      "started_at_utc": "2026-09-21T00:35:09.732310+00:00",
+      "completed_at_utc": "2026-09-21T00:35:11.017275+00:00",
+      "adjudications": 112,
+      "validation_counts": {
+        "valid": 112
+      }
+    }
+  }
+}

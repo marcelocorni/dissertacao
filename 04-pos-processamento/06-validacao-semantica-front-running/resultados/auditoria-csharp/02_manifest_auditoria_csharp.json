@@ -1,0 +1,15 @@
+{
+  "created_at_utc": "2026-09-19T18:31:14.547295+00:00",
+  "source_root": "E:\\Mestrado\\src\\04-pos-processamento\\05-rotulador-front-running-csharp\\resultados-v3\\sampled\\independent_sampled",
+  "expected_splits": 7,
+  "found_splits": 7,
+  "compatible_version": "3.0.0-candidate-first",
+  "totals": {
+    "events": 120813,
+    "queue_transactions": 185126,
+    "queue_blocks": 38085,
+    "label_rows": 9494450
+  },
+  "issues": [],
+  "rerun_csharp_required": false
+}

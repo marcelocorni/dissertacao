@@ -1,0 +1,17 @@
+{
+  "generated_at": "2026-09-17T19:59:40.403353-03:00",
+  "dataset_name": "transicao_dencun_2024",
+  "start_date": "2024-03-13",
+  "end_date": "2024-03-31",
+  "source_parquet_files": 19,
+  "block_modulus": 100,
+  "sample_rows": 244311,
+  "sample_blocks": 1347,
+  "sample_unique_hashes": 244311,
+  "contract_creation_rows": 0,
+  "contract_creation_pct": 0.0,
+  "type_4_rows": 0,
+  "matrix_A_features": 13,
+  "matrix_B_features": 21,
+  "matrix_C_features": 23
+}

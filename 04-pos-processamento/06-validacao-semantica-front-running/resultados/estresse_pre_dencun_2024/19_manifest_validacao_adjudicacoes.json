@@ -1,0 +1,24 @@
+{
+  "created_at_utc": "2026-09-21T00:35:01.080018+00:00",
+  "dossier": "E:\\Mestrado\\src\\04-pos-processamento\\06-validacao-semantica-front-running\\resultados\\estresse_pre_dencun_2024\\08_dossie_auditoria.parquet",
+  "decisions": "E:\\Mestrado\\src\\04-pos-processamento\\06-validacao-semantica-front-running\\resultados\\estresse_pre_dencun_2024\\15_decisoes_dossie.csv",
+  "decision_origin": "assisted_deterministic",
+  "expected_reviewer": "Marcelo Corni Alves",
+  "events": 587,
+  "decisions_found": 587,
+  "counts": {
+    "valid": 587
+  },
+  "checks": [
+    "coverage",
+    "role hashes",
+    "block order",
+    "receipt status",
+    "outer sender",
+    "swap pool and direction",
+    "calldata selector and similarity",
+    "saved/recomputed label",
+    "reviewer",
+    "justification"
+  ]
+}

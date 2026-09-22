@@ -1,0 +1,239 @@
+{
+  "started_at_utc": "2026-09-20T21:26:06.617407+00:00",
+  "updated_at_utc": "2026-09-20T22:23:47.535092+00:00",
+  "completed_at_utc": "2026-09-20T22:23:47.535084+00:00",
+  "reviewer": "Marcelo Corni Alves",
+  "rpc_url_stored": false,
+  "regression_approved": true,
+  "csharp_audit_approved": true,
+  "selected_splits": [
+    "estresse_pre_dencun_2024",
+    "treino_2024_pos_dencun",
+    "validacao_2025_pre_pectra",
+    "transicao_pectra_2025",
+    "teste_final_2025",
+    "estresse_fusaka_2025"
+  ],
+  "selected_stages": [
+    "rpc",
+    "semantica",
+    "dossie",
+    "tokens",
+    "adjudicacao",
+    "validacao"
+  ],
+  "status": "completed",
+  "windows": {
+    "estresse_pre_dencun_2024": {
+      "status": "completed",
+      "stages": {
+        "rpc": {
+          "status": "skipped_complete",
+          "at_utc": "2026-09-20T21:26:06.654543+00:00"
+        },
+        "semantica": {
+          "status": "completed",
+          "started_at_utc": "2026-09-20T21:26:06.654702+00:00",
+          "completed_at_utc": "2026-09-20T21:27:44.382262+00:00"
+        },
+        "dossie": {
+          "status": "completed",
+          "started_at_utc": "2026-09-20T21:27:44.383085+00:00",
+          "completed_at_utc": "2026-09-20T21:28:20.153750+00:00"
+        },
+        "tokens": {
+          "status": "completed",
+          "started_at_utc": "2026-09-20T21:28:20.154611+00:00",
+          "completed_at_utc": "2026-09-20T21:28:24.039620+00:00"
+        },
+        "adjudicacao": {
+          "status": "completed",
+          "started_at_utc": "2026-09-20T21:28:24.040591+00:00",
+          "completed_at_utc": "2026-09-20T21:28:24.542842+00:00"
+        },
+        "validacao": {
+          "status": "completed",
+          "started_at_utc": "2026-09-20T21:28:24.543625+00:00",
+          "completed_at_utc": "2026-09-20T21:28:25.052143+00:00"
+        }
+      },
+      "completed_at_utc": "2026-09-20T21:28:25.052766+00:00"
+    },
+    "treino_2024_pos_dencun": {
+      "status": "completed",
+      "stages": {
+        "rpc": {
+          "status": "skipped_complete",
+          "at_utc": "2026-09-20T21:28:25.085400+00:00"
+        },
+        "semantica": {
+          "status": "completed",
+          "started_at_utc": "2026-09-20T21:28:25.085683+00:00",
+          "completed_at_utc": "2026-09-20T21:36:01.984384+00:00"
+        },
+        "dossie": {
+          "status": "completed",
+          "started_at_utc": "2026-09-20T21:36:01.985485+00:00",
+          "completed_at_utc": "2026-09-20T21:38:29.854438+00:00"
+        },
+        "tokens": {
+          "status": "completed",
+          "started_at_utc": "2026-09-20T21:38:29.855258+00:00",
+          "completed_at_utc": "2026-09-20T21:38:42.479819+00:00"
+        },
+        "adjudicacao": {
+          "status": "completed",
+          "started_at_utc": "2026-09-20T21:38:42.480956+00:00",
+          "completed_at_utc": "2026-09-20T21:38:43.432909+00:00"
+        },
+        "validacao": {
+          "status": "completed",
+          "started_at_utc": "2026-09-20T21:38:43.433795+00:00",
+          "completed_at_utc": "2026-09-20T21:38:44.530222+00:00"
+        }
+      },
+      "completed_at_utc": "2026-09-20T21:38:44.530889+00:00"
+    },
+    "validacao_2025_pre_pectra": {
+      "status": "completed",
+      "stages": {
+        "rpc": {
+          "status": "skipped_complete",
+          "at_utc": "2026-09-20T21:38:44.570362+00:00"
+        },
+        "semantica": {
+          "status": "completed",
+          "started_at_utc": "2026-09-20T21:38:44.570575+00:00",
+          "completed_at_utc": "2026-09-20T21:41:32.866918+00:00"
+        },
+        "dossie": {
+          "status": "completed",
+          "started_at_utc": "2026-09-20T21:41:32.867923+00:00",
+          "completed_at_utc": "2026-09-20T21:42:29.225349+00:00"
+        },
+        "tokens": {
+          "status": "completed",
+          "started_at_utc": "2026-09-20T21:42:29.226296+00:00",
+          "completed_at_utc": "2026-09-20T21:42:34.531762+00:00"
+        },
+        "adjudicacao": {
+          "status": "completed",
+          "started_at_utc": "2026-09-20T21:42:34.532894+00:00",
+          "completed_at_utc": "2026-09-20T21:42:35.141116+00:00"
+        },
+        "validacao": {
+          "status": "completed",
+          "started_at_utc": "2026-09-20T21:42:35.142044+00:00",
+          "completed_at_utc": "2026-09-20T21:42:35.747568+00:00"
+        }
+      },
+      "completed_at_utc": "2026-09-20T21:42:35.748266+00:00"
+    },
+    "transicao_pectra_2025": {
+      "status": "completed",
+      "stages": {
+        "rpc": {
+          "status": "skipped_complete",
+          "at_utc": "2026-09-20T21:42:35.779429+00:00"
+        },
+        "semantica": {
+          "status": "completed",
+          "started_at_utc": "2026-09-20T21:42:35.779630+00:00",
+          "completed_at_utc": "2026-09-20T21:43:27.747796+00:00"
+        },
+        "dossie": {
+          "status": "completed",
+          "started_at_utc": "2026-09-20T21:43:27.748755+00:00",
+          "completed_at_utc": "2026-09-20T21:43:43.075811+00:00"
+        },
+        "tokens": {
+          "status": "completed",
+          "started_at_utc": "2026-09-20T21:43:43.076978+00:00",
+          "completed_at_utc": "2026-09-20T21:43:45.064266+00:00"
+        },
+        "adjudicacao": {
+          "status": "completed",
+          "started_at_utc": "2026-09-20T21:43:45.065232+00:00",
+          "completed_at_utc": "2026-09-20T21:43:45.444062+00:00"
+        },
+        "validacao": {
+          "status": "completed",
+          "started_at_utc": "2026-09-20T21:43:45.444914+00:00",
+          "completed_at_utc": "2026-09-20T21:43:45.782492+00:00"
+        }
+      },
+      "completed_at_utc": "2026-09-20T21:43:45.783279+00:00"
+    },
+    "teste_final_2025": {
+      "status": "completed",
+      "stages": {
+        "rpc": {
+          "status": "skipped_complete",
+          "at_utc": "2026-09-20T21:43:45.841192+00:00"
+        },
+        "semantica": {
+          "status": "completed",
+          "started_at_utc": "2026-09-20T21:43:45.841409+00:00",
+          "completed_at_utc": "2026-09-20T21:50:20.479138+00:00"
+        },
+        "dossie": {
+          "status": "completed",
+          "started_at_utc": "2026-09-20T21:50:20.480090+00:00",
+          "completed_at_utc": "2026-09-20T21:51:45.434016+00:00"
+        },
+        "tokens": {
+          "status": "completed",
+          "started_at_utc": "2026-09-20T21:51:45.435176+00:00",
+          "completed_at_utc": "2026-09-20T21:51:52.538705+00:00"
+        },
+        "adjudicacao": {
+          "status": "completed",
+          "started_at_utc": "2026-09-20T21:51:52.539802+00:00",
+          "completed_at_utc": "2026-09-20T21:51:53.576163+00:00"
+        },
+        "validacao": {
+          "status": "completed",
+          "started_at_utc": "2026-09-20T21:51:53.577118+00:00",
+          "completed_at_utc": "2026-09-20T21:51:54.633277+00:00"
+        }
+      },
+      "completed_at_utc": "2026-09-20T21:51:54.634021+00:00"
+    },
+    "estresse_fusaka_2025": {
+      "status": "completed",
+      "stages": {
+        "rpc": {
+          "status": "completed",
+          "started_at_utc": "2026-09-20T21:51:54.635117+00:00",
+          "completed_at_utc": "2026-09-20T22:20:04.209010+00:00"
+        },
+        "semantica": {
+          "status": "completed",
+          "started_at_utc": "2026-09-20T22:20:04.210526+00:00",
+          "completed_at_utc": "2026-09-20T22:22:00.472328+00:00"
+        },
+        "dossie": {
+          "status": "completed",
+          "started_at_utc": "2026-09-20T22:22:00.473847+00:00",
+          "completed_at_utc": "2026-09-20T22:22:23.562016+00:00"
+        },
+        "tokens": {
+          "status": "completed",
+          "started_at_utc": "2026-09-20T22:22:23.563317+00:00",
+          "completed_at_utc": "2026-09-20T22:23:46.228800+00:00"
+        },
+        "adjudicacao": {
+          "status": "completed",
+          "started_at_utc": "2026-09-20T22:23:46.230137+00:00",
+          "completed_at_utc": "2026-09-20T22:23:46.872886+00:00"
+        },
+        "validacao": {
+          "status": "completed",
+          "started_at_utc": "2026-09-20T22:23:46.874429+00:00",
+          "completed_at_utc": "2026-09-20T22:23:47.533157+00:00"
+        }
+      },
+      "completed_at_utc": "2026-09-20T22:23:47.534275+00:00"
+    }
+  }
+}

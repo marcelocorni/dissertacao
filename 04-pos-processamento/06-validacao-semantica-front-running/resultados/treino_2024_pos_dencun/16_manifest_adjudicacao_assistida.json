@@ -1,0 +1,23 @@
+{
+  "created_at_utc": "2026-09-21T00:35:03.006835+00:00",
+  "source_dossier": "E:\\Mestrado\\src\\04-pos-processamento\\06-validacao-semantica-front-running\\resultados\\treino_2024_pos_dencun\\08_dossie_auditoria.parquet",
+  "source_transactions": "E:\\Mestrado\\src\\04-pos-processamento\\06-validacao-semantica-front-running\\resultados\\treino_2024_pos_dencun\\01_transacoes_rpc.parquet",
+  "decisions": "E:\\Mestrado\\src\\04-pos-processamento\\06-validacao-semantica-front-running\\resultados\\treino_2024_pos_dencun\\15_decisoes_dossie.csv",
+  "reviewer": "Marcelo Corni Alves",
+  "method": "adjudicação assistida determinística com justificativa por evento",
+  "decision_policy": "final_assisted_without_manual_override",
+  "interface_mode": "read_only",
+  "legacy_column_names": [
+    "manual_label",
+    "manual_type"
+  ],
+  "generated": 2017,
+  "preserved_existing": 0,
+  "overwrite": true,
+  "counts": {
+    "displacement:confirmado": 41,
+    "displacement:provável": 1395,
+    "insertion:confirmado": 581
+  },
+  "caveat": "Rótulos produzidos por protocolo algorítmico assistido; não constituem observação independente de mempool."
+}

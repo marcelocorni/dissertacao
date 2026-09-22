@@ -1,0 +1,44 @@
+{
+  "created_at_utc": "2026-09-18T01:45:47.098195+00:00",
+  "source_file": "C:\\Users\\marce\\etherscan_labl_cloud_202609172241.csv",
+  "source_sha256": "fc4652e4b9f2c9ee3faebd85e1e9dbf0dff973ddf33937c6a5713f73574042c4",
+  "source_snapshot_date": null,
+  "source_snapshot_date_note": "not encoded in the supplied CSV; filename timestamp was not treated as collection date",
+  "raw_rows": 3913,
+  "unique_addresses": 3750,
+  "exact_duplicate_source_rows": 163,
+  "blank_name_tags": 3,
+  "category_reconstruction": [
+    {
+      "start_position": 1,
+      "end_position": 163,
+      "mev_category": "mev_builder",
+      "category_role": "infrastructure_builder"
+    },
+    {
+      "start_position": 164,
+      "end_position": 3911,
+      "mev_category": "mev_bot",
+      "category_role": "weak_positive_mev_bot"
+    },
+    {
+      "start_position": 3912,
+      "end_position": 3912,
+      "mev_category": "mev_relay",
+      "category_role": "infrastructure_relay"
+    },
+    {
+      "start_position": 3913,
+      "end_position": 3913,
+      "mev_category": "mev_protection",
+      "category_role": "protection_context"
+    }
+  ],
+  "methodological_warning": "Unknown addresses are unlabeled, not negative. Only mev_bot membership is a weak positive; builder, relay and protection are contextual infrastructure categories.",
+  "outputs": {
+    "normalized_csv": "E:\\Mestrado\\src\\04-pos-processamento\\resultados-labelcloud\\01_labelcloud_historico_normalizado.csv",
+    "normalized_parquet": "E:\\Mestrado\\src\\04-pos-processamento\\resultados-labelcloud\\01_labelcloud_historico_normalizado.parquet",
+    "summary_csv": "E:\\Mestrado\\src\\04-pos-processamento\\resultados-labelcloud\\02_resumo_labelcloud_historico.csv",
+    "issues_csv": "E:\\Mestrado\\src\\04-pos-processamento\\resultados-labelcloud\\03_pendencias_name_tag.csv"
+  }
+}

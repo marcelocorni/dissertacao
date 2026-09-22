@@ -1,0 +1,195 @@
+{
+  "generated_at": "2026-09-17T21:42:48.464451-03:00",
+  "method": "Autoencoder",
+  "fit_split": "treino_2024_pos_dencun",
+  "threshold_split": "validacao_2025_pre_pectra",
+  "internal_validation": "row_id modulo 10 igual a zero, somente dentro do treino",
+  "architecture": {
+    "hidden_dims": [
+      16,
+      8
+    ],
+    "latent_dim": 4,
+    "activation": "LeakyReLU(0.1)",
+    "output": "linear"
+  },
+  "optimization": {
+    "loss": "MSE",
+    "optimizer": "AdamW",
+    "learning_rate": 0.001,
+    "weight_decay": 1e-05,
+    "batch_size": 65536,
+    "max_epochs": 200,
+    "patience": 12,
+    "min_delta": 1e-05,
+    "mixed_precision_cuda": true
+  },
+  "threshold_quantiles_validation": [
+    0.99,
+    0.995,
+    0.999
+  ],
+  "random_state": 42,
+  "configurations": [
+    {
+      "key": "a_completa",
+      "matrix": "A",
+      "family": "completa",
+      "features": [
+        "gas_used_log",
+        "gas_used_ratio",
+        "effective_gas_price_log",
+        "max_fee_per_gas_log",
+        "max_priority_fee_log",
+        "fee_cap_utilization",
+        "transaction_value_log",
+        "nonce_log",
+        "receipt_status",
+        "tx_type_0",
+        "tx_type_1",
+        "tx_type_3",
+        "transaction_index_pct"
+      ],
+      "excluded_features": []
+    },
+    {
+      "key": "b_completa",
+      "matrix": "B",
+      "family": "completa",
+      "features": [
+        "gas_used_log",
+        "gas_used_ratio",
+        "effective_gas_price_log",
+        "max_fee_per_gas_log",
+        "max_priority_fee_log",
+        "fee_cap_utilization",
+        "transaction_value_log",
+        "nonce_log",
+        "receipt_status",
+        "tx_type_0",
+        "tx_type_1",
+        "tx_type_3",
+        "transaction_index_pct",
+        "block_tx_count_log",
+        "sender_tx_count_block_log",
+        "receiver_tx_count_block_log",
+        "gas_price_rank_block",
+        "hour_sin",
+        "hour_cos",
+        "weekday_sin",
+        "weekday_cos"
+      ],
+      "excluded_features": []
+    },
+    {
+      "key": "c_completa",
+      "matrix": "C",
+      "family": "completa",
+      "features": [
+        "gas_used_log",
+        "gas_used_ratio",
+        "effective_gas_price_log",
+        "max_fee_per_gas_log",
+        "max_priority_fee_log",
+        "fee_cap_utilization",
+        "transaction_value_log",
+        "nonce_log",
+        "receipt_status",
+        "tx_type_0",
+        "tx_type_1",
+        "tx_type_3",
+        "transaction_index_pct",
+        "block_tx_count_log",
+        "sender_tx_count_block_log",
+        "receiver_tx_count_block_log",
+        "gas_price_rank_block",
+        "hour_sin",
+        "hour_cos",
+        "weekday_sin",
+        "weekday_cos",
+        "gas_limit_log",
+        "transaction_fee_paid_log"
+      ],
+      "excluded_features": []
+    },
+    {
+      "key": "b_sem_taxas_absolutas",
+      "matrix": "B",
+      "family": "sem_taxas_absolutas",
+      "features": [
+        "gas_used_log",
+        "gas_used_ratio",
+        "fee_cap_utilization",
+        "transaction_value_log",
+        "nonce_log",
+        "receipt_status",
+        "tx_type_0",
+        "tx_type_1",
+        "tx_type_3",
+        "transaction_index_pct",
+        "block_tx_count_log",
+        "sender_tx_count_block_log",
+        "receiver_tx_count_block_log",
+        "gas_price_rank_block",
+        "hour_sin",
+        "hour_cos",
+        "weekday_sin",
+        "weekday_cos"
+      ],
+      "excluded_features": [
+        "effective_gas_price_log",
+        "max_fee_per_gas_log",
+        "max_priority_fee_log"
+      ]
+    },
+    {
+      "key": "c_sem_taxas_absolutas",
+      "matrix": "C",
+      "family": "sem_taxas_absolutas",
+      "features": [
+        "gas_used_log",
+        "gas_used_ratio",
+        "fee_cap_utilization",
+        "transaction_value_log",
+        "nonce_log",
+        "receipt_status",
+        "tx_type_0",
+        "tx_type_1",
+        "tx_type_3",
+        "transaction_index_pct",
+        "block_tx_count_log",
+        "sender_tx_count_block_log",
+        "receiver_tx_count_block_log",
+        "gas_price_rank_block",
+        "hour_sin",
+        "hour_cos",
+        "weekday_sin",
+        "weekday_cos",
+        "gas_limit_log"
+      ],
+      "excluded_features": [
+        "effective_gas_price_log",
+        "max_fee_per_gas_log",
+        "max_priority_fee_log",
+        "transaction_fee_paid_log"
+      ]
+    }
+  ],
+  "preprocessing_signature": "738226c43bc7b0172d7c45132fda4f07027bb0805e812b3b05dab4ee2c03256e",
+  "device": {
+    "requested": "cuda",
+    "selected": "cuda",
+    "gpu_name": "NVIDIA GeForce RTX 3060",
+    "gpu_memory_bytes": 12884246528,
+    "torch_cuda_version": "13.0"
+  },
+  "software_versions": {
+    "python": "3.13.14",
+    "torch": "2.14.0+cu130",
+    "numpy": "2.5.3",
+    "pyarrow": "23.0.1",
+    "duckdb": "1.5.5",
+    "matplotlib": "3.11.2"
+  },
+  "experiment_signature": "9c8326e8e457ab549ec66eb19cd215a37111131a755d58d9f11760bbec07278b"
+}

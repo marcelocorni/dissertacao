@@ -1,0 +1,290 @@
+{
+  "generated_at": "2026-09-17T21:00:32.385975-03:00",
+  "source_split_manifest": "E:\\Mestrado\\src\\03-machine-learning\\01-features\\resultados-splits\\00_manifest_splits_temporais.json",
+  "fit_split": "treino_2024_pos_dencun",
+  "preprocessing_signature": "738226c43bc7b0172d7c45132fda4f07027bb0805e812b3b05dab4ee2c03256e",
+  "leakage_policy": "Parâmetros ajustados somente no treino e congelados nos demais recortes.",
+  "robust_scaled_features": [
+    "gas_used_log",
+    "effective_gas_price_log",
+    "max_fee_per_gas_log",
+    "max_priority_fee_log",
+    "transaction_value_log",
+    "nonce_log",
+    "block_tx_count_log",
+    "sender_tx_count_block_log",
+    "receiver_tx_count_block_log",
+    "gas_limit_log",
+    "transaction_fee_paid_log"
+  ],
+  "passthrough_features": [
+    "gas_used_ratio",
+    "fee_cap_utilization",
+    "receipt_status",
+    "tx_type_0",
+    "tx_type_1",
+    "tx_type_3",
+    "transaction_index_pct",
+    "gas_price_rank_block",
+    "hour_sin",
+    "hour_cos",
+    "weekday_sin",
+    "weekday_cos"
+  ],
+  "matrices": {
+    "A": [
+      "gas_used_log",
+      "gas_used_ratio",
+      "effective_gas_price_log",
+      "max_fee_per_gas_log",
+      "max_priority_fee_log",
+      "fee_cap_utilization",
+      "transaction_value_log",
+      "nonce_log",
+      "receipt_status",
+      "tx_type_0",
+      "tx_type_1",
+      "tx_type_3",
+      "transaction_index_pct"
+    ],
+    "B": [
+      "gas_used_log",
+      "gas_used_ratio",
+      "effective_gas_price_log",
+      "max_fee_per_gas_log",
+      "max_priority_fee_log",
+      "fee_cap_utilization",
+      "transaction_value_log",
+      "nonce_log",
+      "receipt_status",
+      "tx_type_0",
+      "tx_type_1",
+      "tx_type_3",
+      "transaction_index_pct",
+      "block_tx_count_log",
+      "sender_tx_count_block_log",
+      "receiver_tx_count_block_log",
+      "gas_price_rank_block",
+      "hour_sin",
+      "hour_cos",
+      "weekday_sin",
+      "weekday_cos"
+    ],
+    "C": [
+      "gas_used_log",
+      "gas_used_ratio",
+      "effective_gas_price_log",
+      "max_fee_per_gas_log",
+      "max_priority_fee_log",
+      "fee_cap_utilization",
+      "transaction_value_log",
+      "nonce_log",
+      "receipt_status",
+      "tx_type_0",
+      "tx_type_1",
+      "tx_type_3",
+      "transaction_index_pct",
+      "block_tx_count_log",
+      "sender_tx_count_block_log",
+      "receiver_tx_count_block_log",
+      "gas_price_rank_block",
+      "hour_sin",
+      "hour_cos",
+      "weekday_sin",
+      "weekday_cos",
+      "gas_limit_log",
+      "transaction_fee_paid_log"
+    ]
+  },
+  "validation": [
+    {
+      "split": "estresse_pre_dencun_2024",
+      "matrix": "A",
+      "rows": 832676,
+      "features": 13,
+      "invalid_values": 0,
+      "output_path": "E:\\Mestrado\\src\\03-machine-learning\\01-features\\resultados-splits\\01-estresse_pre_dencun_2024\\12_matriz_A_preprocessada.parquet",
+      "size_bytes": 28352632
+    },
+    {
+      "split": "estresse_pre_dencun_2024",
+      "matrix": "B",
+      "rows": 832676,
+      "features": 21,
+      "invalid_values": 0,
+      "output_path": "E:\\Mestrado\\src\\03-machine-learning\\01-features\\resultados-splits\\01-estresse_pre_dencun_2024\\13_matriz_B_preprocessada.parquet",
+      "size_bytes": 32140900
+    },
+    {
+      "split": "estresse_pre_dencun_2024",
+      "matrix": "C",
+      "rows": 832676,
+      "features": 23,
+      "invalid_values": 0,
+      "output_path": "E:\\Mestrado\\src\\03-machine-learning\\01-features\\resultados-splits\\01-estresse_pre_dencun_2024\\14_matriz_C_preprocessada.parquet",
+      "size_bytes": 40381557
+    },
+    {
+      "split": "transicao_dencun_2024",
+      "matrix": "A",
+      "rows": 244311,
+      "features": 13,
+      "invalid_values": 0,
+      "output_path": "E:\\Mestrado\\src\\03-machine-learning\\01-features\\resultados-splits\\02-transicao_dencun_2024\\12_matriz_A_preprocessada.parquet",
+      "size_bytes": 7852303
+    },
+    {
+      "split": "transicao_dencun_2024",
+      "matrix": "B",
+      "rows": 244311,
+      "features": 21,
+      "invalid_values": 0,
+      "output_path": "E:\\Mestrado\\src\\03-machine-learning\\01-features\\resultados-splits\\02-transicao_dencun_2024\\13_matriz_B_preprocessada.parquet",
+      "size_bytes": 8952264
+    },
+    {
+      "split": "transicao_dencun_2024",
+      "matrix": "C",
+      "rows": 244311,
+      "features": 23,
+      "invalid_values": 0,
+      "output_path": "E:\\Mestrado\\src\\03-machine-learning\\01-features\\resultados-splits\\02-transicao_dencun_2024\\14_matriz_C_preprocessada.parquet",
+      "size_bytes": 11245389
+    },
+    {
+      "split": "treino_2024_pos_dencun",
+      "matrix": "A",
+      "rows": 3210970,
+      "features": 13,
+      "invalid_values": 0,
+      "output_path": "E:\\Mestrado\\src\\03-machine-learning\\01-features\\resultados-matrizes\\12_matriz_A_preprocessada.parquet",
+      "size_bytes": 119678173
+    },
+    {
+      "split": "treino_2024_pos_dencun",
+      "matrix": "B",
+      "rows": 3210970,
+      "features": 21,
+      "invalid_values": 0,
+      "output_path": "E:\\Mestrado\\src\\03-machine-learning\\01-features\\resultados-matrizes\\13_matriz_B_preprocessada.parquet",
+      "size_bytes": 134475871
+    },
+    {
+      "split": "treino_2024_pos_dencun",
+      "matrix": "C",
+      "rows": 3210970,
+      "features": 23,
+      "invalid_values": 0,
+      "output_path": "E:\\Mestrado\\src\\03-machine-learning\\01-features\\resultados-matrizes\\14_matriz_C_preprocessada.parquet",
+      "size_bytes": 167617207
+    },
+    {
+      "split": "validacao_2025_pre_pectra",
+      "matrix": "A",
+      "rows": 1442555,
+      "features": 13,
+      "invalid_values": 0,
+      "output_path": "E:\\Mestrado\\src\\03-machine-learning\\01-features\\resultados-splits\\04-validacao_2025_pre_pectra\\12_matriz_A_preprocessada.parquet",
+      "size_bytes": 52624676
+    },
+    {
+      "split": "validacao_2025_pre_pectra",
+      "matrix": "B",
+      "rows": 1442555,
+      "features": 21,
+      "invalid_values": 0,
+      "output_path": "E:\\Mestrado\\src\\03-machine-learning\\01-features\\resultados-splits\\04-validacao_2025_pre_pectra\\13_matriz_B_preprocessada.parquet",
+      "size_bytes": 59568083
+    },
+    {
+      "split": "validacao_2025_pre_pectra",
+      "matrix": "C",
+      "rows": 1442555,
+      "features": 23,
+      "invalid_values": 0,
+      "output_path": "E:\\Mestrado\\src\\03-machine-learning\\01-features\\resultados-splits\\04-validacao_2025_pre_pectra\\14_matriz_C_preprocessada.parquet",
+      "size_bytes": 73700879
+    },
+    {
+      "split": "transicao_pectra_2025",
+      "matrix": "A",
+      "rows": 423759,
+      "features": 13,
+      "invalid_values": 0,
+      "output_path": "E:\\Mestrado\\src\\03-machine-learning\\01-features\\resultados-splits\\05-transicao_pectra_2025\\12_matriz_A_preprocessada.parquet",
+      "size_bytes": 14863190
+    },
+    {
+      "split": "transicao_pectra_2025",
+      "matrix": "B",
+      "rows": 423759,
+      "features": 21,
+      "invalid_values": 0,
+      "output_path": "E:\\Mestrado\\src\\03-machine-learning\\01-features\\resultados-splits\\05-transicao_pectra_2025\\13_matriz_B_preprocessada.parquet",
+      "size_bytes": 16881153
+    },
+    {
+      "split": "transicao_pectra_2025",
+      "matrix": "C",
+      "rows": 423759,
+      "features": 23,
+      "invalid_values": 0,
+      "output_path": "E:\\Mestrado\\src\\03-machine-learning\\01-features\\resultados-splits\\05-transicao_pectra_2025\\14_matriz_C_preprocessada.parquet",
+      "size_bytes": 20901130
+    },
+    {
+      "split": "teste_final_2025",
+      "matrix": "A",
+      "rows": 2827717,
+      "features": 13,
+      "invalid_values": 0,
+      "output_path": "E:\\Mestrado\\src\\03-machine-learning\\01-features\\resultados-splits\\06-teste_final_2025\\12_matriz_A_preprocessada.parquet",
+      "size_bytes": 104234073
+    },
+    {
+      "split": "teste_final_2025",
+      "matrix": "B",
+      "rows": 2827717,
+      "features": 21,
+      "invalid_values": 0,
+      "output_path": "E:\\Mestrado\\src\\03-machine-learning\\01-features\\resultados-splits\\06-teste_final_2025\\13_matriz_B_preprocessada.parquet",
+      "size_bytes": 118080935
+    },
+    {
+      "split": "teste_final_2025",
+      "matrix": "C",
+      "rows": 2827717,
+      "features": 23,
+      "invalid_values": 0,
+      "output_path": "E:\\Mestrado\\src\\03-machine-learning\\01-features\\resultados-splits\\06-teste_final_2025\\14_matriz_C_preprocessada.parquet",
+      "size_bytes": 145071158
+    },
+    {
+      "split": "estresse_fusaka_2025",
+      "matrix": "A",
+      "rows": 512462,
+      "features": 13,
+      "invalid_values": 0,
+      "output_path": "E:\\Mestrado\\src\\03-machine-learning\\01-features\\resultados-splits\\07-estresse_fusaka_2025\\12_matriz_A_preprocessada.parquet",
+      "size_bytes": 17298239
+    },
+    {
+      "split": "estresse_fusaka_2025",
+      "matrix": "B",
+      "rows": 512462,
+      "features": 21,
+      "invalid_values": 0,
+      "output_path": "E:\\Mestrado\\src\\03-machine-learning\\01-features\\resultados-splits\\07-estresse_fusaka_2025\\13_matriz_B_preprocessada.parquet",
+      "size_bytes": 19776477
+    },
+    {
+      "split": "estresse_fusaka_2025",
+      "matrix": "C",
+      "rows": 512462,
+      "features": 23,
+      "invalid_values": 0,
+      "output_path": "E:\\Mestrado\\src\\03-machine-learning\\01-features\\resultados-splits\\07-estresse_fusaka_2025\\14_matriz_C_preprocessada.parquet",
+      "size_bytes": 24253240
+    }
+  ]
+}

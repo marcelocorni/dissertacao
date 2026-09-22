@@ -1,0 +1,12 @@
+{
+  "created_at_utc": "2026-09-20T21:38:42.444797+00:00",
+  "source_flows": "E:\\Mestrado\\src\\04-pos-processamento\\06-validacao-semantica-front-running\\resultados\\treino_2024_pos_dencun\\09_fluxos_tokens_atacante.parquet",
+  "tokens_requested": 950,
+  "complete": 948,
+  "partial": 2,
+  "errors": 0,
+  "rpc_calls": 0,
+  "cache_hits": 950,
+  "rpc_provider_host": "eth-mainnet.g.alchemy.com",
+  "rpc_url_stored": false
+}

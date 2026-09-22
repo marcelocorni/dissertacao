@@ -1,0 +1,17 @@
+{
+  "generated_at": "2026-09-17T20:00:24.662902-03:00",
+  "dataset_name": "transicao_pectra_2025",
+  "start_date": "2025-05-01",
+  "end_date": "2025-05-31",
+  "source_parquet_files": 31,
+  "block_modulus": 100,
+  "sample_rows": 423759,
+  "sample_blocks": 2206,
+  "sample_unique_hashes": 423759,
+  "contract_creation_rows": 0,
+  "contract_creation_pct": 0.0,
+  "type_4_rows": 749,
+  "matrix_A_features": 13,
+  "matrix_B_features": 21,
+  "matrix_C_features": 23
+}

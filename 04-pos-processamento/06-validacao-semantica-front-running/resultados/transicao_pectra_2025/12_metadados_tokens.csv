@@ -1,0 +1,125 @@
+﻿token_address,reference_block,symbol,name,decimals,metadata_status,provider_host
+0x00000000efe302beaa2b3e6e1b18d08d69a9012a,22419000,AUSD,AUSD,6,complete,eth-mainnet.g.alchemy.com
+0x0327112423f3a68efdf1fcf402f6c5cb9f7c33fd,22430300,BTC++,PieDAO BTC++,18,complete,eth-mainnet.g.alchemy.com
+0x05adf54defbc4c182b11f878f296761522741bec,22477300,BOMBOM,Book of meme plus,9,complete,eth-mainnet.g.alchemy.com
+0x081131434f93063751813c619ecca9c4dc7862a3,22498800,DAR,Dalarnia,6,complete,eth-mainnet.g.alchemy.com
+0x0b010000b7624eb9b3dfbc279673c76e9d29d5f7,22431800,OBOL,Obol Network,18,complete,eth-mainnet.g.alchemy.com
+0x0d357f888c66d89fe005d536b3fe89f151ec399b,22570300,JERRY,Jerry Springer Coin,9,complete,eth-mainnet.g.alchemy.com
+0x11fa1193743061591cbe47c9e0765eaebaa3a046,22576600,NKP,NonKyotoProtocol,18,complete,eth-mainnet.g.alchemy.com
+0x168e209d7b2f58f1f24b8ae7b7d35e662bbf11cc,22436000,LAI,LayerAI Token,18,complete,eth-mainnet.g.alchemy.com
+0x17d82f3bc41432b756d42b6c69175946fdc00afb,22389100,EXIT,Musk Exits D.O.G.E.,9,complete,eth-mainnet.g.alchemy.com
+0x1a6531ece190b125cfb1bf2e40f0c3c1cd81dbf9,22560300,BLOCKYBOY,Blockyboy by 𝓜𝓪𝓽𝓽 𝓕𝓾𝓻𝓲𝓮,9,complete,eth-mainnet.g.alchemy.com
+0x1bfce574deff725a3f483c334b790e25c8fa9779,22423300,CETI,Tao Ceτi,18,complete,eth-mainnet.g.alchemy.com
+0x2260fac5e5542a773aa44fbcfedf7c193bc2c599,22455300,WBTC,Wrapped BTC,8,complete,eth-mainnet.g.alchemy.com
+0x226bb599a12c826476e3a771454697ea52e9e220,22520800,PRO,Propy,8,complete,eth-mainnet.g.alchemy.com
+0x2275cd8b9cc9f6a8955f511f49dae7e5ac712ff0,22517400,REMILIO,REMILIO CHAN,9,complete,eth-mainnet.g.alchemy.com
+0x255494b830bd4fe7220b3ec4842cba75600b6c80,22533900,BEAST,Beast Seller,9,complete,eth-mainnet.g.alchemy.com
+0x25931894a86d47441213199621f1f2994e1c39aa,22466800,CGPT,ChainGPT,18,complete,eth-mainnet.g.alchemy.com
+0x27054b13b1b798b345b591a4d22e6562d47ea75a,22405900,AST,AirSwap Token,4,complete,eth-mainnet.g.alchemy.com
+0x27702a26126e0b3702af63ee09ac4d1a084ef628,22491000,ALEPH,aleph.im v2,18,complete,eth-mainnet.g.alchemy.com
+0x2ca9242c1810029efed539f1c60d68b63ad01bfc,22604900,ANVL,Anvil,18,complete,eth-mainnet.g.alchemy.com
+0x2db12e0718d01ba27ffc1aafa700b1f1f277451b,22519700,HIME,Hime-chan,9,complete,eth-mainnet.g.alchemy.com
+0x3157874a7508fcf972379d24590c6806522b784f,22575700,PFVS,Puffverse Token,18,complete,eth-mainnet.g.alchemy.com
+0x3b9c994c96001976d1251921763eb329d9495663,22474700,MARV,MARV the frog,9,complete,eth-mainnet.g.alchemy.com
+0x40aabef1aa8f0eec637e0e7d92fbffb2f26a8b7b,22455300,variableDebtEthWBTC,Aave Ethereum Variable Debt WBTC,8,complete,eth-mainnet.g.alchemy.com
+0x4c4c9deda5ccdc8a1fc89056459e0a47dfaaa406,22470200,SLASHA,Vitaliks First Video Game,9,complete,eth-mainnet.g.alchemy.com
+0x4d5f47fa6a74757f35c14fd3a6ef8e3c9bc514e8,22400300,aEthWETH,Aave Ethereum WETH,18,complete,eth-mainnet.g.alchemy.com
+0x4e9623b7e5b6438542458f5ee828d65c24d3af8c,22545900,JYAI,Jerry The Turtle By Matt Furie,18,complete,eth-mainnet.g.alchemy.com
+0x4f1aac70b303818ddd0823570af3bb46681d9bd8,22591900,SBET,SharpLink Gaming,9,complete,eth-mainnet.g.alchemy.com
+0x53f7c6d7020c30fb2ff741f3b7a23c9224cb946d,22501900,ROT,Happy Rot,9,complete,eth-mainnet.g.alchemy.com
+0x54e43f06c5f974efdaddce8122060814e3881a45,22491100,USDX,Whiterock USD,18,complete,eth-mainnet.g.alchemy.com
+0x55296f69f40ea6d20e478533c15a6b08b654e758,22569300,XYO,XY Oracle,18,complete,eth-mainnet.g.alchemy.com
+0x57b67e4de077085fd0af2174e9c14871be664546,22400300,variableDebtEthPYUSD,Aave Ethereum Variable Debt PYUSD,6,complete,eth-mainnet.g.alchemy.com
+0x57cd2ecd25eb262124899a5b83299696565e4ce8,22515600,MARU,Maru Taro,9,complete,eth-mainnet.g.alchemy.com
+0x5d285f735998f36631f678ff41fb56a10a4d0429,22413400,MIX,MixMarvel Token,18,complete,eth-mainnet.g.alchemy.com
+0x5ece55fed4017dc8a7754af5c22b5a80ecce7d40,22447700,Kururu,Kururu,9,complete,eth-mainnet.g.alchemy.com
+0x6243d8cea23066d098a15582d81a598b4e8391f4,22413600,FLX,Flex Ungovernance Token,18,complete,eth-mainnet.g.alchemy.com
+0x643c4e15d7d62ad0abec4a9bd4b001aa3ef52d66,22424400,SYRUP,Syrup Token,18,complete,eth-mainnet.g.alchemy.com
+0x661c70333aa1850ccdbae82776bb436a0fcfeefb,22455300,EBTC,eBTC,18,complete,eth-mainnet.g.alchemy.com
+0x666acd390fa42d5bf86e9c42dc2fa6f6b4b2d8ab,22527900,GORTH,Gorth,18,complete,eth-mainnet.g.alchemy.com
+0x68bbed6a47194eff1cf514b50ea91895597fc91e,22505000,ANDY,Andy,18,complete,eth-mainnet.g.alchemy.com
+0x6942007ed9df15ff035ceefd06ee3383679ef311,22490600,FEELSGOOD,Feels Good Man,9,complete,eth-mainnet.g.alchemy.com
+0x697fa571caf08392d1a9ef5d1397ff7bc36767a6,22463200,BARRON,BARRON,18,complete,eth-mainnet.g.alchemy.com
+0x69fffb7162de76164d684a4e9641d94f4e3fe11e,22533200,FROGETTE,Island Frogette,18,complete,eth-mainnet.g.alchemy.com
+0x6b175474e89094c44da98b954eedeac495271d0f,22585200,DAI,Dai Stablecoin,18,complete,eth-mainnet.g.alchemy.com
+0x6c3ea9036406852006290770bedfcaba0e23a0e8,22400300,PYUSD,PayPal USD,6,complete,eth-mainnet.g.alchemy.com
+0x6de037ef9ad2725eb40118bb1702ebb27e4aeb24,22430100,RNDR,Render Token,18,complete,eth-mainnet.g.alchemy.com
+0x6e79b51959cf968d87826592f46f819f92466615,22569100,HOPPY,Hoppy,9,complete,eth-mainnet.g.alchemy.com
+0x70baa2b12415f160011ebb286d41b64bbf91826f,22585900,ZOE,Pepe's Cat,9,complete,eth-mainnet.g.alchemy.com
+0x72e4f9f808c49a2a61de9c5896298920dc4eeea9,22393000,BITCOIN,HarryPotterObamaSonic10Inu,8,complete,eth-mainnet.g.alchemy.com
+0x72e95b8931767c79ba4eee721354d6e99a61d004,22403800,variableDebtEthUSDC,Aave Ethereum Variable Debt USDC,6,complete,eth-mainnet.g.alchemy.com
+0x737d461917ccf0fa28a52da30672e2ddc214f0bf,22396200,OZK,OpenZK Network,18,complete,eth-mainnet.g.alchemy.com
+0x74023ba6cb9e085eb563e55243c2fa858b6900b9,22502600,MOANER,Moaner Melter Slime,9,complete,eth-mainnet.g.alchemy.com
+0x774eaf7a53471628768dc679da945847d34b9a55,22540000,GASS,Gasspas,18,complete,eth-mainnet.g.alchemy.com
+0x77f02d5756cf30b0715526597f906e5a89b76261,22447000,MLRD,Milords Cult,18,complete,eth-mainnet.g.alchemy.com
+0x7ba73e23205b348d77ee6e44611f47a9f772a588,22386000,GORK,By OkayAI,9,complete,eth-mainnet.g.alchemy.com
+0x7da2641000cbb407c329310c461b2cb9c70c3046,22438500,AGI,AGI Token,18,complete,eth-mainnet.g.alchemy.com
+0x8236a87084f8b84306f72007f36f2618a5634494,22604700,LBTC,Lombard Staked Bitcoin,8,complete,eth-mainnet.g.alchemy.com
+0x83e6f1e41cdd28eaceb20cb649155049fac3d5aa,22492500,POLS,PolkastarterToken,18,complete,eth-mainnet.g.alchemy.com
+0x87cd6ec2c0a14af16574e13e1a7be486cd6cd8f4,22495500,PEPE,PEPE BY MATT FURIE,9,complete,eth-mainnet.g.alchemy.com
+0x8ce61dc15a1219f582b291a28e9bb06849e8b855,22442800,𝓜𝓪𝓽𝓽 𝓕𝓾𝓻𝓲𝓮,@Digdogfurie,9,complete,eth-mainnet.g.alchemy.com
+0x8d0d000ee44948fc98c9b98a4fa4921476f08b0d,22462400,USD1,World Liberty Financial USD,18,complete,eth-mainnet.g.alchemy.com
+0x8e0e57dcb1ce8d9091df38ec1bfc3b224529754a,22397900,CAH,Moon Tropica,18,complete,eth-mainnet.g.alchemy.com
+0x9447dd95f576fdf6ed8219fff45bd1362430b787,22402400,BMB,BMB,5,complete,eth-mainnet.g.alchemy.com
+0x968dc061290f76f90b3b939cc9380d47d79a54c5,22434100,MOONKIN,Moonkin,9,complete,eth-mainnet.g.alchemy.com
+0x98c23e9d8f34fefb1b7bd6a91b7ff122f4e16f5c,22455300,aEthUSDC,Aave Ethereum USDC,6,complete,eth-mainnet.g.alchemy.com
+0x9c400852e9a6a1a44b322aa95d6b478a80a0014b,22466800,WAT,Wat The Rat,18,complete,eth-mainnet.g.alchemy.com
+0x9cdf242ef7975d8c68d5c1f5b6905801699b1940,22491100,WHITE,WhiteRock,18,complete,eth-mainnet.g.alchemy.com
+0x9d6c6e475643ba94e3afad2e6a308c1c2f0a36d4,22548500,MOCHI,Mochi Mochi,9,complete,eth-mainnet.g.alchemy.com
+0x9ff929dfcd9218c87166777b88becd3dcc48da6d,22473900,Helpcoin,Helpcoin,9,complete,eth-mainnet.g.alchemy.com
+0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48,22385500,USDC,USD Coin,6,complete,eth-mainnet.g.alchemy.com
+0xa0ef786bf476fe0810408caba05e536ac800ff86,22457200,MYRIA,Myria,18,complete,eth-mainnet.g.alchemy.com
+0xa1f410f13b6007fca76833ee7eb58478d47bc5ef,22390200,RJV,Rejuve Token,6,complete,eth-mainnet.g.alchemy.com
+0xa250cc729bb3323e7933022a67b52200fe354767,22395000,fwWETH,Few Wrapped Wrapped Ether,18,complete,eth-mainnet.g.alchemy.com
+0xa29c9a740de8194e4016747e9a04a84946ada0a5,22545100,NUMI,NUMINE Token,18,complete,eth-mainnet.g.alchemy.com
+0xa358b3a492949a57afdacdc06fafa791fc53f060,22453600,BRETTO,Bretto the Brett,9,complete,eth-mainnet.g.alchemy.com
+0xa3931d71877c0e7a3148cb7eb4463524fec27fbd,22585200,sUSDS,Savings USDS,18,complete,eth-mainnet.g.alchemy.com
+0xa469b7ee9ee773642b3e93e842e5d9b5baa10067,22504100,USDz,USDz,18,complete,eth-mainnet.g.alchemy.com
+0xa93d86af16fe83f064e3c0e2f3d129f7b7b002b0,22413600,COCORO,COCORO,9,complete,eth-mainnet.g.alchemy.com
+0xae78736cd615f374d3085123a210448e74fc6393,22433100,rETH,Rocket Pool ETH,18,complete,eth-mainnet.g.alchemy.com
+0xb26c4b3ca601136daf98593feaeff9e0ca702a8d,22403800,ALD,Aladdin Token,18,complete,eth-mainnet.g.alchemy.com
+0xb5605f28887bd763c73c2b12a33b45468bf7083a,22397400,C4MPAI,Closed4MaxProfitAI,9,complete,eth-mainnet.g.alchemy.com
+0xb755506531786c8ac63b756bab1ac387bacb0c04,22470200,ZARP,ZARP Stablecoin,18,complete,eth-mainnet.g.alchemy.com
+0xb9f599ce614feb2e1bbe58f180f370d05b39344e,22423900,PORK,PepeFork,18,complete,eth-mainnet.g.alchemy.com
+0xbbb741050e39cb6acc4197d16f385dbcc526fc79,22590300,BitBonds,BitBonds,18,complete,eth-mainnet.g.alchemy.com
+0xbc39eaf5b938e7eb74d606b45e2082acdc6c79c1,22599100,YOUCAT,YouTube Cat,9,complete,eth-mainnet.g.alchemy.com
+0xbe7176349c8377e6b22244f5868004a501d8bb60,22576800,UNDP,pNUDAO,18,complete,eth-mainnet.g.alchemy.com
+0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2,22385500,WETH,Wrapped Ether,18,complete,eth-mainnet.g.alchemy.com
+0xc221b7e65ffc80de234bbb6667abdd46593d34f0,22470200,wCFG,Wrapped Centrifuge,18,complete,eth-mainnet.g.alchemy.com
+0xc2c78073b00abbdc383a4c938a6e27adaed89f2c,22590700,E30,E30,9,complete,eth-mainnet.g.alchemy.com
+0xc328a59e7321747aebbc49fd28d1b32c1af8d3b2,22599500,PHIL,Phil,18,complete,eth-mainnet.g.alchemy.com
+0xc575bd129848ce06a460a19466c30e1d0328f52c,22541300,RAI,Reploy,18,complete,eth-mainnet.g.alchemy.com
+0xccb365d2e11ae4d6d74715c680f56cf58bf4bf10,22527400,WEPE,Wall Street Pepe,18,complete,eth-mainnet.g.alchemy.com
+0xcd5fe23c85820f7b72d0926fc9b05b43e359b7ee,22569300,weETH,Wrapped eETH,18,complete,eth-mainnet.g.alchemy.com
+0xcef2c1f36ceda8a6b44954c4dea612239dfd0221,22397000,ETH,Squirrel ETH,9,complete,eth-mainnet.g.alchemy.com
+0xd2a34bb2590e50abc31374420b086b76a8a70f16,22591100,UKSBR,UK Strategic Bitcoin Reserve,18,complete,eth-mainnet.g.alchemy.com
+0xd3e4ba569045546d09cf021ecc5dfe42b1d7f6e4,22468600,MNW,Morpheus.Network,18,complete,eth-mainnet.g.alchemy.com
+0xd584138eb33fd99dc6848f2598f3606307602b98,22506200,Ethard,Ethard,2,complete,eth-mainnet.g.alchemy.com
+0xd588099529386028455ab8d91dc82552e9e5aaf0,22417700,ANJU,Anju,9,complete,eth-mainnet.g.alchemy.com
+0xd79264ccf4b4208586b474b1c6b7dab489a02a18,22540200,AKITA,Akita,18,complete,eth-mainnet.g.alchemy.com
+0xd89cc9d79ad3c49e2cd477a8bbc8e63dee53f82e,22487000,KEE,Keeshond,18,complete,eth-mainnet.g.alchemy.com
+0xd9c2d319cd7e6177336b0a9c93c21cb48d84fb54,22550900,HAPI,HAPI,18,complete,eth-mainnet.g.alchemy.com
+0xd9c612a0aaf26bd82f63f375d555c820c2221787,22605000,W,dub,9,complete,eth-mainnet.g.alchemy.com
+0xdac17f958d2ee523a2206206994597c13d831ec7,22395000,USDT,Tether USD,6,complete,eth-mainnet.g.alchemy.com
+0xdc035d45d973e3ec169d2276ddab16f1e407384f,22585200,USDS,USDS Stablecoin,18,complete,eth-mainnet.g.alchemy.com
+0xdd3b11ef34cd511a2da159034a05fcb94d806686,22426800,REKT,Rekt,18,complete,eth-mainnet.g.alchemy.com
+0xe0f63a424a4439cbe457d80e4f4b51ad25b2c56c,22393000,SPX,SPX6900,8,complete,eth-mainnet.g.alchemy.com
+0xe18ab3568fa19e0ed38bc1d974eddd501e61e12d,22504000,BANK,Bank Ai,18,complete,eth-mainnet.g.alchemy.com
+0xe3b364f28fdfd858547f57df282dd9127baab1ab,22419500,HA,HolderAnalytics,18,complete,eth-mainnet.g.alchemy.com
+0xe6e079e961ee2cba8fc67762eb138144c882367f,22461100,DRMUTANT,Doctor Mutant,9,complete,eth-mainnet.g.alchemy.com
+0xe89b90fcdb94ede8e60435380a108bf836da51f7,22593300,RRB,retroactive rugpull button,9,complete,eth-mainnet.g.alchemy.com
+0xe9732d4b1e7d3789004ff029f032ba3034db059c,22393000,PATRIOT,Patriot,18,complete,eth-mainnet.g.alchemy.com
+0xeaf1d995f643ced167a7e74bb3da92c0d9560349,22461600,lADS,Lads,18,complete,eth-mainnet.g.alchemy.com
+0xec241cc4727e6541ccd06be785edff501d34e5f9,22400700,GORK,GORK,9,complete,eth-mainnet.g.alchemy.com
+0xecca809227d43b895754382f1fd871628d7e51fb,22569000,LANLAN,LanLan Cat,9,complete,eth-mainnet.g.alchemy.com
+0xed02aaeee74ab6ebef76fe9f0959f1ba9fd7e318,22532700,HIV3,RedHive,18,complete,eth-mainnet.g.alchemy.com
+0xef87f4608e601e8564800265aee1c1ffadf73283,22395000,fwUSDT,Few Wrapped Tether USD,6,complete,eth-mainnet.g.alchemy.com
+0xeff9ce34dc59063d6b357cbe100feed8642590c7,22597700,LABUBU,Labubu,9,complete,eth-mainnet.g.alchemy.com
+0xf1f955016ecbcd7321c7266bccfb96c68ea5e49b,22528500,RLY,Rally,18,complete,eth-mainnet.g.alchemy.com
+0xf3b6450dac3b69c0faadb558b25fa4fbfd1819e2,22462400,AMERICA,America,18,complete,eth-mainnet.g.alchemy.com
+0xf51ba4b18da5634e9ee364669e8495f2b885c9e7,22491400,DCNTRLZD,DCNTRLZD AI Agents,9,complete,eth-mainnet.g.alchemy.com
+0xf816507e690f5aa4e29d164885eb5fa7a5627860,22469900,RATO,Rato The Rat,9,complete,eth-mainnet.g.alchemy.com
+0xfa2b947eec368f42195f24f36d2af29f7c24cec2,22585200,USDf,Falcon USD,18,complete,eth-mainnet.g.alchemy.com
+0xfae103dc9cf190ed75350761e95403b7b8afa6c0,22569300,rswETH,rswETH,18,complete,eth-mainnet.g.alchemy.com
+0xfd2c1bfd94acb1049317395370a1de5291c96ea3,22455400,BFF,BossFrogFurie,9,complete,eth-mainnet.g.alchemy.com
+0xfe0c30065b384f05761f15d0cc899d4f9f9cc0eb,22419000,ETHFI,ether.fi governance token,18,complete,eth-mainnet.g.alchemy.com

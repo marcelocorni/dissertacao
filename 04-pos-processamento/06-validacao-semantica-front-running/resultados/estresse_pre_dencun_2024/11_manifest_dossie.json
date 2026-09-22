@@ -1,0 +1,25 @@
+{
+  "created_at_utc": "2026-09-20T21:28:20.109051+00:00",
+  "source_validated_events": "E:\\Mestrado\\src\\04-pos-processamento\\06-validacao-semantica-front-running\\resultados\\estresse_pre_dencun_2024\\04_eventos_validados.parquet",
+  "source_transactions": "E:\\Mestrado\\src\\04-pos-processamento\\06-validacao-semantica-front-running\\resultados\\estresse_pre_dencun_2024\\01_transacoes_rpc.parquet",
+  "selected_statuses": [
+    "confirmed",
+    "probable"
+  ],
+  "events_selected": 587,
+  "token_transfer_rows": 2089,
+  "method": {
+    "erc20_transfer": "topic Transfer(address,address,uint256), exatamente 3 tópicos",
+    "gas_cost": "gasUsed * effectiveGasPrice",
+    "attacker": "EOA remetente e, somente em insertion, contrato executor comum às duas pernas externas",
+    "weth": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "limitation": "Fluxos internos de ETH e ativos sem preço não permitem afirmar lucro líquido completo."
+  },
+  "outputs": [
+    "08_dossie_auditoria.parquet",
+    "08_dossie_auditoria.csv",
+    "09_fluxos_tokens_atacante.parquet",
+    "09_fluxos_tokens_atacante.csv",
+    "10_resumo_dossie.csv"
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "created_at_utc": "2026-09-21T03:12:40.587604+00:00",
+  "status": "completed",
+  "script": "02_avaliar_rotulos_semanticos.py",
+  "evaluation_population": "semantic_event_roles_only",
+  "unlabeled_policy": "excluded_not_assumed_negative",
+  "conflict_policy": "excluded_per_policy",
+  "validation_selection_metric": "pr_auc_average_precision",
+  "threshold_selection_metric": "f1_among_q990_q995_q999_on_validation",
+  "validation_split": "validacao_2025_pre_pectra",
+  "primary_test_split": "teste_final_2025",
+  "policies": {
+    "strict": {
+      "label": "strict_label",
+      "conflict": "strict_conflict",
+      "description": "Somente eventos adjudicados como confirmado."
+    },
+    "sensitivity": {
+      "label": "sensitivity_label",
+      "conflict": "sensitivity_conflict",
+      "description": "Eventos adjudicados como confirmado ou provável."
+    }
+  },
+  "thresholds": [
+    "q990",
+    "q995",
+    "q999"
+  ],
+  "top_fractions": [
+    0.01,
+    0.05,
+    0.1
+  ],
+  "bootstrap_repetitions": 500,
+  "seed": 20260920,
+  "splits": [
+    "estresse_pre_dencun_2024",
+    "transicao_dencun_2024",
+    "treino_2024_pos_dencun",
+    "validacao_2025_pre_pectra",
+    "transicao_pectra_2025",
+    "teste_final_2025",
+    "estresse_fusaka_2025"
+  ],
+  "configurations": [
+    "a_completa",
+    "b_completa",
+    "c_completa",
+    "b_sem_taxas_absolutas",
+    "c_sem_taxas_absolutas"
+  ],
+  "methods": [
+    "AE",
+    "IF"
+  ],
+  "counts": {
+    "coverage_rows": 14,
+    "discrimination_rows": 420,
+    "threshold_rows": 1260,
+    "top_k_rows": 1260,
+    "paired_rows": 420,
+    "selected_rows": 4
+  },
+  "sources": [
+    {
+      "path": "E:\\Mestrado\\src\\04-pos-processamento\\06-validacao-semantica-front-running\\resultados\\consolidado\\03_rotulos_transacao.parquet",
+      "bytes": 387376,
+      "sha256": "7e17d3ee06bcf28ab27fe360361877e171c3809844cf0281cd4fbffd85ebdad9"
+    },
+    {
+      "path": "E:\\Mestrado\\src\\04-pos-processamento\\06-validacao-semantica-front-running\\resultados\\consolidado\\02_papeis_evento.parquet",
+      "bytes": 388763,
+      "sha256": "0069b6f0d8ec5d5febfc56b4901f9930a8d83a3552029b8e32e4dcad434d5ac4"
+    },
+    {
+      "path": "E:\\Mestrado\\src\\03-machine-learning\\01-features\\resultados-splits\\00_manifest_splits_temporais.json",
+      "bytes": 5430,
+      "sha256": "0c9c2bfdd69e4c2ce99c62e4d139f1da6c125ef3e5a850d94c0212acf5c6a5f4"
+    }
+  ],
+  "artifacts": [
+    "01_cobertura_rotulos.csv",
+    "02_metricas_discriminacao.csv",
+    "03_metricas_limiares.csv",
+    "04_metricas_top_k.csv",
+    "05_metricas_pareadas_eventos.csv",
+    "06_selecao_validacao_teste.csv",
+    "07_curvas_roc_pr_sensitivity_teste_final_2025.pdf",
+    "07_curvas_roc_pr_sensitivity_teste_final_2025.png",
+    "07_curvas_roc_pr_sensitivity_validacao_2025_pre_pectra.pdf",
+    "07_curvas_roc_pr_sensitivity_validacao_2025_pre_pectra.png",
+    "07_curvas_roc_pr_strict_teste_final_2025.pdf",
+    "07_curvas_roc_pr_strict_teste_final_2025.png",
+    "07_curvas_roc_pr_strict_validacao_2025_pre_pectra.pdf",
+    "07_curvas_roc_pr_strict_validacao_2025_pre_pectra.png",
+    "08_heatmap_roc_auc_sensitivity.pdf",
+    "08_heatmap_roc_auc_sensitivity.png",
+    "08_heatmap_roc_auc_strict.pdf",
+    "08_heatmap_roc_auc_strict.png",
+    "09_heatmap_pr_auc_sensitivity.pdf",
+    "09_heatmap_pr_auc_sensitivity.png",
+    "09_heatmap_pr_auc_strict.pdf",
+    "09_heatmap_pr_auc_strict.png",
+    "10_matrizes_confusao_teste_q995_sensitivity.pdf",
+    "10_matrizes_confusao_teste_q995_sensitivity.png",
+    "10_matrizes_confusao_teste_q995_strict.pdf",
+    "10_matrizes_confusao_teste_q995_strict.png",
+    "10_matrizes_confusao_teste_selecionado_sensitivity.pdf",
+    "10_matrizes_confusao_teste_selecionado_sensitivity.png",
+    "10_matrizes_confusao_teste_selecionado_strict.pdf",
+    "10_matrizes_confusao_teste_selecionado_strict.png",
+    "11_heatmap_superioridade_pareada_sensitivity.pdf",
+    "11_heatmap_superioridade_pareada_sensitivity.png",
+    "11_heatmap_superioridade_pareada_strict.pdf",
+    "11_heatmap_superioridade_pareada_strict.png",
+    "12_modelos_selecionados_teste.pdf",
+    "12_modelos_selecionados_teste.png",
+    "13_sintese_resultados.md",
+    "14_metodologia_avaliacao.md",
+    "15_manifest_avaliacao.json"
+  ]
+}

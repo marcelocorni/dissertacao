@@ -1,0 +1,12 @@
+{
+  "created_at_utc": "2026-09-20T22:23:46.162889+00:00",
+  "source_flows": "E:\\Mestrado\\src\\04-pos-processamento\\06-validacao-semantica-front-running\\resultados\\estresse_fusaka_2025\\09_fluxos_tokens_atacante.parquet",
+  "tokens_requested": 109,
+  "complete": 108,
+  "partial": 1,
+  "errors": 0,
+  "rpc_calls": 109,
+  "cache_hits": 0,
+  "rpc_provider_host": "eth-mainnet.g.alchemy.com",
+  "rpc_url_stored": false
+}

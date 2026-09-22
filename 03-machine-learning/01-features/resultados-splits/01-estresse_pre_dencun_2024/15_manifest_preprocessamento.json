@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-09-17T21:00:14.305161-03:00",
+  "split": "estresse_pre_dencun_2024",
+  "preprocessing_signature": "738226c43bc7b0172d7c45132fda4f07027bb0805e812b3b05dab4ee2c03256e",
+  "fit_split": "treino_2024_pos_dencun",
+  "outputs": [
+    {
+      "split": "estresse_pre_dencun_2024",
+      "matrix": "A",
+      "rows": 832676,
+      "features": 13,
+      "invalid_values": 0,
+      "output_path": "E:\\Mestrado\\src\\03-machine-learning\\01-features\\resultados-splits\\01-estresse_pre_dencun_2024\\12_matriz_A_preprocessada.parquet",
+      "size_bytes": 28352632
+    },
+    {
+      "split": "estresse_pre_dencun_2024",
+      "matrix": "B",
+      "rows": 832676,
+      "features": 21,
+      "invalid_values": 0,
+      "output_path": "E:\\Mestrado\\src\\03-machine-learning\\01-features\\resultados-splits\\01-estresse_pre_dencun_2024\\13_matriz_B_preprocessada.parquet",
+      "size_bytes": 32140900
+    },
+    {
+      "split": "estresse_pre_dencun_2024",
+      "matrix": "C",
+      "rows": 832676,
+      "features": 23,
+      "invalid_values": 0,
+      "output_path": "E:\\Mestrado\\src\\03-machine-learning\\01-features\\resultados-splits\\01-estresse_pre_dencun_2024\\14_matriz_C_preprocessada.parquet",
+      "size_bytes": 40381557
+    }
+  ]
+}

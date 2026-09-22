@@ -1,0 +1,31 @@
+{
+  "generated_at": "2026-09-17T21:29:53.832553-03:00",
+  "experiment_signature": "3091ee7eb889c3053149ff112c7fde05d999757e31f83952a9e82fce87ee2dcf",
+  "preprocessing_signature": "738226c43bc7b0172d7c45132fda4f07027bb0805e812b3b05dab4ee2c03256e",
+  "source_split_manifest": "E:\\Mestrado\\src\\03-machine-learning\\01-features\\resultados-splits\\00_manifest_splits_temporais.json",
+  "source_preprocessing_manifest": "E:\\Mestrado\\src\\03-machine-learning\\01-features\\resultados-preprocessamento\\05_manifest_preprocessamento.json",
+  "fit_split": "treino_2024_pos_dencun",
+  "threshold_split": "validacao_2025_pre_pectra",
+  "configurations": [
+    "a_completa",
+    "b_completa",
+    "c_completa",
+    "b_sem_taxas_absolutas",
+    "c_sem_taxas_absolutas"
+  ],
+  "outputs": [
+    "01_configuracoes_experimento.json",
+    "02_resumo_treinamento.csv",
+    "03_limiares_validacao.csv",
+    "04_estatisticas_escores.csv",
+    "05_taxas_anomalias_recortes.csv",
+    "06_taxas_anomalias_tipo4.csv",
+    "07_concordancia_validacao.csv",
+    "08_taxas_anomalias_recortes.pdf",
+    "08_taxas_anomalias_recortes.png",
+    "09_metodologia_isolation_forest.md",
+    "10_manifest_isolation_forest.json"
+  ],
+  "models_directory": "E:\\Mestrado\\src\\03-machine-learning\\03-if\\resultados\\modelos",
+  "scores_directory": "E:\\Mestrado\\src\\03-machine-learning\\03-if\\resultados\\escores"
+}

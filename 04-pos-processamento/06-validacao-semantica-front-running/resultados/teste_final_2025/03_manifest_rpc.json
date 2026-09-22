@@ -1,0 +1,18 @@
+{
+  "created_at_utc": "2026-09-20T20:17:09.317709+00:00",
+  "mode": "block_batch",
+  "dataset": "teste_final_2025",
+  "source_queue": "E:\\Mestrado\\src\\04-pos-processamento\\05-rotulador-front-running-csharp\\resultados-v3\\sampled\\independent_sampled\\teste_final_2025\\05_enrichment_queue.parquet",
+  "requested_blocks": 10988,
+  "requested_transactions": 63248,
+  "enriched_transactions": 63248,
+  "errors": 0,
+  "cache_hits_blocks": 0,
+  "new_blocks": 10988,
+  "http_requests": 5822,
+  "rpc_methods": 58212,
+  "blocks_per_batch": 5,
+  "rpc_provider_host": "eth-mainnet.g.alchemy.com",
+  "rpc_url_stored": false,
+  "queue_fingerprint": "2c97a42d6b9380488c005a69744adca6667d3fe7b35d2bad6001091261ae8cdc"
+}

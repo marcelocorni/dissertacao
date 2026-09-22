@@ -1,0 +1,100 @@
+{
+  "generated_at": "2026-09-17T19:59:41.449641-03:00",
+  "dataset_name": "transicao_dencun_2024",
+  "source": "AWS Public Blockchain Dataset - Ethereum transaction Parquets",
+  "excluded_external_sources": [
+    "Binance",
+    "Fear & Greed",
+    "TagCloud"
+  ],
+  "input_column_used": false,
+  "start_date": "2024-03-13",
+  "end_date": "2024-03-31",
+  "source_parquet_files": 19,
+  "block_modulus": 100,
+  "sample_rows": 244311,
+  "sample_unique_hashes": 244311,
+  "sample_duplicate_hashes": 0,
+  "matrix_A": [
+    "gas_used_log",
+    "gas_used_ratio",
+    "effective_gas_price_log",
+    "max_fee_per_gas_log",
+    "max_priority_fee_log",
+    "fee_cap_utilization",
+    "transaction_value_log",
+    "nonce_log",
+    "receipt_status",
+    "tx_type_0",
+    "tx_type_1",
+    "tx_type_3",
+    "transaction_index_pct"
+  ],
+  "matrix_B": [
+    "gas_used_log",
+    "gas_used_ratio",
+    "effective_gas_price_log",
+    "max_fee_per_gas_log",
+    "max_priority_fee_log",
+    "fee_cap_utilization",
+    "transaction_value_log",
+    "nonce_log",
+    "receipt_status",
+    "tx_type_0",
+    "tx_type_1",
+    "tx_type_3",
+    "transaction_index_pct",
+    "block_tx_count_log",
+    "sender_tx_count_block_log",
+    "receiver_tx_count_block_log",
+    "gas_price_rank_block",
+    "hour_sin",
+    "hour_cos",
+    "weekday_sin",
+    "weekday_cos"
+  ],
+  "matrix_C": [
+    "gas_used_log",
+    "gas_used_ratio",
+    "effective_gas_price_log",
+    "max_fee_per_gas_log",
+    "max_priority_fee_log",
+    "fee_cap_utilization",
+    "transaction_value_log",
+    "nonce_log",
+    "receipt_status",
+    "tx_type_0",
+    "tx_type_1",
+    "tx_type_3",
+    "transaction_index_pct",
+    "block_tx_count_log",
+    "sender_tx_count_block_log",
+    "receiver_tx_count_block_log",
+    "gas_price_rank_block",
+    "hour_sin",
+    "hour_cos",
+    "weekday_sin",
+    "weekday_cos",
+    "gas_limit_log",
+    "transaction_fee_paid_log"
+  ],
+  "constant_features": [],
+  "artifacts": {
+    "metadata": {
+      "path": "E:\\Mestrado\\src\\03-machine-learning\\01-features\\resultados-splits\\02-transicao_dencun_2024\\05_metadados.parquet",
+      "size_bytes": 16438331
+    },
+    "matrix_A": {
+      "path": "E:\\Mestrado\\src\\03-machine-learning\\01-features\\resultados-splits\\02-transicao_dencun_2024\\06_matriz_A_baseline.parquet",
+      "size_bytes": 7732483
+    },
+    "matrix_B": {
+      "path": "E:\\Mestrado\\src\\03-machine-learning\\01-features\\resultados-splits\\02-transicao_dencun_2024\\07_matriz_B_contexto.parquet",
+      "size_bytes": 8835960
+    },
+    "matrix_C": {
+      "path": "E:\\Mestrado\\src\\03-machine-learning\\01-features\\resultados-splits\\02-transicao_dencun_2024\\08_matriz_C_estendida.parquet",
+      "size_bytes": 11011485
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "created_at_utc": "2026-09-19T08:11:14.588323+00:00",
+  "source_queues": [
+    "E:\\Mestrado\\src\\04-pos-processamento\\05-rotulador-front-running-csharp\\resultados-v3\\sampled\\independent_sampled\\transicao_dencun_2024\\05_enrichment_queue.parquet"
+  ],
+  "requested_transactions": 3544,
+  "enriched_transactions": 3544,
+  "errors": 0,
+  "rpc_calls": 3546,
+  "cache_hits": 0,
+  "rpc_provider_host": "eth-mainnet.g.alchemy.com",
+  "rpc_url_env": "ETH_RPC_URL",
+  "rpc_url_stored": false,
+  "queue_fingerprint": "8380a735bbdf5af5816f14fb1445e5882de44d076480e440917368472456acca"
+}

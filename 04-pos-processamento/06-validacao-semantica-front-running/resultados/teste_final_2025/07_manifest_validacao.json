@@ -1,0 +1,21 @@
+{
+  "created_at_utc": "2026-09-20T21:43:47.245669+00:00",
+  "source_event_files": [
+    "E:\\Mestrado\\src\\04-pos-processamento\\05-rotulador-front-running-csharp\\resultados-v3\\sampled\\independent_sampled\\teste_final_2025\\01_detection_events.parquet"
+  ],
+  "source_transaction_files": [
+    "E:\\Mestrado\\src\\04-pos-processamento\\06-validacao-semantica-front-running\\resultados\\teste_final_2025\\01_transacoes_rpc.parquet"
+  ],
+  "events": 37589,
+  "enriched_transactions_available": 63248,
+  "confirmed_role_rows": 1421,
+  "status_counts": {
+    "displacement:confirmed": 25,
+    "displacement:probable": 188,
+    "displacement:rejected": 28867,
+    "insertion:confirmed": 457,
+    "insertion:rejected": 2037,
+    "suppression:requires_mempool_evidence": 6015
+  },
+  "methodological_note": "Confirmed exige evidência semântica. Suppression permanece sem ground truth sem mempool. Resultado líquido do sandwich é etapa posterior."
+}

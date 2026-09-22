@@ -1,0 +1,24 @@
+{
+  "created_at_utc": "2026-09-21T00:35:04.641052+00:00",
+  "dossier": "E:\\Mestrado\\src\\04-pos-processamento\\06-validacao-semantica-front-running\\resultados\\treino_2024_pos_dencun\\08_dossie_auditoria.parquet",
+  "decisions": "E:\\Mestrado\\src\\04-pos-processamento\\06-validacao-semantica-front-running\\resultados\\treino_2024_pos_dencun\\15_decisoes_dossie.csv",
+  "decision_origin": "assisted_deterministic",
+  "expected_reviewer": "Marcelo Corni Alves",
+  "events": 2017,
+  "decisions_found": 2017,
+  "counts": {
+    "valid": 2017
+  },
+  "checks": [
+    "coverage",
+    "role hashes",
+    "block order",
+    "receipt status",
+    "outer sender",
+    "swap pool and direction",
+    "calldata selector and similarity",
+    "saved/recomputed label",
+    "reviewer",
+    "justification"
+  ]
+}
