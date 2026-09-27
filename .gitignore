@@ -52,3 +52,7 @@ Chaves_RPC.md
 .vscode/
 .env
 .env.*
+
+
+# cache-compartilhado compactado
+cache-compartilhado.7z

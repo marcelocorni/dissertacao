@@ -64,6 +64,26 @@ Cada experimento usa um identificador exclusivo definido em
 `execucoes/<id>`; o cache RPC fica em `cache-compartilhado` e pode ser
 reutilizado pelas demais porcentagens.
 
+### Cache RPC opcional
+
+O [arquivo `cache-compartilhado.7z`](https://mega.nz/file/38ETGQLZ#R9Ad46DRLMitviZtZNs-9PR1ewUaBuVzviamjwP7_YQ)
+contém o cache compartilhado usado nas execuções realizadas até `5%`.
+Ele não faz parte do Git e não substitui os Parquets Ethereum nem os
+resultados em `execucoes/<id>`. Seu uso é opcional: sem ele, o enriquecimento
+precisa consultar os provedores RPC novamente.
+
+Baixe o arquivo e extraia-o **na raiz do repositório**, em uma instalação que
+ainda não tenha `cache-compartilhado/`. O arquivo compactado já contém essa
+pasta no nível superior. Antes da extração, confira o SHA-256 do download:
+
+```powershell
+Get-FileHash ".\cache-compartilhado.7z" -Algorithm SHA256
+```
+
+Valor esperado: `6167D910E0DA6DA14AA9D030F995385E70528C7AEC4EB052177C96C25F24432E`.
+Não extraia sobre um cache existente sem antes preservá-lo ou conferir os
+arquivos que seriam substituídos.
+
 Depois de ajustar a configuração, valide o plano sem gravar arquivos:
 
 ```powershell

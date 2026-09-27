@@ -11,6 +11,8 @@ consolidar os rótulos por transação.
 Os provedores são definidos em `configuracao/rpc_providers.json`. O arquivo
 contém somente nomes de variáveis, limites e preferências de distribuição; as
 URLs privadas nunca são gravadas no repositório ou nos manifestos.
+Um [cache RPC opcional usado até a execução de 5%](../../README.md#cache-rpc-opcional)
+está disponível separadamente dos Parquets e dos resultados versionados.
 
 Defina apenas as variáveis correspondentes aos provedores disponíveis:
 
