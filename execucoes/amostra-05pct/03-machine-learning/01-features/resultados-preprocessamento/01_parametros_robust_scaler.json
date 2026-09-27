@@ -1,0 +1,123 @@
+{
+  "generated_at": "2026-09-26T10:53:58.008416-03:00",
+  "fit_split": "treino_2024_pos_dencun",
+  "fit_start_date": "2024-04-01",
+  "fit_end_date": "2024-12-31",
+  "method": "RobustScaler univariado com taxas EIP-1559 condicionais",
+  "formula": "(x - mediana_treino) / escala_treino",
+  "zero_iqr_policy": "usar escala 1 após centralização pela mediana",
+  "not_applicable_fee_policy": "max_fee e max_priority permanecem zero nos tipos 0 e 1; ajuste calculado somente nos tipos 2, 3 e 4",
+  "preprocessing_signature": "401e1869c33e3c7685e5907979aaee9a4afd3e686d2f661f07326d7538a7d906",
+  "parameters": {
+    "gas_used_log": {
+      "q1": 9.952325334619427,
+      "median": 10.745291779083457,
+      "q3": 11.728754329069098,
+      "iqr": 1.7764289944496703,
+      "scale": 1.7764289944496703,
+      "scale_source": "iqr",
+      "fit_filter": null,
+      "formula": "(x - median) / scale"
+    },
+    "effective_gas_price_log": {
+      "q1": 22.32717962626931,
+      "median": 22.93804627187749,
+      "q3": 23.481746808639443,
+      "iqr": 1.1545671823701333,
+      "scale": 1.1545671823701333,
+      "scale_source": "iqr",
+      "fit_filter": null,
+      "formula": "(x - median) / scale"
+    },
+    "max_fee_per_gas_log": {
+      "q1": 22.635766924018306,
+      "median": 23.30387233848544,
+      "q3": 24.014053535181954,
+      "iqr": 1.3782866111636487,
+      "scale": 1.3782866111636487,
+      "scale_source": "iqr",
+      "fit_filter": "tx_type_0 = 0 AND tx_type_1 = 0",
+      "formula": "0 quando não aplicável; (x - median) / scale quando aplicável"
+    },
+    "max_priority_fee_log": {
+      "q1": 18.420680753952364,
+      "median": 20.72326583794641,
+      "q3": 21.416413018006356,
+      "iqr": 2.9957322640539914,
+      "scale": 2.9957322640539914,
+      "scale_source": "iqr",
+      "fit_filter": "tx_type_0 = 0 AND tx_type_1 = 0",
+      "formula": "0 quando não aplicável; (x - median) / scale quando aplicável"
+    },
+    "transaction_value_log": {
+      "q1": 0.0,
+      "median": 0.0,
+      "q3": 37.817384398038534,
+      "iqr": 37.817384398038534,
+      "scale": 37.817384398038534,
+      "scale_source": "iqr",
+      "fit_filter": null,
+      "formula": "(x - median) / scale"
+    },
+    "nonce_log": {
+      "q1": 2.302585092994046,
+      "median": 5.062595033026967,
+      "q3": 9.949368727792317,
+      "iqr": 7.646783634798271,
+      "scale": 7.646783634798271,
+      "scale_source": "iqr",
+      "fit_filter": null,
+      "formula": "(x - median) / scale"
+    },
+    "block_tx_count_log": {
+      "q1": 4.962844630259907,
+      "median": 5.147494476813453,
+      "q3": 5.3706380281276624,
+      "iqr": 0.4077933978677555,
+      "scale": 0.4077933978677555,
+      "scale_source": "iqr",
+      "fit_filter": null,
+      "formula": "(x - median) / scale"
+    },
+    "sender_tx_count_block_log": {
+      "q1": 0.6931471805599453,
+      "median": 0.6931471805599453,
+      "q3": 0.6931471805599453,
+      "iqr": 0.0,
+      "scale": 1.0,
+      "scale_source": "unit_fallback_zero_iqr",
+      "fit_filter": null,
+      "formula": "(x - median) / scale"
+    },
+    "receiver_tx_count_block_log": {
+      "q1": 0.6931471805599453,
+      "median": 0.6931471805599453,
+      "q3": 1.9459101490553132,
+      "iqr": 1.252762968495368,
+      "scale": 1.252762968495368,
+      "scale_source": "iqr",
+      "fit_filter": null,
+      "formula": "(x - median) / scale"
+    },
+    "gas_limit_log": {
+      "q1": 9.99884318585288,
+      "median": 11.338583982516495,
+      "q3": 12.366289176541567,
+      "iqr": 2.3674459906886867,
+      "scale": 2.3674459906886867,
+      "scale_source": "iqr",
+      "fit_filter": null,
+      "formula": "(x - median) / scale"
+    },
+    "transaction_fee_paid_log": {
+      "q1": 32.90266121381347,
+      "median": 33.730218286810896,
+      "q3": 34.65652611000536,
+      "iqr": 1.7538648961918923,
+      "scale": 1.7538648961918923,
+      "scale_source": "iqr",
+      "fit_filter": null,
+      "formula": "(x - median) / scale"
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "started_at_utc": "2026-09-27T03:35:41.508186+00:00",
+  "updated_at_utc": "2026-09-27T04:31:41.360788+00:00",
+  "completed_at_utc": "2026-09-27T04:31:41.360813+00:00",
+  "status": "completed",
+  "scheduler": "dynamic_lpt_with_cross_provider_recovery",
+  "credentials_stored": false,
+  "providers_config": "E:\\Mestrado\\src-multiexecucoes\\configuracao\\rpc_providers.json",
+  "providers_config_sha256": "48325296280d45bbf08cdef9c1dca72ffec3bdb2e45a6b40a86cd0c7fe40d4de",
+  "provider_audit": "E:\\Mestrado\\src-multiexecucoes\\execucoes\\amostra-05pct\\04-pos-processamento\\06-validacao-semantica-front-running\\resultados\\auditoria-rpc\\01_manifest_provedores_rpc.json",
+  "initial_provider_speeds_blocks_per_second": {
+    "quicknode": 2.2
+  },
+  "current_provider_speeds_blocks_per_second": {
+    "quicknode": 1.8872
+  },
+  "skipped_completed_splits": [
+    "transicao_dencun_2024",
+    "treino_2024_pos_dencun",
+    "validacao_2025_pre_pectra",
+    "transicao_pectra_2025",
+    "teste_final_2025",
+    "estresse_fusaka_2025"
+  ],
+  "windows": {
+    "estresse_pre_dencun_2024": {
+      "split": "estresse_pre_dencun_2024",
+      "total_blocks": 15807,
+      "remaining_blocks": 3342,
+      "attempted_providers": [
+        "quicknode"
+      ],
+      "attempts": [
+        {
+          "attempt": 1,
+          "provider": "quicknode",
+          "used_env": "ETH_RPC_QUICKNODE",
+          "started_at_utc": "2026-09-27T03:35:41.516823+00:00",
+          "completed_at_utc": "2026-09-27T04:31:39.351044+00:00",
+          "status": "completed",
+          "return_code": 0,
+          "failed_stage": null,
+          "log": "E:\\Mestrado\\src-multiexecucoes\\execucoes\\amostra-05pct\\04-pos-processamento\\06-validacao-semantica-front-running\\resultados\\_workers\\quicknode\\estresse_pre_dencun_2024__tentativa-01.log",
+          "worker_manifest": "E:\\Mestrado\\src-multiexecucoes\\execucoes\\amostra-05pct\\04-pos-processamento\\06-validacao-semantica-front-running\\resultados\\_workers\\quicknode\\estresse_pre_dencun_2024__tentativa-01.json",
+          "endpoint_stored": false
+        }
+      ],
+      "status": "completed"
+    }
+  },
+  "completed_windows": [
+    "estresse_pre_dencun_2024"
+  ],
+  "failed_windows": []
+}

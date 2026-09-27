@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-09-26T10:54:40.789930-03:00",
+  "split": "treino_2024_pos_dencun",
+  "preprocessing_signature": "401e1869c33e3c7685e5907979aaee9a4afd3e686d2f661f07326d7538a7d906",
+  "fit_split": "treino_2024_pos_dencun",
+  "outputs": [
+    {
+      "split": "treino_2024_pos_dencun",
+      "matrix": "A",
+      "rows": 16080647,
+      "features": 13,
+      "invalid_values": 0,
+      "output_path": "E:\\Mestrado\\src-multiexecucoes\\execucoes\\amostra-05pct\\03-machine-learning\\01-features\\resultados-matrizes\\12_matriz_A_preprocessada.parquet",
+      "size_bytes": 599642089
+    },
+    {
+      "split": "treino_2024_pos_dencun",
+      "matrix": "B",
+      "rows": 16080647,
+      "features": 21,
+      "invalid_values": 0,
+      "output_path": "E:\\Mestrado\\src-multiexecucoes\\execucoes\\amostra-05pct\\03-machine-learning\\01-features\\resultados-matrizes\\13_matriz_B_preprocessada.parquet",
+      "size_bytes": 670042694
+    },
+    {
+      "split": "treino_2024_pos_dencun",
+      "matrix": "C",
+      "rows": 16080647,
+      "features": 23,
+      "invalid_values": 0,
+      "output_path": "E:\\Mestrado\\src-multiexecucoes\\execucoes\\amostra-05pct\\03-machine-learning\\01-features\\resultados-matrizes\\14_matriz_C_preprocessada.parquet",
+      "size_bytes": 835759075
+    }
+  ]
+}

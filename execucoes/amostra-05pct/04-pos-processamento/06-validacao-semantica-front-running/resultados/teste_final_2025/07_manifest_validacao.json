@@ -1,0 +1,21 @@
+{
+  "created_at_utc": "2026-09-27T02:41:32.306567+00:00",
+  "source_event_files": [
+    "E:\\Mestrado\\src-multiexecucoes\\execucoes\\amostra-05pct\\04-pos-processamento\\05-rotulador-front-running-csharp\\resultados-v3\\sampled\\independent_sampled\\teste_final_2025\\01_detection_events.parquet"
+  ],
+  "source_transaction_files": [
+    "E:\\Mestrado\\src-multiexecucoes\\execucoes\\amostra-05pct\\04-pos-processamento\\06-validacao-semantica-front-running\\resultados\\teste_final_2025\\01_transacoes_rpc.parquet"
+  ],
+  "events": 188770,
+  "enriched_transactions_available": 317562,
+  "confirmed_role_rows": 7120,
+  "status_counts": {
+    "displacement:confirmed": 107,
+    "displacement:probable": 929,
+    "displacement:rejected": 144492,
+    "insertion:confirmed": 2302,
+    "insertion:rejected": 10685,
+    "suppression:requires_mempool_evidence": 30255
+  },
+  "methodological_note": "Confirmed exige evidência semântica. Suppression permanece sem ground truth sem mempool. Resultado líquido do sandwich é etapa posterior."
+}

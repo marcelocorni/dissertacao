@@ -1,0 +1,15 @@
+split,policy,semantic_transactions,evaluable_transactions,positive_attackers,contextual_negative_victims,unlabeled_in_policy,conflicting_excluded,evaluable_share
+estresse_pre_dencun_2024,strict,4943,1914,1263,651,3029,0,0.3872142423629375
+estresse_pre_dencun_2024,sensitivity,4943,4632,2622,2010,0,311,0.9370827432733158
+transicao_dencun_2024,strict,910,578,384,194,332,0,0.6351648351648351
+transicao_dencun_2024,sensitivity,910,874,532,342,0,36,0.9604395604395605
+treino_2024_pos_dencun,strict,17221,7411,4893,2518,9810,0,0.43034666976366065
+treino_2024_pos_dencun,sensitivity,17221,16165,9270,6895,0,1056,0.9386795191916846
+validacao_2025_pre_pectra,strict,5272,4236,2805,1431,1036,0,0.8034901365705615
+validacao_2025_pre_pectra,sensitivity,5272,5170,3272,1898,0,102,0.9806525037936267
+transicao_pectra_2025,strict,1447,854,563,291,593,0,0.590186592950933
+transicao_pectra_2025,sensitivity,1447,1384,828,556,0,63,0.9564616447823082
+teste_final_2025,strict,6947,5569,3682,1887,1378,0,0.8016409961134302
+teste_final_2025,sensitivity,6947,6859,4327,2532,0,88,0.9873326615805383
+estresse_fusaka_2025,strict,1274,1160,766,394,114,0,0.9105180533751962
+estresse_fusaka_2025,sensitivity,1274,1266,819,447,0,8,0.9937205651491365

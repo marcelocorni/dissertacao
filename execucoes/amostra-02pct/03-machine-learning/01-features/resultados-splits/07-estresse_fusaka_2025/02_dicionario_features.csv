@@ -1,0 +1,24 @@
+﻿feature,group,definition,matrix_A,matrix_B,matrix_C
+gas_used_log,execucao,log1p do gás efetivamente consumido pela transação.,True,True,True
+gas_used_ratio,execucao,Razão entre o gás consumido e o limite de gás informado.,True,True,True
+effective_gas_price_log,taxa,log1p do preço efetivo do gás; usa gas_price como fallback.,True,True,True
+max_fee_per_gas_log,taxa,log1p do teto de taxa; zero quando não aplicável.,True,True,True
+max_priority_fee_log,taxa,log1p da prioridade máxima; zero quando não aplicável.,True,True,True
+fee_cap_utilization,taxa,Preço efetivo dividido pelo teto de taxa; zero quando não aplicável.,True,True,True
+transaction_value_log,valor,log1p do valor nativo transferido.,True,True,True
+nonce_log,conta,log1p do nonce da conta remetente.,True,True,True
+receipt_status,execucao,Indicador de sucesso (1) ou falha (0) da execução.,True,True,True
+tx_type_0,tipo,Indicador de transação Ethereum tipo 0.,True,True,True
+tx_type_1,tipo,Indicador de transação Ethereum tipo 1.,True,True,True
+tx_type_3,tipo,Indicador de transação blob tipo 3; tipo 2 é a referência.,True,True,True
+transaction_index_pct,bloco,Posição relativa da transação dentro do bloco.,True,True,True
+block_tx_count_log,bloco,log1p da quantidade de transações no bloco.,False,True,True
+sender_tx_count_block_log,bloco,log1p da frequência do remetente no mesmo bloco.,False,True,True
+receiver_tx_count_block_log,bloco,log1p da frequência do destinatário no mesmo bloco.,False,True,True
+gas_price_rank_block,bloco,Percentil do preço efetivo de gás dentro do bloco.,False,True,True
+hour_sin,tempo,Componente seno da hora UTC.,False,True,True
+hour_cos,tempo,Componente cosseno da hora UTC.,False,True,True
+weekday_sin,tempo,Componente seno do dia da semana UTC.,False,True,True
+weekday_cos,tempo,Componente cosseno do dia da semana UTC.,False,True,True
+gas_limit_log,execucao,log1p do limite de gás; feature de ablação do conjunto C.,False,False,True
+transaction_fee_paid_log,taxa,log1p de receipt_gas_used vezes preço efetivo do gás.,False,False,True

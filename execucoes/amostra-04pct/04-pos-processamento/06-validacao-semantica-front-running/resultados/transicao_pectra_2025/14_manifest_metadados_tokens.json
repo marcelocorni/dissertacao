@@ -1,0 +1,12 @@
+{
+  "created_at_utc": "2026-09-25T22:11:23.072271+00:00",
+  "source_flows": "E:\\Mestrado\\src-multiexecucoes\\execucoes\\amostra-04pct\\04-pos-processamento\\06-validacao-semantica-front-running\\resultados\\transicao_pectra_2025\\09_fluxos_tokens_atacante.parquet",
+  "tokens_requested": 432,
+  "complete": 432,
+  "partial": 0,
+  "errors": 1,
+  "rpc_calls": 197,
+  "cache_hits": 235,
+  "rpc_provider_host": "rpc.mevblocker.io",
+  "rpc_url_stored": false
+}

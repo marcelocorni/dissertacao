@@ -1,0 +1,82 @@
+{
+  "created_at_utc": "2026-09-26T01:19:24.867170+00:00",
+  "providers_config": "E:\\Mestrado\\src-multiexecucoes\\configuracao\\rpc_providers.json",
+  "providers_config_sha256": "620d19d685632d165cf38326a40a16e5341521112ff47fd97c17ad559ff40664",
+  "credentials_stored": false,
+  "historical_block": 19000000,
+  "minimum_approved_providers": 1,
+  "passed_providers": [
+    "quicknode"
+  ],
+  "configured_providers": 1,
+  "results": [
+    {
+      "provider": "alchemy",
+      "configured_env": "ETH_RPC_ALCHEMY",
+      "used_env": null,
+      "tested_at_utc": "2026-09-26T01:19:23.816200+00:00",
+      "endpoint_stored": false,
+      "status": "not_configured"
+    },
+    {
+      "provider": "ankr",
+      "configured_env": "ETH_RPC_ANKR",
+      "used_env": null,
+      "tested_at_utc": "2026-09-26T01:19:23.816656+00:00",
+      "endpoint_stored": false,
+      "status": "not_configured"
+    },
+    {
+      "provider": "chanstack",
+      "configured_env": "ETH_RPC_CHAINSTACK",
+      "used_env": null,
+      "tested_at_utc": "2026-09-26T01:19:23.816664+00:00",
+      "endpoint_stored": false,
+      "status": "not_configured"
+    },
+    {
+      "provider": "drpc",
+      "configured_env": "ETH_RPC_DRPC",
+      "used_env": null,
+      "tested_at_utc": "2026-09-26T01:19:23.816528+00:00",
+      "endpoint_stored": false,
+      "status": "not_configured"
+    },
+    {
+      "provider": "infura",
+      "configured_env": "ETH_RPC_INFURA",
+      "used_env": null,
+      "tested_at_utc": "2026-09-26T01:19:23.816512+00:00",
+      "endpoint_stored": false,
+      "status": "not_configured"
+    },
+    {
+      "provider": "mevblocker",
+      "configured_env": "ETH_RPC_MEVBLOCKER",
+      "used_env": null,
+      "tested_at_utc": "2026-09-26T01:19:23.816935+00:00",
+      "endpoint_stored": false,
+      "status": "not_configured"
+    },
+    {
+      "provider": "quicknode",
+      "configured_env": "ETH_RPC_QUICKNODE",
+      "used_env": "ETH_RPC_QUICKNODE",
+      "tested_at_utc": "2026-09-26T01:19:23.816692+00:00",
+      "endpoint_stored": false,
+      "status": "passed",
+      "host": "fittest-smart-dew.ethereum-mainnet.quiknode.pro",
+      "chain_id": "0x1",
+      "historical_block": 19000000,
+      "block_hash": "0xcf384012b91b081230cdf17a3f7dd370d8e67056058af6b272b3d54aa2714fac",
+      "transactions": 133,
+      "receipts": 133,
+      "http_status": {
+        "chain_id": 200,
+        "batch": 200,
+        "eth_call": 200
+      },
+      "elapsed_seconds": 1.049
+    }
+  ]
+}

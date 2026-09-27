@@ -1,0 +1,38 @@
+{
+  "generated_at": "2026-09-26T11:34:04.953007-03:00",
+  "analysis_signature": "a34216f0a778d380f7d70f679a73d83b74482852147dab76da4c2bbecf41bfbe",
+  "ae_experiment_signature": "9859fa0adeff4e3e0868380172f6e7dd30560314578c3b2d023d21b9be91c77c",
+  "if_experiment_signature": "497774bed5dcacddbcb9e7da3ed80e0aa2531009cb71818dc8bec52698c44e8d",
+  "configurations": [
+    "a_completa",
+    "b_completa",
+    "c_completa",
+    "b_sem_taxas_absolutas",
+    "c_sem_taxas_absolutas"
+  ],
+  "splits": [
+    "estresse_pre_dencun_2024",
+    "transicao_dencun_2024",
+    "treino_2024_pos_dencun",
+    "validacao_2025_pre_pectra",
+    "transicao_pectra_2025",
+    "teste_final_2025",
+    "estresse_fusaka_2025"
+  ],
+  "candidate_directory": "E:\\Mestrado\\src-multiexecucoes\\execucoes\\amostra-05pct\\05-analise-resultados\\resultados\\candidatos",
+  "outputs": [
+    "01_resumo_integrado_ae_if.csv",
+    "02_resumo_candidatos.csv",
+    "03_top_candidatos.csv",
+    "04_if_quantis_escores.pdf",
+    "04_if_quantis_escores.png",
+    "05_if_curvas_sobrevivencia.pdf",
+    "05_if_curvas_sobrevivencia.png",
+    "06_heatmaps_taxas_ae_if.pdf",
+    "06_heatmaps_taxas_ae_if.png",
+    "07_heatmap_concordancia_ae_if.pdf",
+    "07_heatmap_concordancia_ae_if.png",
+    "08_metodologia_analise_integrada.md",
+    "09_manifest_analise_integrada.json"
+  ]
+}

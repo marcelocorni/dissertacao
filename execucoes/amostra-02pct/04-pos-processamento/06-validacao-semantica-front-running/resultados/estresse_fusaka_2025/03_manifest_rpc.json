@@ -1,0 +1,18 @@
+{
+  "created_at_utc": "2026-09-25T04:57:41.398354+00:00",
+  "mode": "block_batch",
+  "dataset": "estresse_fusaka_2025",
+  "source_queue": "E:\\Mestrado\\src-multiexecucoes\\execucoes\\amostra-02pct\\04-pos-processamento\\05-rotulador-front-running-csharp\\resultados-v3\\sampled\\independent_sampled\\estresse_fusaka_2025\\05_enrichment_queue.parquet",
+  "requested_blocks": 4063,
+  "requested_transactions": 28088,
+  "enriched_transactions": 28088,
+  "errors": 0,
+  "cache_hits_blocks": 2037,
+  "new_blocks": 2026,
+  "http_requests": 2026,
+  "rpc_methods": 4052,
+  "blocks_per_batch": 1,
+  "rpc_provider_host": "lb.drpc.live",
+  "rpc_url_stored": false,
+  "queue_fingerprint": "97d44248eb03873065b9e08d0b23f67b59bd1d66741cce4587f15fe566d4da6f"
+}

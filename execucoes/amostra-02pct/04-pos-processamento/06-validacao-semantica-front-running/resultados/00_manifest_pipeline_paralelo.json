@@ -1,0 +1,157 @@
+{
+  "started_at_utc": "2026-09-25T04:11:48.682002+00:00",
+  "updated_at_utc": "2026-09-25T06:48:32.992336+00:00",
+  "completed_at_utc": "2026-09-25T06:48:32.992358+00:00",
+  "status": "completed",
+  "scheduler": "dynamic_lpt_with_cross_provider_recovery",
+  "credentials_stored": false,
+  "providers_config": "E:\\Mestrado\\src-multiexecucoes\\configuracao\\rpc_providers.json",
+  "providers_config_sha256": "803342cd392ee1d4789fce63ebace4f311530047d5c600824357097cff53480c",
+  "provider_audit": "E:\\Mestrado\\src-multiexecucoes\\execucoes\\amostra-02pct\\04-pos-processamento\\06-validacao-semantica-front-running\\resultados\\auditoria-rpc\\01_manifest_provedores_rpc.json",
+  "initial_provider_speeds_blocks_per_second": {
+    "alchemy": 2.0,
+    "drpc": 0.8,
+    "ankr": 2.5,
+    "quicknode": 2.2
+  },
+  "current_provider_speeds_blocks_per_second": {
+    "alchemy": 1.2134,
+    "drpc": 0.768,
+    "ankr": 2.1794,
+    "quicknode": 2.0462
+  },
+  "skipped_completed_splits": [
+    "transicao_dencun_2024",
+    "transicao_pectra_2025"
+  ],
+  "windows": {
+    "estresse_pre_dencun_2024": {
+      "split": "estresse_pre_dencun_2024",
+      "total_blocks": 6336,
+      "remaining_blocks": 0,
+      "attempted_providers": [
+        "drpc"
+      ],
+      "attempts": [
+        {
+          "attempt": 1,
+          "provider": "drpc",
+          "used_env": "ETH_RPC_DRPC",
+          "started_at_utc": "2026-09-25T05:02:07.741733+00:00",
+          "completed_at_utc": "2026-09-25T05:11:28.174470+00:00",
+          "status": "completed",
+          "return_code": 0,
+          "failed_stage": null,
+          "log": "E:\\Mestrado\\src-multiexecucoes\\execucoes\\amostra-02pct\\04-pos-processamento\\06-validacao-semantica-front-running\\resultados\\_workers\\drpc\\estresse_pre_dencun_2024__tentativa-01.log",
+          "worker_manifest": "E:\\Mestrado\\src-multiexecucoes\\execucoes\\amostra-02pct\\04-pos-processamento\\06-validacao-semantica-front-running\\resultados\\_workers\\drpc\\estresse_pre_dencun_2024__tentativa-01.json",
+          "endpoint_stored": false
+        }
+      ],
+      "status": "completed"
+    },
+    "treino_2024_pos_dencun": {
+      "split": "treino_2024_pos_dencun",
+      "total_blocks": 26541,
+      "remaining_blocks": 8370,
+      "attempted_providers": [
+        "quicknode"
+      ],
+      "attempts": [
+        {
+          "attempt": 1,
+          "provider": "quicknode",
+          "used_env": "ETH_RPC_QUICKNODE",
+          "started_at_utc": "2026-09-25T04:11:48.696892+00:00",
+          "completed_at_utc": "2026-09-25T05:53:47.574816+00:00",
+          "status": "completed",
+          "return_code": 0,
+          "failed_stage": null,
+          "log": "E:\\Mestrado\\src-multiexecucoes\\execucoes\\amostra-02pct\\04-pos-processamento\\06-validacao-semantica-front-running\\resultados\\_workers\\quicknode\\treino_2024_pos_dencun__tentativa-01.log",
+          "worker_manifest": "E:\\Mestrado\\src-multiexecucoes\\execucoes\\amostra-02pct\\04-pos-processamento\\06-validacao-semantica-front-running\\resultados\\_workers\\quicknode\\treino_2024_pos_dencun__tentativa-01.json",
+          "endpoint_stored": false
+        }
+      ],
+      "status": "completed"
+    },
+    "validacao_2025_pre_pectra": {
+      "split": "validacao_2025_pre_pectra",
+      "total_blocks": 12027,
+      "remaining_blocks": 3779,
+      "attempted_providers": [
+        "alchemy"
+      ],
+      "attempts": [
+        {
+          "attempt": 1,
+          "provider": "alchemy",
+          "used_env": "ETH_RPC_ALCHEMY",
+          "started_at_utc": "2026-09-25T04:11:48.703216+00:00",
+          "completed_at_utc": "2026-09-25T06:48:30.985324+00:00",
+          "status": "completed",
+          "return_code": 0,
+          "failed_stage": null,
+          "log": "E:\\Mestrado\\src-multiexecucoes\\execucoes\\amostra-02pct\\04-pos-processamento\\06-validacao-semantica-front-running\\resultados\\_workers\\alchemy\\validacao_2025_pre_pectra__tentativa-01.log",
+          "worker_manifest": "E:\\Mestrado\\src-multiexecucoes\\execucoes\\amostra-02pct\\04-pos-processamento\\06-validacao-semantica-front-running\\resultados\\_workers\\alchemy\\validacao_2025_pre_pectra__tentativa-01.json",
+          "endpoint_stored": false
+        }
+      ],
+      "status": "completed"
+    },
+    "teste_final_2025": {
+      "split": "teste_final_2025",
+      "total_blocks": 21940,
+      "remaining_blocks": 9528,
+      "attempted_providers": [
+        "ankr"
+      ],
+      "attempts": [
+        {
+          "attempt": 1,
+          "provider": "ankr",
+          "used_env": "ETH_RPC_ANKR",
+          "started_at_utc": "2026-09-25T04:11:48.689934+00:00",
+          "completed_at_utc": "2026-09-25T05:55:03.651078+00:00",
+          "status": "completed",
+          "return_code": 0,
+          "failed_stage": null,
+          "log": "E:\\Mestrado\\src-multiexecucoes\\execucoes\\amostra-02pct\\04-pos-processamento\\06-validacao-semantica-front-running\\resultados\\_workers\\ankr\\teste_final_2025__tentativa-01.log",
+          "worker_manifest": "E:\\Mestrado\\src-multiexecucoes\\execucoes\\amostra-02pct\\04-pos-processamento\\06-validacao-semantica-front-running\\resultados\\_workers\\ankr\\teste_final_2025__tentativa-01.json",
+          "endpoint_stored": false
+        }
+      ],
+      "status": "completed"
+    },
+    "estresse_fusaka_2025": {
+      "split": "estresse_fusaka_2025",
+      "total_blocks": 4063,
+      "remaining_blocks": 2026,
+      "attempted_providers": [
+        "drpc"
+      ],
+      "attempts": [
+        {
+          "attempt": 1,
+          "provider": "drpc",
+          "used_env": "ETH_RPC_DRPC",
+          "started_at_utc": "2026-09-25T04:11:48.709427+00:00",
+          "completed_at_utc": "2026-09-25T05:02:05.727553+00:00",
+          "status": "completed",
+          "return_code": 0,
+          "failed_stage": null,
+          "log": "E:\\Mestrado\\src-multiexecucoes\\execucoes\\amostra-02pct\\04-pos-processamento\\06-validacao-semantica-front-running\\resultados\\_workers\\drpc\\estresse_fusaka_2025__tentativa-01.log",
+          "worker_manifest": "E:\\Mestrado\\src-multiexecucoes\\execucoes\\amostra-02pct\\04-pos-processamento\\06-validacao-semantica-front-running\\resultados\\_workers\\drpc\\estresse_fusaka_2025__tentativa-01.json",
+          "endpoint_stored": false
+        }
+      ],
+      "status": "completed"
+    }
+  },
+  "completed_windows": [
+    "estresse_fusaka_2025",
+    "estresse_pre_dencun_2024",
+    "teste_final_2025",
+    "treino_2024_pos_dencun",
+    "validacao_2025_pre_pectra"
+  ],
+  "failed_windows": []
+}

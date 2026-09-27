@@ -1,0 +1,24 @@
+{
+  "created_at_utc": "2026-09-27T01:14:52.636840+00:00",
+  "dossier": "E:\\Mestrado\\src-multiexecucoes\\execucoes\\amostra-05pct\\04-pos-processamento\\06-validacao-semantica-front-running\\resultados\\validacao_2025_pre_pectra\\08_dossie_auditoria.parquet",
+  "decisions": "E:\\Mestrado\\src-multiexecucoes\\execucoes\\amostra-05pct\\04-pos-processamento\\06-validacao-semantica-front-running\\resultados\\validacao_2025_pre_pectra\\15_decisoes_dossie.csv",
+  "decision_origin": "assisted_deterministic",
+  "expected_reviewer": "Marcelo Corni Alves",
+  "events": 2526,
+  "decisions_found": 2526,
+  "counts": {
+    "valid": 2526
+  },
+  "checks": [
+    "coverage",
+    "role hashes",
+    "block order",
+    "receipt status",
+    "outer sender",
+    "swap pool and direction",
+    "calldata selector and similarity",
+    "saved/recomputed label",
+    "reviewer",
+    "justification"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "generated_at": "2026-09-17T19:59:32.496198-03:00",
+  "dataset_name": "estresse_pre_dencun_2024",
+  "start_date": "2024-01-01",
+  "end_date": "2024-03-12",
+  "source_parquet_files": 72,
+  "block_modulus": 100,
+  "sample_rows": 832676,
+  "sample_blocks": 5131,
+  "sample_unique_hashes": 832676,
+  "contract_creation_rows": 0,
+  "contract_creation_pct": 0.0,
+  "type_4_rows": 0,
+  "matrix_A_features": 13,
+  "matrix_B_features": 21,
+  "matrix_C_features": 23
+}

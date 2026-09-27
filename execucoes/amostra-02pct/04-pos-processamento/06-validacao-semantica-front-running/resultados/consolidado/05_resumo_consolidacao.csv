@@ -1,0 +1,8 @@
+﻿split,events,confirmed_insertion,confirmed_displacement,probable_displacement,assisted_decisions,strict_positive_transactions,strict_contextual_negatives,sensitivity_positive_transactions,sensitivity_contextual_negatives,strict_conflicting_transactions,sensitivity_conflicting_transactions
+estresse_pre_dencun_2024,1147,285,26,836,1147,595,311,1265,981,0,166
+transicao_dencun_2024,201,89,2,110,201,179,91,270,182,0,19
+treino_2024_pos_dencun,4062,1188,81,2793,4062,2455,1269,4712,3526,0,536
+validacao_2025_pre_pectra,1005,662,26,317,1005,1349,688,1602,941,0,64
+transicao_pectra_2025,321,125,8,188,321,258,133,407,282,0,39
+teste_final_2025,1301,883,52,366,1301,1818,935,2140,1257,0,44
+estresse_fusaka_2025,223,183,9,31,223,374,192,401,219,0,4

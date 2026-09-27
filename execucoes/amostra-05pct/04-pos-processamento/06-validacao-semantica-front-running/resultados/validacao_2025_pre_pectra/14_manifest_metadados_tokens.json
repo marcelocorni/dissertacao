@@ -1,0 +1,12 @@
+{
+  "created_at_utc": "2026-09-27T01:14:46.792745+00:00",
+  "source_flows": "E:\\Mestrado\\src-multiexecucoes\\execucoes\\amostra-05pct\\04-pos-processamento\\06-validacao-semantica-front-running\\resultados\\validacao_2025_pre_pectra\\09_fluxos_tokens_atacante.parquet",
+  "tokens_requested": 1199,
+  "complete": 1198,
+  "partial": 1,
+  "errors": 4,
+  "rpc_calls": 560,
+  "cache_hits": 639,
+  "rpc_provider_host": "serene-snowy-waterfall.ethereum-mainnet.quiknode.pro",
+  "rpc_url_stored": false
+}

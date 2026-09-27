@@ -1,0 +1,123 @@
+{
+  "generated_at": "2026-09-25T14:20:37.115252-03:00",
+  "fit_split": "treino_2024_pos_dencun",
+  "fit_start_date": "2024-04-01",
+  "fit_end_date": "2024-12-31",
+  "method": "RobustScaler univariado com taxas EIP-1559 condicionais",
+  "formula": "(x - mediana_treino) / escala_treino",
+  "zero_iqr_policy": "usar escala 1 após centralização pela mediana",
+  "not_applicable_fee_policy": "max_fee e max_priority permanecem zero nos tipos 0 e 1; ajuste calculado somente nos tipos 2, 3 e 4",
+  "preprocessing_signature": "ebb793a0d88fb4e5473ba7bef8158ec06b0975ea716247adda6ac5b90d8b592e",
+  "parameters": {
+    "gas_used_log": {
+      "q1": 9.952325334619427,
+      "median": 10.745636465529921,
+      "q3": 11.728907433256797,
+      "iqr": 1.7765820986373697,
+      "scale": 1.7765820986373697,
+      "scale_source": "iqr",
+      "fit_filter": null,
+      "formula": "(x - median) / scale"
+    },
+    "effective_gas_price_log": {
+      "q1": 22.332430899760435,
+      "median": 22.939036852140607,
+      "q3": 23.483069427716103,
+      "iqr": 1.1506385279556675,
+      "scale": 1.1506385279556675,
+      "scale_source": "iqr",
+      "fit_filter": null,
+      "formula": "(x - median) / scale"
+    },
+    "max_fee_per_gas_log": {
+      "q1": 22.638875557074485,
+      "median": 23.304157930996364,
+      "q3": 24.014325728847,
+      "iqr": 1.3754501717725134,
+      "scale": 1.3754501717725134,
+      "scale_source": "iqr",
+      "fit_filter": "tx_type_0 = 0 AND tx_type_1 = 0",
+      "formula": "0 quando não aplicável; (x - median) / scale quando aplicável"
+    },
+    "max_priority_fee_log": {
+      "q1": 18.420680753952364,
+      "median": 20.72326583794641,
+      "q3": 21.416413018006356,
+      "iqr": 2.9957322640539914,
+      "scale": 2.9957322640539914,
+      "scale_source": "iqr",
+      "fit_filter": "tx_type_0 = 0 AND tx_type_1 = 0",
+      "formula": "0 quando não aplicável; (x - median) / scale quando aplicável"
+    },
+    "transaction_value_log": {
+      "q1": 0.0,
+      "median": 0.0,
+      "q3": 37.82639439317703,
+      "iqr": 37.82639439317703,
+      "scale": 37.82639439317703,
+      "scale_source": "iqr",
+      "fit_filter": null,
+      "formula": "(x - median) / scale"
+    },
+    "nonce_log": {
+      "q1": 2.302585092994046,
+      "median": 5.062595033026967,
+      "q3": 9.942371670586095,
+      "iqr": 7.639786577592049,
+      "scale": 7.639786577592049,
+      "scale_source": "iqr",
+      "fit_filter": null,
+      "formula": "(x - median) / scale"
+    },
+    "block_tx_count_log": {
+      "q1": 4.962844630259907,
+      "median": 5.147494476813453,
+      "q3": 5.375278407684165,
+      "iqr": 0.41243377742425835,
+      "scale": 0.41243377742425835,
+      "scale_source": "iqr",
+      "fit_filter": null,
+      "formula": "(x - median) / scale"
+    },
+    "sender_tx_count_block_log": {
+      "q1": 0.6931471805599453,
+      "median": 0.6931471805599453,
+      "q3": 0.6931471805599453,
+      "iqr": 0.0,
+      "scale": 1.0,
+      "scale_source": "unit_fallback_zero_iqr",
+      "fit_filter": null,
+      "formula": "(x - median) / scale"
+    },
+    "receiver_tx_count_block_log": {
+      "q1": 0.6931471805599453,
+      "median": 0.6931471805599453,
+      "q3": 1.9459101490553132,
+      "iqr": 1.252762968495368,
+      "scale": 1.252762968495368,
+      "scale_source": "iqr",
+      "fit_filter": null,
+      "formula": "(x - median) / scale"
+    },
+    "gas_limit_log": {
+      "q1": 9.99884318585288,
+      "median": 11.338583982516495,
+      "q3": 12.365777870270762,
+      "iqr": 2.366934684417881,
+      "scale": 2.366934684417881,
+      "scale_source": "iqr",
+      "fit_filter": null,
+      "formula": "(x - median) / scale"
+    },
+    "transaction_fee_paid_log": {
+      "q1": 32.905069086828604,
+      "median": 33.73244217478015,
+      "q3": 34.65893007924591,
+      "iqr": 1.7538609924173088,
+      "scale": 1.7538609924173088,
+      "scale_source": "iqr",
+      "fit_filter": null,
+      "formula": "(x - median) / scale"
+    }
+  }
+}

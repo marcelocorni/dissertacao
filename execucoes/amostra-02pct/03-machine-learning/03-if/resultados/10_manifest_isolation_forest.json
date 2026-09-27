@@ -1,0 +1,31 @@
+{
+  "generated_at": "2026-09-24T20:50:54.867328-03:00",
+  "experiment_signature": "fdd46a80201e58ac0a14bcb251d19bef69ed5cfbe88d2db5fa53798e682a6483",
+  "preprocessing_signature": "cee5edb7eed62690f8ba9bcfa728d190ebd5c0a61d90ef3b62d293bce9b73a60",
+  "source_split_manifest": "E:\\Mestrado\\src-multiexecucoes\\execucoes\\amostra-02pct\\03-machine-learning\\01-features\\resultados-splits\\00_manifest_splits_temporais.json",
+  "source_preprocessing_manifest": "E:\\Mestrado\\src-multiexecucoes\\execucoes\\amostra-02pct\\03-machine-learning\\01-features\\resultados-preprocessamento\\05_manifest_preprocessamento.json",
+  "fit_split": "treino_2024_pos_dencun",
+  "threshold_split": "validacao_2025_pre_pectra",
+  "configurations": [
+    "a_completa",
+    "b_completa",
+    "c_completa",
+    "b_sem_taxas_absolutas",
+    "c_sem_taxas_absolutas"
+  ],
+  "outputs": [
+    "01_configuracoes_experimento.json",
+    "02_resumo_treinamento.csv",
+    "03_limiares_validacao.csv",
+    "04_estatisticas_escores.csv",
+    "05_taxas_anomalias_recortes.csv",
+    "06_taxas_anomalias_tipo4.csv",
+    "07_concordancia_validacao.csv",
+    "08_taxas_anomalias_recortes.pdf",
+    "08_taxas_anomalias_recortes.png",
+    "09_metodologia_isolation_forest.md",
+    "10_manifest_isolation_forest.json"
+  ],
+  "models_directory": "E:\\Mestrado\\src-multiexecucoes\\execucoes\\amostra-02pct\\03-machine-learning\\03-if\\resultados\\modelos",
+  "scores_directory": "E:\\Mestrado\\src-multiexecucoes\\execucoes\\amostra-02pct\\03-machine-learning\\03-if\\resultados\\escores"
+}

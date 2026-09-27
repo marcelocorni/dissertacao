@@ -1,0 +1,12 @@
+{
+  "created_at_utc": "2026-09-25T05:11:26.105461+00:00",
+  "source_flows": "E:\\Mestrado\\src-multiexecucoes\\execucoes\\amostra-02pct\\04-pos-processamento\\06-validacao-semantica-front-running\\resultados\\estresse_pre_dencun_2024\\09_fluxos_tokens_atacante.parquet",
+  "tokens_requested": 475,
+  "complete": 475,
+  "partial": 0,
+  "errors": 10,
+  "rpc_calls": 228,
+  "cache_hits": 247,
+  "rpc_provider_host": "lb.drpc.live",
+  "rpc_url_stored": false
+}

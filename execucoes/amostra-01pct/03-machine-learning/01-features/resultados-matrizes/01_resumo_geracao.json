@@ -1,0 +1,17 @@
+{
+  "generated_at": "2026-09-17T19:56:31.777356-03:00",
+  "dataset_name": "treino_2024_pos_dencun",
+  "start_date": "2024-04-01",
+  "end_date": "2024-12-31",
+  "source_parquet_files": 275,
+  "block_modulus": 100,
+  "sample_rows": 3210970,
+  "sample_blocks": 19679,
+  "sample_unique_hashes": 3210970,
+  "contract_creation_rows": 0,
+  "contract_creation_pct": 0.0,
+  "type_4_rows": 0,
+  "matrix_A_features": 13,
+  "matrix_B_features": 21,
+  "matrix_C_features": 23
+}

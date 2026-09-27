@@ -1,0 +1,11 @@
+method,feature_1,feature_2,correlation,absolute_correlation
+pearson,transaction_value_log,is_zero_value,-0.9772050437990252,0.9772050437990252
+pearson,transaction_value_log,value_rank_block,0.9752251039968125,0.9752251039968125
+pearson,max_fee_per_gas_log,tx_type_0,-0.9703482043843747,0.9703482043843747
+pearson,max_fee_per_gas_log,tx_type_2,0.964538486176897,0.964538486176897
+pearson,is_zero_value,value_rank_block,-0.9594527531391386,0.9594527531391386
+pearson,tx_type_0,tx_type_2,-0.9528428970445686,0.9528428970445686
+spearman,transaction_value_log,value_rank_block,0.9883038183575229,0.9883038183575229
+spearman,tx_type_0,tx_type_2,-0.9528428970511581,0.9528428970511581
+spearman,transaction_value_log,is_zero_value,-0.933596240400639,0.933596240400639
+spearman,is_zero_value,value_rank_block,-0.9335954597863362,0.9335954597863362

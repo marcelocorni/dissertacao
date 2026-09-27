@@ -1,0 +1,18 @@
+{
+  "created_at_utc": "2026-09-26T21:15:33.266243+00:00",
+  "mode": "block_batch",
+  "dataset": "treino_2024_pos_dencun",
+  "source_queue": "E:\\Mestrado\\src-multiexecucoes\\execucoes\\amostra-05pct\\04-pos-processamento\\05-rotulador-front-running-csharp\\resultados-v3\\sampled\\independent_sampled\\treino_2024_pos_dencun\\05_enrichment_queue.parquet",
+  "requested_blocks": 66383,
+  "requested_transactions": 279517,
+  "enriched_transactions": 279517,
+  "errors": 0,
+  "cache_hits_blocks": 13326,
+  "new_blocks": 53057,
+  "http_requests": 10612,
+  "rpc_methods": 106114,
+  "blocks_per_batch": 5,
+  "rpc_provider_host": "rpc.ankr.com",
+  "rpc_url_stored": false,
+  "queue_fingerprint": "ad3ee6cb499b644ea7ab17c5203ba7a372f85f01fd946d296ac0e9fefdee94b9"
+}

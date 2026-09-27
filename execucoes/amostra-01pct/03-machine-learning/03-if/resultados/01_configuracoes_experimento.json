@@ -1,0 +1,173 @@
+{
+  "generated_at": "2026-09-17T21:26:59.677504-03:00",
+  "method": "IsolationForest",
+  "fit_split": "treino_2024_pos_dencun",
+  "threshold_split": "validacao_2025_pre_pectra",
+  "selection_policy": "configurações congeladas antes da pontuação do teste",
+  "stable_family_policy": "remove taxas absolutas; preserva razões e ranks",
+  "random_state": 42,
+  "training_sample_requested": 500000,
+  "n_estimators": 200,
+  "max_samples_tree": 8192,
+  "contamination": "auto; não usado como limiar final",
+  "threshold_quantiles_validation": [
+    0.99,
+    0.995,
+    0.999
+  ],
+  "configurations": [
+    {
+      "key": "a_completa",
+      "matrix": "A",
+      "family": "completa",
+      "features": [
+        "gas_used_log",
+        "gas_used_ratio",
+        "effective_gas_price_log",
+        "max_fee_per_gas_log",
+        "max_priority_fee_log",
+        "fee_cap_utilization",
+        "transaction_value_log",
+        "nonce_log",
+        "receipt_status",
+        "tx_type_0",
+        "tx_type_1",
+        "tx_type_3",
+        "transaction_index_pct"
+      ],
+      "excluded_features": []
+    },
+    {
+      "key": "b_completa",
+      "matrix": "B",
+      "family": "completa",
+      "features": [
+        "gas_used_log",
+        "gas_used_ratio",
+        "effective_gas_price_log",
+        "max_fee_per_gas_log",
+        "max_priority_fee_log",
+        "fee_cap_utilization",
+        "transaction_value_log",
+        "nonce_log",
+        "receipt_status",
+        "tx_type_0",
+        "tx_type_1",
+        "tx_type_3",
+        "transaction_index_pct",
+        "block_tx_count_log",
+        "sender_tx_count_block_log",
+        "receiver_tx_count_block_log",
+        "gas_price_rank_block",
+        "hour_sin",
+        "hour_cos",
+        "weekday_sin",
+        "weekday_cos"
+      ],
+      "excluded_features": []
+    },
+    {
+      "key": "c_completa",
+      "matrix": "C",
+      "family": "completa",
+      "features": [
+        "gas_used_log",
+        "gas_used_ratio",
+        "effective_gas_price_log",
+        "max_fee_per_gas_log",
+        "max_priority_fee_log",
+        "fee_cap_utilization",
+        "transaction_value_log",
+        "nonce_log",
+        "receipt_status",
+        "tx_type_0",
+        "tx_type_1",
+        "tx_type_3",
+        "transaction_index_pct",
+        "block_tx_count_log",
+        "sender_tx_count_block_log",
+        "receiver_tx_count_block_log",
+        "gas_price_rank_block",
+        "hour_sin",
+        "hour_cos",
+        "weekday_sin",
+        "weekday_cos",
+        "gas_limit_log",
+        "transaction_fee_paid_log"
+      ],
+      "excluded_features": []
+    },
+    {
+      "key": "b_sem_taxas_absolutas",
+      "matrix": "B",
+      "family": "sem_taxas_absolutas",
+      "features": [
+        "gas_used_log",
+        "gas_used_ratio",
+        "fee_cap_utilization",
+        "transaction_value_log",
+        "nonce_log",
+        "receipt_status",
+        "tx_type_0",
+        "tx_type_1",
+        "tx_type_3",
+        "transaction_index_pct",
+        "block_tx_count_log",
+        "sender_tx_count_block_log",
+        "receiver_tx_count_block_log",
+        "gas_price_rank_block",
+        "hour_sin",
+        "hour_cos",
+        "weekday_sin",
+        "weekday_cos"
+      ],
+      "excluded_features": [
+        "effective_gas_price_log",
+        "max_fee_per_gas_log",
+        "max_priority_fee_log"
+      ]
+    },
+    {
+      "key": "c_sem_taxas_absolutas",
+      "matrix": "C",
+      "family": "sem_taxas_absolutas",
+      "features": [
+        "gas_used_log",
+        "gas_used_ratio",
+        "fee_cap_utilization",
+        "transaction_value_log",
+        "nonce_log",
+        "receipt_status",
+        "tx_type_0",
+        "tx_type_1",
+        "tx_type_3",
+        "transaction_index_pct",
+        "block_tx_count_log",
+        "sender_tx_count_block_log",
+        "receiver_tx_count_block_log",
+        "gas_price_rank_block",
+        "hour_sin",
+        "hour_cos",
+        "weekday_sin",
+        "weekday_cos",
+        "gas_limit_log"
+      ],
+      "excluded_features": [
+        "effective_gas_price_log",
+        "max_fee_per_gas_log",
+        "max_priority_fee_log",
+        "transaction_fee_paid_log"
+      ]
+    }
+  ],
+  "preprocessing_signature": "738226c43bc7b0172d7c45132fda4f07027bb0805e812b3b05dab4ee2c03256e",
+  "software_versions": {
+    "python": "3.13.14",
+    "duckdb": "1.5.5",
+    "numpy": "2.5.3",
+    "pyarrow": "23.0.1",
+    "scikit_learn": "1.9.1",
+    "joblib": "1.6.0"
+  },
+  "experiment_signature": "3091ee7eb889c3053149ff112c7fde05d999757e31f83952a9e82fce87ee2dcf"
+}

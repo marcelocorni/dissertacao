@@ -2,7 +2,7 @@
 /cache-compartilhado/
 **/cache/
 **/.tmp/
-**/execucoes/
+**/_workers/
 *.parquet
 *.csv
 *.duckdb

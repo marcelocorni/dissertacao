@@ -1,0 +1,6 @@
+configuration,matrix,family,features,training_rows_total,training_rows_sample,sample_share,n_estimators,max_samples_tree,fit_seconds,model_path,model_size_bytes
+a_completa,A,completa,13,16080647,501045,0.03115826123165318,200,8192,2.97075209999457,E:\Mestrado\src-multiexecucoes\execucoes\amostra-05pct\03-machine-learning\03-if\resultados\modelos\a_completa.joblib,9130868
+b_completa,B,completa,21,16080647,501045,0.03115826123165318,200,8192,3.332304400013527,E:\Mestrado\src-multiexecucoes\execucoes\amostra-05pct\03-machine-learning\03-if\resultados\modelos\b_completa.joblib,10713556
+c_completa,C,completa,23,16080647,501045,0.03115826123165318,200,8192,3.396465600002557,E:\Mestrado\src-multiexecucoes\execucoes\amostra-05pct\03-machine-learning\03-if\resultados\modelos\c_completa.joblib,10585451
+b_sem_taxas_absolutas,B,sem_taxas_absolutas,18,16080647,501045,0.03115826123165318,200,8192,3.1230752999836113,E:\Mestrado\src-multiexecucoes\execucoes\amostra-05pct\03-machine-learning\03-if\resultados\modelos\b_sem_taxas_absolutas.joblib,12167930
+c_sem_taxas_absolutas,C,sem_taxas_absolutas,19,16080647,501045,0.03115826123165318,200,8192,3.3651325999817345,E:\Mestrado\src-multiexecucoes\execucoes\amostra-05pct\03-machine-learning\03-if\resultados\modelos\c_sem_taxas_absolutas.joblib,11740267

@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-09-24T20:42:16.244041-03:00",
+  "split": "validacao_2025_pre_pectra",
+  "preprocessing_signature": "cee5edb7eed62690f8ba9bcfa728d190ebd5c0a61d90ef3b62d293bce9b73a60",
+  "fit_split": "treino_2024_pos_dencun",
+  "outputs": [
+    {
+      "split": "validacao_2025_pre_pectra",
+      "matrix": "A",
+      "rows": 2889100,
+      "features": 13,
+      "invalid_values": 0,
+      "output_path": "E:\\Mestrado\\src-multiexecucoes\\execucoes\\amostra-02pct\\03-machine-learning\\01-features\\resultados-splits\\04-validacao_2025_pre_pectra\\12_matriz_A_preprocessada.parquet",
+      "size_bytes": 106442807
+    },
+    {
+      "split": "validacao_2025_pre_pectra",
+      "matrix": "B",
+      "rows": 2889100,
+      "features": 21,
+      "invalid_values": 0,
+      "output_path": "E:\\Mestrado\\src-multiexecucoes\\execucoes\\amostra-02pct\\03-machine-learning\\01-features\\resultados-splits\\04-validacao_2025_pre_pectra\\13_matriz_B_preprocessada.parquet",
+      "size_bytes": 119918869
+    },
+    {
+      "split": "validacao_2025_pre_pectra",
+      "matrix": "C",
+      "rows": 2889100,
+      "features": 23,
+      "invalid_values": 0,
+      "output_path": "E:\\Mestrado\\src-multiexecucoes\\execucoes\\amostra-02pct\\03-machine-learning\\01-features\\resultados-splits\\04-validacao_2025_pre_pectra\\14_matriz_C_preprocessada.parquet",
+      "size_bytes": 148208811
+    }
+  ]
+}

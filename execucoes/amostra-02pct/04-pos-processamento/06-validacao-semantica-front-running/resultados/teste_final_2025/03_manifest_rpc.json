@@ -1,0 +1,18 @@
+{
+  "created_at_utc": "2026-09-25T05:37:14.586681+00:00",
+  "mode": "block_batch",
+  "dataset": "teste_final_2025",
+  "source_queue": "E:\\Mestrado\\src-multiexecucoes\\execucoes\\amostra-02pct\\04-pos-processamento\\05-rotulador-front-running-csharp\\resultados-v3\\sampled\\independent_sampled\\teste_final_2025\\05_enrichment_queue.parquet",
+  "requested_blocks": 21940,
+  "requested_transactions": 126073,
+  "enriched_transactions": 126073,
+  "errors": 0,
+  "cache_hits_blocks": 12412,
+  "new_blocks": 9528,
+  "http_requests": 1906,
+  "rpc_methods": 19056,
+  "blocks_per_batch": 5,
+  "rpc_provider_host": "rpc.ankr.com",
+  "rpc_url_stored": false,
+  "queue_fingerprint": "551381543088eadcc3909ba0b6462acb3ed99b35f196f6ff5f7d2559dfe1e188"
+}

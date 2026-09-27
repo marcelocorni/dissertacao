@@ -1,0 +1,12 @@
+{
+  "created_at_utc": "2026-09-26T19:33:22.255729+00:00",
+  "source_flows": "E:\\Mestrado\\src-multiexecucoes\\execucoes\\amostra-05pct\\04-pos-processamento\\06-validacao-semantica-front-running\\resultados\\transicao_dencun_2024\\09_fluxos_tokens_atacante.parquet",
+  "tokens_requested": 270,
+  "complete": 270,
+  "partial": 0,
+  "errors": 1,
+  "rpc_calls": 158,
+  "cache_hits": 112,
+  "rpc_provider_host": "lb.drpc.live",
+  "rpc_url_stored": false
+}

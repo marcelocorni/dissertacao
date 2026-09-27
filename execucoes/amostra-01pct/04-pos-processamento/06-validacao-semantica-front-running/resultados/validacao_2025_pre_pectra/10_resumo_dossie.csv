@@ -1,0 +1,10 @@
+﻿detector,validation_status,economic_status,events
+displacement,confirmed,insufficient_transfer_visibility,4
+displacement,confirmed,no_weth_surplus_after_gas,3
+displacement,confirmed,requires_token_valuation,5
+displacement,probable,insufficient_transfer_visibility,8
+displacement,probable,requires_token_valuation,143
+insertion,confirmed,mixed_assets_requires_valuation,193
+insertion,confirmed,no_weth_surplus_after_gas,3
+insertion,confirmed,requires_token_valuation,47
+insertion,confirmed,weth_surplus_after_gas_observed,94

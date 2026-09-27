@@ -1,0 +1,12 @@
+{
+  "created_at_utc": "2026-09-25T03:30:48.681380+00:00",
+  "source_flows": "E:\\Mestrado\\src-multiexecucoes\\execucoes\\amostra-02pct\\04-pos-processamento\\06-validacao-semantica-front-running\\resultados\\transicao_dencun_2024\\09_fluxos_tokens_atacante.parquet",
+  "tokens_requested": 124,
+  "complete": 124,
+  "partial": 0,
+  "errors": 0,
+  "rpc_calls": 59,
+  "cache_hits": 65,
+  "rpc_provider_host": "mainnet.infura.io",
+  "rpc_url_stored": false
+}

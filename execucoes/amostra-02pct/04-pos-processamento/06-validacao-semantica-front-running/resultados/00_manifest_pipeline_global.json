@@ -1,0 +1,38 @@
+{
+  "started_at_utc": "2026-09-25T00:09:22.614331+00:00",
+  "updated_at_utc": "2026-09-25T00:09:22.616450+00:00",
+  "completed_at_utc": null,
+  "reviewer": "Marcelo Corni Alves",
+  "rpc_url_stored": false,
+  "regression_approved": true,
+  "csharp_audit_approved": true,
+  "selected_splits": [
+    "estresse_pre_dencun_2024",
+    "transicao_dencun_2024",
+    "treino_2024_pos_dencun",
+    "validacao_2025_pre_pectra",
+    "transicao_pectra_2025",
+    "teste_final_2025",
+    "estresse_fusaka_2025"
+  ],
+  "selected_stages": [
+    "rpc",
+    "semantica",
+    "dossie",
+    "tokens",
+    "adjudicacao",
+    "validacao"
+  ],
+  "status": "running",
+  "windows": {
+    "estresse_pre_dencun_2024": {
+      "status": "running",
+      "stages": {
+        "rpc": {
+          "status": "running",
+          "started_at_utc": "2026-09-25T00:09:22.616442+00:00"
+        }
+      }
+    }
+  }
+}

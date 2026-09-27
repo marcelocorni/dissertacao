@@ -1,0 +1,12 @@
+{
+  "created_at_utc": "2026-09-25T05:53:43.354364+00:00",
+  "source_flows": "E:\\Mestrado\\src-multiexecucoes\\execucoes\\amostra-02pct\\04-pos-processamento\\06-validacao-semantica-front-running\\resultados\\treino_2024_pos_dencun\\09_fluxos_tokens_atacante.parquet",
+  "tokens_requested": 1699,
+  "complete": 1696,
+  "partial": 3,
+  "errors": 12,
+  "rpc_calls": 749,
+  "cache_hits": 950,
+  "rpc_provider_host": "serene-tiniest-moon.ethereum-mainnet.quiknode.pro",
+  "rpc_url_stored": false
+}

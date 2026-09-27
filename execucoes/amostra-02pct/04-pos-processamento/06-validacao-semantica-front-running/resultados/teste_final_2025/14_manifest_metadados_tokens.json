@@ -1,0 +1,12 @@
+{
+  "created_at_utc": "2026-09-25T05:55:00.122125+00:00",
+  "source_flows": "E:\\Mestrado\\src-multiexecucoes\\execucoes\\amostra-02pct\\04-pos-processamento\\06-validacao-semantica-front-running\\resultados\\teste_final_2025\\09_fluxos_tokens_atacante.parquet",
+  "tokens_requested": 808,
+  "complete": 805,
+  "partial": 3,
+  "errors": 7,
+  "rpc_calls": 309,
+  "cache_hits": 499,
+  "rpc_provider_host": "rpc.ankr.com",
+  "rpc_url_stored": false
+}

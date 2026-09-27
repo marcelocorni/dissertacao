@@ -1,0 +1,33 @@
+{
+  "CreatedAtUtc": "2026-09-25T00:08:09.8626951+00:00",
+  "ProjectVersion": "3.0.0-candidate-first",
+  "InputMode": "sampled",
+  "InputFile": "E:\\Mestrado\\src-multiexecucoes\\execucoes\\amostra-02pct\\03-machine-learning\\01-features\\resultados-matrizes\\05_metadados.parquet",
+  "Configuration": "independent_sampled",
+  "Split": "treino_2024_pos_dencun",
+  "Detectors": [
+    "insertion",
+    "displacement",
+    "suppression"
+  ],
+  "RawRootTemplate": "F:\\ethereum-{year}",
+  "ConfigurationFile": "E:\\Mestrado\\src-multiexecucoes\\configuracao\\pipeline.json",
+  "SourceDates": 275,
+  "SourceParquetFiles": 275,
+  "Anchors": 6424502,
+  "RelevantBlocks": 39352,
+  "RelevantTransactions": 6424502,
+  "CandidateEvents": 83440,
+  "ConfirmedEvents": 0,
+  "PatternAnchors": 79723,
+  "PositiveTransactions": 0,
+  "CandidateAttackerTransactions": 91542,
+  "VictimTransactions": 79847,
+  "EnrichmentTransactions": 112410,
+  "EventsFile": "E:\\Mestrado\\src-multiexecucoes\\execucoes\\amostra-02pct\\04-pos-processamento\\05-rotulador-front-running-csharp\\resultados-v3\\sampled\\independent_sampled\\treino_2024_pos_dencun\\01_detection_events.parquet",
+  "LabelsFile": "E:\\Mestrado\\src-multiexecucoes\\execucoes\\amostra-02pct\\04-pos-processamento\\05-rotulador-front-running-csharp\\resultados-v3\\sampled\\independent_sampled\\treino_2024_pos_dencun\\02_transaction_labels.parquet",
+  "SummaryFile": "E:\\Mestrado\\src-multiexecucoes\\execucoes\\amostra-02pct\\04-pos-processamento\\05-rotulador-front-running-csharp\\resultados-v3\\sampled\\independent_sampled\\treino_2024_pos_dencun\\03_summary.csv",
+  "EnrichmentQueueFile": "E:\\Mestrado\\src-multiexecucoes\\execucoes\\amostra-02pct\\04-pos-processamento\\05-rotulador-front-running-csharp\\resultados-v3\\sampled\\independent_sampled\\treino_2024_pos_dencun\\05_enrichment_queue.parquet",
+  "RequiresSemanticValidation": true,
+  "MethodologicalNote": "A vers\u00E3o 3 gera candidatos e n\u00E3o promove heur\u00EDsticas estruturais diretamente a ground truth. label=1 exige validation_status=confirmed, definido somente ap\u00F3s valida\u00E7\u00E3o sem\u00E2ntica por receipts/logs. O modo sampled \u00E9 independente da sele\u00E7\u00E3o AE/IF e \u00E9 o recomendado para avalia\u00E7\u00E3o."
+}

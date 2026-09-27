@@ -1,0 +1,20 @@
+{
+  "generated_at": "2026-09-26T10:49:53.964133-03:00",
+  "configuration_file": "E:\\Mestrado\\src-multiexecucoes\\configuracao\\pipeline.json",
+  "root_template": "F:\\ethereum-{year}",
+  "dataset_name": "validacao_2025_pre_pectra",
+  "start_date": "2025-01-01",
+  "end_date": "2025-04-30",
+  "source_parquet_files": 120,
+  "block_modulus": 20,
+  "block_sampling_percent": 5.0,
+  "sample_rows": 7248601,
+  "sample_blocks": 42938,
+  "sample_unique_hashes": 7248601,
+  "contract_creation_rows": 0,
+  "contract_creation_pct": 0.0,
+  "type_4_rows": 0,
+  "matrix_A_features": 13,
+  "matrix_B_features": 21,
+  "matrix_C_features": 23
+}

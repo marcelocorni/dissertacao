@@ -1,0 +1,20 @@
+{
+  "generated_at": "2026-09-25T14:19:30.402299-03:00",
+  "configuration_file": "E:\\Mestrado\\src-multiexecucoes\\configuracao\\pipeline.json",
+  "root_template": "F:\\ethereum-{year}",
+  "dataset_name": "teste_final_2025",
+  "start_date": "2025-06-01",
+  "end_date": "2025-11-30",
+  "source_parquet_files": 183,
+  "block_modulus": 25,
+  "block_sampling_percent": 4.0,
+  "sample_rows": 11321241,
+  "sample_blocks": 52329,
+  "sample_unique_hashes": 11321241,
+  "contract_creation_rows": 0,
+  "contract_creation_pct": 0.0,
+  "type_4_rows": 54150,
+  "matrix_A_features": 13,
+  "matrix_B_features": 21,
+  "matrix_C_features": 23
+}

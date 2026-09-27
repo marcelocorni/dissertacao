@@ -1,0 +1,320 @@
+﻿token_address,reference_block,symbol,name,decimals,metadata_status,provider_host
+0x01791f726b4103694969820be083196cc7c045ff,23980775,YB,Yield Basis,18,complete,rpc.mevblocker.io
+0x037a54aab062628c9bbae1fdb1583c195585fe41,24059225,LCX,LCX,18,complete,rpc.mevblocker.io
+0x046eee2cc3188071c02bfc1745a6b17c656e3f3d,23959400,RLB,Rollbit Coin,18,complete,eth-mainnet.g.alchemy.com
+0x048fe49be32adfc9ed68c37d32b5ec9df17b3603,24037275,SKM,Skrumble Network V2,18,complete,rpc.mevblocker.io
+0x0492560fa7cfd6a85e50d8be3f77318994f8f429,24010700,fwUSDC,Few Wrapped USD Coin,6,complete,eth-mainnet.g.alchemy.com
+0x04e69ff14a86e1ca9a155a8563e95887973ee175,23949950,AITV,AITV,18,complete,lb.drpc.live
+0x053bf7be0562c3db9240b01e051c86c3f0116ba7,24097025,TOFFEE,Toffee,9,complete,lb.drpc.live
+0x0763fdccf1ae541a5961815c0872a8c5bc6de4d7,24135150,SUKU,SUKU,18,complete,lb.drpc.live
+0x081599e4936d12c46bd48913b2329115cd26cbdd,24072800,AUDM,Macropod Stablecoin,18,complete,eth-mainnet.g.alchemy.com
+0x090185f2135308bad17527004364ebcc2d37e5f6,23955425,SPELL,Spell Token,18,complete,rpc.mevblocker.io
+0x09a3ecafa817268f77be1283176b946c4ff2e608,23955425,MIR,Wrapped MIR Token,18,complete,rpc.mevblocker.io
+0x0a6e7ba5042b38349e437ec6db6214aec7b35676,24071800,SWELL,Swell Governance Token,18,complete,eth-mainnet.g.alchemy.com
+0x0ab87046fbb341d058f17cbc4c1133f25a20a52f,23946000,gOHM,Governance OHM,18,complete,eth-mainnet.g.alchemy.com
+0x0abdace70d3790235af448c88547603b945604ea,24112625,DNT,district0x Network Token,18,complete,rpc.mevblocker.io
+0x0bc529c00c6401aef6d220be8c6ea1667f6ad93e,23927475,YFI,yearn.finance,18,complete,rpc.mevblocker.io
+0x0d8775f648430679a709e98d2b0cb6250d2887ef,23973050,BAT,Basic Attention Token,18,complete,lb.drpc.live
+0x0f51bb10119727a7e5ea3538074fb341f56b09ad,23983075,DAO,DAO Maker,18,complete,rpc.mevblocker.io
+0x0f81001ef0a83ecce5ccebf63eb302c70a39a654,24067625,DOLO,Dolomite,18,complete,rpc.mevblocker.io
+0x10633216e7e8281e33c86f02bf8e565a635d9770,23923950,DVI,Dvision,18,complete,eth-mainnet.g.alchemy.com
+0x111111111117dc0aa78b770fa6a738034120c302,24090425,1INCH,1INCH Token,18,complete,rpc.mevblocker.io
+0x112b08621e27e10773ec95d250604a041f36c582,24095300,KAS,Kaspa,8,complete,eth-mainnet.g.alchemy.com
+0x1217bfe6c773eec6cc4a38b5dc45b92292b6e189,24025825,oUSDT,OpenUSDT,6,complete,eth-mainnet.g.alchemy.com
+0x124c85c8d88293b9f45e6816381d293ab4ac8888,23996750,DOGX,DOGX,18,complete,eth-mainnet.g.alchemy.com
+0x1289bb15d98ab4e1a58b5e940c0abd18394899f2,24054425,42,The Official 42 Coin,9,complete,rpc.mevblocker.io
+0x1487bd704fa05a222b0adb50dc420f001f003045,24024400,CCDAO,Cross-Chain DAO,18,complete,eth-mainnet.g.alchemy.com
+0x152649ea73beab28c5b49b26eb48f7ead6d4c898,23988275,Cake,PancakeSwap Token,18,complete,rpc.mevblocker.io
+0x168e209d7b2f58f1f24b8ae7b7d35e662bbf11cc,23992450,LAI,LayerAI Token,18,complete,lb.drpc.live
+0x16a3543fa6b32cac3b0a755f64a729e84f89a75c,24105950,TENSOR,Wrapped Hypertensor,18,complete,lb.drpc.live
+0x16cda4028e9e872a38acb903176719299beaed87,24135475,MARS4,MARS4,18,complete,rpc.mevblocker.io
+0x1789e0043623282d5dcc7f213d703c6d8bafbb04,23920825,LINEA,Linea,18,complete,rpc.mevblocker.io
+0x18efe565a5373f430e2f809b97de30335b3ad96a,24075300,aEthLidoGHO,Aave Ethereum Lido GHO,18,complete,eth-mainnet.g.alchemy.com
+0x19062190b1925b5b6689d7073fdfc8c2976ef8cb,24050950,BZZ,BZZ,16,complete,lb.drpc.live
+0x1982b2f5814301d4e9a8b0201555376e62f82428,23922350,aSTETH,Aave interest bearing STETH,18,complete,lb.drpc.live
+0x199fe9826a45dbea191498f23f791c18c67b94e3,23926000,fwNEAR,Few Wrapped NEAR,24,complete,eth-mainnet.g.alchemy.com
+0x1b379a79c91a540b2bcd612b4d713f31de1b80cc,23956925,NAORIS,Naoris Protocol,18,complete,lb.drpc.live
+0x1f573d6fb3f13d689ff844b4ce37794d79a7ff1c,23918525,BNT,Bancor Network Token,18,complete,eth-mainnet.g.alchemy.com
+0x1f9840a85d5af5bf1d1762f925bdaddc4201f984,23938325,UNI,Uniswap,18,complete,lb.drpc.live
+0x2260fac5e5542a773aa44fbcfedf7c193bc2c599,23918525,WBTC,Wrapped BTC,8,complete,eth-mainnet.g.alchemy.com
+0x22728e9ae44a3b39ef03de9a5e8e0d7fc232fca9,24111875,PIPPIN,PIPPIN,9,complete,rpc.mevblocker.io
+0x2370f9d504c7a6e775bf6e14b3f12846b594cd53,24122925,JPYC,JPY Coin,18,complete,rpc.mevblocker.io
+0x23878914efe38d27c4d67ab83ed1b93a74d4086a,24075300,aEthUSDT,Aave Ethereum USDT,6,complete,eth-mainnet.g.alchemy.com
+0x2416092f143378750bb29b79ed961ab195cceea5,24131750,ezETH,Renzo Restaked ETH,18,complete,lb.drpc.live
+0x25931894a86d47441213199621f1f2994e1c39aa,24041550,CGPT,ChainGPT,18,complete,lb.drpc.live
+0x25cbb21a9da7c3c63bb77ccca5b2e2482aedb710,23921225,HOBA,Honey Badger,9,complete,rpc.mevblocker.io
+0x2602278ee1882889b946eb11dc0e810075650983,24030825,VADER,Vader,18,complete,rpc.mevblocker.io
+0x266166426e20f83b4c7350daa2da716748207fb3,24090425,BoysClub,Boys Club,9,complete,rpc.mevblocker.io
+0x266e5923f6118f8b340ca5a23ae7f71897361476,24077725,wMSTRx,Wrapped MicroStrategy xStock,18,complete,rpc.mevblocker.io
+0x26c8afbbfe1ebaca03c2bb082e69d0476bffe099,23938325,CELL,Cellframe Token,18,complete,rpc.mevblocker.io
+0x27702a26126e0b3702af63ee09ac4d1a084ef628,23926150,ALEPH,aleph.im v2,18,complete,eth-mainnet.g.alchemy.com
+0x27c70cd1946795b66be9d954418546998b546634,24017925,LEASH,DOGE KILLER,18,complete,rpc.mevblocker.io
+0x2a3bff78b79a009976eea096a51a948a3dc00e34,23919000,WILD,Wilder,18,complete,eth-mainnet.g.alchemy.com
+0x2a54ba2964c8cd459dc568853f79813a60761b58,24073125,USDI,USDI Token,18,complete,rpc.mevblocker.io
+0x2b591e99afe9f32eaa6214f7b7629768c40eeb39,24024675,HEX,HEX,8,complete,lb.drpc.live
+0x2ba592f78db6436527729929aaf6c908497cb200,24037975,CREAM,Cream,18,complete,rpc.mevblocker.io
+0x2ba81493369753c05d27f77889dfc0c37004920b,24085400,BEPE,BEPE,9,complete,eth-mainnet.g.alchemy.com
+0x2d8ea194902bc55431420bd26be92b0782dce91d,23934000,ZND,ZNDToken,18,complete,eth-mainnet.g.alchemy.com
+0x2e44f3f609ff5aa4819b323fd74690f07c3607c4,23984000,Pin,PinLink,18,complete,eth-mainnet.g.alchemy.com
+0x30d20208d987713f46dfd34ef128bb16c404d10f,24050700,SD,Stader,18,complete,eth-mainnet.g.alchemy.com
+0x32b29705bb44c57f6a3dcca047fd55b460977c25,23946000,HYBX,HYBX,8,complete,eth-mainnet.g.alchemy.com
+0x3432b6a60d23ca0dfca7761b7ab56459d9c964d0,24131425,FXS,Frax Share,18,complete,rpc.mevblocker.io
+0x347a96a5bd06d2e15199b032f46fb724d6c73047,24064350,ASIC,Application Specific Internet Coin,12,complete,lb.drpc.live
+0x35fa164735182de50811e8e2e824cfb9b6118ac2,24078725,eETH,ether.fi ETH,18,complete,rpc.mevblocker.io
+0x374a6bb70d35c4d866a1f66205afa50b7de2a4e6,24082950,FRANKLIN,Franklin The Turtle,9,complete,lb.drpc.live
+0x38e382f74dfb84608f3c1f10187f6bef5951de93,23989275,MUBI,MUBI,18,complete,rpc.mevblocker.io
+0x3b484b82567a09e2588a13d54d032153f0c0aee0,24024400,SOS,SOS,18,complete,eth-mainnet.g.alchemy.com
+0x3c3a81e81dc49a522a592e7622a7e711c06bf354,24043100,MNT,Mantle,18,complete,eth-mainnet.g.alchemy.com
+0x3df3107323a1f9a7ddcce08a7ea5d4db19d4c514,24106625,RAM,ramcoin,9,complete,rpc.mevblocker.io
+0x408e41876cccdc0f92210600ef50372656052a38,23918650,REN,Republic Token,18,complete,lb.drpc.live
+0x40aabef1aa8f0eec637e0e7d92fbffb2f26a8b7b,24118275,variableDebtEthWBTC,Aave Ethereum Variable Debt WBTC,8,complete,rpc.mevblocker.io
+0x40d16fc0246ad3160ccc09b8d0d3a2cd28ae6c2f,24075300,GHO,Gho Token,18,complete,eth-mainnet.g.alchemy.com
+0x418d75f65a02b3d53b2418fb8e1fe493759c7605,23927975,WBNB,Wrapped BNB,18,complete,rpc.mevblocker.io
+0x419d0d8bdd9af5e606ae2232ed285aff190e711b,24004850,FUN,FunFair,8,complete,lb.drpc.live
+0x423f4e6138e475d85cf7ea071ac92097ed631eea,24044175,PNDC,Pond Coin,18,complete,eth-mainnet.g.alchemy.com
+0x440017a1b021006d556d7fc06a54c32e42eb745b,23927475,@G,G@ETH,18,complete,rpc.mevblocker.io
+0x44971abf0251958492fee97da3e5c5ada88b9185,24094700,basedAI,basedAI,18,complete,eth-mainnet.g.alchemy.com
+0x45804880de22913dafe09f4980848ece6ecbaf78,24042550,PAXG,Paxos Gold,18,complete,lb.drpc.live
+0x45e02bc2875a2914c4f585bbf92a6f28bc07cb70,23933350,$MBG,$MBG Token,18,complete,eth-mainnet.g.alchemy.com
+0x467bccd9d29f223bce8043b84e8c8b282827790f,23915350,TEL,Telcoin,2,complete,eth-mainnet.g.alchemy.com
+0x4691937a7508860f876c9c0a2a617e7d9e945d4b,23936450,WOO,Wootrade Network,18,complete,lb.drpc.live
+0x473bcd6ee71d2ca1d18f8e74cdf75beb4999fa7e,23949950,rust,rust,18,complete,lb.drpc.live
+0x476c5e26a75bd202a9683ffd34359c0cc15be0ff,23954125,SRM,Serum,6,complete,eth-mainnet.g.alchemy.com
+0x48759f220ed983db51fa7a8c0d2aab8f3ce4166a,24025950,iUSDT,Iron Bank Tether USD,8,complete,lb.drpc.live
+0x4a220e6096b25eadb88358cb44068a3248254675,23927475,QNT,Quant,18,complete,rpc.mevblocker.io
+0x4a64515e5e1d1073e83f30cb97bed20400b66e10,24061325,WZEC,Wrapped ZEC,18,complete,rpc.mevblocker.io
+0x4b5b1f8cd3b063092b4e54fd4b5613f8b18a6a08,23935175,The Blockchain Canon,The Blockchain Canon,18,complete,rpc.mevblocker.io
+0x4c9edd5852cd905f086c759e8383e09bff1e68b3,23916800,USDe,USDe,18,complete,eth-mainnet.g.alchemy.com
+0x4d224452801aced8b2f0aebe155379bb5d594381,23927475,APE,ApeCoin,18,complete,rpc.mevblocker.io
+0x4d5f47fa6a74757f35c14fd3a6ef8e3c9bc514e8,23939075,aEthWETH,Aave Ethereum WETH,18,complete,lb.drpc.live
+0x4d953cf077c0c95ba090226e59a18fcf97db44ec,23927475,MINI,MINISWAP,18,complete,rpc.mevblocker.io
+0x4ec1b60b96193a64acae44778e51f7bff2007831,24135850,EDGE,Edge,18,complete,lb.drpc.live
+0x4ed257678fc4e76df9642a416b223729fdedbefd,23921225,STRX,StrikeX,18,complete,rpc.mevblocker.io
+0x4f4e65339ae6ec09fb3441bbf765728cfd660244,24074100,EXEX,Exponential Meal,18,complete,eth-mainnet.g.alchemy.com
+0x4f9254c83eb525f9fcf346490bbb3ed28a81c667,24131700,CELR,CelerToken,18,complete,eth-mainnet.g.alchemy.com
+0x5026f006b85729a8b14553fae6af249ad16c9aab,23949950,WOJAK,Wojak Coin,18,complete,lb.drpc.live
+0x514910771af9ca656af840dff83e8264ecf986ca,23930800,LINK,ChainLink Token,18,complete,eth-mainnet.g.alchemy.com
+0x53be7be0ce7f92bcbd2138305735160fb799be4f,24011800,$NTMPI,neutaro,6,complete,eth-mainnet.g.alchemy.com
+0x55296f69f40ea6d20e478533c15a6b08b654e758,23949950,XYO,XY Oracle,18,complete,eth-mainnet.g.alchemy.com
+0x56072c95faa701256059aa122697b133aded9279,24051225,SKY,SKY Governance Token,18,complete,rpc.mevblocker.io
+0x56ef04219a6afe82fa298023364ecfd84f137259,24033500,DTO,defito.finance,18,complete,eth-mainnet.g.alchemy.com
+0x5732046a883704404f284ce41ffadd5b007fd668,24120100,BLZ,Bluzelle Token,18,complete,eth-mainnet.g.alchemy.com
+0x57e114b691db790c35207b2e685d4a43181e6061,23921225,ENA,ENA,18,complete,eth-mainnet.g.alchemy.com
+0x584bc13c7d411c00c01a62e8019472de68768430,24011275,HEGIC,Hegic,18,complete,eth-mainnet.g.alchemy.com
+0x59808ad30644f7b3c87273109d9dab91c808e75d,24067725,67,The Official 67 Coin,9,complete,rpc.mevblocker.io
+0x5c697fee285b513711a816018dbb34dc0cfc4875,24107875,MNTx,Minutes Network Token,18,complete,eth-mainnet.g.alchemy.com
+0x5e5ca4eef905cde3c871a1f31e825ef159356fad,24112125,SHRIMP,The Shrimp Army,9,complete,eth-mainnet.g.alchemy.com
+0x5e8422345238f34275888049021821e8e08caa1f,24131425,frxETH,Frax Ether,18,complete,rpc.mevblocker.io
+0x5ee5bf7ae06d1be5997a1a72006fe6c607ec6de8,24019000,aEthWBTC,Aave Ethereum WBTC,8,complete,eth-mainnet.g.alchemy.com
+0x5f64ab1544d28732f0a24f4713c2c8ec0da089f0,23921450,DEXTF,DEXTF Token,18,complete,lb.drpc.live
+0x5f87ce44d9bd6c09a3c00fb7ff6667b8de7a1572,24085050,RuiRui,RuiRui,18,complete,lb.drpc.live
+0x5f98805a4e8be255a32880fdec7f6728c6568ba0,23921225,LUSD,LUSD Stablecoin,18,complete,rpc.mevblocker.io
+0x60da8846c1dd1bb0fdd1f996690d87c3442cb6a2,24090575,Messari,Messari,18,complete,rpc.mevblocker.io
+0x619beb58998ed2278e08620f97007e1116d5d25b,23922350,variableDebtUSDC,Aave variable debt bearing USDC,6,complete,lb.drpc.live
+0x61dbbbb552dc893ab3aad09f289f811e67cef285,23965125,SKATE,Skate,18,complete,rpc.mevblocker.io
+0x6440f144b7e50d6a8439336510312d2f54beb01d,23936450,BOLD,BOLD Stablecoin,18,complete,lb.drpc.live
+0x644192291cc835a93d6330b24ea5f5fedd0eef9e,24010700,NXRA,AllianceBlock Nexera Token,18,complete,eth-mainnet.g.alchemy.com
+0x64aa3364f17a4d01c6f1751fd97c2bd3d7e7f1d5,23922350,OHM,Olympus,9,complete,lb.drpc.live
+0x64b3b21ee104f434380270749d8d5bfd481fdcf6,23931225,ABTC,American Bitcoin,9,complete,rpc.mevblocker.io
+0x656c00e1bcd96f256f224ad9112ff426ef053733,24121250,EFI,Efinity Token,18,complete,lb.drpc.live
+0x66761fa41377003622aee3c7675fc7b5c1c2fac5,23946000,CPOOL,Clearpool,18,complete,eth-mainnet.g.alchemy.com
+0x67466be17df832165f8c80a5a120ccc652bd7e69,24109850,WOLF,Landwolf,18,complete,lb.drpc.live
+0x67f4c72a50f8df6487720261e188f2abe83f57d7,23990175,wPOKT,Wrapped Pocket,6,complete,rpc.mevblocker.io
+0x68749665ff8d2d112fa859aa293f07a622782f38,23968450,XAUt,Tether Gold,6,complete,lb.drpc.live
+0x695792e40873f31f6ff1f420f55e70009d8196ac,23990375,allin,Live all in,18,complete,rpc.mevblocker.io
+0x6982508145454ce325ddbe47a25d4ec3d2311933,23946325,PEPE,Pepe,18,complete,lb.drpc.live
+0x69babe9811cc86dcfc3b8f9a14de6470dd18eda4,24090425,BABYPEPE,Baby Pepe,9,complete,rpc.mevblocker.io
+0x69e4cb58c8669e2fb4c102241a23547c73061937,23955325,BIG,BIG,18,complete,rpc.mevblocker.io
+0x6a11f3e5a01d129e566d783a7b6e8862bfd66cca,23936450,1LP-ETH-WBTC,1inch Liquidity Pool (ETH-WBTC),18,complete,lb.drpc.live
+0x6a1e5344cf5f36fd466ca9a7e2b2f621c1ad7f82,24110825,KYLO,Kylo the Doge,9,complete,lb.drpc.live
+0x6a6aa13393b7d1100c00a57c76c39e8b6c835041,24016850,OPENAI,OpenAI,9,complete,lb.drpc.live
+0x6ad12e761b438bea3ea09f6c6266556bb24c2181,24043575,BDX,BELDEX,9,complete,eth-mainnet.g.alchemy.com
+0x6b0b3a982b4634ac68dd83a4dbf02311ce324181,24098075,ALI,Artificial Liquid Intelligence Token,18,complete,rpc.mevblocker.io
+0x6b175474e89094c44da98b954eedeac495271d0f,23921225,DAI,Dai Stablecoin,18,complete,eth-mainnet.g.alchemy.com
+0x6b3595068778dd592e39a122f4f5a5cf09c90fe2,24037975,SUSHI,SushiToken,18,complete,rpc.mevblocker.io
+0x6c3f90f043a72fa612cbac8115ee7e52bde6e490,24073125,3Crv,Curve.fi DAI/USDC/USDT,18,complete,rpc.mevblocker.io
+0x6c5ca0530f36c31599d14571f94baac362eca69b,23933525,OpFi,Open Finance Protocol,9,complete,lb.drpc.live
+0x6de037ef9ad2725eb40118bb1702ebb27e4aeb24,24015600,RNDR,Render Token,18,complete,eth-mainnet.g.alchemy.com
+0x6dea81c8171d0ba574754ef6f8b412f2ed88c54d,23936450,LQTY,LQTY,18,complete,lb.drpc.live
+0x6df1c1e379bc5a00a7b4c6e67a203333772f45a8,23939075,variableDebtEthUSDT,Aave Ethereum Variable Debt USDT,6,complete,eth-mainnet.g.alchemy.com
+0x6e5970dbd6fc7eb1f29c6d2edf2bc4c36124c0c1,24094750,TRADE,Polytrade,18,complete,lb.drpc.live
+0x6f259637dcd74c767781e37bc6133cd6a68aa161,23968125,HT,HuobiToken,18,complete,rpc.mevblocker.io
+0x6f40d4a6237c257fff2db00fa0510deeecd303eb,24130450,FLUID,Fluid,18,complete,lb.drpc.live
+0x713c344fe475789daa3e125fa140f9de54196d16,24062900,1LP-ETH-RARI,1inch Liquidity Pool (ETH-RARI),18,complete,eth-mainnet.g.alchemy.com
+0x720cd16b011b987da3518fbf38c3071d4f0d1495,23971125,FLUX,Flux,8,complete,rpc.mevblocker.io
+0x725c263e32c72ddc3a19bea12c5a0479a81ee688,23995750,BMI,Bridge Mutual,18,complete,lb.drpc.live
+0x72e4f9f808c49a2a61de9c5896298920dc4eeea9,24012950,BITCOIN,HarryPotterObamaSonic10Inu,8,complete,eth-mainnet.g.alchemy.com
+0x72e95b8931767c79ba4eee721354d6e99a61d004,24050375,variableDebtEthUSDC,Aave Ethereum Variable Debt USDC,6,complete,rpc.mevblocker.io
+0x73fbd93bfda83b111ddc092aa3a4ca77fd30d380,24091875,SOPH,SOPH AI Token,18,complete,rpc.mevblocker.io
+0x75231f58b43240c9718dd58b4967c5114342a86c,24044475,OKB,OKB,18,complete,rpc.mevblocker.io
+0x76306f029f8f99effe509534037ba7030999e3cf,24064350,ACR,Acreage,18,complete,lb.drpc.live
+0x76eb2fe28b36b3ee97f3adae0c69606eedb2a37c,24025950,iUSDC,Iron Bank USD Coin,8,complete,lb.drpc.live
+0x77e06c9eccf2e797fd462a92b6d7642ef85b0a44,23962475,wTAO,Wrapped TAO,9,complete,rpc.mevblocker.io
+0x787b197f793f7d04366536f6a7a56a799868a64b,23983900,DISCO,Disco By Matt Furie,18,complete,eth-mainnet.g.alchemy.com
+0x7a58c0be72be218b41c608b7fe7c5bb630736c71,24017275,PEOPLE,ConstitutionDAO,18,complete,eth-mainnet.g.alchemy.com
+0x7bc3485026ac48b6cf9baf0a377477fff5703af8,24075300,waEthUSDT,Wrapped Aave Ethereum USDT,6,complete,eth-mainnet.g.alchemy.com
+0x7cf9a80db3b29ee8efe3710aadb7b95270572d47,24100050,NIL,Nillion,6,complete,eth-mainnet.g.alchemy.com
+0x7cfea0dd176651e7b5a1ced9c4faf8ee295315fd,23991700,PRNT,PrimeNumbers,18,complete,eth-mainnet.g.alchemy.com
+0x7dd0c2624e9114cf0c53675e9d37a06df17e7471,24120125,JUNO,Juno,9,complete,rpc.mevblocker.io
+0x7f39c581f595b53c5cb19bd0b3f8da6c935e2ca0,23922350,wstETH,Wrapped liquid staked Ether 2.0,18,complete,lb.drpc.live
+0x7fc66500c84a76ad7e9c93437bfc5ac33e2ddae9,23938325,AAVE,Aave Token,18,complete,rpc.mevblocker.io
+0x808507121b80c02388fad14726482e061b8da827,24044850,PENDLE,Pendle,18,complete,lb.drpc.live
+0x8248270620aa532e4d64316017be5e873e37cc09,24037600,DEVVE,DevvE,18,complete,eth-mainnet.g.alchemy.com
+0x826180541412d574cf1336d22c0c0a287822678a,23973050,FLIP,Chainflip,18,complete,lb.drpc.live
+0x853d955acef822db058eb8505911ed77f175b99e,24131425,FRAX,Frax,18,complete,rpc.mevblocker.io
+0x85f17cf997934a597031b2e18a9ab6ebd4b9f6a4,23926000,NEAR,NEAR,24,complete,eth-mainnet.g.alchemy.com
+0x8806926ab68eb5a7b909dcaf6fdbe5d93271d6e2,24033500,UQC,Uquid Coin,18,complete,eth-mainnet.g.alchemy.com
+0x8827cc360e98b0602794ebde03465bdc635fd261,24025950,SHRUBBY,Shrubby the Swift,9,complete,lb.drpc.live
+0x89a8c847f41c0dfa6c8b88638bacca8a0b777da7,24105925,ELX,Elixir,18,complete,rpc.mevblocker.io
+0x8b9b95292f890df47fff5ac9cbe93d5fc242bd51,23918525,BEFI,Befi Labs,18,complete,rpc.mevblocker.io
+0x8c9532a60e0e7c6bbd2b2c1303f63ace1c3e9811,24133125,pzETH,Renzo Restaked LST ,18,complete,rpc.mevblocker.io
+0x8d0d000ee44948fc98c9b98a4fa4921476f08b0d,23969650,USD1,World Liberty Financial USD,,partial,eth-mainnet.g.alchemy.com
+0x8d99569ef5febb19989892eee7f81f8f909d07f3,24037600,KEL,Kelvin,4,complete,eth-mainnet.g.alchemy.com
+0x8e0e57dcb1ce8d9091df38ec1bfc3b224529754a,23945625,CAH,Moon Tropica,18,complete,rpc.mevblocker.io
+0x8e729198d1c59b82bd6bba579310c40d740a11c2,24011225,ALVA,Alvara,18,complete,rpc.mevblocker.io
+0x8f693ca8d21b157107184d29d398a8d082b38b76,23945625,DATA,Streamr,18,complete,rpc.mevblocker.io
+0x8f8221afbb33998d8584a2b05749ba73c37a938a,23918525,REQ,Request Token,18,complete,rpc.mevblocker.io
+0x9124fb9d2d912b76c485798126be74f8be6940db,23953475,Dogking,Dogking,18,complete,rpc.mevblocker.io
+0x946fb08103b400d1c79e07acccdef5cfd26cd374,23998475,KIP,KIP Protocol,18,complete,rpc.mevblocker.io
+0x95ad61b0a150d79219dcf64e1e6cc01f0b64c4ce,23949950,SHIB,SHIBA INU,18,complete,lb.drpc.live
+0x95cef13441be50d20ca4558cc0a27b601ac544e5,24106675,MANTA,Manta,18,complete,rpc.mevblocker.io
+0x9813037ee2218799597d83d4a5b6f3b6778218d9,23993500,BONE,BONE SHIBASWAP,18,complete,eth-mainnet.g.alchemy.com
+0x988dadd0b82fa7d94d9e6f084a08755bfd4da860,24038150,WSCOIN,WSCOIN,18,complete,lb.drpc.live
+0x98c23e9d8f34fefb1b7bd6a91b7ff122f4e16f5c,23921225,aEthUSDC,Aave Ethereum USDC,6,complete,eth-mainnet.g.alchemy.com
+0x9992ec3cf6a55b00978cddf2b27bc6882d88d1ec,24126450,POLY,Polymath,18,complete,lb.drpc.live
+0x99d8a9c45b2eca8864373a26d1459e3dff1e17f3,23955425,MIM,Magic Internet Money,18,complete,rpc.mevblocker.io
+0x99ea4db9ee77acd40b119bd1dc4e33e1c070b80d,24021975,QSP,Quantstamp Token,18,complete,rpc.mevblocker.io
+0x9ac9468e7e3e1d194080827226b45d0b892c77fd,23921225,Yee,Yee Token,9,complete,lb.drpc.live
+0x9cb41cd74d01ae4b4f640ec40f7a60ca1bcf83e7,24133125,pzETH,Renzo Restaked LST,18,complete,rpc.mevblocker.io
+0x9d39a5de30e57443bff2a8307a4256c8797a3497,23997000,sUSDe,Staked USDe,18,complete,eth-mainnet.g.alchemy.com
+0x9e6be44cc1236eef7e1f197418592d363bedcd5a,24038775,AZUR,Azuro,18,complete,rpc.mevblocker.io
+0x9f8f72aa9304c8b593d555f12ef6589cc3a579a2,23936450,MKR,Maker,18,complete,lb.drpc.live
+0xa0246c9032bc3a600820415ae600c6388619a14d,23932825,FARM,FARM Reward Token,18,complete,rpc.mevblocker.io
+0xa02c49da76a085e4e1ee60a6b920ddbc8db599f4,23920825,TREAT,Shiba Inu Treat,18,complete,lb.drpc.live
+0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48,23915825,USDC,USD Coin,6,complete,eth-mainnet.g.alchemy.com
+0xa0ef786bf476fe0810408caba05e536ac800ff86,23923900,MYRIA,Myria,18,complete,eth-mainnet.g.alchemy.com
+0xa19cb4c1cc02252861c9caa9b823cce18e13789d,23921225,fwENA,Few Wrapped ENA,18,complete,eth-mainnet.g.alchemy.com
+0xa1d0e215a23d7030842fc67ce582a6afa3ccab83,24037600,YFII,YFII.finance,18,complete,eth-mainnet.g.alchemy.com
+0xa250cc729bb3323e7933022a67b52200fe354767,23921225,fwWETH,Few Wrapped Wrapped Ether,18,complete,eth-mainnet.g.alchemy.com
+0xa35b1b31ce002fbf2058d22f30f95d405200a15b,23921225,ETHx,ETHx,18,complete,rpc.mevblocker.io
+0xa47c8bf37f92abed4a126bda807a7b7498661acd,23955425,UST,Wrapped UST Token,18,complete,lb.drpc.live
+0xa5a78b90cbaba91e4e219d6e98836e528c68b869,24020325,1LP-ETH-ORBS,1inch Liquidity Pool (ETH-ORBS),18,complete,rpc.mevblocker.io
+0xa5ea28c216e24168c1610ede3c6200a23d3ef3ef,24020325,ATTRA,Attractor,18,complete,rpc.mevblocker.io
+0xa6ec49e06c25f63292bac1abc1896451a0f4cfb7,24062900,CSCS,CSC Stablecoin,18,complete,eth-mainnet.g.alchemy.com
+0xa830f32a2d219edce018250c57cb53e01b77faca,24029800,SLOP,Slop,18,complete,eth-mainnet.g.alchemy.com
+0xa9e8acf069c58aec8825542845fd754e41a9489a,24094700,pepecoin,pepeCoin,18,complete,eth-mainnet.g.alchemy.com
+0xaa7a9ca87d3694b5755f213b5d04094b8d0f0a6f,24038650,TRAC,Trace Token,18,complete,lb.drpc.live
+0xaa7e56716fc76863e10bea5e1db7fa0d2439e720,24072325,ESP,Espresso,18,complete,rpc.mevblocker.io
+0xaabeb130b002e82b9ab37fbb90487e5b16364bae,23936450,LK99,LK99,18,complete,lb.drpc.live
+0xabaa2994aaaf8ee8e47054d8b8675ab34856b094,24090400,FUEL,Fuelcaster,9,complete,eth-mainnet.g.alchemy.com
+0xae78736cd615f374d3085123a210448e74fc6393,23918525,rETH,Rocket Pool ETH,18,complete,eth-mainnet.g.alchemy.com
+0xae7ab96520de3a18e5e111b5eaab095312d7fe84,23922350,stETH,Liquid staked Ether 2.0,18,complete,lb.drpc.live
+0xaffbe9a60f1f45e057fd9b6dc70004bb0ccc8b99,24025950,THQ,Theoriq Token,18,complete,lb.drpc.live
+0xb17548c7b510427baac4e267bea62e800b247173,24024675,SMT,Swarm Markets,18,complete,rpc.mevblocker.io
+0xb1f1ee126e9c96231cc3d3fad7c08b4cf873b1f1,24087750,BIFI,Beefy,18,complete,eth-mainnet.g.alchemy.com
+0xb369daca21ee035312176eb8cf9d88ce97e0aa95,24091025,SKOL,Skol!,18,complete,rpc.mevblocker.io
+0xb4a81261b16b92af0b9f7c4a83f1e885132d81e4,23949950,xSHIB,xShib Staked Shiba Inu,18,complete,lb.drpc.live
+0xb50721bcf8d664c30412cfbc6cf7a15145234ad1,24021250,ARB,Arbitrum,18,complete,lb.drpc.live
+0xb513697b1dc169e55daad0da980fa24310b86905,24080900,KERMIT,Kermit The Frog,9,complete,eth-mainnet.g.alchemy.com
+0xb58e61c3098d85632df34eecfb899a1ed80921cb,24121475,ZCHF,Frankencoin,18,complete,rpc.mevblocker.io
+0xb5f7b021a78f470d31d762c1dda05ea549904fbd,23919325,RLS,Rayls,18,complete,rpc.mevblocker.io
+0xb62132e35a6c13ee1ee0f84dc5d40bad8d815206,24037600,NEXO,Nexo,18,complete,eth-mainnet.g.alchemy.com
+0xb753428af26e81097e7fd17f40c88aaa3e04902c,24011275,SFI,Spice,18,complete,rpc.mevblocker.io
+0xb8f28c60dd8240141185a192fa4156a23e189305,23981325,KYO,Kyo,18,complete,eth-mainnet.g.alchemy.com
+0xb9f599ce614feb2e1bbe58f180f370d05b39344e,24044175,PORK,PepeFork,18,complete,rpc.mevblocker.io
+0xba41ddf06b7ffd89d1267b5a93bfef2424eb2003,24042875,MYTH,Mythos,18,complete,rpc.mevblocker.io
+0xba83b5ed3f12bfa44f066f03ee0433419b74f469,23932825,BEST,Best Wallet Token,18,complete,rpc.mevblocker.io
+0xbb1e1399eee1f577f1b4359224155f5db39ca084,24080375,JOCX,JOCX,18,complete,rpc.mevblocker.io
+0xbb1ee07d6c7baeb702949904080eb61f5d5e7732,24061325,DINU,Dogey-Inu,18,complete,rpc.mevblocker.io
+0xbbbbca6a901c926f240b89eacb641d8aec7aeafd,23987575,LRC,LoopringCoin V2,18,complete,eth-mainnet.g.alchemy.com
+0xbc396689893d065f41bc2c6ecbee5e0085233447,23970975,PERP,Perpetual,18,complete,rpc.mevblocker.io
+0xbcca60bb61934080951369a648fb03df4f96263c,23922350,aUSDC,Aave interest bearing USDC,6,complete,lb.drpc.live
+0xbd31ea8212119f94a611fa969881cba3ea06fa3d,23945625,LUNA,LUNA,6,complete,rpc.mevblocker.io
+0xbe1936a67f503e0eaf2434b0cf9f4e3d7100008a,23921225,PROS,Prospective,18,complete,rpc.mevblocker.io
+0xbe9895146f7af43049ca1c1ae358b0541ea49704,23940975,cbETH,Coinbase Wrapped Staked ETH,18,complete,rpc.mevblocker.io
+0xbf2179859fc6d5bee9bf9158632dc51678a4100e,23954125,ELF,ELF Token,18,complete,rpc.mevblocker.io
+0xbf5495efe5db9ce00f80364c8b423567e58d2110,24131750,ezETH,Renzo Restaked ETH,18,complete,lb.drpc.live
+0xc00e94cb662c3520282e6f5717214004a7f26888,23938325,COMP,Compound,18,complete,rpc.mevblocker.io
+0xc011a73ee8576fb46f5e1c5751ca3b9fe0af2a6f,24087000,SNX,Synthetix Network Token,18,complete,eth-mainnet.g.alchemy.com
+0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2,23915350,WETH,Wrapped Ether,18,complete,eth-mainnet.g.alchemy.com
+0xc03a8c8b7a1e63197c84bf4817ce599f680a5f20,24024675,SFS-LP,Safeswap LPs,18,complete,rpc.mevblocker.io
+0xc08e7e23c235073c6807c2efe7021304cb7c2815,23956925,XUSD,XUSD,6,complete,eth-mainnet.g.alchemy.com
+0xc114cf69972e3c1b4b529e0418012c01fcf9e725,24047775,BEAR,Bearly Legal,9,complete,eth-mainnet.g.alchemy.com
+0xc17f63d21fc0f4afb24de3c76076cadc9db17535,24086225,BEPE,Baby Pepe by Matt Furie,9,complete,lb.drpc.live
+0xc20059e0317de91738d13af027dfc4a50781b066,24011275,SPK,Spark,18,complete,rpc.mevblocker.io
+0xc26c48828cc61b89946b6e3bf9a5b76699351670,24075200,FKEFK,DKDJKRI,18,complete,eth-mainnet.g.alchemy.com
+0xc50673edb3a7b94e8cad8a7d4e0cd68864e33edf,24035075,PNKSTR,PunkStrategy,18,complete,rpc.mevblocker.io
+0xc52c326331e9ce41f04484d3b5e5648158028804,24087750,ZCX,ZEN Exchange Token,18,complete,lb.drpc.live
+0xc71ea051a5f82c67adcf634c36ffe6334793d24c,24075300,waEthLidoGHO,Wrapped Aave Ethereum Lido GHO,18,complete,eth-mainnet.g.alchemy.com
+0xc944e90c64b2c07662a292be6244bdf05cda44a7,24061325,GRT,Graph Token,18,complete,rpc.mevblocker.io
+0xc9d69927b08720aaf5fa91018221e5b4f5abf484,24126200,ELON,Elon Stocks,9,complete,eth-mainnet.g.alchemy.com
+0xcab84bc21f9092167fcfe0ea60f5ce053ab39a1e,23969650,Block,Block,18,complete,eth-mainnet.g.alchemy.com
+0xcbb7c0000ab88b473b1f5afd9ef808440eed33bf,23918525,cbBTC,Coinbase Wrapped BTC,8,complete,rpc.mevblocker.io
+0xcbf4d5efa82e32a9187385480a7c74cb062b956c,24040475,SATOSHI,Satoshi Nakamoto,9,complete,rpc.mevblocker.io
+0xccc8cb5229b0ac8069c51fd58367fd1e622afd97,24114725,GODS,Gods Unchained,18,complete,rpc.mevblocker.io
+0xcccccccccc33d538dbc2ee4feab0a7a1ff4e8a94,23998450,CFG,Centrifuge,18,complete,lb.drpc.live
+0xceb67a66c2c8a90980da3a50a3f96c07525a26cb,23971125,KABOSU,Kabosu,9,complete,rpc.mevblocker.io
+0xd084944d3c05cd115c09d072b9f44ba3e0e45921,23926150,FOLD,Manifold Finance,18,complete,lb.drpc.live
+0xd0d56273290d339aaf1417d9bfa1bb8cfe8a0933,23921225,FOOM,FOOM,18,complete,eth-mainnet.g.alchemy.com
+0xd13c7342e1ef687c5ad21b27c2b65d772cab5c8c,24064350,UOS,Ultra Token,4,complete,lb.drpc.live
+0xd1d2eb1b1e90b638588728b4130137d262c87cae,23921900,GALA,Gala,8,complete,eth-mainnet.g.alchemy.com
+0xd33526068d116ce69f19a9ee46f0bd304f21a51f,24061325,RPL,Rocket Pool Protocol,18,complete,rpc.mevblocker.io
+0xd3cc9d8f3689b83c91b7b59cab4946b063eb894a,24092275,XVS,Venus XVS,18,complete,rpc.mevblocker.io
+0xd4419c2d3daa986dc30444fa333a846be44fd1eb,23946325,ZIK,ZIK coin,18,complete,rpc.mevblocker.io
+0xd4ae83ead6c56ddfe15b5e560391528a91dfeb24,24124425,SMOON,SAFEMOON,9,complete,eth-mainnet.g.alchemy.com
+0xd4fa2d31b7968e448877f69a96de69f5de8cd23e,23921225,waEthUSDC,Wrapped Aave Ethereum USDC,6,complete,eth-mainnet.g.alchemy.com
+0xd528cf2e081f72908e086f8800977df826b5a483,24037975,PBX,Paribus,18,complete,rpc.mevblocker.io
+0xd533a949740bb3306d119cc777fa900ba034cd52,24090425,CRV,Curve DAO Token,18,complete,rpc.mevblocker.io
+0xd7efb00d12c2c13131fd319336fdf952525da2af,24042875,XPR,Proton,4,complete,rpc.mevblocker.io
+0xd8912c10681d8b21fd3742244f44658dba12264e,23926000,PLU,Pluton,18,complete,eth-mainnet.g.alchemy.com
+0xd9ff8396554a0d18b2cfbec53e1979b7ecce8373,23936050,cyb-wbtc,YB WBTC,18,complete,lb.drpc.live
+0xda987c655ebc38c801db64a8608bc1aa56cd9a31,23977225,SYNT,Synternet Token,18,complete,rpc.mevblocker.io
+0xdac17f958d2ee523a2206206994597c13d831ec7,23916800,USDT,Tether USD,6,complete,eth-mainnet.g.alchemy.com
+0xdae0fafd65385e7775cf75b1398735155ef6acd2,24068925,TRUU,Truth,10,complete,rpc.mevblocker.io
+0xdbb5cf12408a3ac17d668037ce289f9ea75439d7,23927775,WMTX,WorldMobileToken,6,complete,lb.drpc.live
+0xdd3b11ef34cd511a2da159034a05fcb94d806686,23970975,REKT,Rekt,18,complete,lb.drpc.live
+0xddb3422497e61e13543bea06989c0789117555c5,24052425,COTI,COTI Token,18,complete,rpc.mevblocker.io
+0xdefa1d21c5f1cbeac00eeb54b44c7d86467cc3a3,23990125,ALMANAK,Almanak,18,complete,eth-mainnet.g.alchemy.com
+0xdf801468a808a32656d2ed2d2d80b72a129739f4,24076375,CUBE,Somnium Space Cubes,8,complete,rpc.mevblocker.io
+0xdfc5964141c018485b4d017634660f85aa667714,24118275,ODIN,Dejitaru Odin,18,complete,rpc.mevblocker.io
+0xe0053ccc33e2f123d5bb24806dd14ace60226b85,23938325,fwLINK,Few Wrapped ChainLink Token,18,complete,rpc.mevblocker.io
+0xe0f63a424a4439cbe457d80e4f4b51ad25b2c56c,23921225,SPX,SPX6900,8,complete,eth-mainnet.g.alchemy.com
+0xe28b3b32b6c345a34ff64674606124dd5aceca30,24018050,INJ,Injective Token,18,complete,lb.drpc.live
+0xe2cfd7a01ec63875cd9da6c7c1b7025166c2fa2f,24006525,HYPER,Hyper,18,complete,rpc.mevblocker.io
+0xe33679565212f14d68131851751e1050e15db857,23926350,PLANCK,Planck,18,complete,lb.drpc.live
+0xe355de6a6043b0580ff5a26b46051a4809b12793,23933225,4EVER,4EVERLAND,18,complete,rpc.mevblocker.io
+0xe41d2489571d322189246dafa5ebde1f4699f498,24121775,ZRX,0x Protocol Token,18,complete,rpc.mevblocker.io
+0xe6bfd33f52d82ccb5b37e16d3dd81f9ffdabb195,23998725,SXT,Space and Time,18,complete,rpc.mevblocker.io
+0xe6ceedf14c327942a18a689379afd58772fbb1b3,24090575,SNOWBALL,Snowball,9,complete,rpc.mevblocker.io
+0xe868084cf08f3c3db11f4b73a95473762d9463f7,23915825,YU,Yala stablecoin,18,complete,lb.drpc.live
+0xea60cd69f2b9fd6eb067bddbbf86a5bdeffbbc55,24079200,WECAN,Wecan,18,complete,eth-mainnet.g.alchemy.com
+0xecdbe2054968acf76039c4c28c41e8acc27f77af,23993825,MUTY,MUMUTYCOON TOKEN,18,complete,rpc.mevblocker.io
+0xed35af169af46a02ee13b9d79eb57d6d68c1749e,24070575,OMI,OMI Token,18,complete,eth-mainnet.g.alchemy.com
+0xeeb4d8400aeefafc1b2953e0094134a887c76bd8,23995475,AVAIL,Avail,18,complete,rpc.mevblocker.io
+0xef3a930e1ffffacd2fc13434ac81bd278b0ecc8d,23983900,FIS,StaFi,18,complete,eth-mainnet.g.alchemy.com
+0xef87f4608e601e8564800265aee1c1ffadf73283,24025950,fwUSDT,Few Wrapped Tether USD,6,complete,lb.drpc.live
+0xf10c41ca085fc8d9326a65408d14dae28a3e69a5,24102725,ISLM,Islamic Coin,18,complete,eth-mainnet.g.alchemy.com
+0xf11b570114886311263ec42030b0d7e5f02fa951,23971875,fatchoi,fat choi,18,complete,rpc.mevblocker.io
+0xf293d23bf2cdc05411ca0eddd588eb1977e8dcd4,24095475,SYLO,Sylo,18,complete,rpc.mevblocker.io
+0xf2fc894381792ded27a7f08d9f0f246363cbe1ea,24006525,MATRIX,MATRIX.WIN,18,complete,rpc.mevblocker.io
+0xf33d490eca5f6ba68d593e0c873d5b1f70ffbd82,23941550,KSTR,Kabuto Strategy,18,complete,lb.drpc.live
+0xf3e4872e6a4cf365888d93b6146a2baa7348f1a4,24034025,SLVon,iShares Silver Trust (Ondo Tokenized),18,complete,rpc.mevblocker.io
+0xf411903cbc70a74d22900a5de66a2dda66507255,23990125,VRA,VERA,18,complete,eth-mainnet.g.alchemy.com
+0xf433089366899d83a9f26a773d59ec7ecf30355e,23920825,MTL,Metal,8,complete,rpc.mevblocker.io
+0xf442ff10b8def89514560a66c0ad28777094636a,23928600,wA7A5,Wrapped A7A5 1.0,6,complete,eth-mainnet.g.alchemy.com
+0xf4d2888d29d722226fafa5d9b24f9164c092421e,23940675,LOOKS,LooksRare Token,18,complete,rpc.mevblocker.io
+0xf5b5efc906513b4344ebabcf47a04901f99f09f3,23949375,UBX,UBX,0,complete,eth-mainnet.g.alchemy.com
+0xf7f9da1e5fbc369b2ac48df6ee576779aeae6a77,24113950,SKULL,Skullfucker,9,complete,lb.drpc.live
+0xf8e57ac2730d3088d98b79209739b0d5ba085a03,23933225,OPAI,Optopia AI,18,complete,rpc.mevblocker.io
+0xf939e0a03fb07f59a73314e73794be0e57ac1b4e,23936050,crvUSD,Curve.Fi USD Stablecoin,18,complete,lb.drpc.live
+0xf94b5c5651c888d928439ab6514b93944eee6f48,23946000,YLD,Yield,18,complete,eth-mainnet.g.alchemy.com
+0xf9902edfca4f49dcaebc335c73aebd82c79c2886,24037400,ADO,ADO Protocol,18,complete,eth-mainnet.g.alchemy.com
+0xf9ff95468cb9a0cd57b8542bbc4c148e290ff465,23976925,THINK,THINK Token,18,complete,eth-mainnet.g.alchemy.com
+0xfa1c09fc8b491b6a4d3ff53a10cad29381b3f949,23964000,FF,Falcon Finance,18,complete,eth-mainnet.g.alchemy.com
+0xfb130d93e49dca13264344966a611dc79a456bc5,24022875,DOGEGF,DogeGF,18,complete,rpc.mevblocker.io
+0xfb782396c9b20e564a64896181c7ac8d8979d5f4,23946000,DIVER,DivergenceProtocol,18,complete,eth-mainnet.g.alchemy.com
+0xfc4913214444af5c715cc9f7b52655e788a569ed,24041450,ICSA,Icosa,9,complete,lb.drpc.live
+0xfca59cd816ab1ead66534d82bc21e7515ce441cf,24062900,RARI,Rarible,18,complete,eth-mainnet.g.alchemy.com
+0xfd36fa88bb3fea8d1264fc89d70723b6a2b56958,24012050,wXTM,WrappedXTM,18,complete,eth-mainnet.g.alchemy.com
+0xfdeca957ddd5a15eca8182b497ab523ec69ae341,23974525,mETH,ETHERBUTTS,9,complete,rpc.mevblocker.io
+0xff56cc6b1e6ded347aa0b7676c85ab0b3d08b0fa,24020325,ORBS,Orbs,18,complete,rpc.mevblocker.io

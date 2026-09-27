@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-09-26T10:54:09.195659-03:00",
+  "split": "transicao_dencun_2024",
+  "preprocessing_signature": "401e1869c33e3c7685e5907979aaee9a4afd3e686d2f661f07326d7538a7d906",
+  "fit_split": "treino_2024_pos_dencun",
+  "outputs": [
+    {
+      "split": "transicao_dencun_2024",
+      "matrix": "A",
+      "rows": 1232305,
+      "features": 13,
+      "invalid_values": 0,
+      "output_path": "E:\\Mestrado\\src-multiexecucoes\\execucoes\\amostra-05pct\\03-machine-learning\\01-features\\resultados-splits\\02-transicao_dencun_2024\\12_matriz_A_preprocessada.parquet",
+      "size_bytes": 43089380
+    },
+    {
+      "split": "transicao_dencun_2024",
+      "matrix": "B",
+      "rows": 1232305,
+      "features": 21,
+      "invalid_values": 0,
+      "output_path": "E:\\Mestrado\\src-multiexecucoes\\execucoes\\amostra-05pct\\03-machine-learning\\01-features\\resultados-splits\\02-transicao_dencun_2024\\13_matriz_B_preprocessada.parquet",
+      "size_bytes": 48598678
+    },
+    {
+      "split": "transicao_dencun_2024",
+      "matrix": "C",
+      "rows": 1232305,
+      "features": 23,
+      "invalid_values": 0,
+      "output_path": "E:\\Mestrado\\src-multiexecucoes\\execucoes\\amostra-05pct\\03-machine-learning\\01-features\\resultados-splits\\02-transicao_dencun_2024\\14_matriz_C_preprocessada.parquet",
+      "size_bytes": 60663620
+    }
+  ]
+}

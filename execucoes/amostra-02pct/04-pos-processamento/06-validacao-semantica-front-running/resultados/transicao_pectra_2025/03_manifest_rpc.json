@@ -1,0 +1,18 @@
+{
+  "created_at_utc": "2026-09-25T03:36:28.316194+00:00",
+  "mode": "block_batch",
+  "dataset": "transicao_pectra_2025",
+  "source_queue": "E:\\Mestrado\\src-multiexecucoes\\execucoes\\amostra-02pct\\04-pos-processamento\\05-rotulador-front-running-csharp\\resultados-v3\\sampled\\independent_sampled\\transicao_pectra_2025\\05_enrichment_queue.parquet",
+  "requested_blocks": 3320,
+  "requested_transactions": 15278,
+  "enriched_transactions": 15278,
+  "errors": 0,
+  "cache_hits_blocks": 1670,
+  "new_blocks": 1650,
+  "http_requests": 400,
+  "rpc_methods": 4000,
+  "blocks_per_batch": 5,
+  "rpc_provider_host": "serene-tiniest-moon.ethereum-mainnet.quiknode.pro",
+  "rpc_url_stored": false,
+  "queue_fingerprint": "5f7b0eaaad63a5bfe93f35d8f08a7dce9c0cc5219c7bcce69ce075e712b1d207"
+}

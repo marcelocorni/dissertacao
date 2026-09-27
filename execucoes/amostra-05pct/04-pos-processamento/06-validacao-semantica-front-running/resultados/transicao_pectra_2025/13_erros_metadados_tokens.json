@@ -1,0 +1,14 @@
+[
+  {
+    "token_address": "0x2654ce502369629c6318e3b87526fd107430124d",
+    "error": "'charmap' codec can't encode characters in position 61-62: character maps to <undefined>"
+  },
+  {
+    "token_address": "0x77091b767f51fbca13175c777d6b5c069fa5c624",
+    "error": "'charmap' codec can't encode character '\\u0e3f' in position 62: character maps to <undefined>"
+  },
+  {
+    "token_address": "0x8ce61dc15a1219f582b291a28e9bb06849e8b855",
+    "error": "'charmap' codec can't encode characters in position 62-65: character maps to <undefined>"
+  }
+]

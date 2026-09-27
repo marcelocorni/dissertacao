@@ -1,0 +1,11 @@
+calibration_split,configuration_left,configuration_right,anomalies_left,anomalies_right,intersection,union,jaccard
+validacao_2025_pre_pectra,a_completa,b_completa,29155,29155,6569,51741,0.12695927794205755
+validacao_2025_pre_pectra,a_completa,c_completa,29155,29155,7538,50772,0.14846765933979358
+validacao_2025_pre_pectra,a_completa,b_sem_taxas_absolutas,29155,29155,2081,56229,0.03700937238791371
+validacao_2025_pre_pectra,a_completa,c_sem_taxas_absolutas,29155,29155,3259,55051,0.0591996512324935
+validacao_2025_pre_pectra,b_completa,c_completa,29155,29155,19272,39038,0.4936728315999795
+validacao_2025_pre_pectra,b_completa,b_sem_taxas_absolutas,29155,29155,18931,39379,0.4807384646639072
+validacao_2025_pre_pectra,b_completa,c_sem_taxas_absolutas,29155,29155,17093,41217,0.4147075235946333
+validacao_2025_pre_pectra,c_completa,b_sem_taxas_absolutas,29155,29155,12992,45318,0.28668520234785294
+validacao_2025_pre_pectra,c_completa,c_sem_taxas_absolutas,29155,29155,13877,44433,0.31231292057704857
+validacao_2025_pre_pectra,b_sem_taxas_absolutas,c_sem_taxas_absolutas,29155,29155,19292,39018,0.4944384642985289

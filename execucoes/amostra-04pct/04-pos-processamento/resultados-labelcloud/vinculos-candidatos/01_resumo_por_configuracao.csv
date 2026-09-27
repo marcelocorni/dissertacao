@@ -1,0 +1,6 @@
+configuration,candidate_rows,unique_transactions,unique_from_addresses,matched_rows,weak_positive_mev_bot_transactions,weak_positive_mev_bot_addresses,weak_positive_rate_percent
+a_completa,724481,724481,276722,6895,6895,13,0.951716
+b_completa,759475,759475,191560,57114,57114,23,7.520195
+b_sem_taxas_absolutas,208211,208211,28593,8721,8721,8,4.18854
+c_completa,773053,773053,250148,75538,75538,23,9.771387
+c_sem_taxas_absolutas,254352,254352,41351,12613,12613,29,4.958876

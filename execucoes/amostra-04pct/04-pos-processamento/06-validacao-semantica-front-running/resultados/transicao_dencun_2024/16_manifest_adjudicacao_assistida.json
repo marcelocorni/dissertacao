@@ -1,0 +1,23 @@
+{
+  "created_at_utc": "2026-09-25T22:55:07.073104+00:00",
+  "source_dossier": "E:\\Mestrado\\src-multiexecucoes\\execucoes\\amostra-04pct\\04-pos-processamento\\06-validacao-semantica-front-running\\resultados\\transicao_dencun_2024\\08_dossie_auditoria.parquet",
+  "source_transactions": "E:\\Mestrado\\src-multiexecucoes\\execucoes\\amostra-04pct\\04-pos-processamento\\06-validacao-semantica-front-running\\resultados\\transicao_dencun_2024\\01_transacoes_rpc.parquet",
+  "decisions": "E:\\Mestrado\\src-multiexecucoes\\execucoes\\amostra-04pct\\04-pos-processamento\\06-validacao-semantica-front-running\\resultados\\transicao_dencun_2024\\15_decisoes_dossie.csv",
+  "reviewer": "Marcelo Corni Alves",
+  "method": "adjudicação assistida determinística com justificativa por evento",
+  "decision_policy": "final_assisted_without_manual_override",
+  "interface_mode": "read_only",
+  "legacy_column_names": [
+    "manual_label",
+    "manual_type"
+  ],
+  "generated": 378,
+  "preserved_existing": 0,
+  "overwrite": false,
+  "counts": {
+    "displacement:confirmado": 3,
+    "displacement:provável": 184,
+    "insertion:confirmado": 191
+  },
+  "caveat": "Rótulos produzidos por protocolo algorítmico assistido; não constituem observação independente de mempool."
+}

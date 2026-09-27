@@ -1,0 +1,5 @@
+detector,candidate_events,confirmed_events,pattern_anchors,candidate_attacker_transactions,victim_transactions
+__total__,81410,0,78724,90273,79316
+displacement,58692,0,57275,58692,58692
+insertion,7892,0,7892,15227,7892
+suppression,14826,0,14826,18856,14826

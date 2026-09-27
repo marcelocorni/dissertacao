@@ -1,0 +1,74 @@
+[
+  {
+    "token_address": "0x0000000000a39bb272e79075ade125fd351887ac",
+    "error": "Metadados ERC-20 incompletos"
+  },
+  {
+    "token_address": "0x0bb217e40f8a5cb79adf04e1aab60e5abd0dfc1e",
+    "error": "Metadados ERC-20 incompletos"
+  },
+  {
+    "token_address": "0x12a3cf68ff5672269279d018a7229600a5da68fc",
+    "error": "'charmap' codec can't encode character '\\U0001f408' in position 65: character maps to <undefined>"
+  },
+  {
+    "token_address": "0x1356cb7a3d0bdbce69156b1bd16bcc6a346459c1",
+    "error": "'charmap' codec can't encode characters in position 63-67: character maps to <undefined>"
+  },
+  {
+    "token_address": "0x2e49e372fb442707c91b7ecfec99fb1e41df5532",
+    "error": "'charmap' codec can't encode character '\\u03b2' in position 63: character maps to <undefined>"
+  },
+  {
+    "token_address": "0x5fa2025f2d667bcc218eaaa6d601c1c12bee689a",
+    "error": "'charmap' codec can't encode character '\\u0489' in position 64: character maps to <undefined>"
+  },
+  {
+    "token_address": "0x69078b4d4ef3cf601407a8979c9a96fef951876e",
+    "error": "'charmap' codec can't encode characters in position 63-66: character maps to <undefined>"
+  },
+  {
+    "token_address": "0x691ce51228f044f3def72ea7ccaabd8ff94ffd43",
+    "error": "'charmap' codec can't encode character '\\u0119' in position 65: character maps to <undefined>"
+  },
+  {
+    "token_address": "0x693f77d4ed20ba19260d6d20e23b2438b7c4fa01",
+    "error": "'charmap' codec can't encode character '\\u3164' in position 63: character maps to <undefined>"
+  },
+  {
+    "token_address": "0x696c911047fa483181c107c75272477b3b5049b9",
+    "error": "'charmap' codec can't encode characters in position 66-67: character maps to <undefined>"
+  },
+  {
+    "token_address": "0x69fac6924efe4e4407d00d023761edf887a9a790",
+    "error": "'charmap' codec can't encode characters in position 63-67: character maps to <undefined>"
+  },
+  {
+    "token_address": "0x6bea7cfef803d1e3d5f7c0103f7ded065644e197",
+    "error": "Metadados ERC-20 incompletos"
+  },
+  {
+    "token_address": "0x811a7fe9cd4f908147830e90bf4a13728c3354db",
+    "error": "Metadados ERC-20 incompletos"
+  },
+  {
+    "token_address": "0xa898eda49cdcc91d317e92c407b4f93f0642cbee",
+    "error": "'charmap' codec can't encode character '\\u014c' in position 63: character maps to <undefined>"
+  },
+  {
+    "token_address": "0xcc32c01bd87eb556068b4a2e98fd727f91fe0b59",
+    "error": "'charmap' codec can't encode character '\\u014d' in position 66: character maps to <undefined>"
+  },
+  {
+    "token_address": "0xd095ed15e105a00c82c56142c7bf12cd2ebe7838",
+    "error": "'charmap' codec can't encode characters in position 64-65: character maps to <undefined>"
+  },
+  {
+    "token_address": "0xdd43af1be8380ff129fddc746852028e6fc851c4",
+    "error": "'charmap' codec can't encode character '\\u0361' in position 66: character maps to <undefined>"
+  },
+  {
+    "token_address": "0xed12920731ce0e4c61d52fa1580c0092fd5bd1fe",
+    "error": "'charmap' codec can't encode characters in position 64-65: character maps to <undefined>"
+  }
+]

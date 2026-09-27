@@ -1,0 +1,17 @@
+{
+  "generated_at": "2026-09-17T20:00:13.196740-03:00",
+  "dataset_name": "validacao_2025_pre_pectra",
+  "start_date": "2025-01-01",
+  "end_date": "2025-04-30",
+  "source_parquet_files": 120,
+  "block_modulus": 100,
+  "sample_rows": 1442555,
+  "sample_blocks": 8585,
+  "sample_unique_hashes": 1442555,
+  "contract_creation_rows": 0,
+  "contract_creation_pct": 0.0,
+  "type_4_rows": 0,
+  "matrix_A_features": 13,
+  "matrix_B_features": 21,
+  "matrix_C_features": 23
+}

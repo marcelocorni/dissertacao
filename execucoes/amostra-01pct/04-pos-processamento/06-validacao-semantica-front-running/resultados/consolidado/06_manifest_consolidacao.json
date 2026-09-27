@@ -1,0 +1,240 @@
+{
+  "created_at_utc": "2026-09-21T00:35:12.432347+00:00",
+  "script": "12_consolidar_rotulos_semanticos.py",
+  "splits": [
+    "estresse_pre_dencun_2024",
+    "transicao_dencun_2024",
+    "treino_2024_pos_dencun",
+    "validacao_2025_pre_pectra",
+    "transicao_pectra_2025",
+    "teste_final_2025",
+    "estresse_fusaka_2025"
+  ],
+  "counts": {
+    "events": 4170,
+    "strict_positive_events": 1809,
+    "sensitivity_positive_events": 4170,
+    "role_rows": 10045,
+    "unique_split_transactions": 9576,
+    "strict_positive_transactions": 3510,
+    "strict_contextual_negatives": 1809,
+    "strict_conflicting_transactions": 0,
+    "sensitivity_positive_transactions": 5406,
+    "sensitivity_contextual_negatives": 3705,
+    "sensitivity_conflicting_transactions": 465,
+    "assisted_decisions": 4170
+  },
+  "definitions": {
+    "strict": "somente eventos adjudicados como confirmado",
+    "sensitivity": "eventos adjudicados como confirmado ou provável",
+    "positive": "papel attacker_front ou attacker_back",
+    "contextual_negative": "papel victim no mesmo evento positivo",
+    "unlabeled": "qualquer transação fora dos papéis adjudicados; não presumida negativa",
+    "suppression": "excluído por exigir evidência de mempool"
+  },
+  "split_counts": {
+    "estresse_pre_dencun_2024": {
+      "decision:confirmado": 145,
+      "decision:provável": 442,
+      "source:assisted_deterministic": 587,
+      "type:displacement": 463,
+      "type:insertion": 124
+    },
+    "transicao_dencun_2024": {
+      "decision:confirmado": 44,
+      "decision:provável": 72,
+      "source:assisted_deterministic": 116,
+      "type:displacement": 73,
+      "type:insertion": 43
+    },
+    "treino_2024_pos_dencun": {
+      "decision:confirmado": 622,
+      "decision:provável": 1395,
+      "source:assisted_deterministic": 2017,
+      "type:displacement": 1436,
+      "type:insertion": 581
+    },
+    "validacao_2025_pre_pectra": {
+      "decision:confirmado": 349,
+      "decision:provável": 151,
+      "source:assisted_deterministic": 500,
+      "type:displacement": 163,
+      "type:insertion": 337
+    },
+    "transicao_pectra_2025": {
+      "decision:confirmado": 70,
+      "decision:provável": 98,
+      "source:assisted_deterministic": 168,
+      "type:displacement": 99,
+      "type:insertion": 69
+    },
+    "teste_final_2025": {
+      "decision:confirmado": 482,
+      "decision:provável": 188,
+      "source:assisted_deterministic": 670,
+      "type:displacement": 213,
+      "type:insertion": 457
+    },
+    "estresse_fusaka_2025": {
+      "decision:confirmado": 97,
+      "decision:provável": 15,
+      "source:assisted_deterministic": 112,
+      "type:displacement": 18,
+      "type:insertion": 94
+    }
+  },
+  "sources": [
+    {
+      "path": "resultados/estresse_pre_dencun_2024/08_dossie_auditoria.parquet",
+      "sha256": "810d81f47aa438a3e3566756654e7bfc00e71d596f14980b594d86e089f46bdb",
+      "bytes": 162221
+    },
+    {
+      "path": "resultados/estresse_pre_dencun_2024/15_decisoes_dossie.csv",
+      "sha256": "2b1a43f2b041e1823892df311ea99ad8a7aafbc49aea9778d3ad8f0d22b6bf58",
+      "bytes": 378519
+    },
+    {
+      "path": "resultados/estresse_pre_dencun_2024/17_validacao_adjudicacoes.csv",
+      "sha256": "e3ad2bf2b92a39e4e656f7cd9d93b7bf711c051e9a4a0e2f7d3ae378a330a788",
+      "bytes": 43538
+    },
+    {
+      "path": "resultados/estresse_pre_dencun_2024/19_manifest_validacao_adjudicacoes.json",
+      "sha256": "1535d927ef588387e70e0da52396449991bac08ed27512251337ed556a408338",
+      "bytes": 824
+    },
+    {
+      "path": "resultados/transicao_dencun_2024/08_dossie_auditoria.parquet",
+      "sha256": "135260e71453395164c9cb83b9164757db5ef882f91b58a64477afbad89e9241",
+      "bytes": 44363
+    },
+    {
+      "path": "resultados/transicao_dencun_2024/15_decisoes_dossie.csv",
+      "sha256": "7c9d9cea8c68f5552d479da2a827d3fe1c4311eb012fd30721ab05f0799839b6",
+      "bytes": 75161
+    },
+    {
+      "path": "resultados/transicao_dencun_2024/17_validacao_adjudicacoes.csv",
+      "sha256": "6b8542c47cf1c0e7a3ece9a1824b32bfa992d65621cf3054588922f478236111",
+      "bytes": 8535
+    },
+    {
+      "path": "resultados/transicao_dencun_2024/19_manifest_validacao_adjudicacoes.json",
+      "sha256": "3bdf18b6beb72e95379b684a73cb7c6d0fc5117614fea2c3150d3bf1ad866df2",
+      "bytes": 818
+    },
+    {
+      "path": "resultados/treino_2024_pos_dencun/08_dossie_auditoria.parquet",
+      "sha256": "b9529bf36f1b639a0ddc68544bf7f6df7bfaa6db906034cfdf5e5d6b2fe01c05",
+      "bytes": 564909
+    },
+    {
+      "path": "resultados/treino_2024_pos_dencun/15_decisoes_dossie.csv",
+      "sha256": "91c03ba21c211fc0aa38d087c9eda6a164dcc48354170669124478b7d9812728",
+      "bytes": 1309538
+    },
+    {
+      "path": "resultados/treino_2024_pos_dencun/17_validacao_adjudicacoes.csv",
+      "sha256": "8b82cc55d42f2aa6a5d6d5ce4514fb06bc9f4bc82aca2d3835b680c9a782ab2c",
+      "bytes": 151820
+    },
+    {
+      "path": "resultados/treino_2024_pos_dencun/19_manifest_validacao_adjudicacoes.json",
+      "sha256": "22d5089b32b4062745b6084ce1f728b9ea1c8d60ab04c098b6fdbef3617a85cb",
+      "bytes": 823
+    },
+    {
+      "path": "resultados/validacao_2025_pre_pectra/08_dossie_auditoria.parquet",
+      "sha256": "1d03377a720d82015ac36f9d9b9a6ea1919e245abda9fb9deedc6d2d21ff5470",
+      "bytes": 161760
+    },
+    {
+      "path": "resultados/validacao_2025_pre_pectra/15_decisoes_dossie.csv",
+      "sha256": "9e35c6c3ac44e59d638b9baec4798a9265b170eb1b455e591b01b34a72e12bd5",
+      "bytes": 330282
+    },
+    {
+      "path": "resultados/validacao_2025_pre_pectra/17_validacao_adjudicacoes.csv",
+      "sha256": "1efb9e6e5c6189b3e00eb423a0e14d555f9e3b6fafa8236c003694c7ed3f6d9c",
+      "bytes": 36625
+    },
+    {
+      "path": "resultados/validacao_2025_pre_pectra/19_manifest_validacao_adjudicacoes.json",
+      "sha256": "1fb09ca18a7288cb189474425b9e8a84960cc36839ec5439cd30d57198728e53",
+      "bytes": 826
+    },
+    {
+      "path": "resultados/transicao_pectra_2025/08_dossie_auditoria.parquet",
+      "sha256": "f39289ca13c88f333cb42fbf330ea50d1f99c1e8cde15184a0164a590ee3fff1",
+      "bytes": 61633
+    },
+    {
+      "path": "resultados/transicao_pectra_2025/15_decisoes_dossie.csv",
+      "sha256": "741a59d93df2f21125d73e690d7c5fa0da96581b480976de49a1f01871a99dce",
+      "bytes": 109006
+    },
+    {
+      "path": "resultados/transicao_pectra_2025/17_validacao_adjudicacoes.csv",
+      "sha256": "1ac86f3414679ca28e69134e3f2cf1853e5995114b156144144be078172c57bc",
+      "bytes": 12321
+    },
+    {
+      "path": "resultados/transicao_pectra_2025/19_manifest_validacao_adjudicacoes.json",
+      "sha256": "4cbeb1afb142f7bc76834b1610278f98d7fcb8c8a0a4079de710039763663549",
+      "bytes": 818
+    },
+    {
+      "path": "resultados/teste_final_2025/08_dossie_auditoria.parquet",
+      "sha256": "0af600b68ffbaa41a6b573b7908e6fa046c210d80876607803d3545cc840994e",
+      "bytes": 213760
+    },
+    {
+      "path": "resultados/teste_final_2025/15_decisoes_dossie.csv",
+      "sha256": "f8f5dc5ddc1b877eb2948eff356f63f0a61aefc46d66bc95ab406842b0fa5eca",
+      "bytes": 434633
+    },
+    {
+      "path": "resultados/teste_final_2025/17_validacao_adjudicacoes.csv",
+      "sha256": "d440e44ee8a39f91b2e83e5306be60341ee864a368299412c4f942d2e537ad45",
+      "bytes": 49311
+    },
+    {
+      "path": "resultados/teste_final_2025/19_manifest_validacao_adjudicacoes.json",
+      "sha256": "2bd23da0a4a450198ae9f5d857a64b1f6fe72507175340d16ae0fa363df0db2c",
+      "bytes": 808
+    },
+    {
+      "path": "resultados/estresse_fusaka_2025/08_dossie_auditoria.parquet",
+      "sha256": "3b839d5018129b0ff6fc50770acea7e759939586e990d4cf4a82cf8966704c82",
+      "bytes": 48140
+    },
+    {
+      "path": "resultados/estresse_fusaka_2025/15_decisoes_dossie.csv",
+      "sha256": "9f316cf7d2afa6142245a343ab8417c59bb99e161c304bf686c0c8cccab16128",
+      "bytes": 73252
+    },
+    {
+      "path": "resultados/estresse_fusaka_2025/17_validacao_adjudicacoes.csv",
+      "sha256": "d6a8a89005e94e7b9aa8cc16d4011007752149e7b27e2ddf8d6e03d62d84a07e",
+      "bytes": 8107
+    },
+    {
+      "path": "resultados/estresse_fusaka_2025/19_manifest_validacao_adjudicacoes.json",
+      "sha256": "f63df165a495c942a348c7d9785207892e36d5b650e01a8ee6bd0631f5bcf8c9",
+      "bytes": 816
+    }
+  ],
+  "outputs": {
+    "events_csv": "resultados/consolidado/01_eventos_adjudicados.csv",
+    "events_parquet": "resultados/consolidado/01_eventos_adjudicados.parquet",
+    "roles_csv": "resultados/consolidado/02_papeis_evento.csv",
+    "roles_parquet": "resultados/consolidado/02_papeis_evento.parquet",
+    "transactions_csv": "resultados/consolidado/03_rotulos_transacao.csv",
+    "transactions_parquet": "resultados/consolidado/03_rotulos_transacao.parquet",
+    "conflicts_csv": "resultados/consolidado/04_conflitos_rotulos.csv",
+    "summary_csv": "resultados/consolidado/05_resumo_consolidacao.csv",
+    "manifest": "resultados/consolidado/06_manifest_consolidacao.json",
+    "methodology": "resultados/consolidado/07_metodologia_rotulos_semanticos.md"
+  }
+}

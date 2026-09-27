@@ -1,0 +1,240 @@
+{
+  "created_at_utc": "2026-09-26T04:18:23.613369+00:00",
+  "script": "12_consolidar_rotulos_semanticos.py",
+  "splits": [
+    "estresse_pre_dencun_2024",
+    "transicao_dencun_2024",
+    "treino_2024_pos_dencun",
+    "validacao_2025_pre_pectra",
+    "transicao_pectra_2025",
+    "teste_final_2025",
+    "estresse_fusaka_2025"
+  ],
+  "counts": {
+    "events": 16344,
+    "strict_positive_events": 7366,
+    "sensitivity_positive_events": 16344,
+    "role_rows": 39685,
+    "unique_split_transactions": 38014,
+    "strict_positive_transactions": 14356,
+    "strict_contextual_negatives": 7366,
+    "strict_conflicting_transactions": 0,
+    "sensitivity_positive_transactions": 21670,
+    "sensitivity_contextual_negatives": 14680,
+    "sensitivity_conflicting_transactions": 1664,
+    "assisted_decisions": 16344
+  },
+  "definitions": {
+    "strict": "somente eventos adjudicados como confirmado",
+    "sensitivity": "eventos adjudicados como confirmado ou provável",
+    "positive": "papel attacker_front ou attacker_back",
+    "contextual_negative": "papel victim no mesmo evento positivo",
+    "unlabeled": "qualquer transação fora dos papéis adjudicados; não presumida negativa",
+    "suppression": "excluído por exigir evidência de mempool"
+  },
+  "split_counts": {
+    "estresse_pre_dencun_2024": {
+      "decision:confirmado": 651,
+      "decision:provável": 1670,
+      "source:assisted_deterministic": 2321,
+      "type:displacement": 1708,
+      "type:insertion": 613
+    },
+    "transicao_dencun_2024": {
+      "decision:confirmado": 194,
+      "decision:provável": 184,
+      "source:assisted_deterministic": 378,
+      "type:displacement": 187,
+      "type:insertion": 191
+    },
+    "treino_2024_pos_dencun": {
+      "decision:confirmado": 2518,
+      "decision:provável": 5433,
+      "source:assisted_deterministic": 7951,
+      "type:displacement": 5573,
+      "type:insertion": 2378
+    },
+    "validacao_2025_pre_pectra": {
+      "decision:confirmado": 1431,
+      "decision:provável": 569,
+      "source:assisted_deterministic": 2000,
+      "type:displacement": 625,
+      "type:insertion": 1375
+    },
+    "transicao_pectra_2025": {
+      "decision:confirmado": 291,
+      "decision:provável": 328,
+      "source:assisted_deterministic": 619,
+      "type:displacement": 347,
+      "type:insertion": 272
+    },
+    "teste_final_2025": {
+      "decision:confirmado": 1887,
+      "decision:provável": 733,
+      "source:assisted_deterministic": 2620,
+      "type:displacement": 825,
+      "type:insertion": 1795
+    },
+    "estresse_fusaka_2025": {
+      "decision:confirmado": 394,
+      "decision:provável": 61,
+      "source:assisted_deterministic": 455,
+      "type:displacement": 82,
+      "type:insertion": 373
+    }
+  },
+  "sources": [
+    {
+      "path": "E:/Mestrado/src-multiexecucoes/execucoes/amostra-04pct/04-pos-processamento/06-validacao-semantica-front-running/resultados/estresse_pre_dencun_2024/08_dossie_auditoria.parquet",
+      "sha256": "1961b30aa0ff17a5ff87de5e170bda2251a6f80493d5232decce9ff7d0c32361",
+      "bytes": 636098
+    },
+    {
+      "path": "E:/Mestrado/src-multiexecucoes/execucoes/amostra-04pct/04-pos-processamento/06-validacao-semantica-front-running/resultados/estresse_pre_dencun_2024/15_decisoes_dossie.csv",
+      "sha256": "d54c42acd4cd15581885952d7b378a7b778f7e58af7ad56be150d1c62a6d97c3",
+      "bytes": 1507351
+    },
+    {
+      "path": "E:/Mestrado/src-multiexecucoes/execucoes/amostra-04pct/04-pos-processamento/06-validacao-semantica-front-running/resultados/estresse_pre_dencun_2024/17_validacao_adjudicacoes.csv",
+      "sha256": "77e1960fef7c1c683ca5f6624e0485d7f976804c4f62a2fd4d37db8cd82af780",
+      "bytes": 174964
+    },
+    {
+      "path": "E:/Mestrado/src-multiexecucoes/execucoes/amostra-04pct/04-pos-processamento/06-validacao-semantica-front-running/resultados/estresse_pre_dencun_2024/19_manifest_validacao_adjudicacoes.json",
+      "sha256": "dc24f5ba1840c540ba37f65062e7bf67e4f75dfb72341836493ba8539221d4e0",
+      "bytes": 909
+    },
+    {
+      "path": "E:/Mestrado/src-multiexecucoes/execucoes/amostra-04pct/04-pos-processamento/06-validacao-semantica-front-running/resultados/transicao_dencun_2024/08_dossie_auditoria.parquet",
+      "sha256": "e0bad6a2d3801e2b8c8620077d6b874e21e7a243a8df59e4289f831e1dd7f20f",
+      "bytes": 119193
+    },
+    {
+      "path": "E:/Mestrado/src-multiexecucoes/execucoes/amostra-04pct/04-pos-processamento/06-validacao-semantica-front-running/resultados/transicao_dencun_2024/15_decisoes_dossie.csv",
+      "sha256": "9b94776caeae160f427248f781fc73b88f547df5645014a1336322f6cc5412dd",
+      "bytes": 246252
+    },
+    {
+      "path": "E:/Mestrado/src-multiexecucoes/execucoes/amostra-04pct/04-pos-processamento/06-validacao-semantica-front-running/resultados/transicao_dencun_2024/17_validacao_adjudicacoes.csv",
+      "sha256": "de9c3f28c6e2a3d161b74d5981e207e72fe2f3c8d64847ce00f33a758872fe5b",
+      "bytes": 27639
+    },
+    {
+      "path": "E:/Mestrado/src-multiexecucoes/execucoes/amostra-04pct/04-pos-processamento/06-validacao-semantica-front-running/resultados/transicao_dencun_2024/19_manifest_validacao_adjudicacoes.json",
+      "sha256": "e42cf0de1ff401b8eef29999f368873e07a02f496a1c917e5a1fbf7d766a29dd",
+      "bytes": 900
+    },
+    {
+      "path": "E:/Mestrado/src-multiexecucoes/execucoes/amostra-04pct/04-pos-processamento/06-validacao-semantica-front-running/resultados/treino_2024_pos_dencun/08_dossie_auditoria.parquet",
+      "sha256": "670890f37a6b25f1e48fc7a0827df571a554d8b63fb666e8870f7c4efeb18261",
+      "bytes": 2038095
+    },
+    {
+      "path": "E:/Mestrado/src-multiexecucoes/execucoes/amostra-04pct/04-pos-processamento/06-validacao-semantica-front-running/resultados/treino_2024_pos_dencun/15_decisoes_dossie.csv",
+      "sha256": "9d5e474ac244a027dbb7c16d84b788eb1e99da06de6a00f9b596d8f9d07111a3",
+      "bytes": 5176917
+    },
+    {
+      "path": "E:/Mestrado/src-multiexecucoes/execucoes/amostra-04pct/04-pos-processamento/06-validacao-semantica-front-running/resultados/treino_2024_pos_dencun/17_validacao_adjudicacoes.csv",
+      "sha256": "c831b02c5710a0162115205b5870bfd67a1b6d073e0ba21578869d818ea31cef",
+      "bytes": 606730
+    },
+    {
+      "path": "E:/Mestrado/src-multiexecucoes/execucoes/amostra-04pct/04-pos-processamento/06-validacao-semantica-front-running/resultados/treino_2024_pos_dencun/19_manifest_validacao_adjudicacoes.json",
+      "sha256": "40375f356732305291046d05db8f058e4df5f44c7b40a7c0812db4c0efba072e",
+      "bytes": 905
+    },
+    {
+      "path": "E:/Mestrado/src-multiexecucoes/execucoes/amostra-04pct/04-pos-processamento/06-validacao-semantica-front-running/resultados/validacao_2025_pre_pectra/08_dossie_auditoria.parquet",
+      "sha256": "3ce59020c04c8e554ceccd1262897ee1096e79d485a03bc6f16f64195ed06b5d",
+      "bytes": 625964
+    },
+    {
+      "path": "E:/Mestrado/src-multiexecucoes/execucoes/amostra-04pct/04-pos-processamento/06-validacao-semantica-front-running/resultados/validacao_2025_pre_pectra/15_decisoes_dossie.csv",
+      "sha256": "69ba75da6d6da0b11eddf3561515ccc307677b8f41c0eb20f6b6f4b8b50d7e33",
+      "bytes": 1325129
+    },
+    {
+      "path": "E:/Mestrado/src-multiexecucoes/execucoes/amostra-04pct/04-pos-processamento/06-validacao-semantica-front-running/resultados/validacao_2025_pre_pectra/17_validacao_adjudicacoes.csv",
+      "sha256": "8d55d9243cca3c5488dc3f5606eaea1a202079ae30ce957212ec4a31f002ec7e",
+      "bytes": 148175
+    },
+    {
+      "path": "E:/Mestrado/src-multiexecucoes/execucoes/amostra-04pct/04-pos-processamento/06-validacao-semantica-front-running/resultados/validacao_2025_pre_pectra/19_manifest_validacao_adjudicacoes.json",
+      "sha256": "87b5bc5a2ab7e5f859e5005ca77e4cd8eca44f9fd72368924fd65eb47a24341a",
+      "bytes": 911
+    },
+    {
+      "path": "E:/Mestrado/src-multiexecucoes/execucoes/amostra-04pct/04-pos-processamento/06-validacao-semantica-front-running/resultados/transicao_pectra_2025/08_dossie_auditoria.parquet",
+      "sha256": "6240c37e060e7c991e4d52ebb0b2fc24cbe7c06e0c7d69a6e8299d7e76b8be34",
+      "bytes": 185835
+    },
+    {
+      "path": "E:/Mestrado/src-multiexecucoes/execucoes/amostra-04pct/04-pos-processamento/06-validacao-semantica-front-running/resultados/transicao_pectra_2025/15_decisoes_dossie.csv",
+      "sha256": "17675b16c16f2985e8184de0ee83edd4c761252502ca7b351967579397391601",
+      "bytes": 402617
+    },
+    {
+      "path": "E:/Mestrado/src-multiexecucoes/execucoes/amostra-04pct/04-pos-processamento/06-validacao-semantica-front-running/resultados/transicao_pectra_2025/17_validacao_adjudicacoes.csv",
+      "sha256": "3bea7b32c797b2851d45a3aea228762002bfe2b4cc8302b2a45f6387d7c44e18",
+      "bytes": 45992
+    },
+    {
+      "path": "E:/Mestrado/src-multiexecucoes/execucoes/amostra-04pct/04-pos-processamento/06-validacao-semantica-front-running/resultados/transicao_pectra_2025/19_manifest_validacao_adjudicacoes.json",
+      "sha256": "c545be91f8b559a097f07b107e0eba9a2b74d4ba726255ab24a567a99016ac6a",
+      "bytes": 900
+    },
+    {
+      "path": "E:/Mestrado/src-multiexecucoes/execucoes/amostra-04pct/04-pos-processamento/06-validacao-semantica-front-running/resultados/teste_final_2025/08_dossie_auditoria.parquet",
+      "sha256": "d73e70f0a5a28b3b386ffed370ad26d5f3274c8122e07f46bc3bda7923edf3db",
+      "bytes": 820347
+    },
+    {
+      "path": "E:/Mestrado/src-multiexecucoes/execucoes/amostra-04pct/04-pos-processamento/06-validacao-semantica-front-running/resultados/teste_final_2025/15_decisoes_dossie.csv",
+      "sha256": "2fcd33ee178b3dbb71ea7638e4a3b5e364d623e1a7ae43b05f39db1b5518426e",
+      "bytes": 1705849
+    },
+    {
+      "path": "E:/Mestrado/src-multiexecucoes/execucoes/amostra-04pct/04-pos-processamento/06-validacao-semantica-front-running/resultados/teste_final_2025/17_validacao_adjudicacoes.csv",
+      "sha256": "4d830f96408bb95568db7e5eb797313b1701e54f8306323a31d529e537f64dfa",
+      "bytes": 195533
+    },
+    {
+      "path": "E:/Mestrado/src-multiexecucoes/execucoes/amostra-04pct/04-pos-processamento/06-validacao-semantica-front-running/resultados/teste_final_2025/19_manifest_validacao_adjudicacoes.json",
+      "sha256": "e0eaa5d3d7d20352233d3dc57e98fa1add0735ba7ff984fb9e7d89ab3047e7d9",
+      "bytes": 893
+    },
+    {
+      "path": "E:/Mestrado/src-multiexecucoes/execucoes/amostra-04pct/04-pos-processamento/06-validacao-semantica-front-running/resultados/estresse_fusaka_2025/08_dossie_auditoria.parquet",
+      "sha256": "35569fd5afac6139bb7c78dacdd03243684e52050329477d7a86ec4b766bf9f8",
+      "bytes": 149622
+    },
+    {
+      "path": "E:/Mestrado/src-multiexecucoes/execucoes/amostra-04pct/04-pos-processamento/06-validacao-semantica-front-running/resultados/estresse_fusaka_2025/15_decisoes_dossie.csv",
+      "sha256": "67909c6c8eacd971c07d90ef42f9bb679f7ed130265501c2f3ed5072b2d911b7",
+      "bytes": 298016
+    },
+    {
+      "path": "E:/Mestrado/src-multiexecucoes/execucoes/amostra-04pct/04-pos-processamento/06-validacao-semantica-front-running/resultados/estresse_fusaka_2025/17_validacao_adjudicacoes.csv",
+      "sha256": "5fbbfd9324c2ba8c7cda90ec2bc7c1891b36587ef3fc7e7ddde483ce8b98d3fe",
+      "bytes": 33480
+    },
+    {
+      "path": "E:/Mestrado/src-multiexecucoes/execucoes/amostra-04pct/04-pos-processamento/06-validacao-semantica-front-running/resultados/estresse_fusaka_2025/19_manifest_validacao_adjudicacoes.json",
+      "sha256": "f41f679afe6fc3402eb5c19a8b6109ef3135f8f2534627ba0befc0e309026e0c",
+      "bytes": 898
+    }
+  ],
+  "outputs": {
+    "events_csv": "E:/Mestrado/src-multiexecucoes/execucoes/amostra-04pct/04-pos-processamento/06-validacao-semantica-front-running/resultados/consolidado/01_eventos_adjudicados.csv",
+    "events_parquet": "E:/Mestrado/src-multiexecucoes/execucoes/amostra-04pct/04-pos-processamento/06-validacao-semantica-front-running/resultados/consolidado/01_eventos_adjudicados.parquet",
+    "roles_csv": "E:/Mestrado/src-multiexecucoes/execucoes/amostra-04pct/04-pos-processamento/06-validacao-semantica-front-running/resultados/consolidado/02_papeis_evento.csv",
+    "roles_parquet": "E:/Mestrado/src-multiexecucoes/execucoes/amostra-04pct/04-pos-processamento/06-validacao-semantica-front-running/resultados/consolidado/02_papeis_evento.parquet",
+    "transactions_csv": "E:/Mestrado/src-multiexecucoes/execucoes/amostra-04pct/04-pos-processamento/06-validacao-semantica-front-running/resultados/consolidado/03_rotulos_transacao.csv",
+    "transactions_parquet": "E:/Mestrado/src-multiexecucoes/execucoes/amostra-04pct/04-pos-processamento/06-validacao-semantica-front-running/resultados/consolidado/03_rotulos_transacao.parquet",
+    "conflicts_csv": "E:/Mestrado/src-multiexecucoes/execucoes/amostra-04pct/04-pos-processamento/06-validacao-semantica-front-running/resultados/consolidado/04_conflitos_rotulos.csv",
+    "summary_csv": "E:/Mestrado/src-multiexecucoes/execucoes/amostra-04pct/04-pos-processamento/06-validacao-semantica-front-running/resultados/consolidado/05_resumo_consolidacao.csv",
+    "manifest": "E:/Mestrado/src-multiexecucoes/execucoes/amostra-04pct/04-pos-processamento/06-validacao-semantica-front-running/resultados/consolidado/06_manifest_consolidacao.json",
+    "methodology": "E:/Mestrado/src-multiexecucoes/execucoes/amostra-04pct/04-pos-processamento/06-validacao-semantica-front-running/resultados/consolidado/07_metodologia_rotulos_semanticos.md"
+  }
+}

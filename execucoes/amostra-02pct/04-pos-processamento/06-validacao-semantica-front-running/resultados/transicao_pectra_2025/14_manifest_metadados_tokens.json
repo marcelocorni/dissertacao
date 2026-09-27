@@ -1,0 +1,12 @@
+{
+  "created_at_utc": "2026-09-25T03:39:39.636508+00:00",
+  "source_flows": "E:\\Mestrado\\src-multiexecucoes\\execucoes\\amostra-02pct\\04-pos-processamento\\06-validacao-semantica-front-running\\resultados\\transicao_pectra_2025\\09_fluxos_tokens_atacante.parquet",
+  "tokens_requested": 235,
+  "complete": 235,
+  "partial": 0,
+  "errors": 1,
+  "rpc_calls": 111,
+  "cache_hits": 124,
+  "rpc_provider_host": "serene-tiniest-moon.ethereum-mainnet.quiknode.pro",
+  "rpc_url_stored": false
+}

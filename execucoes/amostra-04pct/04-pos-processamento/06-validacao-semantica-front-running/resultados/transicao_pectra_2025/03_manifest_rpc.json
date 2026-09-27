@@ -1,0 +1,18 @@
+{
+  "created_at_utc": "2026-09-25T22:00:06.732941+00:00",
+  "mode": "block_batch",
+  "dataset": "transicao_pectra_2025",
+  "source_queue": "E:\\Mestrado\\src-multiexecucoes\\execucoes\\amostra-04pct\\04-pos-processamento\\05-rotulador-front-running-csharp\\resultados-v3\\sampled\\independent_sampled\\transicao_pectra_2025\\05_enrichment_queue.parquet",
+  "requested_blocks": 6715,
+  "requested_transactions": 30994,
+  "enriched_transactions": 30994,
+  "errors": 0,
+  "cache_hits_blocks": 4099,
+  "new_blocks": 2616,
+  "http_requests": 2625,
+  "rpc_methods": 5250,
+  "blocks_per_batch": 1,
+  "rpc_provider_host": "rpc.mevblocker.io",
+  "rpc_url_stored": false,
+  "queue_fingerprint": "8b767851aad113c89236668c02476c8bc40f7a9384bb642914d104171c690c71"
+}

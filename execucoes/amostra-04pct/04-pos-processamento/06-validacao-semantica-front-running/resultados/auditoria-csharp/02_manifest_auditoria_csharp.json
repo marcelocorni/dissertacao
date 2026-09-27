@@ -1,0 +1,15 @@
+{
+  "created_at_utc": "2026-09-25T18:19:13.819336+00:00",
+  "source_root": "E:\\Mestrado\\src-multiexecucoes\\execucoes\\amostra-04pct\\04-pos-processamento\\05-rotulador-front-running-csharp\\resultados-v3\\sampled\\independent_sampled",
+  "expected_splits": 7,
+  "found_splits": 7,
+  "compatible_version": "3.0.0-candidate-first",
+  "totals": {
+    "events": 482488,
+    "queue_transactions": 739754,
+    "queue_blocks": 152026,
+    "label_rows": 38055052
+  },
+  "issues": [],
+  "rerun_csharp_required": false
+}

@@ -1,0 +1,61 @@
+{
+  "generated_at": "2026-09-26T11:06:04.499845-03:00",
+  "analysis_signature": "3e75458ff3895ec6d228306a87484ab999c7003cfbde9348801ed0ad87dcee85",
+  "source_split_manifest": "E:\\Mestrado\\src-multiexecucoes\\execucoes\\amostra-05pct\\03-machine-learning\\01-features\\resultados-splits\\00_manifest_splits_temporais.json",
+  "source_preprocessing_manifest": "E:\\Mestrado\\src-multiexecucoes\\execucoes\\amostra-05pct\\03-machine-learning\\01-features\\resultados-preprocessamento\\05_manifest_preprocessamento.json",
+  "preprocessing_signature": "401e1869c33e3c7685e5907979aaee9a4afd3e686d2f661f07326d7538a7d906",
+  "reference_split": "treino_2024_pos_dencun",
+  "features": [
+    "gas_used_log",
+    "gas_used_ratio",
+    "effective_gas_price_log",
+    "max_fee_per_gas_log",
+    "max_priority_fee_log",
+    "fee_cap_utilization",
+    "transaction_value_log",
+    "nonce_log",
+    "receipt_status",
+    "tx_type_0",
+    "tx_type_1",
+    "tx_type_3",
+    "transaction_index_pct",
+    "block_tx_count_log",
+    "sender_tx_count_block_log",
+    "receiver_tx_count_block_log",
+    "gas_price_rank_block",
+    "hour_sin",
+    "hour_cos",
+    "weekday_sin",
+    "weekday_cos",
+    "gas_limit_log",
+    "transaction_fee_paid_log"
+  ],
+  "settings": {
+    "preprocessing_signature": "401e1869c33e3c7685e5907979aaee9a4afd3e686d2f661f07326d7538a7d906",
+    "reference_split": "treino_2024_pos_dencun",
+    "psi_quantiles": 10,
+    "ks_grid_size": 101,
+    "psi_thresholds": [
+      0.1,
+      0.25
+    ],
+    "ks_thresholds": [
+      0.1,
+      0.2
+    ]
+  },
+  "outputs": [
+    "01_drift_features_recortes.csv",
+    "02_resumo_drift_recortes.csv",
+    "03_ranking_features_drift.csv",
+    "04_drift_por_matriz.csv",
+    "05_drift_transacoes_tipo_4.csv",
+    "06_distribuicao_tipos_transacao.csv",
+    "07_heatmap_psi.pdf",
+    "07_heatmap_psi.png",
+    "08_heatmap_ks_aproximado.pdf",
+    "08_heatmap_ks_aproximado.png",
+    "09_metodologia_drift.md",
+    "10_manifest_drift.json"
+  ]
+}

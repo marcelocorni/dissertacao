@@ -1,0 +1,18 @@
+{
+  "created_at_utc": "2026-09-25T21:55:08.804087+00:00",
+  "mode": "block_batch",
+  "dataset": "estresse_pre_dencun_2024",
+  "source_queue": "E:\\Mestrado\\src-multiexecucoes\\execucoes\\amostra-04pct\\04-pos-processamento\\05-rotulador-front-running-csharp\\resultados-v3\\sampled\\independent_sampled\\estresse_pre_dencun_2024\\05_enrichment_queue.parquet",
+  "requested_blocks": 12649,
+  "requested_transactions": 52048,
+  "enriched_transactions": 52048,
+  "errors": 0,
+  "cache_hits_blocks": 9832,
+  "new_blocks": 2817,
+  "http_requests": 2819,
+  "rpc_methods": 5638,
+  "blocks_per_batch": 1,
+  "rpc_provider_host": "lb.drpc.live",
+  "rpc_url_stored": false,
+  "queue_fingerprint": "7a61c9c0c3ded4f3dfbb5e988cd9fe78b4eb2e1c32da3e080cf53653d3f90e46"
+}

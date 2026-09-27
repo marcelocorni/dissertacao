@@ -1,0 +1,20 @@
+{
+  "generated_at": "2026-09-24T20:39:09.715972-03:00",
+  "configuration_file": "E:\\Mestrado\\src-multiexecucoes\\configuracao\\pipeline.json",
+  "root_template": "F:\\ethereum-{year}",
+  "dataset_name": "transicao_dencun_2024",
+  "start_date": "2024-03-13",
+  "end_date": "2024-03-31",
+  "source_parquet_files": 19,
+  "block_modulus": 50,
+  "block_sampling_percent": 2.0,
+  "sample_rows": 489782,
+  "sample_blocks": 2696,
+  "sample_unique_hashes": 489782,
+  "contract_creation_rows": 0,
+  "contract_creation_pct": 0.0,
+  "type_4_rows": 0,
+  "matrix_A_features": 13,
+  "matrix_B_features": 21,
+  "matrix_C_features": 23
+}

@@ -1,0 +1,7 @@
+detector,validation_status,events
+displacement,confirmed,36
+displacement,probable,66
+displacement,rejected,33247
+insertion,confirmed,455
+insertion,rejected,1904
+suppression,requires_mempool_evidence,4470

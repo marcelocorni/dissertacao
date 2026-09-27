@@ -1,0 +1,8 @@
+﻿split,project_version,input_mode,configuration,source_dates,events,unique_events,insertion_events,displacement_events,suppression_events,queue_transactions,queue_unique_hashes,queue_blocks,label_rows,positive_labels_before_semantics,negative_labels,status
+estresse_fusaka_2025,3.0.0-candidate-first,sampled,independent_sampled,31,15681,15681,893,13143,1645,28088,28088,4063,1023161,0,1023161,valid
+estresse_pre_dencun_2024,3.0.0-candidate-first,sampled,independent_sampled,72,18564,18564,2010,10557,5997,25851,25851,6336,1667909,0,1667909,valid
+teste_final_2025,3.0.0-candidate-first,sampled,independent_sampled,183,75214,75214,5007,57907,12300,126073,126073,21940,5651546,0,5651546,valid
+transicao_dencun_2024,3.0.0-candidate-first,sampled,independent_sampled,19,5376,5376,396,3180,1800,7209,7209,1692,489782,0,489782,valid
+transicao_pectra_2025,3.0.0-candidate-first,sampled,independent_sampled,31,10076,10076,394,7292,2390,15278,15278,3320,840917,0,840917,valid
+treino_2024_pos_dencun,3.0.0-candidate-first,sampled,independent_sampled,275,83440,83440,4242,52024,27174,112410,112410,26541,6424502,0,6424502,valid
+validacao_2025_pre_pectra,3.0.0-candidate-first,sampled,independent_sampled,120,32264,32264,3176,23313,5775,53976,53976,12027,2889100,0,2889100,valid

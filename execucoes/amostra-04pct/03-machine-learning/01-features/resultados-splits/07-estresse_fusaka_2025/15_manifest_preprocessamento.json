@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-09-25T14:21:46.614888-03:00",
+  "split": "estresse_fusaka_2025",
+  "preprocessing_signature": "ebb793a0d88fb4e5473ba7bef8158ec06b0975ea716247adda6ac5b90d8b592e",
+  "fit_split": "treino_2024_pos_dencun",
+  "outputs": [
+    {
+      "split": "estresse_fusaka_2025",
+      "matrix": "A",
+      "rows": 2060710,
+      "features": 13,
+      "invalid_values": 0,
+      "output_path": "E:\\Mestrado\\src-multiexecucoes\\execucoes\\amostra-04pct\\03-machine-learning\\01-features\\resultados-splits\\07-estresse_fusaka_2025\\12_matriz_A_preprocessada.parquet",
+      "size_bytes": 71278828
+    },
+    {
+      "split": "estresse_fusaka_2025",
+      "matrix": "B",
+      "rows": 2060710,
+      "features": 21,
+      "invalid_values": 0,
+      "output_path": "E:\\Mestrado\\src-multiexecucoes\\execucoes\\amostra-04pct\\03-machine-learning\\01-features\\resultados-splits\\07-estresse_fusaka_2025\\13_matriz_B_preprocessada.parquet",
+      "size_bytes": 80479041
+    },
+    {
+      "split": "estresse_fusaka_2025",
+      "matrix": "C",
+      "rows": 2060710,
+      "features": 23,
+      "invalid_values": 0,
+      "output_path": "E:\\Mestrado\\src-multiexecucoes\\execucoes\\amostra-04pct\\03-machine-learning\\01-features\\resultados-splits\\07-estresse_fusaka_2025\\14_matriz_C_preprocessada.parquet",
+      "size_bytes": 99300254
+    }
+  ]
+}

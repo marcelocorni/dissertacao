@@ -1,0 +1,40 @@
+{
+  "generated_at": "2026-09-25T14:52:38.358790-03:00",
+  "experiment_signature": "78ebd3650416302d54d6c531160cfbb9cf7e833c7e9be3702218b7f85161cbf2",
+  "preprocessing_signature": "ebb793a0d88fb4e5473ba7bef8158ec06b0975ea716247adda6ac5b90d8b592e",
+  "fit_split": "treino_2024_pos_dencun",
+  "threshold_split": "validacao_2025_pre_pectra",
+  "device": {
+    "requested": "auto",
+    "selected": "cuda",
+    "gpu_name": "NVIDIA GeForce RTX 3060",
+    "gpu_memory_bytes": 12884246528,
+    "torch_cuda_version": "13.0"
+  },
+  "configurations": [
+    "a_completa",
+    "b_completa",
+    "c_completa",
+    "b_sem_taxas_absolutas",
+    "c_sem_taxas_absolutas"
+  ],
+  "outputs": [
+    "01_configuracoes_experimento.json",
+    "02_resumo_treinamento.csv",
+    "03_historico_treinamento.csv",
+    "04_limiares_validacao.csv",
+    "05_estatisticas_escores.csv",
+    "06_taxas_anomalias_recortes.csv",
+    "07_taxas_anomalias_tipo4.csv",
+    "08_concordancia_ae_validacao.csv",
+    "09_concordancia_ae_if.csv",
+    "10_curvas_treinamento.pdf",
+    "10_curvas_treinamento.png",
+    "11_taxas_anomalias_recortes.pdf",
+    "11_taxas_anomalias_recortes.png",
+    "12_metodologia_autoencoder.md",
+    "13_manifest_autoencoder.json"
+  ],
+  "models_directory": "E:\\Mestrado\\src-multiexecucoes\\execucoes\\amostra-04pct\\03-machine-learning\\02-ae\\resultados\\modelos",
+  "scores_directory": "E:\\Mestrado\\src-multiexecucoes\\execucoes\\amostra-04pct\\03-machine-learning\\02-ae\\resultados\\escores"
+}

@@ -1,0 +1,1317 @@
+﻿token_address,reference_block,symbol,name,decimals,metadata_status,provider_host
+0x0000000000085d4780b73119b644ae5ecd22b376,23618100,TUSD,TrueUSD,18,complete,eth-mainnet.g.alchemy.com
+0x0000000000a39bb272e79075ade125fd351887ac,23029025,,Blur Pool,18,partial,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x0000000000c5dc95539589fbd24be07c6c14eca4,22976275,CULT,Milady Cult Coin,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x0007efdf427313313c904ad88cba4d00a672e327,22802250,ISHI,Ishi Go,9,complete,rpc.ankr.com
+0x007d3acc903fe396c2f6d6e8ee0c5fad95d5e555,22859875,AMERICA,America Party Congress,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x007e676887a88dec28d83ca767ffea8052fc1422,23086125,fwDAI,Few Wrapped Dai Stablecoin,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x00869e8e2e0343edd11314e6ccb0d78d51547ee5,22916925,SUPERGROK,SuperGrok,18,complete,eth-mainnet.g.alchemy.com
+0x00c83aecc790e8a4453e5dd3b0b4b3680501a7a7,23147125,SKL,SKALE,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x00ec50e98ffda6b1bf22620fb85ed2eec1290663,23157875,WCM,World Computer Money,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x00f116ac0c304c570daaa68fa6c30a86a04b5c5f,23330425,INF,INFERNO,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x00f3c42833c3170159af4e92dbb451fb3f708917,23738150,ICP,ICP,8,complete,rpc.ankr.com
+0x015396e1f286289ae23a762088e863b3ec465145,22934250,variableDebtEthUSDe,Aave Ethereum Variable Debt USDe,18,complete,rpc.ankr.com
+0x0175a47d1c5613a98d23a50234abea8eb8551cb1,22634550,MEMELORD,Memelord,9,complete,rpc.ankr.com
+0x01791f726b4103694969820be083196cc7c045ff,23582450,YB,Yield Basis,18,complete,eth-mainnet.g.alchemy.com
+0x018008bfb33d285247a21d44e50697654f754e63,22865825,aEthDAI,Aave Ethereum DAI,18,complete,rpc.ankr.com
+0x0258f474786ddfd37abce6df6bbb1dd5dfc4434a,22745400,ORN,Orion Protocol,8,complete,eth-mainnet.g.alchemy.com
+0x02a411fe5e792c5fe94cad8a669c9397eb7343a1,22842250,snipe,snipe,18,complete,rpc.ankr.com
+0x02e7f808990638e9e67e1f00313037ede2362361,23003850,KIBSHI,KiboShib,18,complete,eth-mainnet.g.alchemy.com
+0x02f92800f57bcd74066f5709f1daa1a4302df875,23819775,PEAS,Peapods,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x037a54aab062628c9bbae1fdb1583c195585fe41,23566850,LCX,LCX,18,complete,rpc.ankr.com
+0x0386722c377218174345e7d6116d10eb0e607f46,22716525,A1Fi,AI1 EVM DeFi Protocol,9,complete,rpc.ankr.com
+0x0391d2021f89dc339f60fff84546ea23e337750f,23631775,BOND,BarnBridge Governance Token,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x03aa6298f1370642642415edc0db8b957783e8d6,23297825,NMT,NetMind Token,18,complete,rpc.ankr.com
+0x03ab458634910aad20ef5f1c8ee96f1d6ac54919,23587025,RAI,Rai Reflex Index,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x04018dead4886ac9d171fccd81b717506f4afd89,22640000,KILLBILL,KILL BILL,9,complete,eth-mainnet.g.alchemy.com
+0x0446945c6335a70da70b1cd0854549abf2f7d3ad,22747975,GOAT,The GOAT,9,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x044ca854fa227e27e07652b7f6a6b578703f3945,23822875,LDC,Lendep Coin,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x046eee2cc3188071c02bfc1745a6b17c656e3f3d,22807725,RLB,Rollbit Coin,18,complete,eth-mainnet.g.alchemy.com
+0x0492560fa7cfd6a85e50d8be3f77318994f8f429,23684900,fwUSDC,Few Wrapped USD Coin,6,complete,eth-mainnet.g.alchemy.com
+0x04de09b5858d9b686af89fc0225e90f35764c5b7,22626675,TAIKI,TAIKI INU,9,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x04f121600c8c47a754636fc9d75661a9525e05d5,22659450,STARS,STARS,18,complete,rpc.ankr.com
+0x04fa0d235c4abf4bcf4787af4cf447de572ef828,23215600,UMA,UMA Voting Token v1,18,complete,eth-mainnet.g.alchemy.com
+0x054d64b73d3d8a21af3d764efd76bcaa774f3bb2,23249650,PPAY,Plasma,18,complete,rpc.ankr.com
+0x056c1d42fb1326f57da7f19ebb7dda4673f1ff55,22926925,GAINS,GAINS,18,complete,rpc.ankr.com
+0x0590cc9232ebf68d81f6707a119898219342ecb9,22781450,BCAT,BananaCat,9,complete,rpc.ankr.com
+0x05be1d4c307c19450a6fd7ce7307ce72a3829a60,22848075,IMF,International Meme Fund,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x05d3606d5c81eb9b7b18530995ec9b29da05faba,22644700,TOMOE,TomoChain,18,complete,eth-mainnet.g.alchemy.com
+0x06450dee7fd2fb8e39061434babcfc05599a6fb8,22771450,XEN,XEN Crypto,18,complete,rpc.ankr.com
+0x067381e527e8d6ddf2dcd4d18eceb8e0b1aaec5d,22773100,Son Of Kabosu,MOMO,9,complete,eth-mainnet.g.alchemy.com
+0x06baad771f2aca2bbefe60b3105a59a1bcabe1f7,22852875,GORILLA,Gorilla AI,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x07150e919b4de5fd6a63de1f9384828396f25fdc,23177375,BASE,Base Protocol,9,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x0752d64e60f660a5e5bf8b768906c591290d7da1,22868575,7BR,Onchain Brain,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x079d0150cc21e127898db0f51f18ca54db56b1ba,23756550,BTCACT,BITCOIN Act,9,complete,rpc.ankr.com
+0x07f9702ce093db82dfdc92c2c6e578d6ea8d5e22,23181100,OBT,Oobit,18,complete,eth-mainnet.g.alchemy.com
+0x0800394f6e23dd539929c8b77a3d45c96f76aefc,22794025,TURT,TURT,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x08a1c30bbb26425c1031ee9e43fa0b9960742539,23243000,LNDX,LandX Governance Token,6,complete,eth-mainnet.g.alchemy.com
+0x08ad83d779bdf2bbe1ad9cc0f78aa0d24ab97802,22805300,RWS,Robonomics Web Services :: V1,18,complete,eth-mainnet.g.alchemy.com
+0x09395a2a58db45db0da254c7eaa5ac469d8bdc85,22788950,SQT,SubQueryToken,18,complete,eth-mainnet.g.alchemy.com
+0x0943d06a5ff3b25ddc51642717680c105ad63c01,23771525,Ascend,Ascendant.win,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x0954906da0bf32d5479e25f46056d22f08464cab,23371275,INDEX,Index,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x09a3ecafa817268f77be1283176b946c4ff2e608,23207850,MIR,Wrapped MIR Token,18,complete,rpc.ankr.com
+0x09d6f0f5a21f5be4f59e209747e2d07f50bc694c,23161425,NFTFI,NFTfi,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x09eb80e7c9ccc4a677b3cb86a4ae14516e0279da,23857800,$BULLYXL, BULLY XL ,18,complete,eth-mainnet.g.alchemy.com
+0x0a3c38a2daf946a0341647d136db1fbd733915fc,23263375,LOKI,Loki the Wolfdog,9,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x0a5e677a6a24b2f1a2bf4f3bffc443231d2fdec8,22786175,USX,dForce USD,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x0a638f07acc6969abf392bb009f216d22adea36d,23852850,BKN,Brickken,18,complete,rpc.ankr.com
+0x0a6e7ba5042b38349e437ec6db6214aec7b35676,23753450,SWELL,Swell Governance Token,18,complete,rpc.ankr.com
+0x0ab87046fbb341d058f17cbc4c1133f25a20a52f,23684900,gOHM,Governance OHM,18,complete,eth-mainnet.g.alchemy.com
+0x0b2fa18342d38909e3e44d7103cf3f37b0a0403a,22941100,TANUKI,Tanuki,9,complete,eth-mainnet.g.alchemy.com
+0x0b325d3c4c668341d1bd10ddfe4693769fbb1db5,22611550,Rust,Rust,9,complete,rpc.ankr.com
+0x0b38210ea11411557c13457d4da7dc6ea731b88a,23173650,API3,API3,18,complete,rpc.ankr.com
+0x0b61c4f33bcdef83359ab97673cb5961c6435f4e,23212200,EARN,HOLD,18,complete,eth-mainnet.g.alchemy.com
+0x0bb217e40f8a5cb79adf04e1aab60e5abd0dfc1e,23121700,,SwftCoin,8,partial,eth-mainnet.g.alchemy.com
+0x0bc37bea9068a86c221b8bd71ea6228260dad5a2,22915600,SPARKLET,Upland,18,complete,eth-mainnet.g.alchemy.com
+0x0bc529c00c6401aef6d220be8c6ea1667f6ad93e,22607600,YFI,yearn.finance,18,complete,eth-mainnet.g.alchemy.com
+0x0c0d01abf3e6adfca0989ebba9d6e85dd58eab1e,23234650,aEthPYUSD,Aave Ethereum PYUSD,6,complete,rpc.ankr.com
+0x0c7d5ae016f806603cb1782bea29ac69471cab9c,23024325,BFC,Bifrost,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x0c91bca95b5fe69164ce583a2ec9429a569798ed,23479600,variableDebtEthcbETH,Aave Ethereum Variable Debt cbETH,18,complete,eth-mainnet.g.alchemy.com
+0x0c9c7712c83b3c70e7c5e11100d33d9401bdf9dd,23051200,WOMBAT,Wombat,18,complete,eth-mainnet.g.alchemy.com
+0x0cec1a9154ff802e7934fc916ed7ca50bde6844e,23421700,POOL,PoolTogether,18,complete,eth-mainnet.g.alchemy.com
+0x0d37af9d8ae74f35f3a38bd2a08fcb29890ca6d2,22970650,AIXBT,AIXBT,18,complete,eth-mainnet.g.alchemy.com
+0x0d438f3b5175bebc262bf23753c1e53d03432bde,23041950,wNXM,Wrapped NXM,18,complete,rpc.ankr.com
+0x0d57436f2d39c0664c6f0f2e349229483f87ea38,23196750,wA7A5,Wrapped A7A5 1.0,6,complete,rpc.ankr.com
+0x0d8775f648430679a709e98d2b0cb6250d2887ef,22992375,BAT,Basic Attention Token,18,complete,rpc.ankr.com
+0x0e3fe143de98c73e72942c8f760a2e69d98bc1cb,22642225,fwAPE,Few Wrapped ApeCoin,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x0ec78ed49c2d27b315d462d43b5bab94d2c79bf8,23286000,MEOW,MEOW,18,complete,eth-mainnet.g.alchemy.com
+0x0f13fc8a93ab8edc9fde0a1e19aac693161599a5,23522325,SCAI,SecureChain AI,18,complete,eth-mainnet.g.alchemy.com
+0x0f5d2fb29fb7d3cfee444a200298f468908cc942,22992375,MANA,Decentraland MANA,18,complete,eth-mainnet.g.alchemy.com
+0x0f7dc5d02cc1e1f5ee47854d534d332a1081ccc8,22679800,ZEUS,Pepes Dog,9,complete,eth-mainnet.g.alchemy.com
+0x0f81001ef0a83ecce5ccebf63eb302c70a39a654,22893825,DOLO,Dolomite,18,complete,eth-mainnet.g.alchemy.com
+0x0fb1eedbc85805e075db6d01009ca841aca8d88a,22628550,EAGLE,Eagle,18,complete,rpc.ankr.com
+0x1000003ef093f9974a3a5f03c34bd738f54be760,23035500,UP,OnlyUp,4,complete,eth-mainnet.g.alchemy.com
+0x108f9fe948e7f07a42bf8957de773f5d2c97a00d,23286325,memecoin,just memecoin,2,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x10ee9f68ee4e4d311e854ae14c53f5b25a917f85,23323275,MHRD,MacroHard,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x10eef9176deb93f15a18a042087fd80dc9cfc746,22810925,MIETA,Ethereum Dog,9,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x111111111117dc0aa78b770fa6a738034120c302,23173775,1INCH,1INCH Token,18,complete,eth-mainnet.g.alchemy.com
+0x111111517e4929d3dcbdfa7cce55d30d4b6bc4d6,23337575,ICHI,ICHI,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x112241d341a69f11fbb3d627406ef4fe02e19646,23267900,NIKO,Niko,9,complete,eth-mainnet.g.alchemy.com
+0x112b08621e27e10773ec95d250604a041f36c582,23086125,KAS,Kaspa,8,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x1151cb3d861920e07a38e03eead12c32178567f6,23020775,Bonk,Bonk,5,complete,eth-mainnet.g.alchemy.com
+0x11ae90c143c310c891172c36a79742d0825a0257,23445850,fwINST,Few Wrapped Instadapp,18,complete,rpc.ankr.com
+0x11eef04c884e24d9b7b4760e7476d06ddf797f36,23387350,MX,MX Token,18,complete,rpc.ankr.com
+0x1202f5c7b4b9e47a1a484e8b270be34dbbc75055,23808900,wstUSR,Wrapped stUSR,18,complete,eth-mainnet.g.alchemy.com
+0x1217bfe6c773eec6cc4a38b5dc45b92292b6e189,23372725,oUSDT,OpenUSDT,6,complete,rpc.ankr.com
+0x12970e6868f88f6557b76120662c1b3e50a646bf,23912350,LADYS,Milady,18,complete,rpc.ankr.com
+0x129e5915326ed86f831b0e035acda34b209633d5,22891725,PAPPLE,Pineapple,9,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x12a3cf68ff5672269279d018a7229600a5da68fc,22681425,ETH🐈,Ethereal Kitty,9,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x12a3cf68ff5672269279d018a7229600a5da68fc,22681425,,,,error,rpc.mevblocker.io
+0x12c0126a751df777272d8233abefc0ace5f0e792,22761225,0xOIL,Digital Oil,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x12d0545f7f74a17c84432e9552d8e4eb62b59dcd,23549500,REILLY,ReillyCoin,18,complete,eth-mainnet.g.alchemy.com
+0x1356cb7a3d0bdbce69156b1bd16bcc6a346459c1,23607725,מַזָל,המזל הבלתי צפוי,9,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x1356cb7a3d0bdbce69156b1bd16bcc6a346459c1,23607725,,,,error,rpc.mevblocker.io
+0x13d074303c95a34d304f29928dc8a16dec797e9e,23179075,LAK3,LAKE,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x148255a3b10666d9788ec48bc61ea3e48974bf2c,23029250,DMCC,DMCCOIN,18,complete,rpc.ankr.com
+0x14913a1236ab004df1e2c80e7d39ab2700cf820a,23600575,DOGGO,Ethereum's Official Dog,9,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x1494ca1f11d487c2bbe4543e90080aeba4ba3c2b,23771525,DPI,DefiPulse Index,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x1495bc9e44af1f8bcb62278d2bec4540cf0c05ea,22736250,DEAI,Zero1 Token,18,complete,eth-mainnet.g.alchemy.com
+0x14cf922aa1512adfc34409b63e18d391e4a86a2f,23025500,STRAT,ETH Strategy,18,complete,eth-mainnet.g.alchemy.com
+0x14fee680690900ba0cccfc76ad70fd1b95d10e16,23009600,$PAAL,PAAL AI,9,complete,eth-mainnet.g.alchemy.com
+0x1525fd4b1aa86f08dbc1428c4dd247734bd03d5a,22732400,MARI,The Legend Of Mari,9,complete,eth-mainnet.g.alchemy.com
+0x152649ea73beab28c5b49b26eb48f7ead6d4c898,23573975,Cake,PancakeSwap Token,18,complete,rpc.ankr.com
+0x153ba9a2809910a072cc0c4a871dc2b2d3c04d6a,23074625,JOBSEEK,JOBSEEK,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x15700b564ca08d9439c58ca5053166e8317aa138,23725500,deUSD,deUSD,18,complete,eth-mainnet.g.alchemy.com
+0x15d4c048f83bd7e37d49ea4c83a07267ec4203da,22936200,GALA,Gala,8,complete,eth-mainnet.g.alchemy.com
+0x163c754ef4d9c03fc7fa9cf6dd43bfc760e6ce89,22700300,MAGGOT,MaggotToken,18,complete,eth-mainnet.g.alchemy.com
+0x168e209d7b2f58f1f24b8ae7b7d35e662bbf11cc,22879500,LAI,LayerAI Token,18,complete,eth-mainnet.g.alchemy.com
+0x1692111df125ba1543f82e77757253234594ea30,23102700,PURPE,Purple Pepe,9,complete,eth-mainnet.g.alchemy.com
+0x16eccfdbb4ee1a85a33f3a9b21175cd7ae753db4,22651450,ROUTE,Route,18,complete,rpc.ankr.com
+0x1720257b0c2324b21961b6f632a2abd39587e46a,22861825,MASA,Alligator Alcatraz,9,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x17731448b1c5087ec74a0e81c4b713e6b62251f7,22768450,CACTI,Cactuar,18,complete,rpc.ankr.com
+0x1776e1f26f98b1a5df9cd347953a26dd3cb46671,23239275,NMR,Numeraire,18,complete,eth-mainnet.g.alchemy.com
+0x1789e0043623282d5dcc7f213d703c6d8bafbb04,23354725,LINEA,Linea,18,complete,eth-mainnet.g.alchemy.com
+0x17b9ead941d8dad4cadd7fb9ccf76f8ec5a70cf4,23002700,JET2,Jet2holidays,9,complete,eth-mainnet.g.alchemy.com
+0x18084fba666a33d37592fa2633fd49a74dd93a88,23207350,tBTC,tBTC v2,18,complete,rpc.ankr.com
+0x186ef81fd8e77eec8bffc3039e7ec41d5fc0b457,23496700,INSP,Inspect,18,complete,eth-mainnet.g.alchemy.com
+0x19062190b1925b5b6689d7073fdfc8c2976ef8cb,22795950,BZZ,BZZ,16,complete,eth-mainnet.g.alchemy.com
+0x1963a95cfc30e49cc75f7f2de6027289971cac79,22814800,WLFI,Wen Lambo Financial,18,complete,eth-mainnet.g.alchemy.com
+0x198647e7957096877e5c7e4fd875291524f85bea,23186900,YZY,YZY,9,complete,eth-mainnet.g.alchemy.com
+0x199fe9826a45dbea191498f23f791c18c67b94e3,23762475,fwNEAR,Few Wrapped NEAR,24,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x19a7c66d02c1f7404a126efbf38854eaead8a661,23328575,BAY,The Pirate Bay,9,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x1a4b46696b2bb4794eb3d4c26f1c55f9170fa4c5,23337575,BIT,BitDAO,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x1a7e4e63778b4f12a199c062f3efdd288afcbce8,23304325,EURA,EURA (previously agEUR),18,complete,eth-mainnet.g.alchemy.com
+0x1abaea1f7c830bd89acc67ec4af516284b1bc33c,22661025,EURC,Euro Coin,6,complete,eth-mainnet.g.alchemy.com
+0x1ae7e1d0ce06364ced9ad58225a1705b3e5db92b,22667975,LMEOW,lmeow,9,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x1b379a79c91a540b2bcd612b4d713f31de1b80cc,23239875,NAORIS,Naoris Protocol,18,complete,eth-mainnet.g.alchemy.com
+0x1bb91ae893d3c3f1af94820da00a138154160a3c,22777575,BBI,BOMB BOMB IRAN,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x1bbf25e71ec48b84d773809b4ba55b6f4be946fb,23477975,VOW,Vow,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x1c7e83f8c581a967940dbfa7984744646ae46b29,23045225,RND,random,18,complete,rpc.ankr.com
+0x1c9922314ed1415c95b9fd453c3818fd41867d0b,23048900,TOWER,TOWER,18,complete,eth-mainnet.g.alchemy.com
+0x1cdd2eab61112697626f7b4bb0e23da4febf7b7c,22755875,USDT,USDT,6,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x1d649d161f8da5e739d0ed5d7565e35d992ce2ec,22640525,TGATE,Trump Gate,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x1e7fab1e97dc36f54b92ef565921b4350547e490,22630600,DD,Discovery Day,9,complete,eth-mainnet.g.alchemy.com
+0x1e8b885bc4bb0f6b9118e0a910d012ba922577e8,23314525,DOVE,Doge of Venice,9,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x1e92005693082aa1068139d6da9a3d13e94f7a13,22845625,MANYU2.0,Manyu2.0,9,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x1f573d6fb3f13d689ff844b4ce37794d79a7ff1c,22622025,BNT,Bancor Network Token,18,complete,eth-mainnet.g.alchemy.com
+0x1f9840a85d5af5bf1d1762f925bdaddc4201f984,22728800,UNI,Uniswap,18,complete,eth-mainnet.g.alchemy.com
+0x202b2adad000af684220a3e5c99c769e3f242fe6,22777100,FOXAGOTCHI,FOXAGOTCHI,18,complete,eth-mainnet.g.alchemy.com
+0x2078f336fdd260f708bec4a20c82b063274e1b23,23220425,fwWBTC,Few Wrapped Wrapped BTC,8,complete,eth-mainnet.g.alchemy.com
+0x209e2c0b3d6b779993aab1d4b795cdac993e7662,23083725,FROSCH,Frosch,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x20bc4aea26bc296662b6b3449c72291d13b87994,22761450,EMPTYREUM,New Ethereum Logo,18,complete,rpc.ankr.com
+0x20d81101d254729a6e689418526be31e2c544290,23095650,mvDEFI,Large Cap DeFi Index,18,complete,rpc.ankr.com
+0x2164bd3e2d8b58850f646f35ab7c95360327e7f3,23291375,fwWLFI,Few Wrapped World Liberty Financial,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x21cd589a989615a9e901328d3c089bbca16d00b2,23383250,XMONEY,X Money,9,complete,rpc.ankr.com
+0x21d577e39d91de9e4b23d34837202e5cec1174cf,23135525,ETHBULL,Ethereum is back,9,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x21f5b2bacb67c94aa0982ce7428f7d1b3c9ceb53,23693400,SNORT,Snorter,18,complete,eth-mainnet.g.alchemy.com
+0x221657776846890989a759ba2973e427dff5c9bb,23653225,REPv2,Reputation,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x2260fac5e5542a773aa44fbcfedf7c193bc2c599,22628875,WBTC,Wrapped BTC,8,complete,eth-mainnet.g.alchemy.com
+0x226676c9e15be689817f5ae44863f0811181a5ae,23620450,DEWA,Dewa Go,9,complete,rpc.ankr.com
+0x226f7b842e0f0120b7e194d05432b3fd14773a9d,23587025,UNN,UNION Protocol Governance Token,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x229f68a40a64b15f0543a5a518f2b1046f1fe920,23362900,HYPER,Bitcoin Hyper,9,complete,eth-mainnet.g.alchemy.com
+0x22d6a4f7519fa3bef514eca8be3902214ae6c14f,23002875,CHARLIE,Charlie Lou Rogan,9,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x230d103f402e4abe02c351c2c28d4482a053abe2,22739325,derekt35,derekt35,9,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x23878914efe38d27c4d67ab83ed1b93a74d4086a,23038950,aEthUSDT,Aave Ethereum USDT,6,complete,rpc.ankr.com
+0x23894dc9da6c94ecb439911caf7d337746575a72,23446825,JAM,Geojam,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x23b608675a2b2fb1890d3abbd85c5775c51691d5,23828300,SOCKS,Unisocks Edition 0,18,complete,eth-mainnet.g.alchemy.com
+0x2430e165f6632563dc749fa7232d131b09cae007,22964025,STEGGY,Steggy,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x243cacb4d5ff6814ad668c3e225246efa886ad5a,23321975,SHI,Shina Inu,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x24a3d725c37a8d1a66eb87f0e5d07fe67c120035,23475425,EDEN,Eden Token,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x24fcfc492c1393274b6bcd568ac9e225bec93584,23242650,MAVIA,Heroes of Mavia,18,complete,rpc.ankr.com
+0x2526ae18c3beeabb248e401368ef0f4515d24f9d,23070875,YES,Yes Chad,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x2551bc3f26129019624f1fb09ebb880e94dbc22a,23619100,BROCCOLI,Broccoli,9,complete,eth-mainnet.g.alchemy.com
+0x255494b830bd4fe7220b3ec4842cba75600b6c80,22626550,BEAST,Beast Seller,9,complete,eth-mainnet.g.alchemy.com
+0x2565ae0385659badcada1031db704442e1b69982,23708250,ASM,ASSEMBLE,18,complete,rpc.ankr.com
+0x25931894a86d47441213199621f1f2994e1c39aa,22711250,CGPT,ChainGPT,18,complete,eth-mainnet.g.alchemy.com
+0x259338656198ec7a76c729514d3cb45dfbf768a1,22674375,RESOLV,Resolv,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x2596825a84888e8f24b747df29e11b5dd03c81d7,22848150,FTRB,Faith Tribe,18,complete,rpc.ankr.com
+0x25c5570976c9100d47bef5446a53ac127b2ac238,22622375,GRIMMY,Grimmy Bronhood by Matt Furie,18,complete,rpc.ankr.com
+0x25cbb21a9da7c3c63bb77ccca5b2e2482aedb710,22980325,HOBA,Honey Badger,9,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x2653cd00ceb854efb65b1bb4cbf19c760f66cc3e,22993325,KOMO,KOMO,0,complete,eth-mainnet.g.alchemy.com
+0x265db573e09aac0a374a8abbc630c516afe94d8e,22614800,4K,Token4K,18,complete,eth-mainnet.g.alchemy.com
+0x26adb45ca0f6343d7252af89aa1c95ce820d52f3,23046450,MAXIMARS,Kekius MaxiMars,9,complete,rpc.ankr.com
+0x26c8afbbfe1ebaca03c2bb082e69d0476bffe099,23766450,CELL,Cellframe Token,18,complete,rpc.ankr.com
+0x26e550ac11b26f78a04489d5f20f24e3559f7dd9,22754500,KEKIUS,Kekius Maximus,9,complete,eth-mainnet.g.alchemy.com
+0x27054b13b1b798b345b591a4d22e6562d47ea75a,22700300,AST,AirSwap Token,4,complete,eth-mainnet.g.alchemy.com
+0x27702a26126e0b3702af63ee09ac4d1a084ef628,22799850,ALEPH,aleph.im v2,18,complete,rpc.ankr.com
+0x27c70cd1946795b66be9d954418546998b546634,22836275,LEASH,DOGE KILLER,18,complete,eth-mainnet.g.alchemy.com
+0x2849bbf41dcf6fb40f99f951e202e1557f2b7979,23078850,Honoka,Marie Rose's Best Friend,9,complete,rpc.ankr.com
+0x28561b8a2360f463011c16b6cc0b0cbef8dbbcad,23104375,MOODENG,MOO DENG,9,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x288f4a0d6d066295ce277d3e3ba20ca36a3373e1,22721225,Morph,Morphware AI,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x289ff00235d2b98b0145ff5d4435d3e92f9540a6,23550300,BOOE,Book of Ethereum,18,complete,eth-mainnet.g.alchemy.com
+0x295b42684f90c77da7ea46336001010f2791ec8c,23599875,XI,Xi Token,18,complete,eth-mainnet.g.alchemy.com
+0x29a294f8fe285dfb259705213e375ecb7fcf9d9b,23684900,fwUSDR,Few Wrapped Ring USD,18,complete,eth-mainnet.g.alchemy.com
+0x2a3bff78b79a009976eea096a51a948a3dc00e34,22669150,WILD,Wilder,18,complete,eth-mainnet.g.alchemy.com
+0x2a8e1e676ec238d8a992307b495b45b3feaa5e86,23515450,OUSD,Origin Dollar,18,complete,rpc.ankr.com
+0x2a9db31f0f0329b03ddd7a8a4b5297815bba0124,22666175,SNIBBU,Snibbu,9,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x2af5d2ad76741191d15dfe7bf6ac92d4bd912ca3,23143150,LEO,Bitfinex LEO Token,18,complete,rpc.ankr.com
+0x2b591e99afe9f32eaa6214f7b7629768c40eeb39,22607600,HEX,HEX,8,complete,eth-mainnet.g.alchemy.com
+0x2ba592f78db6436527729929aaf6c908497cb200,22811950,CREAM,Cream,18,complete,rpc.ankr.com
+0x2baecdf43734f22fd5c152db08e3c27233f0c7d2,23604475,OM,OM Token,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x2c431766e48ec4a17dc052d9d3fef6b6a9ae8d62,23220300,RBR,Robora,18,complete,eth-mainnet.g.alchemy.com
+0x2c6264619d2f598a003d1c857e46edb95b22c75c,23779800,1LP-1INCH-DAI,1inch Liquidity Pool (1INCH-DAI),18,complete,eth-mainnet.g.alchemy.com
+0x2c909c087e18932ba720d62419e0ecf28006cad8,23447875,BRETT,Brett,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x2ca94b0d95a2515950015313be9cbddfd600c395,23446825,BOD,BOOK OF DOGE,9,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x2d1f7226bd1f780af6b9a49dcc0ae00e8df4bdee,23739625,NVDAon,NVIDIA (Ondo Tokenized),18,complete,eth-mainnet.g.alchemy.com
+0x2d8ea194902bc55431420bd26be92b0782dce91d,23018525,ZND,ZNDToken,18,complete,eth-mainnet.g.alchemy.com
+0x2da719db753dfa10a62e140f436e1d67f2ddb0d6,23357975,CERE,CERE Network,10,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x2e1e15c44ffe4df6a0cb7371cd00d5028e571d14,23480775,MTLX,Mettalex,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x2e32f96a4fbb9cd7cdc751971c015e282414b956,22737500,REPLICANDY,Replicandy,9,complete,eth-mainnet.g.alchemy.com
+0x2e49e372fb442707c91b7ecfec99fb1e41df5532,22898100,β,β,18,complete,eth-mainnet.g.alchemy.com
+0x2e49e372fb442707c91b7ecfec99fb1e41df5532,22898100,,,,error,rpc.mevblocker.io
+0x2ebd53d035150f328bd754d6dc66b99b0edb89aa,23613075,MET,Metronome2,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x2ec5c7de30a5b5f6f0f849ff52883b0b6676131e,22736275,JPMD,JPMD,9,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x3007083eaa95497cd6b2b809fb97b6a30bdf53d3,22971375,PSYOP,Psyop,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x3010ccb5419f1ef26d40a7cd3f0d707a0fa127dc,23005525,GEMS,GEMS,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x306fd3e7b169aa4ee19412323e1a5995b8c1a1f4,23338200,FTW,Black Agnus,18,complete,eth-mainnet.g.alchemy.com
+0x3073f7aaa4db83f95e9fff17424f71d4751a3073,23612550,MOVE,Movement,8,complete,rpc.ankr.com
+0x3081220ab18ddc56d8ee8f2aad68108a69f18d8a,22907525,BRO,Bro,9,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x30bcfae081dea6f1acd014947abbfab791cc2296,22872025,SNIFF,SnowSniff,18,complete,eth-mainnet.g.alchemy.com
+0x30d20208d987713f46dfd34ef128bb16c404d10f,22985750,SD,Stader,18,complete,eth-mainnet.g.alchemy.com
+0x3157874a7508fcf972379d24590c6806522b784f,22609125,PFVS,Puffverse Token,18,complete,eth-mainnet.g.alchemy.com
+0x3175df0976dfa876431c2e9ee6bc45b65d3473cc,22850350,crvFRAX,Curve.fi FRAX/USDC,18,complete,rpc.ankr.com
+0x31c8eacbffdd875c74b94b077895bd78cf1e64a3,23209500,RAD,Radicle,18,complete,eth-mainnet.g.alchemy.com
+0x31d6f55042bdbc30fa4cd29539d2ef03638232d3,23086125,fwWETH,Few Wrapped Wrapped Ether,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x320623b8e4ff03373931769a31fc52a4e78b5d70,23535200,RSR,Reserve Rights,18,complete,eth-mainnet.g.alchemy.com
+0x3230d8e0ac4d6887cf3bddd57e9d8c1a06f33b62,23358225,PEPECASH,PEPECASH,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x323c03c48660fe31186fa82c289b0766d331ce21,23791450,OPEN,Open Stablecoin Index,18,complete,rpc.ankr.com
+0x32462ba310e447ef34ff0d15bce8613aa8c4a244,22709525,DHN,Dohrnii,18,complete,eth-mainnet.g.alchemy.com
+0x32714ef2ed46eda5c23c885462a9e439f4cbd7ff,22771450,XBURN,XBURN,18,complete,rpc.ankr.com
+0x32b053f2cba79f80ada5078cb6b305da92bde6e1,23035225,NEURAL,NeuralAI,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x32b29705bb44c57f6a3dcca047fd55b460977c25,23721800,HYBX,HYBX,8,complete,eth-mainnet.g.alchemy.com
+0x32b77729cd87f1ef2bea4c650c16f89f08472c69,22822275,BOX,DeBoxToken,18,complete,eth-mainnet.g.alchemy.com
+0x32b86b99441480a7e5bd3a26c124ec2373e3f015,23504500,BAD,BAD IDEA AI,18,complete,eth-mainnet.g.alchemy.com
+0x32c6f1c1731ff8f98ee2ede8954f696446307846,22798375,BEARDY,Bearded Dragon,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x32f8ca996241a469afc685e3f80eb2d313cdddf6,23435675,LiXFi,LiXFi,9,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x33fbd411ccbd23581d3a318976d42c8809ec5bbc,22740475,CDAI,Copy Defender AI,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x3432b6a60d23ca0dfca7761b7ab56459d9c964d0,23684925,FXS,Frax Share,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x3472a5a71965499acd81997a54bba8d852c6e53d,23200825,BADGER,Badger,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x347a96a5bd06d2e15199b032f46fb724d6c73047,22607600,ASIC,Application Specific Internet Coin,12,complete,eth-mainnet.g.alchemy.com
+0x34be5b8c30ee4fde069dc878989686abe9884470,22729100,SENATE,SENATE,18,complete,eth-mainnet.g.alchemy.com
+0x3567aa22cd3ab9aef23d7e18ee0d7cf16974d7e6,22883875,SAI,Sharpe AI,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x3593d125a4f7849a1b059e64f4517a86dd60c95d,22606800,OM,MANTRA DAO,18,complete,eth-mainnet.g.alchemy.com
+0x3597bfd533a99c9aa083587b074434e61eb0a258,22737375,DENT,DENT,8,complete,eth-mainnet.g.alchemy.com
+0x35a532d376ffd9a705d0bb319532837337a398e7,23191550,WDOGE,Wrapped DogeCoin,18,complete,rpc.ankr.com
+0x35cdd6acbe6b0753f3305c295d673e342a2e819f,23898800,SFS-LP,Safeswap LPs,18,complete,eth-mainnet.g.alchemy.com
+0x35e78b3982e87ecfd5b3f3265b601c046cdbe232,22914950,XAI,SideShift Token,18,complete,rpc.ankr.com
+0x35fa164735182de50811e8e2e824cfb9b6118ac2,23199225,eETH,ether.fi ETH,18,complete,rpc.ankr.com
+0x362bc847a3a9637d3af6624eec853618a43ed7d2,22761375,PRQ,Parsiq Token,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x365accfca291e7d3914637abf1f7635db165bb09,23730300,FXN,FXN Token,18,complete,eth-mainnet.g.alchemy.com
+0x3664487e8a9b90662441aef57060486a5217704d,23484525,IFO,Identified Flying Objects,9,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x36c7188d64c44301272db3293899507eabb8ed43,22971300,SWAG,Swag,9,complete,eth-mainnet.g.alchemy.com
+0x3742f3fcc56b2d46c7b8ca77c23be60cd43ca80a,23262750,stAVAIL,Staked Avail,18,complete,rpc.ankr.com
+0x3766cf12211f2ec589e857b2fe7ed19cf1d7bbf4,23662000,fwAAVE,Few Wrapped Aave Token,18,complete,eth-mainnet.g.alchemy.com
+0x37df1f4bb7c05a6e5383d3de926eb1691e9c9e06,22685050,Trump79,Happy Birthday Mr President,9,complete,rpc.ankr.com
+0x3819f64f282bf135d62168c1e513280daf905e06,22877250,HDRN,Hedron,9,complete,rpc.ankr.com
+0x38778e6d4d0dbe9becef3ae8b938570209efa48b,23524075,PAST,Punk Auction Strategy Token,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x3883f5e181fccaf8410fa61e12b59bad963fb645,23082400,THETA,Theta Token,18,complete,eth-mainnet.g.alchemy.com
+0x38e4adb44ef08f22f5b5b76a8f0c2d0dcbe7dca1,22972775,CVP,Concentrated Voting Power,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x3934e426734ac4ace4bb8772672a4465aad64786,23486325,SPX 6900 Strategy,SPXSTR,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x399ef659fdead53b3e7f97e9491e727925667945,23408800,L1X,L1X,18,complete,eth-mainnet.g.alchemy.com
+0x39aa39c021dfbae8fac545936693ac917d5e7563,23560200,cUSDC,Compound USD Coin,8,complete,eth-mainnet.g.alchemy.com
+0x39aff83c156627e06290d54dcb464008ee433e63,22908800,EINSTEIN,EinsteinCoin,18,complete,eth-mainnet.g.alchemy.com
+0x39fbbabf11738317a448031930706cd3e612e1b9,22607600,WXRP,Wrapped XRP,18,complete,eth-mainnet.g.alchemy.com
+0x3aada3e213abf8529606924d8d1c55cbdc70bf74,23501500,XMON,XMON,18,complete,eth-mainnet.g.alchemy.com
+0x3affcca64c2a6f4e3b6bd9c64cd2c969efd1ecbe,23265925,DSLA,DSLA,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x3b0c6c1db96a7e25cac5b0cfe7d577b1be9a196b,22667100,NOICE,NO I.C.E,9,complete,eth-mainnet.g.alchemy.com
+0x3b37a9caf74ead14e521d46af0bf00737d827828,23550300,HOPE,History of Pepe,18,complete,eth-mainnet.g.alchemy.com
+0x3b8657031859e97337da53d54207680bac50dcd9,23184050,SER,Strategic Ethereum Reserve,9,complete,rpc.ankr.com
+0x3b991130eae3cca364406d718da22fa1c3e7c256,23281525,SHRUB,Shrub,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x3b9be07d622accaed78f479bc0edabfd6397e320,23205775,LSS,Lossless Token,18,complete,rpc.ankr.com
+0x3c3a81e81dc49a522a592e7622a7e711c06bf354,23593475,MNT,Mantle,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x3c6a5b82a2962be1b4f6970ef316cfd738569f13,23477500,BABYMANYU,Baby Manyu,9,complete,eth-mainnet.g.alchemy.com
+0x3c8d2fce49906e11e71cb16fa0ffeb2b16c29638,22700925,NFTL,Nifty League,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x3cc9f4fea9811e7750fcc725d9c6f7eab841256a,23452050,USD1,USD1,18,complete,rpc.ankr.com
+0x3cd746e214130ac8e043d8e92a40c535451fc303,22613675,SMOL,Smol,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x3d658390460295fb963f54dc0899cfb1c30776df,23124225,Coval,CircuitsOfValue,8,complete,rpc.ankr.com
+0x3e0725976e0b494da34b5e04356747815ef6e494,23857550,DOGGO,Ethereum Dog,9,complete,rpc.ankr.com
+0x3e985250cb137fc1ff55922116934c5982d29f85,23142175,ZENT,Zentu,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x3e98a97d60332c34ad19d39cc9a48dd8574de352,22660325,DogeNode,Dogecoin Node,9,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x3e9bc21c9b189c09df3ef1b824798658d5011937,22736275,LINA,Linear Token,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x3f80b1c54ae920be41a77f8b902259d48cf24ccf,23072475,KERNEL,KERNEL,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x404cbb1adc1524c3841b3f7df1e77290efb00540,22941075,SUBA,Yotsuba,9,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x4086e77c5e993fdb90a406285d00111a974f877a,23664200,BRWL,Blockchain Brawlers Token,4,complete,eth-mainnet.g.alchemy.com
+0x408e41876cccdc0f92210600ef50372656052a38,22913650,REN,Republic Token,18,complete,rpc.ankr.com
+0x40aa3850dcfabdaf3d543678882bfd0ab17d6471,22915550,OKAMI,Cadabomb Okami,9,complete,rpc.ankr.com
+0x40aabef1aa8f0eec637e0e7d92fbffb2f26a8b7b,22874125,variableDebtEthWBTC,Aave Ethereum Variable Debt WBTC,8,complete,rpc.ankr.com
+0x40d09d1c989fcb3a68623fe1c1acb3b769e0d237,22690450,BOSSBURGER,Boss Burger,9,complete,rpc.ankr.com
+0x40d16fc0246ad3160ccc09b8d0d3a2cd28ae6c2f,22967250,GHO,Gho Token,18,complete,rpc.ankr.com
+0x40e3d1a4b2c47d9aa61261f5606136ef73e28042,22861825,SERV,OpenServ,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x40fd72257597aa14c7231a7b1aaa29fce868f677,22856225,XOR,Sora Token,18,complete,eth-mainnet.g.alchemy.com
+0x41545f8b9472d758bb669ed8eaeeecd7a9c4ec29,22735550,FORT,Forta,18,complete,rpc.ankr.com
+0x418d75f65a02b3d53b2418fb8e1fe493759c7605,23346475,WBNB,Wrapped BNB,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x419c4db4b9e25d6db2ad9691ccb832c8d9fda05e,22799850,DRGN,Dragon,18,complete,eth-mainnet.g.alchemy.com
+0x419d0d8bdd9af5e606ae2232ed285aff190e711b,23006025,FUN,FunFair,8,complete,rpc.ankr.com
+0x41cfb07faa0ef6fa490dfc1b9367dd1d6be44a4b,22984225,DFI,Decentralized Finance Intelligence,9,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x4200000623d0242cccd4e907008583dcb4af6472,22729825,ESTEE,ShibEstee,18,complete,eth-mainnet.g.alchemy.com
+0x420658a1d8b8f5c36ddaf1bb828f347ba9011969,22714750,DEGEN,Degen Arena,18,complete,rpc.ankr.com
+0x4206931337dc273a630d328da6441786bfad668f,23313775,DOGE,Dogecoin,8,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x4207a81284dc4f114cbb391c3bcdc605cb7d2fbe,23235725,DOGEN,Dogenerates,9,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x420ccfeada1f4b1508bd8781ceca5238d0e4b510,22956275,JARVIS,Grok Companions,9,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x423f4e6138e475d85cf7ea071ac92097ed631eea,22850850,PNDC,Pond Coin,18,complete,eth-mainnet.g.alchemy.com
+0x427a03fb96d9a94a6727fbcfbba143444090dd64,23571425,PIXL,PIXL,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x4297394c20800e8a38a619a243e9bbe7681ff24e,23229250,HOTCROSS,Hot Cross Token,18,complete,rpc.ankr.com
+0x42e35dea77bc7c8dd3ee9a5681e352b0b3249424,22682250,antiFED,antiFED,9,complete,rpc.ankr.com
+0x42eb9c71321b0ed9b59792fed3de31536581b042,23082525,AEON,Aeon,9,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x430ef9263e76dae63c84292c3409d61c598e9682,23697775,PYR,PYR Token,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x431ad2ff6a9c365805ebad47ee021148d6f7dbe0,22786175,DF,dForce,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x433a3247a0cfb90ee3da0e316a32e56d76d404d6,22675375,MOONPIG,Moonpig,9,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x4385328cc4d643ca98dfea734360c0f596c83449,23436025,TOMI,tomi Token,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x43dfc4159d86f3a37a5a4b3d4580b888ad7d4ddd,23019450,DODO,DODO bird,18,complete,rpc.ankr.com
+0x446f2a8a39cc730ef378be759a3c57f1a3fe824c,23365575,NBT,NanoByte Token,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x44709a920fccf795fbc57baa433cc3dd53c44dbe,23808775,RADAR,DappRadar,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x44971abf0251958492fee97da3e5c5ada88b9185,22892875,basedAI,basedAI,18,complete,eth-mainnet.g.alchemy.com
+0x44e18207b6e98f4a786957954e462ed46b8c95be,23621500,Terminus,Terminus,9,complete,eth-mainnet.g.alchemy.com
+0x44ff8620b8ca30902395a7bd3f2407e1a091bf73,22688575,VIRTUAL,Virtual Protocol,18,complete,rpc.ankr.com
+0x450e7830e5dceda1f8ac78d6024ceb0a2bbc2300,22840700,LAUNCHTOKEN,Launch Token on EBULL,18,complete,eth-mainnet.g.alchemy.com
+0x455e53cbb86018ac2b8092fdcd39d8444affc3f6,23005525,POL,Polygon Ecosystem Token,18,complete,eth-mainnet.g.alchemy.com
+0x45804880de22913dafe09f4980848ece6ecbaf78,22726950,PAXG,Paxos Gold,18,complete,eth-mainnet.g.alchemy.com
+0x458679b9d182e9f4e2dd15f0571fc00a864f8c97,23428200,PLXAI,Pereplexity AI,9,complete,eth-mainnet.g.alchemy.com
+0x459f878908b5d6e8a0f2eb089b0cd29d9766afe5,22749550,fwUSDe,Few Wrapped USDe,18,complete,rpc.ankr.com
+0x45e02bc2875a2914c4f585bbf92a6f28bc07cb70,22968550,$MBG,$MBG Token,18,complete,eth-mainnet.g.alchemy.com
+0x45f5bd656d89ee84b96ace4d161e4021126d03e5,23821725,BTEC,BTECHAIN,6,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x4637f2e600d7f18cfa869410ddbcf2b46f290084,23111875,GROKBOSS,Grok Final Boss,9,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x465e07d6028830124be2e4aa551fbe12805db0f5,23845275,WXMR,Wrapped Monero,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x467719ad09025fcc6cf6f8311755809d45a5e5f3,23115050,AXL,Axelar,6,complete,rpc.ankr.com
+0x467bccd9d29f223bce8043b84e8c8b282827790f,22784475,TEL,Telcoin,2,complete,rpc.ankr.com
+0x468eabcb5c914ac59e72691f8fc970880a94f4b3,23392475,eMDR,Ethereum MDR,18,complete,rpc.ankr.com
+0x46d73dee442a7ba2c1c6948a1114acbf69d76ccd,22754350,fwXAUt,Few Wrapped Tether Gold,6,complete,eth-mainnet.g.alchemy.com
+0x47000a7b27a75d44ffadfe9d0b97fa04d569b323,22706825,TRUMPIUS,Trumpius Maximus,9,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x473bcd6ee71d2ca1d18f8e74cdf75beb4999fa7e,22648450,rust,rust,18,complete,rpc.ankr.com
+0x474021845c4643113458ea4414bdb7fb74a01a77,22831525,UNO,UnoRe,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x476607aa53aed0e0ebb6e1da8e89ec6716299c1f,22896950,JIFF,Jiffpom,9,complete,rpc.ankr.com
+0x476c5e26a75bd202a9683ffd34359c0cc15be0ff,23300425,SRM,Serum,6,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x4887f2a1dc03f07dba1dd92312692f12aac60a3d,22633725,CREEPER,Grim Creeper,9,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x488db574c77dd27a07f9c97bac673bc8e9fc6bf3,22607600,CARN,The PulseDogecoin Staking Carnival Token,12,complete,eth-mainnet.g.alchemy.com
+0x48ed70874ebf7156469ae6246f6fa5bae5f7391f,22657500,Costco,Costco,9,complete,eth-mainnet.g.alchemy.com
+0x490e0e6255bf65b43e2e02f7acb783c5e04572ff,23795975,variableDebtEthUSDS,Aave Ethereum Variable Debt USDS,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x4951bec6f4dfc23935c0ec8af92f231f4c20ea03,23372800,BTM,Bytom DAO,8,complete,eth-mainnet.g.alchemy.com
+0x49a8f5642386f8d4a42f489da0fa6f9bed19c30a,22864925,PAL,PAL,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x4a220e6096b25eadb88358cb44068a3248254675,23067825,QNT,Quant,18,complete,eth-mainnet.g.alchemy.com
+0x4a38a8089f8d33d6595ace079f999327a58c700f,22619300,PROTOCOL,New Ethereum Project,9,complete,eth-mainnet.g.alchemy.com
+0x4a64515e5e1d1073e83f30cb97bed20400b66e10,23506625,WZEC,Wrapped ZEC,18,complete,rpc.ankr.com
+0x4ae85eaf1ba5e1a726b4b329b9a688d46d756181,23150825,SHIB,Shiba on Chart,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x4b1e80cac91e2216eeb63e29b957eb91ae9c2be8,22632850,JUP,Jupiter,18,complete,rpc.ankr.com
+0x4b310fa5cc52c9354aac6682cb587d8724981c78,23619300,Kurumi,Kurumi,18,complete,eth-mainnet.g.alchemy.com
+0x4c0b194415ce27904ec16d7e101e1302a437fe20,23523950,CHAD,Chad,18,complete,rpc.ankr.com
+0x4c11249814f11b9346808179cf06e71ac328c1b5,22607700,ORAI,Oraichain Token,18,complete,eth-mainnet.g.alchemy.com
+0x4c1746a800d224393fe2470c70a35717ed4ea5f1,23864675,PLUME,Plume,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x4c9edd5852cd905f086c759e8383e09bff1e68b3,22644325,USDe,USDe,18,complete,rpc.ankr.com
+0x4cf89ca06ad997bc732dc876ed2a7f26a9e7f361,23413475,MYST,Mysterium,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x4d0528598f916fd1d8dc80e5f54a8feedcfd4b18,22885425,ATOS,Atoshi,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x4d224452801aced8b2f0aebe155379bb5d594381,22642225,APE,ApeCoin,18,complete,eth-mainnet.g.alchemy.com
+0x4d4574f50dd8b9dbe623cf329dcc78d76935e610,22627075,ZEUS,Zeus,9,complete,eth-mainnet.g.alchemy.com
+0x4d5f47fa6a74757f35c14fd3a6ef8e3c9bc514e8,22644325,aEthWETH,Aave Ethereum WETH,18,complete,eth-mainnet.g.alchemy.com
+0x4d953cf077c0c95ba090226e59a18fcf97db44ec,23881775,MINI,MINISWAP,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x4da0c48376c277cdbd7fc6fdc6936dee3e4adf75,23656300,EPIK,Epik Prime,18,complete,eth-mainnet.g.alchemy.com
+0x4e107a0000db66f0e9fd2039288bf811dd1f9c74,23475850,VLR,Velora,18,complete,rpc.ankr.com
+0x4e25876d676d0d6f7b3126ff1005020a1c3a7d27,22976525,CAESAR,Caesar,9,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x4e9623b7e5b6438542458f5ee828d65c24d3af8c,23145575,JYAI,Jerry The Turtle By Matt Furie,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x4ea40dcee961675683e0a2e1721bd49cb9bca913,23684900,USDR,Ring USD,18,complete,eth-mainnet.g.alchemy.com
+0x4eb0ca95b229f099443430f0994842bdb1d6caff,23464975,XORAI,Xoraichain,9,complete,eth-mainnet.g.alchemy.com
+0x4eb98a463a4f7d3ea3de8a07cd23ebfb28d7c89e,22867725,PIKACHU,Pikachu,2,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x4f1aac70b303818ddd0823570af3bb46681d9bd8,22677375,SBET,SharpLink Gaming,9,complete,eth-mainnet.g.alchemy.com
+0x4f2cef6f39114ade3d8af4020fa1de1d064cadaf,23285125,HOKK,Hokkaidu Inu,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x4f9254c83eb525f9fcf346490bbb3ed28a81c667,23705775,CELR,CelerToken,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x4fabb145d64652a948d72533023f6e7a623c7c53,23693975,BUSD,BUSD,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x4fe83213d56308330ec302a8bd641f1d0113a4cc,22821150,NU,NuCypher,18,complete,rpc.ankr.com
+0x4feea34369a00740ba41b2d7cabe121f076ffe6e,23554150,SPI,Shopping.io,18,complete,rpc.ankr.com
+0x4ff57e25eeb7affbbb060e0bad2e1759efc8bec4,23750600,BLOCX,BLOCX. (Bridge),18,complete,eth-mainnet.g.alchemy.com
+0x50327c6c5a14dcade707abad2e27eb517df87ab5,22824300,TRX,TRON,6,complete,eth-mainnet.g.alchemy.com
+0x505b5eda5e25a67e1c24a2bf1a527ed9eb88bf04,22924325,CWEB,Coinweb,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x50905a2deaeddf66efc247d9d254f7eb520545da,23325375,ZEZU,Zezu,9,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x509b4ff36a9a9bf6fe128bfc3b08fb85ee5f7656,22974375,APE,Ape,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x50d1c9771902476076ecfc8b2a83ad6b9355a4c9,23390850,FTX Token,FTT,18,complete,rpc.ankr.com
+0x50f41f589afaca2ef41fdf590fe7b90cd26dee64,23875925,IRYS,Irys,18,complete,eth-mainnet.g.alchemy.com
+0x50f7517029c505933cb5d6e9c897245226f4317b,23652850,GCR,Global Currency Restart,18,complete,rpc.ankr.com
+0x514910771af9ca656af840dff83e8264ecf986ca,23060375,LINK,ChainLink Token,18,complete,eth-mainnet.g.alchemy.com
+0x516d8f42443a4bc4144d8119ccf3719dcf7fae00,22624175,ETHERO,ETHERO,9,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x518b63da813d46556fea041a88b52e3caa8c16a8,23045850,ATF,Antfarm Token,18,complete,rpc.ankr.com
+0x519d93a3cc5e8d4ef173f0ae2bfc0f26fad28dae,23338775,CHIMP,Astrochimp,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x52498f8d9791736f1d6398fe95ba3bd868114d10,22962425,NETVR,NetVRk,18,complete,rpc.ankr.com
+0x5283d291dbcf85356a21ba090e6db59121208b44,23243000,BLUR,Blur,18,complete,eth-mainnet.g.alchemy.com
+0x52a8845df664d76c69d2eea607cd793565af42b8,23452225,APEX,ApeX Token,18,complete,eth-mainnet.g.alchemy.com
+0x53be7be0ce7f92bcbd2138305735160fb799be4f,23223750,$NTMPI,neutaro,6,complete,rpc.ankr.com
+0x53f64be99da00fec224eaf9f8ce2012149d2fc88,22700300,NICE,NiceToken,18,complete,eth-mainnet.g.alchemy.com
+0x540d40ccdbbb7f6e314a44547551079510a026de,22777525,BBB ,BOMB BOMB BOMB ,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x5417994ae69e6ccb283bb6dbdba3006b3d3f9f95,22615000,ETHCHAN,ETH Chan,9,complete,eth-mainnet.g.alchemy.com
+0x541e65469ffcc26cbdcc2f5665d481adb5a95fb1,23334700,GPUAI,GPU AI,9,complete,eth-mainnet.g.alchemy.com
+0x5484581038cbf8ef33b7f6daec7a2f01f71db3c2,22808500,HARAMBEAI,Harambe AI Token,18,complete,eth-mainnet.g.alchemy.com
+0x55096cae6d79b43115ba025f0f95083057fb36ec,23194850,Kanye,Kanye Hayden West,9,complete,rpc.ankr.com
+0x55296f69f40ea6d20e478533c15a6b08b654e758,22614800,XYO,XY Oracle,18,complete,eth-mainnet.g.alchemy.com
+0x553f4cb7256d8fc038e91d36cb63fa7c13b624ab,22882000,TANSSI,TANSSI,12,complete,eth-mainnet.g.alchemy.com
+0x5564509bf2231e8901cdeedb69ef329918a8f036,22790200,$ROBO,THINKMESH,18,complete,eth-mainnet.g.alchemy.com
+0x557b933a7c2c45672b610f8954a3deb39a51a8ca,22654150,REVV,REVV,18,complete,rpc.ankr.com
+0x558e7139800f8bc119f68d23a6126fffd43a66a6,23572775,U2U,U2U Network,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x55c3a56e638e96c91f98735cc86f60a6820e6a44,22645850,GAV,GavCoin,9,complete,rpc.ankr.com
+0x560363bda52bc6a44ca6c8c9b4a5fadbda32fa60,23354975,SFUND,SeedifyFund,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x56072c95faa701256059aa122697b133aded9279,23182125,SKY,SKY Governance Token,18,complete,rpc.ankr.com
+0x571b6d8b81e29186e0ebfedd65cbd37fd7691451,22762925,ETH,VITALIKBUTTERCHICKENKLIKETHBUYBUTTON69INUS,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x5732046a883704404f284ce41ffadd5b007fd668,23397125,BLZ,Bluzelle Token,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x579cea1889991f68acc35ff5c3dd0621ff29b0c9,23688000,IQ,Everipedia IQ,18,complete,eth-mainnet.g.alchemy.com
+0x579f108f24ef47583909e8c26cdb46661d622365,22679375,MLM,Making Life Multiplanetary,9,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x57ab1ec28d129707052df4df418d58a2d46d5f51,22613225,sUSD,Synth sUSD,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x57b67e4de077085fd0af2174e9c14871be664546,22699575,variableDebtEthPYUSD,Aave Ethereum Variable Debt PYUSD,6,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x57e114b691db790c35207b2e685d4a43181e6061,22968350,ENA,ENA,18,complete,eth-mainnet.g.alchemy.com
+0x580e933d90091b9ce380740e3a4a39c67eb85b4c,22949000,GSWIFT,GameSwift,18,complete,eth-mainnet.g.alchemy.com
+0x582d872a1b094fc48f5de31d3b73f2d9be47def1,23061500,TONCOIN,Wrapped TON Coin,9,complete,eth-mainnet.g.alchemy.com
+0x582f7df5446c23fd486f5e4ebb6d09c8b05015c2,23675675,kitties,I love kitties,9,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x584bc13c7d411c00c01a62e8019472de68768430,23772075,HEGIC,Hegic,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x588d01369d659ce0682f73602db50e80f6eef179,22719850,TT,TrueTensor,18,complete,rpc.ankr.com
+0x58b6a8a3302369daec383334672404ee733ab239,23704950,LPT,Livepeer Token,18,complete,rpc.ankr.com
+0x58d97b57bb95320f9a05dc918aef65434969c2b2,23198825,MORPHO,Morpho Token,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x58e937f74ee382b57dbefb6271dcd4c371609b99,23110675,HIHLF,MemeStrategy Inc.,9,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x590e6a815ede14bcc3e09149354f854f9e4ade8b,22720950,ELECTROGLE,Electrogle,9,complete,rpc.ankr.com
+0x590f820444fa3638e022776752c5eef34e2f89a6,23217500,ALPH,Alephium (AlphBridge),18,complete,eth-mainnet.g.alchemy.com
+0x591deb05498baa8b52d269033889dded2acdd2c9,23590975,ICE,ICE Open Network,9,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x594daad7d77592a2b97b725a7ad59d7e188b5bfa,22778400,APU,Apu Apustaja,18,complete,eth-mainnet.g.alchemy.com
+0x59d1e836f7b7210a978b25a855085cc46fd090b5,23732575,JUSTICE,AssangeDAO,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x5a666c7d92e5fa7edcb6390e4efd6d0cdd69cf37,22752800,MARSH,UnmarshalToken,18,complete,eth-mainnet.g.alchemy.com
+0x5b23db1e122aef85d0023662042dc406941067e2,23217925,EYES,EYES by Matt Furie,9,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x5be6c45e2d074faa20700c49ada3e88a1cc0025d,23816875,crvGEARETH-f,Curve.fi Factory Crypto Pool: Curve GEAR/ETH,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x5c47902c8c80779cb99235e42c354e53f38c3b0d,23332750,X28,X28,18,complete,rpc.ankr.com
+0x5c697fee285b513711a816018dbb34dc0cfc4875,23382775,MNTx,Minutes Network Token,18,complete,eth-mainnet.g.alchemy.com
+0x5d285f735998f36631f678ff41fb56a10a4d0429,22685750,MIX,MixMarvel Token,18,complete,rpc.ankr.com
+0x5d6713f931e9da4f3629e9bc625a607de8279776,23219475,ETHERBUTTS,Etherbutts,9,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x5d9df9fff3e844e84038d48c9883fc94ba8f3bd4,22680050,CSI,Consensys Software Inc,9,complete,rpc.ankr.com
+0x5ddc976354fdd17cb1885248131be238e199d32a,23128800,AMONGUS,AMONGUS FOR SCALE,9,complete,eth-mainnet.g.alchemy.com
+0x5de758bba013e58dae2693aea3f0b12b31a3023d,23321300,SATO,Atsuko Sato,18,complete,eth-mainnet.g.alchemy.com
+0x5de869e3e62b0fb2c15573246ba3bb3fd97a2275,23468325,SHEB,Sheboshis,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x5e8422345238f34275888049021821e8e08caa1f,22956625,frxETH,Frax Ether,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x5ee3188a3f8adee1d736edd4ae85000105c88f66,23680400,PEN,Pentagon,18,complete,eth-mainnet.g.alchemy.com
+0x5ee5bf7ae06d1be5997a1a72006fe6c607ec6de8,22791725,aEthWBTC,Aave Ethereum WBTC,8,complete,rpc.ankr.com
+0x5ef94d6fc090227904771d7c6e90cc8f95f27047,23408900,WTF,WTF,9,complete,eth-mainnet.g.alchemy.com
+0x5f7827fdeb7c20b443265fc2f40845b715385ff2,23573700,EURCV,EUR CoinVertible,18,complete,eth-mainnet.g.alchemy.com
+0x5f98805a4e8be255a32880fdec7f6728c6568ba0,23121975,LUSD,LUSD Stablecoin,18,complete,eth-mainnet.g.alchemy.com
+0x5fa2025f2d667bcc218eaaa6d601c1c12bee689a,22718575,R҉E҉P҉L҉I҉C҉A҉N҉D҉Y҉,R҉E҉P҉L҉I҉C҉A҉N҉D҉Y҉,9,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x5fa2025f2d667bcc218eaaa6d601c1c12bee689a,22718575,,,,error,rpc.mevblocker.io
+0x5fab9761d60419c9eeebe3915a8fa1ed7e8d2e1b,22728600,DIMO,Dimo,18,complete,eth-mainnet.g.alchemy.com
+0x600d601d8b9eb5de5ac90fefc68d0d08801bfd3f,23408800,ELMT,Element,8,complete,eth-mainnet.g.alchemy.com
+0x6019dcb2d0b3e0d1d8b0ce8d16191b3a4f93703d,22820025,QF,QuantumFusion,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x60407266586e204792b69b024558aa18228ab12f,22771450,MBAKER,Master Baker,18,complete,rpc.ankr.com
+0x6055dc6ff1077eebe5e6d2ba1a1f53d7ef8430de,22931050,ES,Eclipse,6,complete,eth-mainnet.g.alchemy.com
+0x6068b2c3e9a9a30d417854482861f28118a5e12d,23387350,TOM3,TOM3,18,complete,rpc.ankr.com
+0x607f4c5bb672230e8672085532f7e901544a7375,23561925,RLC,iEx.ec Network Token,9,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x60be1e1fe41c1370adaf5d8e66f07cf1c2df2268,23143300,PERC,Perion Credits,18,complete,eth-mainnet.g.alchemy.com
+0x60f67e1015b3f069dd4358a78c38f83fe3a667a9,23158950,ROUTE,Route,18,complete,rpc.ankr.com
+0x610dbd98a28ebba525e9926b6aaf88f9159edbfd,22857650,NSTR,Nostra,18,complete,rpc.ankr.com
+0x6123b0049f904d730db3c36a31167d9d4121fa6b,22878575,RBN,Ribbon,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x614da3b37b6f66f7ce69b4bbbcf9a55ce6168707,22774400,MMX,M2 Global Wealth Limited,18,complete,eth-mainnet.g.alchemy.com
+0x616ab1ea739ee1b718231e35b4958f7ec10a716c,22860050,MAG,Make America Greater,9,complete,rpc.ankr.com
+0x6172cf276b692158115c561c06ef049f4d8bd5c7,22699975,$GG,Geist Geld,9,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x6189c2e585404dca1af108ec502b811383652f1a,22657500,Costco,Costco,9,complete,eth-mainnet.g.alchemy.com
+0x61951c4e505b629b34869bd556c7201025a66b68,23163550,GCS,Ginger Cat Saga,9,complete,rpc.ankr.com
+0x61b0f407ac1c3681717838b104904004b2236a26,23064225,MTV,Meantime To Viral,9,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x61c6ebf443ad613c9648762585b3cfd3ba1f3fa8,23230975,SIX,SIX Token,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x61dbbbb552dc893ab3aad09f289f811e67cef285,22666275,SKATE,Skate,18,complete,rpc.ankr.com
+0x61e24ce4efe61eb2efd6ac804445df65f8032955,23106100,RTV,Revolution Token,18,complete,eth-mainnet.g.alchemy.com
+0x61e638982e259b5bd97f3e44b7eb06d103ffde9e,22732275,642 McCarthy Blvd,Elon's house number,9,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x61fac5f038515572d6f42d4bcb6b581642753d50,23111875,IN,INFINIT,18,complete,rpc.ankr.com
+0x6226e00bcac68b0fe55583b90a1d727c14fab77f,23020775,MTV,MultiVAC,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x6243d8cea23066d098a15582d81a598b4e8391f4,22723600,FLX,Flex Ungovernance Token,18,complete,eth-mainnet.g.alchemy.com
+0x628a3b2e302c7e896acc432d2d0dd22b6cb9bc88,23671825,LMWR,LimeWire Token,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x628b0f7f3c2bd7c91694c900be7a5f6e46063205,22970525,wVTSN,Wrapped VTSN,8,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x62d0a8458ed7719fdaf978fe5929c6d342b0bfce,23231675,BEAM,Beam,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x64351fc9810adad17a690e4e1717df5e7e085160,23017450,msETH,Metronome Synth ETH,18,complete,rpc.ankr.com
+0x643c4e15d7d62ad0abec4a9bd4b001aa3ef52d66,22615500,SYRUP,Syrup Token,18,complete,eth-mainnet.g.alchemy.com
+0x6440f144b7e50d6a8439336510312d2f54beb01d,23395725,BOLD,BOLD Stablecoin,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x644192291cc835a93d6330b24ea5f5fedd0eef9e,23123825,NXRA,AllianceBlock Nexera Token,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x6468e79a80c0eab0f9a2b574c8d5bc374af59414,23025675,eXRD,E-RADIX,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x6474cbb9d644ecc44839aac77747111f9496993a,22632325,MODEN,Moden,9,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x64766392ad32a6c94b965b5bf655e07371c23a1d,22642400,Yilongma,Chinese Elon Musk,9,complete,eth-mainnet.g.alchemy.com
+0x64aa3364f17a4d01c6f1751fd97c2bd3d7e7f1d5,23086125,OHM,Olympus,9,complete,eth-mainnet.g.alchemy.com
+0x64d0f55cd8c7133a9d7102b13987235f486f2224,23047525,BORG,SwissBorg Token,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x6503de9fe77d256d9d823f2d335ce83ece9e153f,23684900,ctStableUSDT,Stable USDT Pre-Deposit,6,complete,eth-mainnet.g.alchemy.com
+0x654055a99cb9f2c980d052433de08e663e457849,22902000,BOO,Boo,9,complete,eth-mainnet.g.alchemy.com
+0x655c2f99e25899366e7ac406cad7642a22224363,22689250,AURA,aura,9,complete,rpc.ankr.com
+0x656c00e1bcd96f256f224ad9112ff426ef053733,23093500,EFI,Efinity Token,18,complete,eth-mainnet.g.alchemy.com
+0x659f0d905c3519fdf8e1f49e5012cbfb9538277e,23463425,HOODBIRD,Hoodbird,9,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x65d6ae56f6e4f3aa7c4249c4023698104c4ab5f4,23327100,PASC,Pascal Protocol,18,complete,eth-mainnet.g.alchemy.com
+0x660902d44afd997c258a885e93e1f869e8abd9a9,22775825,DCA,Dreams Coming Alive,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x662b67d00a13faf93254714dd601f5ed49ef2f51,23779800,ORC,Orbit Chain,18,complete,eth-mainnet.g.alchemy.com
+0x667102bd3413bfeaa3dffb48fa8288819e480a88,22644450,TKX,Tokenize Emblem,8,complete,rpc.ankr.com
+0x66761fa41377003622aee3c7675fc7b5c1c2fac5,22694475,CPOOL,Clearpool,18,complete,eth-mainnet.g.alchemy.com
+0x66a1e37c9b0eaddca17d3662d6c05f4decf3e110,22681125,USR,Resolv USD,18,complete,eth-mainnet.g.alchemy.com
+0x66bff0d18513c648690edcdf5993c9da8c632ec8,23325975,BRETTWU,Brettwu,9,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x66f1b698f81db82465ecc5717a0c440244f44211,23685925,MINO,MINO,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x66f37dfaa00db7fc2239b14e83f566d7be84b838,22964725,CASINO,CryptoCasino,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x66f85e3865d0cfdc009acf6280a8621f12e46ccf,23274375,WLFI,World Liberty Financial,9,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x673d1713a325e619b9f3fb1ba06c1253df697601,23316700,HYPER,Bitcoin Hyper,9,complete,eth-mainnet.g.alchemy.com
+0x675b68aa4d9c2d3bb3f0397048e62e6b7192079c,23638650,FUEL,FUEL,9,complete,rpc.ankr.com
+0x676d22c4c8c3de21363db65b49ae3314efbe7d26,22761850,oool,oool,18,complete,rpc.ankr.com
+0x677ddbd918637e5f2c79e164d402454de7da8619,23693400,VUSD,VUSD,18,complete,eth-mainnet.g.alchemy.com
+0x6781a0f84c7e9e846dcb84a9a5bd49333067b104,22624025,ZAP,ZAP TOKEN,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x68037790a0229e9ce6eaa8a99ea92964106c4703,23496550,PAR,PAR Stablecoin,18,complete,rpc.ankr.com
+0x6810e776880c02933d47db1b9fc05908e5386b96,23794950,GNO,Gnosis Token,18,complete,rpc.ankr.com
+0x68511e03a163775a3109885b254d977df46caa28,23035225,SER,Strategic Eth Reserve,9,complete,eth-mainnet.g.alchemy.com
+0x68614481aef06e53d23bbe0772343fb555ac40c8,23345825,PLMS,Polemos,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x68749665ff8d2d112fa859aa293f07a622782f38,22754350,XAUt,Tether Gold,6,complete,eth-mainnet.g.alchemy.com
+0x68b36248477277865c64dfc78884ef80577078f3,22713600,Hold,Everybody,18,complete,eth-mainnet.g.alchemy.com
+0x68c6f3d735e83593b23b0063a50cc87952afddb2,23355725,BLS,Blocklens AI,9,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x690014bd474447eeb938f07a0cd31824ae0329f7,23613325,XAU,XAU6900,9,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x690031313d70c2545357f4487c6a3f134c434507,23165750,QQQ,QQQ6900,9,complete,rpc.ankr.com
+0x69004dea62d8e3dc372c96963132003d819db51d,22979825,BELIEVE,Believe In Something,9,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x69024240c03dd770869a627d2b2b5a02e806d125,22833175,PEPE,PlasmaExperimentPlanetaryExplora,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x690680bb29eac359221439b8f451e18ac302a0a8,22912500,ICO,Initial Crime Offering,18,complete,eth-mainnet.g.alchemy.com
+0x69078b4d4ef3cf601407a8979c9a96fef951876e,23536075,以太人生,以太人生,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x69078b4d4ef3cf601407a8979c9a96fef951876e,23536075,,,,error,rpc.mevblocker.io
+0x690830e308f0faa0353cd6b8d756f3dbbb638917,22799250,PEPECAT,Pepecat,18,complete,rpc.ankr.com
+0x690c5df72d20782b6e531bd68a41f1f3191991c7,22921175,ETH,Extremely Tired Hodlers,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x690eb6b7abd0e3847a2665d290069bc06deced86,22788300,DPlatinum,Digital Platinum,18,complete,eth-mainnet.g.alchemy.com
+0x691851ab4743013b4988c78c68f4e379d0888f4a,23025400,ATNF,ETHZILLA,18,complete,eth-mainnet.g.alchemy.com
+0x691a0898d4dcd61ee1e4dcaf0eb6792458685b7c,22890125,SNEZHOK,Snezhok,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x691b428a4cd86f44d0c2bc7971fbe2a8e7db5e79,22803700,KOME,Kome Chan,18,complete,eth-mainnet.g.alchemy.com
+0x691c2769574a6221c8ee26dda332de80d42b6da6,22820850,TF,Trump FRAGNANCES ,18,complete,rpc.ankr.com
+0x691ce51228f044f3def72ea7ccaabd8ff94ffd43,22826800,Mięta ,Mięta ,18,complete,eth-mainnet.g.alchemy.com
+0x691ce51228f044f3def72ea7ccaabd8ff94ffd43,22826800,,,,error,rpc.mevblocker.io
+0x691e13c6998ee94bdb4b3411eda9cb928b270c0f,23031725,Ethirum,Ethirum,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x6920d1b6b2f4b4c51150aa5890eab63d560b7963,22784025,BTBT,Bit Digital,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x69261698dcc8d3d71ea18a8266dec3d127689125,23136775,Bubbles,Bubbles Apple Companion,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x6929d94080fb2b6ae98be9cdb85927a124088c34,22954475,DanDan,DanDan - 蛋蛋,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x692d0f7b4409c7c0147207ccba872126514c1f7d,23618175,FLOKI,X CEO,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x692ea3f6e92000a966874715a6cc53c6e74e269f,22795550,MOON,Moon,18,complete,rpc.ankr.com
+0x6932f32f48965917e6f3b7159f7e32aa127e7cee,22933800,SATOSHI,Satoshi Grok Companion,18,complete,eth-mainnet.g.alchemy.com
+0x6933ad8e3433f9f887108af61bca2ded9729c7da,22925225,Eagy,Eagy,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x69348f9f1e9eadfaab8946bbd7b7b84cab6ef31b,22818950,Doge Real Name,NAKIRA,18,complete,rpc.ankr.com
+0x693c045cad5778c54903f784b671e36af90f3f76,22796475,Catsington,Lord Catsington,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x693c308e1c3d3a175467875d686759ffb711ed95,22817725,MIETA,Ethereum Dog,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x693c773b86681f650b625d773e98cf3ebb5f6ca5,22917050,Natasa,SuperGrok,18,complete,rpc.ankr.com
+0x693f77d4ed20ba19260d6d20e23b2438b7c4fa01,23212950,ㅤ,𝘪𝘵𝘢𝘭𝘪𝘤,18,complete,rpc.ankr.com
+0x693f77d4ed20ba19260d6d20e23b2438b7c4fa01,23212950,,,,error,rpc.mevblocker.io
+0x6940b9fd8a10d4b5f0816f6add62437d4f78a46c,22826875,Balvi,Balvi,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x6941db5cc1a168b511dc24c3ae9b48125d514911,23133450,x402,x402,18,complete,rpc.ankr.com
+0x694384848523d529ceb032875587d24fe9e66328,23011200,STARKS,Ethereum Bunny,18,complete,eth-mainnet.g.alchemy.com
+0x6953508b73598090ef0af3c5a0046a36f05f47ce,22989500,2440,MemeStrategy,18,complete,eth-mainnet.g.alchemy.com
+0x6953ed902c90464fb52d33ce70bbd86d7e6a10ba,22926750,LOCKED IN,Locked In,18,complete,rpc.ankr.com
+0x6956d5db400dd1e599852acc5a267a3042f62707,23756325,ETHO,FUSAKA MASCOT,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x6957e0050f0cfda6c179dffd3f067ef5cb8c2b9d,22956075,Kisuke,Kisuke IOS Companion,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x695b5775989560c051d3bc9c4243ba92720f5e85,22890175,KLIKIO,Klikios,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x695f775551fb0d28b64101c9507c06f334b4ba86,23878250,BUN,Bundles Token,18,complete,rpc.ankr.com
+0x69623e7104c580a15ad375e558f573799aa8578b,22827475,SHOKO,Shokokataoka XCat,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x696457d3866c102c604196e68821e43925660abe,22920475,CHENYU,KPOP A2O AI,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x696465b0dc1d67c7585d768d8bb0f6fd3b4ebeef,23126500,SGES,soulless greedy ethmaxi scammers,18,complete,eth-mainnet.g.alchemy.com
+0x696638dca2b39e0a0d1ca4abbbbf60e0ba690ced,22825225,ECF,Ethereum Community Foundation,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x6967b9a8c0b14849cfe8f9e5732b401433fd2898,22731625,NAKA,Naka Go,18,complete,rpc.ankr.com
+0x69690d022e08bab6d9b17fe3eaf06c698d3366ad,22790525,Butterin,Vitalik Butterin,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x696950b637d290d3db36016ad52bbf6f69597662,22805650,CocaCola,Vitalik's first token,18,complete,rpc.ankr.com
+0x6969886e96a45702b51238c644da109bfa2c962e,22788200,PEPE-69,Pump Engaged Penis Extension69,9,complete,eth-mainnet.g.alchemy.com
+0x6969ee39686b198c829e1750280b53c4d330c2da,22803300,Ethereans,Ethereans,18,complete,eth-mainnet.g.alchemy.com
+0x6969f1feea99e11e75779d96539b4b644ec27557,22790325,mETH,ETHERBUTTS,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x696a1012a7f694a6f34a95872f806eda633ea463,22771350,SLIPPY,SLIPPY,18,complete,rpc.ankr.com
+0x696b0d4d4ff5aa03333c9835559f0fff05961f7c,22890350,DEV,DEV,18,complete,rpc.ankr.com
+0x696c911047fa483181c107c75272477b3b5049b9,23626375,ETH人生,ETH人生,18,complete,eth-mainnet.g.alchemy.com
+0x696c911047fa483181c107c75272477b3b5049b9,23626375,,,,error,rpc.mevblocker.io
+0x696d5ecf73d560686dc985702a43abfcd1559303,22910925,Hitler,Hitler,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x696ded79b8147800fd55d89b91ad118b23b1d967,22814525,%,My DAO Shares,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x69702064a368a4699fb61221294bb75342d890f7,23499725,RUNNER,Eth Runner,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x69711e6b3f67305ceffdc1633c52b503588870f1,22812900,pyethereum,ETHERIUM REAL NAME,18,complete,eth-mainnet.g.alchemy.com
+0x6972a986df330b59e7a90736ebd11b3042ab9654,22926625,CGAct,Crypto Genius Act,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x6976645c908f70edee6bc6a9ea20165788639263,23766825,GigaBay,GigaBay,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x697b2ade13484f39609d52d62e28350e6342ac99,22911750,ETHINU,Eth Inu,18,complete,rpc.ankr.com
+0x697e9f35a331aa6cbd1bf7cec3e808913fc64382,23150100,Girlfriend,Girlfriend Coin,18,complete,eth-mainnet.g.alchemy.com
+0x697f4f1a5ff64dd9e857ec2e583c1ad9f140891f,22943550,CPUTER,Claudeputer,18,complete,eth-mainnet.g.alchemy.com
+0x6982508145454ce325ddbe47a25d4ec3d2311933,23109500,PEPE,Pepe,18,complete,eth-mainnet.g.alchemy.com
+0x69842d50741838cd975584b856908dd0c03ee21b,22815050,SIMPLE,SimpleToken,18,complete,rpc.ankr.com
+0x6986f79b001c4d60ca2b34cf0ead45b872fef90a,23539075,Kohaku,Kohaku,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x698a27bfb379a519ace8d7fe50898d3a6924b4e0,22881825,GLM,Golem Foundation,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x698a8c7c119bb52a1d30734a1c69fa978fc32e83,22848575,SuperGrok,Super Grok,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x698acb976e0c07078b06cdc5093f7cdaf55d94d6,22937375,Valentine,Valentine Grok Companion,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x698b1d54e936b9f772b8f58447194bbc82ec1933,23064150,PEEZY,Peezy,9,complete,eth-mainnet.g.alchemy.com
+0x699244e01ff2b29195badc438cc58f5145f07f13,23040350,VIPER,Project Viper,18,complete,rpc.ankr.com
+0x699626d9321eb56f5398ecbfd03ade040ae703a6,23040325,PC,PROJECT CRYPTO,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x6998983d59094a043bb16395eb612300537fe39f,22829600,Shai,Shailushai,18,complete,eth-mainnet.g.alchemy.com
+0x699b54e4ed422b8ef6e6ccb26e7ccab86f6129be,22970475,buttcoin,r/buttcoin,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x699bb375bf8d780a40cf6e77dbb3af43cdef4c5b,22925825,EZ,EASY_MONEY,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x699c821276748b8390dbe49c50225b289be8f0cc,22963500,pepeclown,pepeclown,18,complete,eth-mainnet.g.alchemy.com
+0x699e197f8cfaa09bd073779defe8caa7d0c17ee2,22840950,X,America Party,18,complete,rpc.ankr.com
+0x69a0080c04a1c4cd50a25354602962e3f8767515,22947500,OOF,OOF,18,complete,eth-mainnet.g.alchemy.com
+0x69a06e9e487974dc1e27c19769bf06d48e8c273e,23169850,ERC20,Ethereum Request for Comments 20,18,complete,rpc.ankr.com
+0x69a68377324c338d0c255d74fc3f1393586088e8,22863400,bitchat,bitchat,18,complete,eth-mainnet.g.alchemy.com
+0x69a80130647bc7b96df8dd59e3749b4238eb0cbb,22825700,MET,Mastering Ethereum Token,18,complete,eth-mainnet.g.alchemy.com
+0x69a80a841f3385ec8ddc6c24d2ad2f615d2ad1f2,22992500,Totakeke,Totakeke,10,complete,eth-mainnet.g.alchemy.com
+0x69a8e6d229083c01ec5a3fff740b8553a8c896ea,22898725,T,T for Telsa,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x69ac11f4bb788271719b143cf510cc2cf98f459f,22817900,Eclipse,Eclipse,18,complete,eth-mainnet.g.alchemy.com
+0x69aec7fc99b9712ff817c54789f29bb98fb2f14f,22827875,UNICORN,UNICORN,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x69af81e73a73b40adf4f3d4223cd9b1ece623074,22622025,MASK,Mask Network,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x69b11871eecb81794fe2c8163bf8a478353388aa,22939825,MIKE,Valentine Michael Smith,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x69b1272947cbd7877ddeeb01b9454837aa2501aa,22992375,1LP-ETH-BAT,1inch Liquidity Pool (ETH-BAT),18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x69b4683e93741c9c40b2bf23fbf61ac08ca259c7,23770725,Un1socks,Un1socks,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x69b485b35c8fa9a056b74c19186e4d0a89a65eb2,22848300,sword,degen,18,complete,eth-mainnet.g.alchemy.com
+0x69b63d0762d74e19ed40964927a851cedbd29bdb,22920175,KekSoftmax,KekSoftmax,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x69b8f2de1e590257428b38e2c451e6873ba293d1,22877275,Mecha,MechaHitler,18,complete,eth-mainnet.g.alchemy.com
+0x69ba0da44a3641e9efb91d3dfa065cff0354b1d4,23031425,ETHSCROLL,10 Years Of Ethereum,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x69bd835c9da04d59d676cbc778a7c65b07e77da6,22822100,DEM,Deport Elon Musk,18,complete,eth-mainnet.g.alchemy.com
+0x69bf607d4906ca0021b43b9b05e47190c3173795,22931275,CHADI,Chadi Grok Companion,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x69bfddc93dd482768db171657157144b038ae84e,22944600,KLIKTEST,KlikTest,18,complete,eth-mainnet.g.alchemy.com
+0x69c1271d8a1596e4185afea89bce11c2271d52ea,22855350,Allegiant Alliance for America,America Party,18,complete,rpc.ankr.com
+0x69c26b8688438d9d8f9cd34e49d0b6f23b68a309,22796475,@ELON,@ELON,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x69c5c1fe0c42b9bc37bba29a283712fb903512d7,23134275,DM,CHECK DM,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x69c5de6d68795e27e57456e462781db9ced85875,22834125,TOSHI,Ethereum Cat,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x69c6f550fd624b997ab28519b2671e6a359045c5,22820200,TAP,the America Party,18,complete,eth-mainnet.g.alchemy.com
+0x69ca61398eca94d880393522c1ef5c3d8c058837,22790700,DOK,Deploy On Klik,18,complete,eth-mainnet.g.alchemy.com
+0x69ccc05f20165e439859fcc1a24ff915b29cd6c1,23041750,LEAN,lean Ethereum,18,complete,rpc.ankr.com
+0x69ce6d3875dfb8e1c08d640b12a1cc46271536e7,22813400,beast,rip beast,18,complete,eth-mainnet.g.alchemy.com
+0x69d1a3244a065c8bdb83eeb60c101f92a95b4587,22933675,DIETCOKE,Fridge cigarette,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x69d476d28c8fbd8d92cfc7c3f6629b9fdfb881a0,22825875,SHO,SHOGUN,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x69d65039526faedf274c0ace6515e00f72fdca73,22814525,ARETHIUM,Ethereums Original Name,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x69d8ecf88eaeb085a2949e35f7793f52289db21e,22824975,BMNR,BitMine Immersion Technologies,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x69d9098869c9a3b951e9ed80f31d18871d361745,23232775,VDollar,Vitalik Dollar,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x69dc3e923f036729f1744f28aa3dd48de67afe7b,22860575,AMEP,America Party,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x69ddc69a453675b0340ff44d18029a30dba1a6fc,23622675,EGG,Tyrannosaurus Rex Egg,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x69dfcccdef0f1083ae70daa2b84435cba180d097,22818050,GRNY,Fundstrat,18,complete,rpc.ankr.com
+0x69e28ecf18b94d0559ff400c0513afc682abbc6f,22815300,TOE,Toe Coin,18,complete,eth-mainnet.g.alchemy.com
+0x69e4ca7888ab1e98c88b1d3c6879a20bcdd33e4a,23034775,claude,Claude ai ,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x69e64bb5fb183b8144edf070fc3c820083b49c40,23691450,WILCO,WILCO,18,complete,rpc.ankr.com
+0x69e729c4346f9e0a3887be70ca98808ac0f13521,22884975,SNEZHOK,Vitalik's Pet ,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x69e86f14e76eafc5b39d3c02aa6a8c2109f86065,22819875,stockcoin,stock coin ,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x69ebf265f86ccd67db5ce8c9fbe30243981b92ea,22976200,Ani,Ani Grok Companion,18,complete,eth-mainnet.g.alchemy.com
+0x69f04e3429305e2b71bf0d569bf0462786c5627c,22880200,Dickson,Dickson Law,18,complete,eth-mainnet.g.alchemy.com
+0x69f4756422c212e06dd89a583d3ebdcae34e6215,23116375,V,Valentine,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x69f7bb9b2d089dcfc210df0f0e7c5c1f4794693f,23021200,ELLIE,Ellie,18,complete,eth-mainnet.g.alchemy.com
+0x69f95a440780492af812404df8911043cd8ba9d9,22826950,Aethers,Aethers,18,complete,rpc.ankr.com
+0x69fa0fee221ad11012bab0fdb45d444d3d2ce71c,23213525,XRUNE,XRUNE Token,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x69fac6924efe4e4407d00d023761edf887a9a790,23623150,以太坊人生,以太坊人生,18,complete,rpc.ankr.com
+0x69fac6924efe4e4407d00d023761edf887a9a790,23623150,,,,error,rpc.mevblocker.io
+0x69fdb745a1e960107c13e36758f60c38aa9c41c2,22907925,CAESAR,Doge 2.0,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x6a0e5bbd3ba10cbe4b73d79cb8300db8721a04e0,22632825,TUBBY,Tubby Rainbow,9,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x6a11f3e5a01d129e566d783a7b6e8862bfd66cca,23200825,1LP-ETH-WBTC,1inch Liquidity Pool (ETH-WBTC),18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x6a6c2ada3ce053561c2fbc3ee211f23d9b8c520a,22976200,TON,TONToken,18,complete,eth-mainnet.g.alchemy.com
+0x6b0b3a982b4634ac68dd83a4dbf02311ce324181,22850850,ALI,Artificial Liquid Intelligence Token,18,complete,rpc.ankr.com
+0x6b175474e89094c44da98b954eedeac495271d0f,22704475,DAI,Dai Stablecoin,18,complete,eth-mainnet.g.alchemy.com
+0x6b1a8f210ec6b7b6643cea3583fb0c079f367898,23453325,BXX,Baanx,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x6b3595068778dd592e39a122f4f5a5cf09c90fe2,22812900,SUSHI,SushiToken,18,complete,eth-mainnet.g.alchemy.com
+0x6b4c7a5e3f0b99fcd83e9c089bddd6c7fce5c611,22921225,MM,Million,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x6b66ccd1340c479b07b390d326eadcbb84e726ba,23586125,SEAM,Seamless,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x6bea7cfef803d1e3d5f7c0103f7ded065644e197,23328625,GAMMA,Gamma,,partial,eth-mainnet.g.alchemy.com
+0x6bef15d938d4e72056ac92ea4bdd0d76b1c4ad29,23076150,PROVE,Succinct,18,complete,rpc.ankr.com
+0x6bfdb6f4e65ead27118592a41eb927cea6956198,23755850,FMC,Fame AI,18,complete,rpc.ankr.com
+0x6c28aef8977c9b773996d0e8376d2ee379446f2f,23087175,QUICK,Quickswap,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x6c3ea9036406852006290770bedfcaba0e23a0e8,22689600,PYUSD,PayPal USD,6,complete,eth-mainnet.g.alchemy.com
+0x6c3f90f043a72fa612cbac8115ee7e52bde6e490,23872225,3Crv,Curve.fi DAI/USDC/USDT,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x6c3fe25a4de7fa243c653cfe1f165bf11d99704e,23041275,HILO ,HILO,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x6c5146e923ce3854ed3cf73aafee10fda770e92b,22686725,Neuralink,Neuralink,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x6c6ee5e31d828de241282b9606c8e98ea48526e2,23745150,HOT,HoloToken,18,complete,rpc.ankr.com
+0x6c8984bc7dbbedaf4f6b2fd766f16ebb7d10aab4,23808900,stUSR,Staked USR,18,complete,eth-mainnet.g.alchemy.com
+0x6cc96ee925df22cfae6d4d1c69d87b165c6d0ab6,22917425,Ani,Ani Grok Companion,9,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x6d44ddba07a9373d665ce636f639e1c46565a349,23143150,FOMO,FOMO,18,complete,rpc.ankr.com
+0x6d9c8ebd21c028e1a67ed1ac9d05baeadf0ae99a,23311100,CRAI,Crunch AI Network,9,complete,eth-mainnet.g.alchemy.com
+0x6de037ef9ad2725eb40118bb1702ebb27e4aeb24,22683725,RNDR,Render Token,18,complete,eth-mainnet.g.alchemy.com
+0x6dea81c8171d0ba574754ef6f8b412f2ed88c54d,23267250,LQTY,LQTY,18,complete,rpc.ankr.com
+0x6df1c1e379bc5a00a7b4c6e67a203333772f45a8,22644325,variableDebtEthUSDT,Aave Ethereum Variable Debt USDT,6,complete,eth-mainnet.g.alchemy.com
+0x6f259637dcd74c767781e37bc6133cd6a68aa161,22785650,HT,HuobiToken,18,complete,eth-mainnet.g.alchemy.com
+0x6f40d4a6237c257fff2db00fa0510deeecd303eb,23445850,FLUID,Fluid,18,complete,rpc.ankr.com
+0x6fb3e0a217407efff7ca062d46c26e5d60a14d69,22828325,IOTX,IoTeX Network,18,complete,rpc.ankr.com
+0x6fbe53ff742d5dd1e395f42765b8b018653c13c3,22637450,JEJE,JEJE,9,complete,rpc.ankr.com
+0x70e8de73ce538da2beed35d14187f6959a8eca96,23133000,XSGD,XSGD,6,complete,eth-mainnet.g.alchemy.com
+0x70edf1c215d0ce69e7f16fd4e6276ba0d99d4de7,22664700,CHEQ,cheqd,9,complete,eth-mainnet.g.alchemy.com
+0x7102ead24943713e9081f5471aaa64f1655af27e,22612900,FOMOAI,FOMOAI,9,complete,eth-mainnet.g.alchemy.com
+0x712707b0ba02963e3c4857368a29f7023b47e64f,22786475,BEN,Ben,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x712bd4beb54c6b958267d9db0259abdbb0bff606,22898800,UDS,UndeadServiceToken,18,complete,eth-mainnet.g.alchemy.com
+0x7138eb0d563f3f6722500936a11dcae99d738a2c,23056125,LIF3,LIF3,18,complete,eth-mainnet.g.alchemy.com
+0x71823b57de5898957d763d2a92a1571fcb0d6b44,22906375,XING,Xing Xing,9,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x719a73e04d3c832b741536443c5e5026aef33fd2,23362300,MAXI,Maxi Doge,9,complete,eth-mainnet.g.alchemy.com
+0x7204da8009dc0ca3d13801ae361e6593b7999597,22671925,CRYBB,CryBaby,9,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x720cd16b011b987da3518fbf38c3071d4f0d1495,22982500,FLUX,Flux,8,complete,eth-mainnet.g.alchemy.com
+0x72943fb986c7cc044740ff7bbf4ec722cd7d5436,23877050,SANKE,Sanke Wallet,18,complete,rpc.ankr.com
+0x72b00e483a0ec40634f47043d3190be6ac210072,22737025,OHARE,Matt Furie‘s O’Hare,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x72e228cdfdc77a36048a7ef62485be11b6d3b25e,22686275,MANYU,Manyu the Shiba Inu,9,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x72e364f2abdc788b7e918bc238b21f109cd634d7,22790050,MVI,Metaverse Index,18,complete,rpc.ankr.com
+0x72e4f9f808c49a2a61de9c5896298920dc4eeea9,22747400,BITCOIN,HarryPotterObamaSonic10Inu,8,complete,eth-mainnet.g.alchemy.com
+0x72e95b8931767c79ba4eee721354d6e99a61d004,22657975,variableDebtEthUSDC,Aave Ethereum Variable Debt USDC,6,complete,eth-mainnet.g.alchemy.com
+0x72fdc31f4a9a1edf6b6132d3c1754f1cdcf5d9b1,22923675,QBX,QBX,18,complete,eth-mainnet.g.alchemy.com
+0x734eec7930bc84ec5732022b9eb949a81fb89abe,23215600,ETH0,Usual ETH,18,complete,eth-mainnet.g.alchemy.com
+0x737c5be223f9dfc6b8ccfa5810f84fb4added3fb,22802375,fwGRT,Few Wrapped Graph Token,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x737d461917ccf0fa28a52da30672e2ddc214f0bf,23114850,OZK,OpenZK Network,18,complete,eth-mainnet.g.alchemy.com
+0x738865301a9b7dd80dc3666dd48cf034ec42bdda,22967250,AGRS,Agoras Token,8,complete,rpc.ankr.com
+0x738c3acec1a7002d7574b73e43319f86603dcfd6,22826000,Quantz,Quantz,18,complete,eth-mainnet.g.alchemy.com
+0x73a740d256188395d9af56db31ab1e9bb2f2978d,23198825,CUBE,Cryptographic Universal Blockchain Exchange,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x73d7c860998ca3c01ce8c808f5577d94d545d1b4,22926575,IXS,Ixs Token,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x73fbd93bfda83b111ddc092aa3a4ca77fd30d380,23544425,SOPH,SOPH AI Token,18,complete,rpc.ankr.com
+0x74023ba6cb9e085eb563e55243c2fa858b6900b9,23228450,MOANER,Moaner Melter Slime,9,complete,rpc.ankr.com
+0x7420b4b9a0110cdc71fb720908340c03f9bc03ec,22728600,JASMY,JasmyCoin,18,complete,eth-mainnet.g.alchemy.com
+0x74514df8b8711b5f02d1f8ea6f917f20bb14a155,23448100,CADEN,Justice For Caden,9,complete,eth-mainnet.g.alchemy.com
+0x74efd06e318012cb89266f1af03a0520f694a674,23214050,eETN,Electroneum Wrapped ETN,18,complete,rpc.ankr.com
+0x75231f58b43240c9718dd58b4967c5114342a86c,23124500,OKB,OKB,18,complete,eth-mainnet.g.alchemy.com
+0x7607546645655d4e93ea6839a55339263b3e4986,23262425,FUSAKA,Fusaka,9,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x7613c48e0cd50e42dd9bf0f6c235063145f6f8dc,23034950,PIRATE,Pirate Nation Token,18,complete,rpc.ankr.com
+0x7636d8722fdf7cd34232a915e48e96aa3eb386bf,22695900,SFI,Singularity Finance,18,complete,eth-mainnet.g.alchemy.com
+0x7659ce147d0e714454073a5dd7003544234b6aa0,23218000,XCAD,XCAD Token,18,complete,eth-mainnet.g.alchemy.com
+0x76b6f7bd8857195c5165a49a6ff75f84a3f081ca,23214050,BLOCKYBOY,Blockyboy by Matt Furie,9,complete,rpc.ankr.com
+0x76dd3f7b2966219c8eefdace65bab25ce22fe68d,23359375,PEPENODE,PepeNode,9,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x774eaf7a53471628768dc679da945847d34b9a55,22636200,GASS,Gasspas,18,complete,eth-mainnet.g.alchemy.com
+0x775f661b0bd1739349b9a2a3ef60be277c5d2d29,23215600,waEthLidowstETH,Wrapped Aave Ethereum Lido wstETH,18,complete,eth-mainnet.g.alchemy.com
+0x77777feddddffc19ff86db637967013e6c6a116c,22708100,TORN,TornadoCash,18,complete,eth-mainnet.g.alchemy.com
+0x77781231850881cf48e6701ba9197fb954af1567,23365500,PEK,Pek,9,complete,eth-mainnet.g.alchemy.com
+0x77e06c9eccf2e797fd462a92b6d7642ef85b0a44,23445850,wTAO,Wrapped TAO,9,complete,eth-mainnet.g.alchemy.com
+0x7822cb0c65c0bca5271e02bffc336a9bbe37b8a6,22739550,GITT,grok is this true,18,complete,rpc.ankr.com
+0x7849241ccff81511f26c2a86ef9d96624e948975,23019675,ACORE,ACORE AI Token,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x7866e48c74cbfb8183cd1a929cd9b95a7a5cb4f4,23782725,KIT,DexKit,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x786a6743efe9500011c92c7d8540608a62382b6f,22815300,ALU,Altura,18,complete,eth-mainnet.g.alchemy.com
+0x788a4c13a8945b15e2009d4526a3d4abdb81928d,22716750,ETHEREUM,Ultra Sound Money,18,complete,rpc.ankr.com
+0x78cbec65c55f143a9178b63243119806a659d2ef,23534950,MINDFAK,Mindfak By Matt Furie,18,complete,rpc.ankr.com
+0x78e1ccdcad781e0941646445d158efc1345896dd,22661050,CROCRO ,Crocro the Crocodile,9,complete,rpc.ankr.com
+0x7930987d2acadc293650dbfc41127c7fa101927e,22656300,KRYPTO,Fortnite Dog,9,complete,eth-mainnet.g.alchemy.com
+0x79801ac51d18543579d26c5b392581d17b273b89,23587725,BRO,Bro,9,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x79937da178932489ee32290baa5622690de709ca,23366675,LILPEPE,Little Pepe,9,complete,eth-mainnet.g.alchemy.com
+0x79a0ceb51ade344704240343f7882a71c78c8d77,22774550,KERBE,Kerbe,18,complete,rpc.ankr.com
+0x79d464248516bc6977ca2069ba15d8d1044479d8,22651225,GPU,GPUnet,18,complete,eth-mainnet.g.alchemy.com
+0x7a357044ed96c5d77958694644999bdde7c66f6c,23070325,8,Infinity,9,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x7a58c0be72be218b41c608b7fe7c5bb630736c71,23720850,PEOPLE,ConstitutionDAO,18,complete,rpc.ankr.com
+0x7b10d50b5885be4c7985a88408265c109bd1eec8,22850575,TRWA,TRWA,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x7b2a434ef1a49f1297e8194a07b321365462ea02,23357725,FSX,Future Sync X,9,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x7beb8f36650e9327d8c52735e3b3c9d1521576e3,23178375,kek,kek,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x7cf9a56ad1c1c74c34674c5bc555ce1fb3babe15,22619825,NAREK,NAREK,9,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x7cfd34ca2dceca6c835adc7e61409a089cfff14a,22607700,DAWAE,DaWae,18,complete,eth-mainnet.g.alchemy.com
+0x7d1afa7b718fb893db30a3abc0cfc608aacfebb0,22760150,MATIC,Matic Token,18,complete,eth-mainnet.g.alchemy.com
+0x7d5121505149065b562c789a0145ed750e6e8cdd,23872400,VR,Victoria VR,18,complete,eth-mainnet.g.alchemy.com
+0x7d53e4360df2f03836e0655f2f3ae16d7512f4ef,22652175,MAG,Make America Greater,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x7dd9c5cba05e151c895fde1cf355c9a1d5da6429,23786225,GLM,Golem Network Token,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x7de91b204c1c737bcee6f000aaa6569cf7061cb7,22805300,XRT,Robonomics,9,complete,eth-mainnet.g.alchemy.com
+0x7e2ac793f3e692f388e66c7dc28f739d13b0b71a,23840000,GGBR,Goldfish,18,complete,eth-mainnet.g.alchemy.com
+0x7ea08ba031e87f220f7f483f349df1e7e574eee4,22625300,HOLO,MicroCloud Hologram Inc,9,complete,eth-mainnet.g.alchemy.com
+0x7f39c581f595b53c5cb19bd0b3f8da6c935e2ca0,23022175,wstETH,Wrapped liquid staked Ether 2.0,18,complete,eth-mainnet.g.alchemy.com
+0x7f3aca248e1a7cb2bca683d9a639ddf07b49bdb8,23248675,CREEP,CREEP by 𝓜𝓪𝓽𝓽 𝓕𝓾𝓻𝓲𝓮,9,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x7f89f674b7d264944027e78e5f58eb2bbbb7cfa3,23654100,BCRED,BRAIN CREDITS,18,complete,eth-mainnet.g.alchemy.com
+0x7fc66500c84a76ad7e9c93437bfc5ac33e2ddae9,23121975,AAVE,Aave Token,18,complete,eth-mainnet.g.alchemy.com
+0x80008bcd713c38af90a9930288d446bc3bd2e684,23570700,KARATE,Karate,18,complete,eth-mainnet.g.alchemy.com
+0x806a72273b961145cf5c5f040ad1fcd112b3f11a,22701575,OWO,Owo,9,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x8080779e8366ea28cd1c99bd66ac6d04fce73bf9,22663900,TAP,The America Party,9,complete,eth-mainnet.g.alchemy.com
+0x811a7fe9cd4f908147830e90bf4a13728c3354db,22675450,,,9,partial,rpc.ankr.com
+0x812b40c2ca7fabbac756475593fc8b1c313434fa,23745050,1LP-ETH-1INCH,1inch Liquidity Pool (ETH-1INCH),18,complete,rpc.ankr.com
+0x812ba41e071c7b7fa4ebcfb62df5f45f6fa853ee,23661250,Neiro,Neiro,9,complete,rpc.ankr.com
+0x81382220e03d3296cb98f3572e2557d793e258a2,22865400,SAMMY,Sammy,9,complete,eth-mainnet.g.alchemy.com
+0x8143182a775c54578c8b7b3ef77982498866945d,23236475,wQUIL,Wrapped QUIL,8,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x8149268b059172378a9958d159e289f9f92d1f4f,23169850,LOOP,Workloop AI,9,complete,rpc.ankr.com
+0x8162ecd602cc61819cf6f5df2965ed56a0146617,22614800,KB,KICKBLOCK-KB,18,complete,eth-mainnet.g.alchemy.com
+0x817162975186d4d53dbf5a7377dd45376e2d2fc5,22938875,REACT,Wrapped REACT,18,complete,rpc.ankr.com
+0x81987681443c156f881b70875724cc78b08ada26,22607675,MIRAI,Mirai,9,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x81ba3931816759d3fbb4a98a448a0dfdcd2a89bc,22756575,ERC-69,Expansive Rectal Coin,18,complete,eth-mainnet.g.alchemy.com
+0x81ce34b31dab000c01273e27592228471ba313e9,23213525,SHAGGY,Shaggy by 𝓜𝓪𝓽𝓽 𝓕𝓾𝓻𝓲𝓮,9,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x81db26bfc396a71ef8dac4b7aef4c6a5cd1f508e,22770975,YUMI,Dev cat,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x81e4ed500cd1f847d121d60a856a0e8080a9e290,22762575,Roboception,Roboception,9,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x821128f02b7fc4943340a77f3498884cac243a68,23673200,XZI,Zarfix,18,complete,eth-mainnet.g.alchemy.com
+0x8236a87084f8b84306f72007f36f2618a5634494,22668025,LBTC,Lombard Staked Bitcoin,8,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x8248270620aa532e4d64316017be5e873e37cc09,22805300,DEVVE,DevvE,18,complete,eth-mainnet.g.alchemy.com
+0x826180541412d574cf1336d22c0c0a287822678a,23599275,FLIP,Chainflip,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x8262b8a2d2011b04328ed5f2940bf83ea4b07215,23135325,100USD,Benjamin Franklin,9,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x8290333cef9e6d528dd5618fb97a76f268f3edd4,22734775,ANKR,Ankr Network,18,complete,eth-mainnet.g.alchemy.com
+0x8292bb45bf1ee4d140127049757c2e0ff06317ed,23110425,RLUSD,RLUSD,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x82ac408154f09649fae3a60a90b9f19fe95c06d1,22941775,VIBCECAT,VIBECAT,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x82c194f52dd25f3b86a1ec17797c701fc17a7a1c,22946550,VALENTINE,Valentine,18,complete,rpc.ankr.com
+0x8390a1da07e376ef7add4be859ba74fb83aa02d5,23798250,GROK,GROK,9,complete,rpc.ankr.com
+0x83988333b4c2bf821013e3abdaf3702f01168cbb,23742300,MGAS,MegaSwap,18,complete,eth-mainnet.g.alchemy.com
+0x839e71613f9aa06e5701cf6de63e303616b0dde3,22607600,VVS,VVS,18,complete,eth-mainnet.g.alchemy.com
+0x83e6f1e41cdd28eaceb20cb649155049fac3d5aa,23093900,POLS,PolkastarterToken,18,complete,eth-mainnet.g.alchemy.com
+0x8400d94a5cb0fa0d041a3788e395285d61c9ee5e,23128875,UBT,UniBright,8,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x84ca8bc7997272c7cfb4d0cd3d55cd942b3c9419,22957200,DIA,DIAToken,18,complete,eth-mainnet.g.alchemy.com
+0x84f79ccd3074c0a5f3fe40e761392aedac118976,23278650,CHOW,Chow Chow Inu,9,complete,rpc.ankr.com
+0x851f679a5edfb16e7cf1ad157c6995b7e7f333f2,23770950,TrumpBucks,Trump Bucks,9,complete,rpc.ankr.com
+0x853d955acef822db058eb8505911ed77f175b99e,22908000,FRAX,Frax,18,complete,eth-mainnet.g.alchemy.com
+0x85bea4ee627b795a79583fcede229e198aa57055,23524075,Marvin,Marvin Inu,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x85f17cf997934a597031b2e18a9ab6ebd4b9f6a4,22620000,NEAR,NEAR,24,complete,eth-mainnet.g.alchemy.com
+0x86cd4f8cc261c713a9553151da2e7a504a48395b,22662625,RWR,Ronald Wilson Reagan,9,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x86e20eb98314b67613d241c2f38e99966e4ce559,23118875,DUNA,DUNA DAO,9,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x86ed939b500e121c0c5f493f399084db596dad20,23684900,SPC,SpaceChainV2,18,complete,eth-mainnet.g.alchemy.com
+0x8798249c2e607446efb7ad49ec89dd1865ff4272,22812900,xSUSHI,SushiBar,18,complete,eth-mainnet.g.alchemy.com
+0x87e847b1baf77229ab64fc952ddbaeeef8c9575c,22648450,AMERICAPARTY,America Party,9,complete,rpc.ankr.com
+0x88022b7c8a397e1ef19a804e79d05b813b26f5ec,23275150,WLFI,World Liberty Fi,9,complete,rpc.ankr.com
+0x886d9735b616d78c7b121567f352d8661b1e1914,23646825,Mika,Mika,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x88800092ff476844f74dc2fc427974bbee2794ae,23357125,WALLET,Ambire Wallet,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x8881562783028f5c1bcb985d2283d5e170d88888,23462575,SHFL,Shuffle,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x88df592f8eb5d7bd38bfef7deb0fbc02cf3778a0,23093475,TRB,Tellor Tributes,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x892b60319ef4f9be8f97f8c8c4e85cf8cb0442f2,23041650,PC,Project Crypto,9,complete,rpc.ankr.com
+0x89a72a0cfc8ba41d4496fa8a2d5bf478bc5c295d,22927175,gib,gib,9,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x8a6fe57c08c84e0f4ee97aae68a62e820a37d259,22760150,fwDAI,Few Wrapped Dai Stablecoin,18,complete,rpc.ankr.com
+0x8a9c67fee641579deba04928c4bc45f66e26343a,23900075,JRT,Jarvis Reward Token,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x8aa9381b2544b48c26f3b850f6e07e2c5161eb3e,23599875,WDOGE,Wrapped DOGE,8,complete,eth-mainnet.g.alchemy.com
+0x8ab7404063ec4dbcfd4598215992dc3f8ec853d7,23162175,KAON,Kaon,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x8b432143ace80ff917fd1027fd008d559366dddd,22773875,SPCX,SpaceX Token,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x8b8c9a5a50a219c04dcb7835ceba24d6553e173c,22767350,POAP,POAP,18,complete,rpc.ankr.com
+0x8b9b95292f890df47fff5ac9cbe93d5fc242bd51,23160425,BEFI,Befi Labs,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x8bd1c38df7ad96e262339de4938102209825da7e,22737550,CASE,Case,9,complete,rpc.ankr.com
+0x8be3460a480c80728a8c4d7a5d5303c85ba7b3b9,23074800,sENA,Staked ENA,18,complete,eth-mainnet.g.alchemy.com
+0x8c1bed5b9a0928467c9b1341da1d7bd5e10b6549,23662000,LsETH,Liquid Staked ETH,18,complete,eth-mainnet.g.alchemy.com
+0x8c7ac134ed985367eadc6f727d79e8295e11435c,23137900,Kekec,The Balkan Dwarf,18,complete,eth-mainnet.g.alchemy.com
+0x8d010bf9c26881788b4e6bf5fd1bdc358c8f90b8,23293250,DOT,Polkadot Token (Relay Chain),18,complete,rpc.ankr.com
+0x8d0d000ee44948fc98c9b98a4fa4921476f08b0d,22628550,USD1,World Liberty Financial USD,18,complete,eth-mainnet.g.alchemy.com
+0x8df723295214ea6f21026eeeb4382d475f146f9f,23865525,EURQ,Quantoz EURQ,6,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x8e0e57dcb1ce8d9091df38ec1bfc3b224529754a,23501350,CAH,Moon Tropica,18,complete,rpc.ankr.com
+0x8e729198d1c59b82bd6bba579310c40d740a11c2,23721800,ALVA,Alvara,18,complete,eth-mainnet.g.alchemy.com
+0x8e870d67f660d95d5be530380d0ec0bd388289e1,23667975,USDP,Pax Dollar,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x8e89e739148d284469d9cbe642679b3038b7b9f0,23371025,Moon,Moon Tesla Companion,9,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x8ef47555856f6ce2e0cd7c36aef4fab317d2e2e2,22859825,PAYT,PayAccept,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x8f056e0434d28f97a3aa754c9aa4a90307f81203,22791250,21e8/acc,Magic Number Quantum Ponzi Wealth Autism Gang,9,complete,rpc.ankr.com
+0x8f3470a7388c05ee4e7af3d01d8c722b0ff52374,23093900,VERI,Veritaseum,18,complete,eth-mainnet.g.alchemy.com
+0x8f693ca8d21b157107184d29d398a8d082b38b76,22762775,DATA,Streamr,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x8fac8031e079f409135766c7d5de29cf22ef897c,23754950,HEART,HUMANS,18,complete,rpc.ankr.com
+0x8fc8f8269ebca376d046ce292dc7eac40c8d358a,23231475,DFI,DeFiChain Token,8,complete,rpc.ankr.com
+0x8fe815417913a93ea99049fc0718ee1647a2a07c,22974525,XSWAP,XSwap,18,complete,eth-mainnet.g.alchemy.com
+0x90001c5f2c6ffd4b90a801afddefcbf31965c667,22631200,OMALLEY,O'Malley,18,complete,eth-mainnet.g.alchemy.com
+0x90685e300a4c4532efcefe91202dfe1dfd572f47,22807900,CTA,Cross The Ages,18,complete,eth-mainnet.g.alchemy.com
+0x908ddb096bfb3acb19e2280aad858186ea4935c4,23681850,ESE,eesee,18,complete,rpc.ankr.com
+0x90b831fa3bebf58e9744a14d638e25b4ee06f9bc,23496550,MIMO,MIMO Parallel Governance Token,18,complete,rpc.ankr.com
+0x90ebbafa6c14b00ab82708d6e26330cb25c48740,22786125,Monke,Monkey,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x9115b060ce85f8e1d350ae5a6b93b48cdfba675d,23147000,SSM,Satoshi Street Memes,9,complete,eth-mainnet.g.alchemy.com
+0x91758829c6ac971fd3ab6bc1a40a4d10750d7091,22619775,DIABLON,DIABLON,9,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x91af0fbb28aba7e31403cb457106ce79397fd4e6,22643600,AERGO,Aergo,18,complete,eth-mainnet.g.alchemy.com
+0x91fde184b93bd66f37aff435f47aa63c20a3b2bf,23771525,DFDX,DFDX,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x922d8563631b03c2c4cf817f4d18f6883aba0109,22800400,LOCK,Houdini Swap,18,complete,eth-mainnet.g.alchemy.com
+0x925206b8a707096ed26ae47c84747fe0bb734f59,22726950,WBT,WBT,8,complete,rpc.ankr.com
+0x9261008f4cfb151b716caf701f4bf999aa117e47,23906525,EthereumArmy,EthereumArmy,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x926759a8eaecfadb5d8bdc7a9c7b193c5085f507,22733675,NURA,Nura Labs,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x92d6c1e31e14520e676a687f0a93788b716beff5,23093475,DYDX,dYdX,18,complete,eth-mainnet.g.alchemy.com
+0x93617904a0a15063b54bd14cc595aa10f2a8e358,23256150,ALA,Al Arab Coin,18,complete,eth-mainnet.g.alchemy.com
+0x93b743fb12a2677adb13093f8ea8464a436da008,23501500,SNACK,Sudo Snacks,18,complete,eth-mainnet.g.alchemy.com
+0x93f66b4bf8b5d8296594ee255565191c1ba5aa06,22762200,MAX,Robotaxi mascot,18,complete,eth-mainnet.g.alchemy.com
+0x940a2db1b7008b6c776d4faaca729d6d4a4aa551,23494700,DUSK,Dusk Network,18,complete,eth-mainnet.g.alchemy.com
+0x940bdcb99a0ee5fb008a606778ae87ed9789f257,23193075,JFIN,JFIN Coin,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x9447dd95f576fdf6ed8219fff45bd1362430b787,22950975,BMB,BMB,5,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x944824290cc12f31ae18ef51216a223ba4063092,23598150,MASA,Masa Token,18,complete,eth-mainnet.g.alchemy.com
+0x946fb08103b400d1c79e07acccdef5cfd26cd374,22694400,KIP,KIP Protocol,18,complete,eth-mainnet.g.alchemy.com
+0x94751415e6d603b4293a4625c1add28d9f76e666,22868950,Teddy,Teddy,9,complete,rpc.ankr.com
+0x947ec8f8921946a64649643e72e09a957275ab4c,22979250,XRP 2.0,XRP 2.0,2,complete,rpc.ankr.com
+0x948f2bb3ccdda6c692db2ff5261cb615dc9799d3,23218875,ETHZ,ETHZilla,9,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x949c255362e21042b26cf6a6b54cbb218b50090c,23578025,HARIKO,Inu Hariko,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x94a5cfc7517c67d634ff94a599e27ca9d87731f8,22957650,BGROK,Baby Grok,18,complete,rpc.ankr.com
+0x94a8b4ee5cd64c79d0ee816f467ea73009f51aa0,23431725,RIO,Realio Network,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x9506d37f70eb4c3d79c398d326c871abbf10521d,22610100,MLT,Media Licensing Token,18,complete,eth-mainnet.g.alchemy.com
+0x957c7fa189a408e78543113412f6ae1a9b4022c4,23602900,LF,LF,18,complete,eth-mainnet.g.alchemy.com
+0x95ad61b0a150d79219dcf64e1e6cc01f0b64c4ce,22921225,SHIB,SHIBA INU,18,complete,eth-mainnet.g.alchemy.com
+0x95ae252633e9ea03bdfe67874b349b41163464ce,22976800,BIGGIE,Biggie,9,complete,eth-mainnet.g.alchemy.com
+0x95af4af910c28e8ece4512bfe46f1f33687424ce,22945675,MANYU,Manyu,9,complete,eth-mainnet.g.alchemy.com
+0x95ed629b028cf6aadd1408bb988c6d1daabe4767,22852175,DORKY,Dork Lord,9,complete,rpc.ankr.com
+0x960fce8724aa127184b6d13af41a711755236c77,22976200,henlo,henlo,9,complete,eth-mainnet.g.alchemy.com
+0x961c8c0b1aad0c0b10a51fef6a867e3091bcef17,22877800,DYP,DeFiYieldProtocol,18,complete,eth-mainnet.g.alchemy.com
+0x9669890e48f330acd88b78d63e1a6b3482652cd9,22764550,BCNT,Bincentive Token,18,complete,eth-mainnet.g.alchemy.com
+0x967da4048cd07ab37855c090aaf366e4ce1b9f48,23041950,OCEAN,Ocean Token,18,complete,eth-mainnet.g.alchemy.com
+0x968dc061290f76f90b3b939cc9380d47d79a54c5,22754500,MOONKIN,Moonkin,9,complete,eth-mainnet.g.alchemy.com
+0x96a5399d07896f757bd4c6ef56461f58db951862,23771525,DRAGONX,DragonX,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x970b9bb2c0444f5e81e9d0efb84c8ccdcdcaf84d,23762525,FUSE,Fuse Token,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x97a9a15168c22b3c137e6381037e1499c8ad0978,23142425,DOP,Data Ownership Protocol,18,complete,rpc.ankr.com
+0x97ad24ab86186af1d0bad969c7ec2116f2120db6,22827700,SWOL,Snowy Owl,18,complete,eth-mainnet.g.alchemy.com
+0x980e0b6ff0d7cc5d7f28e6757d453ae54ecbfe9d,23671200,PUFF,That Little Puff,9,complete,eth-mainnet.g.alchemy.com
+0x9813037ee2218799597d83d4a5b6f3b6778218d9,23352350,BONE,BONE SHIBASWAP,18,complete,rpc.ankr.com
+0x9849442023272916817492c8a2c7ad9509587a9b,22792550,BULL,Bull,18,complete,rpc.ankr.com
+0x988b5d6b30fd2e4e7c054374439e4a078104ed02,23698325,Auda City,Auda City,9,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x98c23e9d8f34fefb1b7bd6a91b7ff122f4e16f5c,23515925,aEthUSDC,Aave Ethereum USDC,6,complete,eth-mainnet.g.alchemy.com
+0x9928a8600d14ac22c0be1e8d58909834d7ceaf13,23613075,0xDNX,Wrapped DNX,9,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x993864e43caa7f7f12953ad6feb1d1ca635b875f,22695900,SDAO,Singularity Dao,18,complete,eth-mainnet.g.alchemy.com
+0x9992ec3cf6a55b00978cddf2b27bc6882d88d1ec,22636725,POLY,Polymath,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x999737e1f9d97f1edbba075efa75d62df3a7dc74,22795875,BIBY,Biby,9,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x99d29cccc8a5768be090eae63da16d4b0b2b7302,22820375,uniparty,uniparty,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x99d8a9c45b2eca8864373a26d1459e3dff1e17f3,22759325,MIM,Magic Internet Money,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x99ea4db9ee77acd40b119bd1dc4e33e1c070b80d,23208150,QSP,Quantstamp Token,18,complete,rpc.ankr.com
+0x9a8c07e6e883e522e5cd22ab732241cca6c12690,23049600,PECHAN,pechan ぺーちゃん 太っちょ柴犬,9,complete,eth-mainnet.g.alchemy.com
+0x9a96ec9b57fb64fbc60b423d1f4da7691bd35079,22759300,AJNA,AjnaToken,18,complete,eth-mainnet.g.alchemy.com
+0x9aab071b4129b083b01cb5a0cb513ce7eca26fa5,22967250,HUNT,HuntToken,18,complete,rpc.ankr.com
+0x9ab7bb7fdc60f4357ecfef43986818a2a3569c62,22816150,GOG,Guild of Guardians,18,complete,rpc.ankr.com
+0x9ac9468e7e3e1d194080827226b45d0b892c77fd,22710975,Yee,Yee Token,9,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x9af595c8fc201e82db65faef71d51365d7f11b5f,23290975,CAPTAIN,Captain Ethereum,9,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x9afa9999e45484adf5d8eed8d9dfe0693bacd838,23588650,EVERY,Everyworld,18,complete,rpc.ankr.com
+0x9b4dc8d816809252d3500f09104c1f4d9764e7d5,22634350,ZYRA,Zyra,9,complete,rpc.ankr.com
+0x9b53e429b0badd98ef7f01f03702986c516a5715,22859825,HY,hybrix hydra,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x9bc8640f0b0ec9020495957bd9fc0a1d1045772d,22621775,CHAT,CHAT,9,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x9cdf242ef7975d8c68d5c1f5b6905801699b1940,22611975,WHITE,WhiteRock,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x9ce84f6a69986a83d92c324df10bc8e64771030f,23786225,CHEX,Chintai Exchange Token,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x9d27c4cf95fb475cb98cb00ce3d97a00b8a3176a,22860975,AETHER,Aethermind Protocol,9,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x9d39a5de30e57443bff2a8307a4256c8797a3497,22625525,sUSDe,Staked USDe,18,complete,eth-mainnet.g.alchemy.com
+0x9e18d5bab2fa94a6a95f509ecb38f8f68322abd3,22654425,OMIKAMI,AMATERASU OMIKAMI,9,complete,eth-mainnet.g.alchemy.com
+0x9e35d6a63138c53a93072c045e0398d4f06cf560,22616225,HYPEVM,HYPEVM,9,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x9e72a0e219cff0011069ae7b0da73fa26280f41b,22732875,IZZY,Izzy,9,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x9eaebd7e73d97e78c77fab743e6ffa1b550e224c,22745400,RXS,Rexas Finance,18,complete,eth-mainnet.g.alchemy.com
+0x9f13240c95694f203a94e4670a5c5d742b318e58,22752475,WYNN,WYNN,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0x9f8f72aa9304c8b593d555f12ef6589cc3a579a2,22961625,MKR,Maker,18,complete,eth-mainnet.g.alchemy.com
+0x9fdbc11a8cdb04551081c5f019fa266fdcb5cf44,23327625,DOGE ETF,Dogecoin ETF,9,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0xa02120696c7b8fe16c09c749e4598819b2b0e915,22755875,WXT,Wirex Token,18,complete,eth-mainnet.g.alchemy.com
+0xa0246c9032bc3a600820415ae600c6388619a14d,22901450,FARM,FARM Reward Token,18,complete,rpc.ankr.com
+0xa02c49da76a085e4e1ee60a6b920ddbc8db599f4,23161675,TREAT,Shiba Inu Treat,18,complete,eth-mainnet.g.alchemy.com
+0xa0335820dc549dbfae5b8d691331cadfca7026e0,23217500,SHIBA2,Shiba v2 Limited,18,complete,eth-mainnet.g.alchemy.com
+0xa0848125371d94168054cb0c89c49759e4cbcc3d,22918975,RUDY,Bad Rudy,9,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0xa0981614af6ab5b51983479980a7d47d1895b1f4,22648750,ROCKEFELLER,John D. Rockefeller,9,complete,rpc.ankr.com
+0xa0b73e1ff0b80914ab6fe0444e65848c4c34450b,23208425,CRO,CRO,8,complete,eth-mainnet.g.alchemy.com
+0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48,22607600,USDC,USD Coin,6,complete,eth-mainnet.g.alchemy.com
+0xa0be76135289aeb5781923ee0d47ca5527821f59,22607600,HYDX,Hyper-Dex Exchange,18,complete,eth-mainnet.g.alchemy.com
+0xa0ef786bf476fe0810408caba05e536ac800ff86,22753400,MYRIA,Myria,18,complete,eth-mainnet.g.alchemy.com
+0xa19f5264f7d7be11c451c093d8f92592820bea86,23017000,BYTES,BYTES,18,complete,eth-mainnet.g.alchemy.com
+0xa1b014878d47c0836ed79163ddec55985adb7023,23240925,OISHII,Dog Food Token,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0xa1d0e215a23d7030842fc67ce582a6afa3ccab83,22749550,YFII,YFII.finance,18,complete,eth-mainnet.g.alchemy.com
+0xa2176658f1826d16d01c38df18041fb7881d6812,23346475,MURAD,Murad 💹🧲,9,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0xa236015c7e94907b74aa4886d11a248e98bec99f,22612925,30YOB,30-Year-Old Boomer,9,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0xa250cc729bb3323e7933022a67b52200fe354767,22642225,fwWETH,Few Wrapped Wrapped Ether,18,complete,eth-mainnet.g.alchemy.com
+0xa26cbb76156090f4b40a1799a220fc4c946afb3c,23684900,YNG,Young,18,complete,eth-mainnet.g.alchemy.com
+0xa29c9a740de8194e4016747e9a04a84946ada0a5,22607600,NUMI,NUMINE Token,18,complete,eth-mainnet.g.alchemy.com
+0xa2cd3d43c775978a96bdbf12d733d5a1ed94fb18,23003850,XCN,Chain,18,complete,eth-mainnet.g.alchemy.com
+0xa2f29aa96bf7d42943f861032052d449b66f6cf7,22723125,KHALAS,Khalas Coin,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0xa3931d71877c0e7a3148cb7eb4463524fec27fbd,23086125,sUSDS,Savings USDS,18,complete,eth-mainnet.g.alchemy.com
+0xa3d4bee77b05d4a0c943877558ce21a763c4fa29,22619900,ROOT,The Root Network,6,complete,eth-mainnet.g.alchemy.com
+0xa43a8184a30d9932773baea35e2a8f600058bb92,23176300,CHICA,Mutant Giant Spider Dog,9,complete,eth-mainnet.g.alchemy.com
+0xa47c8bf37f92abed4a126bda807a7b7498661acd,22759325,UST,Wrapped UST Token,18,complete,rpc.ankr.com
+0xa487bf43cf3b10dffc97a9a744cbb7036965d3b9,23455375,DERI,Deri,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0xa5246aa65844aab78e84998c1328b3cfcb5e58b0,22739575,@Grok,@grok This Is True?,9,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0xa5352e7c8f9230e42427a927d8d5b81677d8783c,23239875,DOW,Department of war,9,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0xa5527bfe2f4368433159c3aedc337cc522847949,22719650,41R,41R,9,complete,rpc.ankr.com
+0xa5f2211b9b8170f694421f2046281775e8468044,23213525,THOR,THORSwap Token,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0xa60a4ff8cf89d5e3d87b62ef68b3801685f22f41,23859325,1LP-1INCH-DAI,1inch Liquidity Pool (1INCH-DAI),18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0xa67ff247d595301cbd04fcf06a497a12cfc3b263,23380200,MLDSTR,MiladyStrategy,9,complete,eth-mainnet.g.alchemy.com
+0xa6c0c097741d55ecd9a3a7def3a8253fd022ceb9,23472700,AVA,AVA,18,complete,eth-mainnet.g.alchemy.com
+0xa776a95223c500e81cb0937b291140ff550ac3e4,22931100,GRAY,Gradient,18,complete,eth-mainnet.g.alchemy.com
+0xa798d734f3ed51dae1c42b5ab5bb3763951965f7,23771025,CHAOS,The Butterfly Effect,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0xa849eaae994fb86afa73382e9bd88c2b6b18dc71,23901225,MVL,Mass Vehicle Ledger Token,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0xa853da6f6f00d34a535a9e64a07945d0f5ea1e19,22767925,TTT,TTT,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0xa882606494d86804b5514e07e6bd2d6a6ee6d68a,23077725,WPLS,Wrapped Pulse from PulseChain,18,complete,eth-mainnet.g.alchemy.com
+0xa898eda49cdcc91d317e92c407b4f93f0642cbee,22702750,Ōkami,Amaterasu,9,complete,rpc.ankr.com
+0xa898eda49cdcc91d317e92c407b4f93f0642cbee,22702750,,,,error,rpc.mevblocker.io
+0xa8b96a31e6343eda76b0975c7e6cc652fdf3cc7f,22757425,niggaranza,bullshit ,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0xa8f17cb7a7a13229308049e965f2ff43e9cd88a0,22753100,TARD,Tarded,9,complete,eth-mainnet.g.alchemy.com
+0xa91ac63d040deb1b7a5e4d4134ad23eb0ba07e14,23173775,BEL,Bella,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0xa91c82b6933105c23298e631a0c1be751d239162,22969775,SOTU,Seed Of The Universe,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0xa92e132f720cccd5364b1d4d408486548cd80499,22791100,GROK420,Grok 4.20,18,complete,eth-mainnet.g.alchemy.com
+0xa93d86af16fe83f064e3c0e2f3d129f7b7b002b0,23010075,COCORO,COCORO,9,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0xa9a660e7d49bbef606d07210ddd6568b70b93dd3,22711950,GNOME,Gnome Child,18,complete,rpc.ankr.com
+0xa9b66d35d56c3678b5297763b2c97678a813f530,22735300,Krypto,Krypto,18,complete,eth-mainnet.g.alchemy.com
+0xa9d54f37ebb99f83b603cc95fc1a5f3907aaccfd,23142425,PIKA,Pikachu,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0xa9e8acf069c58aec8825542845fd754e41a9489a,23654100,pepecoin,pepeCoin,18,complete,eth-mainnet.g.alchemy.com
+0xaa1410658f5532e6815360b0477e1fe2b4f8b85a,22632625,ETHEREST,ETHEREST,9,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0xaa20217dac2de30c936a7bafe66c29ef9c3b57a3,22645100,ELONION,X Dark Web,9,complete,eth-mainnet.g.alchemy.com
+0xaa24705a5c2c0d8e6687aed6e2051101e27b89b0,23300425,creUSD,USD credcoin,6,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0xaa6c7d24d03769370e1c31f7c4edf3ebe10b7cf7,22799850,MTR,Matter,18,complete,rpc.ankr.com
+0xaa6e8127831c9de45ae56bb1b0d4d4da6e5665bd,23200825,ETH2x-FLI,ETH 2x Flexible Leverage Index,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0xaa7a9ca87d3694b5755f213b5d04094b8d0f0a6f,22930425,TRAC,Trace Token,18,complete,rpc.ankr.com
+0xaaee1a9723aadb7afa2810263653a34ba2c21c7a,23313775,Mog,Mog Coin,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0xaafec8e08d524d534327fa13fb306f440b5f88eb,23890900,OLDWCTC,[Old] Wrapped CTC,18,complete,eth-mainnet.g.alchemy.com
+0xab2a7b5876d707e0126b3a75ef7781c77c8877ee,23086325,QUAD,Quadency Token,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0xab5eb14c09d416f0ac63661e57edb7aecdb9befa,23017450,msUSD,Metronome Synth USD,18,complete,rpc.ankr.com
+0xab942c03fcf39e612e537e8b30ab48832832a917,23033000,FIND,Finder AI,18,complete,eth-mainnet.g.alchemy.com
+0xabc899d31daef58c1565b0742c0c3496ff893076,23334350,MAXI,Maxi Doge,9,complete,eth-mainnet.g.alchemy.com
+0xac51066d7bec65dc4589368da368b212745d63e8,23661250,ALICE,ALICE,6,complete,rpc.ankr.com
+0xac692b1ac6177e67e496e581d858865d1c19e351,23524225,$4,$4 ON BINANCE,9,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0xac8f9e61daadf7e0fed4125cf6b9e647367bf90d,22619575,STRD,Stride,9,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0xacb904c16c3033fd6ce4f34c3dfb297357b5e18e,22698450,YESSIR,YESSIR: 250th Army Salute,9,complete,rpc.ankr.com
+0xacbf265d834c25993d6836d8555be62d3742e5c0,23705975,GORO,Goro by Matt Furie,9,complete,eth-mainnet.g.alchemy.com
+0xacc5f95ead9874c21b6e83f4c051045a133e1b94,23311225,MEMELESS,Lack Of Memes,9,complete,eth-mainnet.g.alchemy.com
+0xace8e719899f6e91831b18ae746c9a965c2119f1,23399275,USDon,Ondo U.S. Dollar Token,18,complete,eth-mainnet.g.alchemy.com
+0xacf4c752c7802975fd1c3b0b1e1d1048c4280e79,22678075,UNI-V2,Uniswap V2,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0xad4e176c3a182381720913eea8d619b06a895476,22705700,TMBTC,Trump Media BTC Treasury,9,complete,eth-mainnet.g.alchemy.com
+0xad86b91a1d1db15a4cd34d0634bbd4ecacb5b61a,23713850,Daram,Daram,18,complete,rpc.ankr.com
+0xadff6bbc50b4058655ad71bf6642031abad35667,22764300,SARAH,GAPE DEV'S NAME,18,complete,eth-mainnet.g.alchemy.com
+0xae6e307c3fe9e922e5674dbd7f830ed49c014c6b,23003850,CREDI,CREDI,18,complete,eth-mainnet.g.alchemy.com
+0xae78736cd615f374d3085123a210448e74fc6393,22864375,rETH,Rocket Pool ETH,18,complete,eth-mainnet.g.alchemy.com
+0xae7ab96520de3a18e5e111b5eaab095312d7fe84,23215600,stETH,Liquid staked Ether 2.0,18,complete,eth-mainnet.g.alchemy.com
+0xaea46a60368a7bd060eec7df8cba43b7ef41ad85,22670025,FET,Fetch,18,complete,eth-mainnet.g.alchemy.com
+0xaec613188b1e178d42a05d352044d54854c3196a,23095600,DESCI,SUI Desci Agents,18,complete,eth-mainnet.g.alchemy.com
+0xaf2ca40d3fc4459436d11b94d21fa4b8a89fb51d,22629600,gCOTI,gCOTI Token,18,complete,eth-mainnet.g.alchemy.com
+0xb0ac2b5a73da0e67a8e5489ba922b3f8d582e058,23494475,SHIRO,Shiro Neko,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0xb0c7a3ba49c7a6eaba6cd4a96c55a1391070ac9a,23073000,MAGIC,MAGIC,18,complete,eth-mainnet.g.alchemy.com
+0xb0ffa8000886e57f86dd5264b9582b2ad87b2b91,22754350,W,Wormhole Token,18,complete,rpc.ankr.com
+0xb113c6cf239f60d380359b762e95c13817275277,22786175,BMEX,BitMEX Token,6,complete,eth-mainnet.g.alchemy.com
+0xb17548c7b510427baac4e267bea62e800b247173,22737350,SMT,Swarm Markets,18,complete,eth-mainnet.g.alchemy.com
+0xb17be9a85d1e04d1aa6ea4b83c0bb6a2030c261f,22790550,QBIT,Qubit,18,complete,rpc.ankr.com
+0xb1b1037ca726a7cdb059ddf4eb32e4622ab31ded,23478175,JEDEX,Jesus DEX Pool,9,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0xb1c9d42fa4ba691efe21656a7e6953d999b990c4,22662600,KANG,Kangamoon,18,complete,eth-mainnet.g.alchemy.com
+0xb1f1ee126e9c96231cc3d3fad7c08b4cf873b1f1,23057000,BIFI,Beefy,18,complete,eth-mainnet.g.alchemy.com
+0xb2617246d0c6c0087f18703d576831899ca94f01,23762475,ZIG,ZigCoin,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0xb3314ab6e8a234c1306b670099b8da45ec5d2b81,23012975,KERMIT,Kermit The Frog,9,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0xb3b4bdbf396d87ccb8f894a0e10dae9842bdbb8b,22766375,Vlogwartz,Vlogwartz,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0xb48c6d05a2f57d9bc575cc401ffab455fb97af79,22626650,FUSAKA,Ethereum's next upgrade,9,complete,rpc.ankr.com
+0xb48eb8368c9c6e9b0734de1ef4ceb9f484b80b9c,23543325,VMPX,VMPX,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0xb4b9dc1c77bdbb135ea907fd5a08094d98883a35,23774875,SWEAT,SWEAT,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0xb4c6fedd984bc983b1a758d0875f1ea34f81a6af,23392525,OVPP,OpenVPP,9,complete,rpc.ankr.com
+0xb4efd85c19999d84251304bda99e90b92300bd93,22677300,RPL,Rocket Pool,18,complete,eth-mainnet.g.alchemy.com
+0xb500ddcf76726b0a71cd131bfad2adb82994bf47,22766325,PARROT,PARROT AI,9,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0xb50721bcf8d664c30412cfbc6cf7a15145234ad1,22938850,ARB,Arbitrum,18,complete,eth-mainnet.g.alchemy.com
+0xb528edbef013aff855ac3c50b381f253af13b997,22878575,AEVO,Aevo,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0xb52a7fc463ee7ae992193634fb36825ff14dff6d,23199350,STELS,Stels Protocol,9,complete,rpc.ankr.com
+0xb56aaac80c931161548a49181c9e000a19489c44,23313775,ABDS,ABDS Token,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0xb57d26cb7be746852bf981497df37d713f90764a,22648475,TAP,The America Party,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0xb58e61c3098d85632df34eecfb899a1ed80921cb,23045025,ZCHF,Frankencoin,18,complete,rpc.ankr.com
+0xb59490ab09a0f526cc7305822ac65f2ab12f9723,23018950,LIT,Litentry,18,complete,rpc.ankr.com
+0xb5c80864c0c8678fc383d133b5f70b80591b8936,23167375,TROPE,Troll Pepe,9,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0xb60acd2057067dc9ed8c083f5aa227a244044fd6,23445850,stTAO,Tensorplex Staked TAO,9,complete,rpc.ankr.com
+0xb60fdf036f2ad584f79525b5da76c5c531283a1b,23416550,NEMO,Nemo Sum,9,complete,rpc.ankr.com
+0xb6ca7399b4f9ca56fc27cbff44f4d2e4eef1fc81,23590950,MUSE,Muse,18,complete,rpc.ankr.com
+0xb6ed7644c69416d67b522e20bc294a9a9b405b31,23871375,0xBTC,0xBitcoin Token,8,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0xb72e76ccf005313868db7b48070901a44629da98,23212200,SQGROW,SquidGrow,9,complete,eth-mainnet.g.alchemy.com
+0xb753428af26e81097e7fd17f40c88aaa3e04902c,23560700,SFI,Spice,18,complete,eth-mainnet.g.alchemy.com
+0xb755506531786c8ac63b756bab1ac387bacb0c04,23121975,ZARP,ZARP Stablecoin,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0xb788144df611029c60b859df47e79b7726c4deba,23668950,VULT,Vultisig Token,18,complete,eth-mainnet.g.alchemy.com
+0xb8baa0e4287890a5f79863ab62b7f175cecbd433,22963600,SWRV,Swerve DAO Token,18,complete,eth-mainnet.g.alchemy.com
+0xb8c77482e45f1f44de1745f52c74426c631bdd52,22968350,BNB,BNB,18,complete,eth-mainnet.g.alchemy.com
+0xb8d88a2120e2ca2836da6bb1bbcd17a1e4406a39,23018150,ElonX,ElonX,18,complete,rpc.ankr.com
+0xb90b2a35c65dbc466b04240097ca756ad2005295,23256325,BOBO,BOBO,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0xb93d0074d5a74943f1931b5c3cb72fd4fbf29335,23071225,MYX,MYX Finance,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0xb98b4b5d1816f709e1177707e08a576306cf369d,23167325,KOBE,Kobe the Shiba,9,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0xb98d4c97425d9908e66e53a6fdf673acca0be986,23795375,ABT,ArcBlock,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0xb9f599ce614feb2e1bbe58f180f370d05b39344e,23878575,PORK,PepeFork,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0xba0dda8762c24da9487f5fa026a9b64b695a07ea,22667975,OX,OX Coin,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0xba100000625a3754423978a60c9317c58a424e3d,22967325,BAL,Balancer,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0xba3335588d9403515223f109edc4eb7269a9ab5d,22932825,GEAR,Gearbox,18,complete,rpc.ankr.com
+0xba41ddf06b7ffd89d1267b5a93bfef2424eb2003,23554150,MYTH,Mythos,18,complete,rpc.ankr.com
+0xba83b5ed3f12bfa44f066f03ee0433419b74f469,23904225,BEST,Best Wallet Token,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0xbad6c59d72d44512616f25b3d160c79db5a69ddf,22767550,VATAN,Vatan,18,complete,eth-mainnet.g.alchemy.com
+0xbb0e17ef65f82ab018d8edd776e8dd940327b28b,23140575,AXS,Axie Infinity Shard,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0xbb126042235e6bd38b17744cb31a8bf4a206c045,23068625,FANC,fanC Token,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0xbb3a8fd6ec4bf0fdc6cd2739b1e41192d12b1873,22733425,OBI,ORBOFI,18,complete,eth-mainnet.g.alchemy.com
+0xbba17b81ab4193455be10741512d0e71520f43cb,22730000,1LP-ETH-USDT,1inch Liquidity Pool (ETH-USDT),18,complete,eth-mainnet.g.alchemy.com
+0xbbbbca6a901c926f240b89eacb641d8aec7aeafd,23215600,LRC,LoopringCoin V2,18,complete,eth-mainnet.g.alchemy.com
+0xbbc931da8e16f8e5599b54623bb2f5c9e67cf4d6,22768200,ANDY,Andy-70b,18,complete,eth-mainnet.g.alchemy.com
+0xbcda9e0658f4eecf56a0bd099e6dbc0c91f6a8c2,22607600,sil,SushiswapV2 IL Protection,8,complete,eth-mainnet.g.alchemy.com
+0xbcfadde17d4774f16d08c463cc20dfc9a6b5195e,22956150,MARS,Mars,9,complete,eth-mainnet.g.alchemy.com
+0xbd31ea8212119f94a611fa969881cba3ea06fa3d,22904775,LUNA,LUNA,6,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0xbd74429c4991b1e9da8e747861447b570f503330,23359050,DRAK,Drakonium,3,complete,rpc.ankr.com
+0xbd821d84770b65f679a47452367258cf86579d02,23247300,KOHAKU,KOHAKU,9,complete,eth-mainnet.g.alchemy.com
+0xbdb197be457e93e27e3e12dd9e6316ffe6fb2500,22838900,HBT,Hypebots,18,complete,eth-mainnet.g.alchemy.com
+0xbdfe7ad7976d5d7e0965ea83a81ca1bcff7e84a9,23110425,variableDebtEthRLUSD,Aave Ethereum Variable Debt RLUSD,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0xbe03e60757f21f4b6fc8f16676ad9d5b1002e512,23421850,RST,Raini Studios Token,18,complete,rpc.ankr.com
+0xbe0ed4138121ecfc5c0e56b40517da27e6c5226b,23913800,ATH,Aethir Token,18,complete,eth-mainnet.g.alchemy.com
+0xbe1936a67f503e0eaf2434b0cf9f4e3d7100008a,23200825,PROS,Prospective,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0xbe6be64e9e5042b6e84e4c27956cce6353efa5f5,22850850,BEG,Beg,18,complete,rpc.ankr.com
+0xbe77212a6c7f55567470c2c95aff7b0b0e0c3ef5,23896500,Shiba 2.0,Shiba 2.0,9,complete,eth-mainnet.g.alchemy.com
+0xbe9895146f7af43049ca1c1ae358b0541ea49704,23479600,cbETH,Coinbase Wrapped Staked ETH,18,complete,eth-mainnet.g.alchemy.com
+0xbf4a2ddaa16148a9d0fa2093ffac450adb7cd4aa,23355800,ETHMNY,Ethereum Money,2,complete,eth-mainnet.g.alchemy.com
+0xbfde5ac4f5adb419a931a5bf64b0f3bb5a623d06,23328050,FLUX,FLUX,18,complete,rpc.ankr.com
+0xc00e94cb662c3520282e6f5717214004a7f26888,23220425,COMP,Compound,18,complete,eth-mainnet.g.alchemy.com
+0xc011a73ee8576fb46f5e1c5751ca3b9fe0af2a6f,22936525,SNX,Synthetix Network Token,18,complete,rpc.ankr.com
+0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2,22606800,WETH,Wrapped Ether,18,complete,eth-mainnet.g.alchemy.com
+0xc035a7cf15375ce2706766804551791ad035e0c2,23215600,aEthLidowstETH,Aave Ethereum Lido wstETH,18,complete,eth-mainnet.g.alchemy.com
+0xc05202bb0bcd2e30ae68f596622ed00ca94556ba,23101250,PENQUIN,Pen Qui Qui,18,complete,rpc.ankr.com
+0xc08e7e23c235073c6807c2efe7021304cb7c2815,22945750,XUSD,XUSD,6,complete,eth-mainnet.g.alchemy.com
+0xc0db17bc219c5ca8746c29ee47862ee3ad742f4a,23231775,SCOTTY,Scotty AI,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0xc13d7c3574bf6f93547aefdbbe430ad17d7df663,23146825,DOGE,Dogecoin,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0xc16685fbbbf34d928ae147d2cab4917cd71b4804,22664150,WE,Elons Cult,9,complete,rpc.ankr.com
+0xc1e81e7b8ebee5b9cd031428bd2c6a40c2d5518f,23371400,1LP-ETH-DRGN,1inch Liquidity Pool (ETH-DRGN),18,complete,eth-mainnet.g.alchemy.com
+0xc20059e0317de91738d13af027dfc4a50781b066,22723500,SPK,Spark,18,complete,eth-mainnet.g.alchemy.com
+0xc210b2cb65ed3484892167f5e05f7ab496ab0598,23744650,LYX,Bridged LUKSO (Hyperlane),18,complete,rpc.ankr.com
+0xc274f66f121994a58b542249d1a81daed14729ef,23070775,EXE,EXE AI,9,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0xc305d102d03a2567e7a457ff89f273cf227c6a9c,22615750,IGGY,Iggy The Iguana,18,complete,rpc.ankr.com
+0xc31d69767e1d9b06c5f5c3d41b1813ef76d49669,22626375,MEMEUS,MEME ZEUS THE DOG,9,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0xc3291556a19295ce524fad70054152cf581d8889,23573975,BASI,Basilisk,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0xc3761eb917cd790b30dad99f6cc5b4ff93c4f9ea,23045850,ERC20,ERC20,18,complete,rpc.ankr.com
+0xc3f822e94c321dd3ee53ca46b78098ea79b7ec8d,22878800,BTCBULL,BTC Bull,18,complete,eth-mainnet.g.alchemy.com
+0xc40607aa77c9edc4370b5fa8039273bb9418bbc0,23702725,GAUSS,Gauss Coin,18,complete,eth-mainnet.g.alchemy.com
+0xc43c6bfeda065fe2c4c11765bf838789bd0bb5de,23518750,RED,Redstone,18,complete,rpc.ankr.com
+0xc477d038d5420c6a9e0b031712f61c5120090de9,22710550,BOSON,Boson Token,18,complete,rpc.ankr.com
+0xc49c20efbd3c78bb0585cf0abd768b91b3fbbd64,22876125,MOZS,MOZAICS,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0xc4a11aaf6ea915ed7ac194161d2fc9384f15bff2,22901575,WTON,Wrapped TON,27,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0xc50673edb3a7b94e8cad8a7d4e0cd68864e33edf,23726650,PNKSTR,PunkStrategy,18,complete,rpc.ankr.com
+0xc5200b2c99ff88f3ec1f5e3201e7bd46589ee3dd,23418875,0G,0G,9,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0xc52c326331e9ce41f04484d3b5e5648158028804,22654150,ZCX,ZEN Exchange Token,18,complete,eth-mainnet.g.alchemy.com
+0xc555d625828c4527d477e595ff1dd5801b4a600e,22955750,MON,MON,18,complete,rpc.ankr.com
+0xc5a464e2d8cd005c1b7d5a4098c6ad0611f123f1,22652375,XTRUTH,XTruth,9,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0xc5a861787f3e173f2b004d5cfa6a717f5dc5484d,23014375,SNL,Snow Leopard,18,complete,eth-mainnet.g.alchemy.com
+0xc5cb2e3f9e9b04f36ff24b9d392be211f81abc85,22820625,POWSCHE,POWSCHE,9,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0xc5f5ad11feb8fb218a8128407f650c96d3817783,22638425,Liberator,Liberator,9,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0xc5fb36dd2fb59d3b98deff88425a3f425ee469ed,22748725,TSUKA,Dejitaru Tsuka,9,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0xc63ef5c53135c0eb7430055c1c1e2351715f697c,23808625,SAYLOR,Saylor Moon,9,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0xc77849b15ed98e185aae9cf73b8300770d20e6bb,23110975,TOK,TOKEN,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0xc7a2572fa8fdb0f7e81d6d3c4e3ccf78fb0dc374,22971375,FINALE,Bens Finale,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0xc7a8b45e184138114e6085c82936a8db93dd156a,23008325,MASK,Hashmasks,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0xc7eae11e9e03500461a0b9169addac8ae2f0e37d,22934150,BC,Original Bitcoin,18,complete,rpc.ankr.com
+0xc820b44e6a37488a7e4f68dbb6c53c58534d5b3d,23192150,USA,Ultra Super America,18,complete,rpc.ankr.com
+0xc82e3db60a52cf7529253b4ec688f631aad9e7c2,22880950,ARC,ARC,18,complete,rpc.ankr.com
+0xc83d083d7274b5980b98a4e9a1b0db574a85f521,23017275,KOTANOSUKE,Kotanosuke,9,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0xc83e27f270cce0a3a3a29521173a83f402c1768b,22982900,USDQ,Quantoz USDQ,6,complete,eth-mainnet.g.alchemy.com
+0xc944e90c64b2c07662a292be6244bdf05cda44a7,22802375,GRT,Graph Token,18,complete,eth-mainnet.g.alchemy.com
+0xc98d64da73a6616c42117b582e832812e7b8d57f,23236125,RSS3,RSS3,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0xc9b53ab2679f573e480d01e0f49e2b5cfb7a3eab,23016750,WXTZ,Wrapped XTZ,18,complete,rpc.ankr.com
+0xc9ce358314cb58024d15133951b5908944e54b8f,22908625,Epstein,The Epstein files,9,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0xc9ed34ecda8a5d83bccd6c1da8308c6d6a57f74c,22802650,DEGEN,Degen Show,18,complete,rpc.ankr.com
+0xca14007eff0db1f8135f4c25b34de49ab0d42766,23550300,STRK,StarkNet Token,18,complete,eth-mainnet.g.alchemy.com
+0xcaa1e525acb44aec4e0d17a0e2467aa3ea7ee3a6,23073125,MARIE,Marie Rose,9,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0xcab84bc21f9092167fcfe0ea60f5ce053ab39a1e,23018875,Block,Block,18,complete,eth-mainnet.g.alchemy.com
+0xcafe001067cdef266afb7eb5a286dcfd277f3de5,23061250,PSP,ParaSwap,18,complete,rpc.ankr.com
+0xcb1592591996765ec0efc1f92599a19767ee5ffa,23320825,BIO,BIO,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0xcb1b1b90c627168fba03e311202854b60c26656b,22640125,DOJO,Tesla Dojo,9,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0xcb774da04bd298ef33645738a8d0a7f95f090450,23266850,ELFI,Ethereum Liberty Financial,9,complete,rpc.ankr.com
+0xcbb7c0000ab88b473b1f5afd9ef808440eed33bf,22754350,cbBTC,Coinbase Wrapped BTC,8,complete,eth-mainnet.g.alchemy.com
+0xcbb8f1bda10b9696c57e13bc128fe674769dcec0,23464850,MOR,MOR,18,complete,eth-mainnet.g.alchemy.com
+0xcc32c01bd87eb556068b4a2e98fd727f91fe0b59,23654425,Flōki,𝕏 CEO,9,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0xcc32c01bd87eb556068b4a2e98fd727f91fe0b59,23654425,,,,error,rpc.mevblocker.io
+0xcc4304a31d09258b0029ea7fe63d032f52e44efe,22649275,SWAP,TrustSwap Token,18,complete,eth-mainnet.g.alchemy.com
+0xcc629b7dbb37a726a9bb64c58c3a12b484cfe489,22976275,REMICAT,Remilia Cat,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0xcc72a24452cdae7889c90f654db47f66b646931d,23263050,CHILLHOUSE,Chill House,18,complete,rpc.ankr.com
+0xcc7ed2ab6c3396ddbc4316d2d7c1b59ff9d2091f,23771525,HYDRA,HYDRA,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0xcc886c93c4d06b0fb69741d0dcd0f566c926e827,23198825,SOY,Soylana,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0xccb365d2e11ae4d6d74715c680f56cf58bf4bf10,22731625,WEPE,Wall Street Pepe,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0xcd5fe23c85820f7b72d0926fc9b05b43e359b7ee,23177275,weETH,Wrapped eETH,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0xce6b17c16df188fa721632b770a2ee5530589716,22828325,ETFS,ETFSwap,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0xce99ff03c566a5649dc2afe3f1d2802eced74ec6,23116250,BitcoinWizard,MagicInternetMoney,9,complete,rpc.ankr.com
+0xceb2a9a2ee5af3987c5dfd3de9446827e6a7cd28,23317250,NEOP,Neo Pepe Protocol,9,complete,rpc.ankr.com
+0xceb67a66c2c8a90980da3a50a3f96c07525a26cb,23311100,KABOSU,Kabosu,9,complete,eth-mainnet.g.alchemy.com
+0xcf07d861eb77a0e4c0fd68d7d95ca929a4d56a2e,23189825,EFLOKI,EtherFloki,9,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0xcf3c8be2e2c42331da80ef210e9b1b307c03d36a,23505900,BEPRO,BetProtocolToken,18,complete,eth-mainnet.g.alchemy.com
+0xcf5104d094e3864cfcbda43b82e1cefd26a016eb,23045650,H,Humanity,18,complete,rpc.ankr.com
+0xcf8d0c70c850859266f5c338b38f9d663181c314,23139950,variableDebtEthDAI,Aave Ethereum Variable Debt DAI,18,complete,eth-mainnet.g.alchemy.com
+0xd01409314acb3b245cea9500ece3f6fd4d70ea30,22787025,LTO,LTO Network Token,8,complete,eth-mainnet.g.alchemy.com
+0xd04785c4d8195e4a54d9dec3a9043872875ae9e2,22700300,ROT,RottenToken,18,complete,eth-mainnet.g.alchemy.com
+0xd085bc20d89ba34d74c477b83cc3ee5f39f230f3,23038600,Album,Ether Album,9,complete,eth-mainnet.g.alchemy.com
+0xd095ed15e105a00c82c56142c7bf12cd2ebe7838,22763375,佩佩,佩佩,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0xd095ed15e105a00c82c56142c7bf12cd2ebe7838,22763375,,,,error,rpc.mevblocker.io
+0xd0960e55d9354f14d208669a9ac770ebf50328d0,23337725,ETHAI,Etherchain AI,9,complete,eth-mainnet.g.alchemy.com
+0xd0d56273290d339aaf1417d9bfa1bb8cfe8a0933,22963925,FOOM,FOOM,18,complete,eth-mainnet.g.alchemy.com
+0xd101dcc414f310268c37eeb4cd376ccfa507f571,23009600,RSC,ResearchCoin,18,complete,eth-mainnet.g.alchemy.com
+0xd1345833909410824fc5cc62199ffc3ec2769671,22755875,1LP-WXT-USDC,1inch Liquidity Pool (WXT-USDC),18,complete,eth-mainnet.g.alchemy.com
+0xd13c7342e1ef687c5ad21b27c2b65d772cab5c8c,23762475,UOS,Ultra Token,4,complete,eth-mainnet.g.alchemy.com
+0xd1e8d0f6006d52e0edf5a2ce45325b12a96e028f,23133050,GMANYU,GrokManyu,9,complete,rpc.ankr.com
+0xd1f3d2f5c12a205fc912358878b089eae48a557f,22872025,SNOW,Snowman,18,complete,eth-mainnet.g.alchemy.com
+0xd1f8c2587dcd9f18ae3b4920e1616e4f4a74241e,22610675,WHITERABBIT,Follow The White Rabbit,9,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0xd2877702675e6ceb975b4a1dff9fb7baf4c91ea9,23215600,LUNA,Wrapped LUNA Token,18,complete,eth-mainnet.g.alchemy.com
+0xd29da236dd4aac627346e1bba06a619e8c22d7c5,23513500,MAGA,MAGA,9,complete,eth-mainnet.g.alchemy.com
+0xd30a720c99bb1a4f3d47086dbdadd84336274d89,22658775,ASHIB,AstroShiba,9,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0xd31695a1d35e489252ce57b129fd4b1b05e6acac,23229250,TKP,TOKPIE,18,complete,rpc.ankr.com
+0xd31a59c85ae9d8edefec411d448f90841571b89c,22711250,SOL,Wrapped SOL,9,complete,rpc.ankr.com
+0xd33526068d116ce69f19a9ee46f0bd304f21a51f,22677300,RPL,Rocket Pool Protocol,18,complete,eth-mainnet.g.alchemy.com
+0xd3c18c59bd80d7a14093d48a885c5c7535d8abe1,22760650,OIL6900,Oil Index 6900,18,complete,rpc.ankr.com
+0xd3cc9d8f3689b83c91b7b59cab4946b063eb894a,22923275,XVS,Venus XVS,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0xd3e4ba569045546d09cf021ecc5dfe42b1d7f6e4,23391000,MNW,Morpheus.Network,18,complete,eth-mainnet.g.alchemy.com
+0xd3ee95f82cd50821ec43d2930089287ed54d0929,23829700,GIKO,Giko Cat,9,complete,eth-mainnet.g.alchemy.com
+0xd43fba1f38d9b306aeef9d78ad177d51ef802b46,23434125,GONDOLA,Gondola,9,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0xd4419c2d3daa986dc30444fa333a846be44fd1eb,22976200,ZIK,ZIK coin,18,complete,eth-mainnet.g.alchemy.com
+0xd45d41b51e54a64aa8eadfb5f3cb21fc96bcc496,23110675,AGI,AGI Cult,9,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0xd4ae83ead6c56ddfe15b5e560391528a91dfeb24,23543675,SMOON,SAFEMOON,9,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0xd4c435f5b09f855c3317c8524cb1f586e42795fa,23675675,CND,Cindicator Token,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0xd4c4407f3afb48d7d4ad954572f155f9237ae335,22880350,BRCG,Bitcoin Roller Coaster Guy,9,complete,rpc.ankr.com
+0xd533a949740bb3306d119cc777fa900ba034cd52,22993625,CRV,Curve DAO Token,18,complete,rpc.ankr.com
+0xd66c3ecf30ce4084dcc31f6b94dd67c74b15dc97,23213700,ALWAV,AltWave,9,complete,eth-mainnet.g.alchemy.com
+0xd68a00b466d950217e6d1c2f898d663b21515fd0,23421400,TDOG ,TDOG,9,complete,eth-mainnet.g.alchemy.com
+0xd6dc8476155b98d05011173f905de31b3677e3f8,23642750,WOWIE,Maui Wowie by Matt Furie,9,complete,rpc.ankr.com
+0xd794dd1cada4cf79c9eebaab8327a1b0507ef7d4,22834450,HYVE,HYVE,18,complete,rpc.ankr.com
+0xd7b2c1a7f3c67fb0ea57a7ef29bc1f18d7be3195,23054125,vMINT,Volumint,18,complete,eth-mainnet.g.alchemy.com
+0xd7efb00d12c2c13131fd319336fdf952525da2af,23089825,XPR,Proton,4,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0xd8912c10681d8b21fd3742244f44658dba12264e,23154475,PLU,Pluton,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0xd9016a907dc0ecfa3ca425ab20b6b785b42f2373,23681950,GMEE,GAMEE,18,complete,rpc.ankr.com
+0xd920c9a22237a6ea3e41fbb9d4f4a9a1d0325f62,22620775,Dragon, Dragon Quest,9,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0xd9324e3a98b0c5b59f712c8101da67a8d040f91e,22775550,GILBERT,Anonymous dragon,18,complete,rpc.ankr.com
+0xd98f75b1a3261dab9eed4956c93f33749027a964,23451875,SHR,ShareToken,2,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0xd9c2d319cd7e6177336b0a9c93c21cb48d84fb54,23422425,HAPI,HAPI,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0xd9daa15bd15a8f1c7619bd1a7ae54c7ef98a6cea,22967775,SBET,SBET9900,9,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0xd9fcd98c322942075a5c3860693e9f4f03aae07b,23395725,EUL,Euler,18,complete,eth-mainnet.g.alchemy.com
+0xda1dcf1ceb9988442d8eb4ed980139d67afe65d6,22875225,DMIND,DataMind,9,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0xda5e1988097297dcdc1f90d4dfe7909e847cbef6,23268200,WLFI,World Liberty Financial,18,complete,eth-mainnet.g.alchemy.com
+0xda67b4284609d2d48e5d10cfac411572727dc1ed,23000125,USN,USN,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0xda8c03a8672f31b0f8471ba9a02f4a8acf7e2bf4,22679300,NOKINGS,No Kings,9,complete,eth-mainnet.g.alchemy.com
+0xda987c655ebc38c801db64a8608bc1aa56cd9a31,22861025,SYNT,Synternet Token,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0xdac070102b0cfde1493026454c9c608924f6db71,23437250,POPG,POPG,18,complete,rpc.ankr.com
+0xdac17f958d2ee523a2206206994597c13d831ec7,22607600,USDT,Tether USD,6,complete,eth-mainnet.g.alchemy.com
+0xdadec6cb0ed5daca8173bfddce1d74ce07fad339,22648925,TAP,The America Party,9,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0xdb4150d9a4398a8ecc92ef618f2624b02bb01356,22830750,TOGO,Togo,9,complete,rpc.ankr.com
+0xdb792b1d8869a7cfc34916d6c845ff05a7c9b789,23506625,ccBCH,Cross-Chain BCH,8,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0xdbb5cf12408a3ac17d668037ce289f9ea75439d7,22996050,WMTX,WorldMobileToken,6,complete,rpc.ankr.com
+0xdbdb4d16eda451d0503b854cf79d55697f90c8df,22850350,ALCX,Alchemix,18,complete,rpc.ankr.com
+0xdbf1703e5d29afefbf1bd958ce7a6023c67f3e5d,23561400,fwcbBTC,Few Wrapped Coinbase Wrapped BTC,8,complete,eth-mainnet.g.alchemy.com
+0xdc035d45d973e3ec169d2276ddab16f1e407384f,23059700,USDS,USDS Stablecoin,18,complete,eth-mainnet.g.alchemy.com
+0xdc26505d78b65110841791db9db2f18a37522794,23543475,PEPETUAL,PEPETUAL,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0xdc569024fe7dee9adc4d1a88712a704e0c52a920,23477600,MGNT,MAGENTA,18,complete,eth-mainnet.g.alchemy.com
+0xdc9ac3c20d1ed0b540df9b1fedc10039df13f99c,23655150,UTK,Utrust Token,18,complete,rpc.ankr.com
+0xdc9cb148ecb70876db0abeb92f515a5e1dc9f580,23437950,GBTC,Green Bitcoin,18,complete,rpc.ankr.com
+0xdd3b11ef34cd511a2da159034a05fcb94d806686,22689800,REKT,Rekt,18,complete,eth-mainnet.g.alchemy.com
+0xdd43af1be8380ff129fddc746852028e6fc851c4,22705550,( ͡° ͜ʖ ͡°),Lenny Face,9,complete,rpc.ankr.com
+0xdd43af1be8380ff129fddc746852028e6fc851c4,22705550,,,,error,rpc.mevblocker.io
+0xdd468a1ddc392dcdbef6db6e34e89aa338f9f186,23561400,MUSD,Mezo USD,18,complete,eth-mainnet.g.alchemy.com
+0xdd66781d0e9a08d4fbb5ec7bac80b691be27f21d,22804875,AXGT,AxonDAO Governance Token,18,complete,eth-mainnet.g.alchemy.com
+0xddb3422497e61e13543bea06989c0789117555c5,22629600,COTI,COTI Token,18,complete,eth-mainnet.g.alchemy.com
+0xde30da39c46104798bb5aa3fe8b9e0e1f348163f,23215600,GTC,Gitcoin,18,complete,eth-mainnet.g.alchemy.com
+0xde4ee8057785a7e8e800db58f9784845a5c2cbd6,23646150,DEXE,Dexe,18,complete,rpc.ankr.com
+0xde84d0cd9f49ef5bcce8eaf402c5e333bf152ba4,22967600,SHIGURE,Shigure Ui,9,complete,eth-mainnet.g.alchemy.com
+0xde860ac02d0f22363da499577ca7894afd8c98b4,22819300,NRX,Norexa,18,complete,eth-mainnet.g.alchemy.com
+0xdecd530d9403c5b4716be6b9494d229c12ccf409,23442975,KOBE,Kobe the Shiba Inu,9,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0xdee82572935c4ee068b50855028dceadae20af42,22774575,T2FART,TEXT2FART,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0xdf14f0e0d792fe109e7c7f31481526ce2b07a0e9,23384875,DEGAS,DEGAS,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0xdf4c0665e67cf0698447ca9e454ed56cc6f2df1e,23430175,T6900,Token6900,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0xdf53a2f2e77c0e16475432a0f91d482d0db5fea9,22683400,NCITC,NO CRYING IN THE CASINO,18,complete,eth-mainnet.g.alchemy.com
+0xdf6010ef80142d379ea0324ac100dd3cf50901b2,23196200,moo,moo,9,complete,eth-mainnet.g.alchemy.com
+0xdfc5964141c018485b4d017634660f85aa667714,22642225,ODIN,Dejitaru Odin,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0xdfdb7f72c1f195c5951a234e8db9806eb0635346,23275800,NFD,Feisty Doge NFT,18,complete,eth-mainnet.g.alchemy.com
+0xe0053ccc33e2f123d5bb24806dd14ace60226b85,23761275,fwLINK,Few Wrapped ChainLink Token,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0xe01bc45ae62926ec4484d5d803e360931810c4f0,22820175,AP,AMERICA PARTY,9,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0xe06a65e09ae18096b99770a809ba175fa05960e2,23730300,FXNETH-f,Curve.fi Factory Crypto Pool: FXN/ETH,18,complete,eth-mainnet.g.alchemy.com
+0xe0a458bf4acf353cb45e211281a334bb1d837885,23078000,4CHAN,4CHAN,9,complete,eth-mainnet.g.alchemy.com
+0xe0b469cb3eda0ece9e425cfeda4df986a55ea9f8,22965100,WETH,Wrapped ETH,18,complete,eth-mainnet.g.alchemy.com
+0xe0b7ad7f8f26e2b00c8b47b5df370f15f90fcf48,22824150,SOLX,Solaxy,18,complete,eth-mainnet.g.alchemy.com
+0xe0e8ca17de1c84ccd9d667e06427abfcdc45b059,22791175,MTPLF,Metaplanet,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0xe0f63a424a4439cbe457d80e4f4b51ad25b2c56c,22690450,SPX,SPX6900,8,complete,eth-mainnet.g.alchemy.com
+0xe28b3b32b6c345a34ff64674606124dd5aceca30,23814125,INJ,Injective Token,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0xe29797910d413281d2821d5d9a989262c8121cc2,23049975,ELIMU,elimu.ai,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0xe2ad0bf751834f2fbdc62a41014f84d67ca1de2a,22939625,ERA,Caldera,18,complete,eth-mainnet.g.alchemy.com
+0xe2cfd7a01ec63875cd9da6c7c1b7025166c2fa2f,23832550,HYPER,Hyper,18,complete,rpc.ankr.com
+0xe2f2a5c287993345a840db3b0845fbc70f5935a5,23048900,mUSD,mStable USD,18,complete,eth-mainnet.g.alchemy.com
+0xe310b35e2a8ef1afa8845fc82337c53ad484176d,23587025,fwSNX,Few Wrapped Synthetix Network Token,18,complete,rpc.ankr.com
+0xe33679565212f14d68131851751e1050e15db857,23892950,PLANCK,Planck,18,complete,rpc.ankr.com
+0xe344fb85b4fab79e0ef32ce77c00732ce8566244,22793975,FILM,$FILM,8,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0xe34d245cccd0144031bcf177e379918625fc05e5,22712200,MCC,Magic Computer Coins,9,complete,eth-mainnet.g.alchemy.com
+0xe355de6a6043b0580ff5a26b46051a4809b12793,23614075,4EVER,4EVERLAND,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0xe4042c7c1bf740b8ddb2ab43df6d9ed766b2513e,23770950,BADCAT,Andy Alter Ego,9,complete,rpc.ankr.com
+0xe533c2480983e46664b15717d6fc02c0a1dad537,22734400,TAIKI,TAIKI INU,18,complete,eth-mainnet.g.alchemy.com
+0xe53ec727dbdeb9e2d5456c3be40cff031ab40a55,23553225,SUPER,SuperFarm,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0xe591293151ffdadd5e06487087d9b0e2743de92e,23191425,MORSE,MorseDN404,18,complete,rpc.ankr.com
+0xe5acbb03d73267c03349c76ead672ee4d941f499,22711250,WBEAM,Wrapped BEAM,8,complete,rpc.ankr.com
+0xe60e9bd04ccc0a394f1fdf29874e35a773cb07f4,22855925,AP,America Party,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0xe60f5d72a5e38aed0dd4bec137f554afcc0670a0,22738825,sapu,Smoking Apu,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0xe63b211d095bc7cf9bee028005d5f5604aefc729,23274825,PoE2,Path of Exile 2,9,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0xe66747a101bff2dba3697199dcce5b743b454759,22730000,GT,GateChainToken,18,complete,eth-mainnet.g.alchemy.com
+0xe66b3aa360bb78468c00bebe163630269db3324f,23263000,MTO,Merchant Token,18,complete,eth-mainnet.g.alchemy.com
+0xe6d1ad080d87d67e5b06ce56faa71fe67def4422,23855175,UNIFICATION,UNIfication,9,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0xe6e079e961ee2cba8fc67762eb138144c882367f,22632100,DRMUTANT,Doctor Mutant,9,complete,eth-mainnet.g.alchemy.com
+0xe6f2e92dfb7ac55a13b2056fc0b37dbc9fcee733,22856225,AMERICA,America Party,9,complete,eth-mainnet.g.alchemy.com
+0xe6f98920852a360497dbcc8ec895f1bb1f7c8df4,22737350,VISION,OpenVision,9,complete,eth-mainnet.g.alchemy.com
+0xe76833cf2e3a95c6d7d55df05eba3d2ae577abd0,23297475,Stoshi,Sultanoshi,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0xe76c6c83af64e4c60245d8c7de953df673a7a33d,22927075,RAIL,Rail,18,complete,eth-mainnet.g.alchemy.com
+0xe790661f28eb85cf524aefa21d10d1aaed43f437,22919275,JOI,JOI,9,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0xe7c6bf469e97eeb0bfb74c8dbff5bd47d4c1c98a,22723950,HSK,HashKey Platform Token,18,complete,eth-mainnet.g.alchemy.com
+0xe80ed91fb6c8fe8c3f7c964ff615f3333f6d001f,22932750,Blake,Blake,18,complete,rpc.ankr.com
+0xe868084cf08f3c3db11f4b73a95473762d9463f7,23379300,YU,Yala stablecoin,18,complete,eth-mainnet.g.alchemy.com
+0xe93486c0bd0ba52e17eec434413a105f3e9c9c4b,22766775,Dr. Elephant,Tesla Mascot,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0xe94db607eba8f76a377d9bcc327c9856ed90fbde,22678075,NINA,Nina,9,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0xe95d93ef0a15efe7d7822582fdda4ae6a4522c38,23335725,CHARLIE,Justice for Charlie Kirk,9,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0xe9732d4b1e7d3789004ff029f032ba3034db059c,22734000,PATRIOT,Patriot,18,complete,eth-mainnet.g.alchemy.com
+0xe991f8901ea1cc31e453570f800dacd8f3c12c53,22755875,1LP-ETH-WXT,1inch Liquidity Pool (ETH-WXT),18,complete,eth-mainnet.g.alchemy.com
+0xe9afdd44daf400e67742973e47f2e2b911a738aa,23346725,DOGEETF,Doge ETF,9,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0xe9b076b476d8865cdf79d1cf7df420ee397a7f75,23085650,FUND,Unification,9,complete,rpc.ankr.com
+0xea17df5cf6d172224892b5477a16acb111182478,23834400,elizaOS,elizaOS,9,complete,eth-mainnet.g.alchemy.com
+0xea36af87df952fd4c9a05cd792d370909bbda8db,23256325,KPOP,OFFICIAL K-POP,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0xea87148a703adc0de89db2ac2b6b381093ae8ee0,22688575,IRIS,I.R.I.S by Virtuals,18,complete,rpc.ankr.com
+0xeaa6346dede4211953a7226d4a5b72c9539c2f42,23134175,ZAZULU,Zazulu,9,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0xeb964a1a6fab73b8c72a0d15c7337fa4804f484d,23425625,HEMI,Hemi,18,complete,rpc.ankr.com
+0xebc5e4bf39481d8d3b2e4ede7c834cf7a5177220,23198825,fwMORPHO,Few Wrapped Morpho Token,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0xec2a4820026e737e039f545cb070be338cb23df2,23327225,CLANKER,Clanker,9,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0xec53bf9167f50cdeb3ae105f56099aaab9061f83,23344750,EIGEN,Eigen,18,complete,rpc.ankr.com
+0xec67005c4e498ec7f55e092bd1d35cbc47c91892,23676450,MLN,Melon Token,18,complete,eth-mainnet.g.alchemy.com
+0xec9545c6d6f557fd51938a3e139d9b2d81c0169c,22640100,X Party,X Party,9,complete,eth-mainnet.g.alchemy.com
+0xecc8909bd1caf030c61f889d43f2a8622130c201,22695975,FALLOUT25,Fallout 2025,9,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0xed12920731ce0e4c61d52fa1580c0092fd5bd1fe,22798375,転生,New Era,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0xed12920731ce0e4c61d52fa1580c0092fd5bd1fe,22798375,,,,error,rpc.mevblocker.io
+0xed328e9c1179a30ddc1e7595e036aed8760c22af,22921225,MCADE,Metacade,18,complete,rpc.ankr.com
+0xed35af169af46a02ee13b9d79eb57d6d68c1749e,22904225,OMI,OMI Token,18,complete,rpc.ankr.com
+0xedd09f9315f28657610ad3a453cf53f0ea279f94,22663750,PEIPEI,PeiPei,9,complete,rpc.ankr.com
+0xedd5d107a5cec83ce67d2b9b8a7505c9b0932946,23328500,STETH,ST ETH,9,complete,eth-mainnet.g.alchemy.com
+0xee2a03aa6dacf51c18679c516ad5283d8e7c2637,23410700,NEIRO,Neiro,9,complete,eth-mainnet.g.alchemy.com
+0xee56f191001f1ef885f67e86413f86a39976c20b,22649800,LABUBU,LABUBU,18,complete,eth-mainnet.g.alchemy.com
+0xeeb4d8400aeefafc1b2953e0094134a887c76bd8,22749550,AVAIL,Avail,18,complete,eth-mainnet.g.alchemy.com
+0xeefe78fda84d714748dbbbb64a653e4282b2455b,22698500,forOne,forOne,18,complete,eth-mainnet.g.alchemy.com
+0xef7f7820a001aabac5e0979b175c9ff8af3dd4ec,22752475,XED,Exeedme,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0xef87f4608e601e8564800265aee1c1ffadf73283,23194075,fwUSDT,Few Wrapped Tether USD,6,complete,eth-mainnet.g.alchemy.com
+0xef8e456967122db4c3c160314bde8d2602ad6199,23051200,WAGMI,Wagmi Coin,9,complete,eth-mainnet.g.alchemy.com
+0xf0187b76be05c1fcaa24f39c0a3aab4434099c4f,23851525,AEG,Aether Games,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0xf0db65d17e30a966c2ae6a21f6bba71cea6e9754,23389375,BARD,Lombard,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0xf10388ee32503e9343dc00603c64401551aaeceb,22993625,1LP-ETH-CRV,1inch Liquidity Pool (ETH-CRV),18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0xf119ada773624761108a12bc20503b2195727061,23695425,sETH,Synth sETH,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0xf11b570114886311263ec42030b0d7e5f02fa951,23670875,fatchoi,fat choi,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0xf16e81dce15b08f326220742020379b855b87df9,23093500,ICE,IceToken,18,complete,eth-mainnet.g.alchemy.com
+0xf19308f923582a6f7c465e5ce7a9dc1bec6665b1,23328050,TITANX,TITAN X,18,complete,rpc.ankr.com
+0xf1a7000000950c7ad8aff13118bb7ab561a448ee,23113125,FLAY,Flayer,18,complete,rpc.ankr.com
+0xf1f955016ecbcd7321c7266bccfb96c68ea5e49b,23496700,RLY,Rally,18,complete,eth-mainnet.g.alchemy.com
+0xf203ca1769ca8e9e8fe1da9d147db68b6c919817,23890900,WNCG,Wrapped NCG,18,complete,eth-mainnet.g.alchemy.com
+0xf20f56da441fa826e4444a055ec51f4edb0baef3,22626225,UNICAT,Unico_uniuni,9,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0xf21661d0d1d76d3ecb8e1b9f1c923dbfffae4097,22904775,RIO,Realio Network,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0xf293d23bf2cdc05411ca0eddd588eb1977e8dcd4,23513975,SYLO,Sylo,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0xf2bfd60aa35cb68331cb26c0e8e6b21cf78465bc,23363750,HTMN,Hitman,9,complete,rpc.ankr.com
+0xf3ae5d769e153ef72b4e3591ac004e89f48107a1,23173525,DPR,Deeper Network,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0xf411903cbc70a74d22900a5de66a2dda66507255,23219475,VRA,VERA,18,complete,eth-mainnet.g.alchemy.com
+0xf47245e9a3ba3dca8b004e34afc1290b1d435a52,23094475,MBLK,Magical Blocks,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0xf4bc742a2c5a08a4ebf63e7ce3e7e4b0087fb233,22983775,Supergrok,Supergrok Grok Companion,9,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0xf4d2888d29d722226fafa5d9b24f9164c092421e,23775725,LOOKS,LooksRare Token,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0xf5174c9752c46208c30d0f1870b326c9a20c0679,22755875,MAXI,Maximize AI,9,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0xf53d3c819001d5af712929bedc84406bf7531cb7,23139100,DEEPBOT,Deep Whales AI Bot,9,complete,eth-mainnet.g.alchemy.com
+0xf5581dfefd8fb0e4aec526be659cfab1f8c781da,22988775,HOPR,HOPR Token,18,complete,eth-mainnet.g.alchemy.com
+0xf576e1f09e2eb4992d5ffdf68bec4ea489fa417d,22655550,ULTI,ULTI,18,complete,rpc.ankr.com
+0xf57e7e7c23978c3caec3c3548e3d615c346e79ff,23394100,IMX,Immutable X,18,complete,eth-mainnet.g.alchemy.com
+0xf594258491b3590e9b121e6340df251fb6bdab2c,22764150,Doro,Doro,18,complete,rpc.ankr.com
+0xf5b5efc906513b4344ebabcf47a04901f99f09f3,23484875,UBX,UBX,0,complete,eth-mainnet.g.alchemy.com
+0xf5d4735087c8ba3082447f8febe6583cfd96e751,22626500,Pepe,Pepe,9,complete,eth-mainnet.g.alchemy.com
+0xf5d4970ff34895d162d19c4ab1f03ee85c2ce751,22626600,PEPE,0xPepe,18,complete,eth-mainnet.g.alchemy.com
+0xf5f52266a57e6d7312da39bd7ab9527b9e975c40,22667950,AVM,Agents Virtual Machine,18,complete,rpc.ankr.com
+0xf60899b5d7239d0868520d9b6fec14976a37795b,23358825,T3,T3 AI,9,complete,eth-mainnet.g.alchemy.com
+0xf60db30c30d2a10ac7bb97eaeb01b6a67a40203d,22763675,SEC-69,Satoshi Exposed Crypto,9,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0xf63e309818e4ea13782678ce6c31c1234fa61809,22648450,JANET,Janet,8,complete,rpc.ankr.com
+0xf655281e07947a439241cedcf6abefab54989fad,22683775,NINAN,Ninan,9,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0xf6b1117ec07684d3958cad8beb1b302bfd21103f,23530875,TSLAon,Tesla (Ondo Tokenized),18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0xf7e9bd4da61073c13a256e5e28f5b7456dc316ef,22649550,TAP,The America Party,9,complete,rpc.ankr.com
+0xf8128e619a1700580625cd574be4e082473e0a9e,23433650,BCN,Bot Chain,18,complete,rpc.ankr.com
+0xf816507e690f5aa4e29d164885eb5fa7a5627860,23344825,RATO,Rato The Rat,9,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0xf8e57ac2730d3088d98b79209739b0d5ba085a03,23499450,OPAI,Optopia AI,18,complete,rpc.ankr.com
+0xf8ea18ca502de3ffaa9b8ed95a21878ee41a2f4a,22633900,BOOCHIE,Boochie by Matt Furie,18,complete,eth-mainnet.g.alchemy.com
+0xf92927eca847da7fc2b1b47d0c09a101dee6cdaf,23205575,BabyWLFI,Baby World Liberty Financial,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0xf939e0a03fb07f59a73314e73794be0e57ac1b4e,22702750,crvUSD,Curve.Fi USD Stablecoin,18,complete,eth-mainnet.g.alchemy.com
+0xf94e7d0710709388bce3161c32b4eea56d3f91cc,22822775,DSync,Destra Network,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0xf951e335afb289353dc249e82926178eac7ded78,22956625,swETH,swETH,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0xf970706063b7853877f39515c96932d49d5ac9cd,22974650,YALA,Yala Token,18,complete,rpc.ankr.com
+0xf970b8e36e23f7fc3fd752eea86f8be8d83375a6,22821150,RCN,Ripio Credit Network Token,18,complete,rpc.ankr.com
+0xf985005a3793dba4cce241b3c19ddcd3fe069ff4,22850350,ALCXFRAXBP-f,Curve.fi Factory Crypto Pool: ALCX/FraxBP,18,complete,rpc.ankr.com
+0xf9962329a1e9fa84836d2f37640d7012fb588e9d,23562300,DOGS,We Love Dogs,9,complete,eth-mainnet.g.alchemy.com
+0xf9ca9523e5b5a42c3018c62b084db8543478c400,22908225,LAKE,Data Lake Token,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0xf9f3c901ccd97e0a9456849333094e7bf8543f58,22733800,NEINEI,Chinese Neiro,9,complete,eth-mainnet.g.alchemy.com
+0xfa14fa6958401314851a17d6c5360ca29f74b57b,23514000,SAITO,SAITO,18,complete,eth-mainnet.g.alchemy.com
+0xfa1c09fc8b491b6a4d3ff53a10cad29381b3f949,23468450,FF,Falcon Finance,18,complete,eth-mainnet.g.alchemy.com
+0xfa2b947eec368f42195f24f36d2af29f7c24cec2,23186875,USDf,Falcon USD,18,complete,eth-mainnet.g.alchemy.com
+0xfa3e941d1f6b7b10ed84a0c211bfa8aee907965e,23008400,HAY,HayCoin,18,complete,eth-mainnet.g.alchemy.com
+0xfa417cd491632620a582851b07abf7e3447bba71,23178250,TURTLES,Ethereum Ninja Turtles,9,complete,rpc.ankr.com
+0xfa5047c9c78b8877af97bdcb85db743fd7313d4a,23701825,ROOK,ROOK,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0xfaba6f8e4a5e8ab82f62fe7c39859fa577269be3,22648450,ONDO,Ondo,18,complete,rpc.ankr.com
+0xfb09c9e399ac0d460480059f4df4ab422e567ba1,22774925,PAGODA,Pagoda,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0xfb130d93e49dca13264344966a611dc79a456bc5,23714675,DOGEGF,DogeGF,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0xfbd5fd3f85e9f4c5e8b40eec9f8b8ab1caaa146b,22915500,TREAT,Treat,18,complete,eth-mainnet.g.alchemy.com
+0xfc4913214444af5c715cc9f7b52655e788a569ed,23267250,ICSA,Icosa,9,complete,rpc.ankr.com
+0xfca59cd816ab1ead66534d82bc21e7515ce441cf,22949900,RARI,Rarible,18,complete,eth-mainnet.g.alchemy.com
+0xfcafa205b83579a7c9a51a99c68d5b926e03806b,22718400,WIGGY,Wiggy,18,complete,eth-mainnet.g.alchemy.com
+0xfcd7ec9e787e47618e0c16aa805e156107022ce9,22669125,mifket,musk wif ket,9,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0xfd36fa88bb3fea8d1264fc89d70723b6a2b56958,22690450,wXTM,WrappedXTM,18,complete,eth-mainnet.g.alchemy.com
+0xfd418e42783382e86ae91e445406600ba144d162,22730250,ZRC,Zircuit,18,complete,rpc.ankr.com
+0xfd8b9ba4845fb38c779317ec134b298c064937a2,23416100,9INCH,9INCH,18,complete,eth-mainnet.g.alchemy.com
+0xfd8e9f7dfb1dc52602e1c09e7efce8572eca539e,22760250,Claude,Claude,18,complete,rpc.ankr.com
+0xfe01f422487ef5213052365e5e668b926fd32609,22782125,VC,Vitalik Coin,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0xfe0c30065b384f05761f15d0cc899d4f9f9cc0eb,23149350,ETHFI,ether.fi governance token,18,complete,rpc.ankr.com
+0xfe3f988a90dea3ee537bb43ec1aca7337a15d002,23330425,PHX,PHOENIX,18,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0xfe82d21e48cb7e294675067fa3238625bd94000b,23012525,GRAGGLE,Graggle,9,complete,fittest-smart-dew.ethereum-mainnet.quiknode.pro
+0xfea2e874c0d06031e65ea7e275070e207c2746fd,22976600,VOCL,Vocalad,18,complete,eth-mainnet.g.alchemy.com
+0xfef4c6b56e011a684dc2054afd576d83817c2620,22771450,SLACK,SLACKER,18,complete,rpc.ankr.com
+0xff241ba166f3568546d8dec38f74241a063a5f9b,22851150,DEGEN,Degenerate,18,complete,rpc.ankr.com
+0xff5aa5edea84193e02e0d06983670f2cd936c66b,22728850,FANDY,FUCK ANDY,9,complete,rpc.ankr.com

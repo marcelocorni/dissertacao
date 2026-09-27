@@ -1,0 +1,25 @@
+{
+  "created_at_utc": "2026-09-25T17:53:51.478408+00:00",
+  "tags_file": "E:\\Mestrado\\src-multiexecucoes\\execucoes\\amostra-04pct\\04-pos-processamento\\resultados-labelcloud\\01_labelcloud_historico_normalizado.parquet",
+  "candidates_dir": "E:\\Mestrado\\src-multiexecucoes\\execucoes\\amostra-04pct\\05-analise-resultados\\resultados\\candidatos",
+  "candidate_files": 35,
+  "join_key": "lower(candidates.from_address) = lower(tags.address)",
+  "totals_across_candidate_files": {
+    "candidate_rows": 2719572,
+    "matched_rows": 160881,
+    "weak_positive_mev_bot_rows": 160881
+  },
+  "deduplicated_across_configurations": {
+    "unique_candidate_transactions": 1669480,
+    "unique_weak_positive_mev_bot_transactions": 82690,
+    "unique_weak_positive_mev_bot_addresses": 35
+  },
+  "label_semantics": {
+    "1": "address listed in the historical MEV Bot category; weak positive",
+    "null": "unlabeled; must not be interpreted as negative",
+    "context": "Builder, Relay and Protection matches are contextual, not class 0"
+  },
+  "warning": "Files overlap across model configurations; totals must not be interpreted as unique transactions globally.",
+  "summary_csv": "E:\\Mestrado\\src-multiexecucoes\\execucoes\\amostra-04pct\\04-pos-processamento\\resultados-labelcloud\\vinculos-candidatos\\00_resumo_vinculos.csv",
+  "configuration_summary_csv": "E:\\Mestrado\\src-multiexecucoes\\execucoes\\amostra-04pct\\04-pos-processamento\\resultados-labelcloud\\vinculos-candidatos\\01_resumo_por_configuracao.csv"
+}

@@ -1,0 +1,18 @@
+{
+  "created_at_utc": "2026-09-27T04:11:04.127614+00:00",
+  "mode": "block_batch",
+  "dataset": "estresse_pre_dencun_2024",
+  "source_queue": "E:\\Mestrado\\src-multiexecucoes\\execucoes\\amostra-05pct\\04-pos-processamento\\05-rotulador-front-running-csharp\\resultados-v3\\sampled\\independent_sampled\\estresse_pre_dencun_2024\\05_enrichment_queue.parquet",
+  "requested_blocks": 15807,
+  "requested_transactions": 65083,
+  "enriched_transactions": 65083,
+  "errors": 0,
+  "cache_hits_blocks": 12465,
+  "new_blocks": 3342,
+  "http_requests": 799,
+  "rpc_methods": 7984,
+  "blocks_per_batch": 5,
+  "rpc_provider_host": "serene-tiniest-moon.ethereum-mainnet.quiknode.pro",
+  "rpc_url_stored": false,
+  "queue_fingerprint": "54cada351f610abe2143b0a18ac1b913e35863d56b7f39a07ed8f397ffc36b60"
+}
