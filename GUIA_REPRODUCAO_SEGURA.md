@@ -1,200 +1,99 @@
 # Guia de execução do experimento
 
-Este guia apresenta a ordem completa. Os comandos abaixo gravam em uma raiz de
-execução separada e leem os Parquets do caminho definido em
-`.\configuracao\pipeline.json`.
+O pipeline é controlado por `configuracao/pipeline.json` e executado por
+`executar_pipeline.py`. Não é necessário informar manualmente as pastas de
+cada etapa.
 
-## Configuração dos dados
+## 1. Definir a execução
 
-Antes da primeira execução, ajuste o único caminho externo do pipeline:
+Altere estes dois campos antes de iniciar uma nova amostragem:
 
 ```json
-{
-  "dados": {
-    "root_template": "F:\\ethereum-{year}"
-  },
-  "amostragem": {
-    "percentual_blocos": 1.0
-  }
-}
+"amostragem": { "percentual_blocos": 2.0 },
+"execucao": { "id": "amostra-02pct" }
 ```
 
-O marcador `{year}` é substituído automaticamente por `2024` ou `2025`.
-O percentual `1.0` reproduz a amostra original. Valores maiores processam uma
-fatia maior, sempre por blocos completos, e aumentam proporcionalmente o custo
-computacional e o volume dos artefatos.
+Não reutilize um identificador. A execução original de `1%` está preservada em
+`execucoes/amostra-01pct`.
 
-## Variáveis da execução
+## 2. Conferir o plano
 
 ```powershell
-$run = ".\execucoes\execucao-2026-09-20"
-$tmp = "$run\temporarios\duckdb"
-$features = "$run\03-machine-learning\01-features"
-$ifResult = "$run\03-machine-learning\03-if\resultados"
-$aeResult = "$run\03-machine-learning\02-ae\resultados"
-$analysis = "$run\05-analise-resultados\resultados"
-$labels = "$run\04-pos-processamento\resultados-labelcloud"
-$semantic = "$run\04-pos-processamento\06-validacao-semantica-front-running"
-$semanticResults = "$semantic\resultados"
-$semanticCache = "$semantic\cache"
-New-Item -ItemType Directory -Force -Path $run, $tmp | Out-Null
+uv run ".\executar_pipeline.py" --listar
+uv run ".\executar_pipeline.py" --dry-run
 ```
 
-## 1. Auditoria das features
+`--dry-run` mostra todos os comandos e caminhos sem criar ou modificar
+arquivos.
+
+## 3. Executar o núcleo de aprendizado de máquina
 
 ```powershell
-uv run ".\03-machine-learning\01-features\01_auditoria_selecao_features.py" `
-  --output-dir "$features\resultados" --temp-dir $tmp
-
-uv run ".\03-machine-learning\01-features\04_gerar_figuras_correlacao_pdf.py" `
-  --results-dir "$features\resultados"
+uv run ".\executar_pipeline.py" --ate analise_ae_if
 ```
 
-Resultados: `.\execucoes\execucao-2026-09-20\03-machine-learning\01-features\resultados`.
+Essa faixa gera features, recortes temporais, pré-processamento, drift,
+Isolation Forest, Autoencoder e análise integrada.
 
-## 2. Matrizes e recortes temporais
+## 4. Executar Label Cloud e candidatos C#
 
 ```powershell
-uv run ".\03-machine-learning\01-features\02_gerar_matrizes_features.py" `
-  --start-date 2024-04-01 --end-date 2024-12-31 `
-  --dataset-name treino_2024_pos_dencun `
-  --output-dir "$features\resultados-matrizes" --temp-dir $tmp
-
-uv run ".\03-machine-learning\01-features\03_gerar_splits_temporais.py" `
-  --output-root "$features\resultados-splits" `
-  --training-dir "$features\resultados-matrizes" --temp-dir $tmp
+uv run ".\executar_pipeline.py" `
+  --de labelcloud_preparar `
+  --ate auditoria_csharp
 ```
 
-Resultados: `.\execucoes\execucao-2026-09-20\03-machine-learning\01-features\resultados-matrizes`
-e `.\execucoes\execucao-2026-09-20\03-machine-learning\01-features\resultados-splits`.
+O Label Cloud permanece uma comparação externa e não entra no treinamento.
 
-## 3. Pré-processamento e drift
+Para uma nova execução completa que deve parar antes do RPC, use um arquivo de
+configuração próprio com outro `execucao.id` e o percentual desejado. Por
+exemplo, copie `configuracao/pipeline.json` para
+`configuracao/pipeline-05pct.json`, ajuste o percentual para `5.0` e o ID para
+`amostra-05pct`, e execute:
 
 ```powershell
-uv run ".\03-machine-learning\01-features\05_preprocessar_matrizes.py" `
-  --split-manifest "$features\resultados-splits\00_manifest_splits_temporais.json" `
-  --output-dir "$features\resultados-preprocessamento" --temp-dir $tmp
-
-uv run ".\03-machine-learning\01-features\06_analisar_drift_temporal.py" `
-  --split-manifest "$features\resultados-splits\00_manifest_splits_temporais.json" `
-  --preprocessing-manifest "$features\resultados-preprocessamento\05_manifest_preprocessamento.json" `
-  --transformation-dictionary "$features\resultados-preprocessamento\02_dicionario_transformacoes.csv" `
-  --output-dir "$features\resultados-drift" --temp-dir $tmp
+uv run ".\executar_pipeline.py" --config ".\configuracao\pipeline-05pct.json" --ate auditoria_csharp
 ```
 
-## 4. Isolation Forest e Autoencoder
+O comando percorre as etapas anteriores ainda pendentes e para após auditar
+as saídas C#. Quando quiser enriquecer por RPC, mantenha o arquivo idêntico,
+defina os endpoints disponíveis e retome com:
 
 ```powershell
-uv run ".\03-machine-learning\03-if\01_treinar_isolation_forest.py" `
-  --split-manifest "$features\resultados-splits\00_manifest_splits_temporais.json" `
-  --preprocessing-manifest "$features\resultados-preprocessamento\05_manifest_preprocessamento.json" `
-  --output-dir $ifResult --temp-dir $tmp
-
-uv run ".\03-machine-learning\02-ae\01_treinar_autoencoder.py" `
-  --split-manifest "$features\resultados-splits\00_manifest_splits_temporais.json" `
-  --preprocessing-manifest "$features\resultados-preprocessamento\05_manifest_preprocessamento.json" `
-  --if-results-dir $ifResult --output-dir $aeResult --temp-dir $tmp --device auto
+uv run ".\executar_pipeline.py" --config ".\configuracao\pipeline-05pct.json" --de auditoria_rpc
 ```
 
-Execute o IF antes do AE para gerar a concordância entre os modelos.
+## 5. Executar validação semântica e avaliação final
 
-## 5. Análise integrada AE/IF
+Defina somente na sessão atual os endpoints que estiverem disponíveis:
 
 ```powershell
-uv run ".\05-analise-resultados\01_analisar_ae_if.py" `
-  --split-manifest "$features\resultados-splits\00_manifest_splits_temporais.json" `
-  --ae-results-dir $aeResult --if-results-dir $ifResult `
-  --output-dir $analysis --temp-dir $tmp
+$env:ETH_RPC_ALCHEMY = Read-Host "Alchemy"
+$env:ETH_RPC_INFURA = Read-Host "Infura"
+$env:ETH_RPC_DRPC = Read-Host "dRPC"
+$env:ETH_RPC_ANKR = Read-Host "Ankr"
+$env:ETH_RPC_QUICKNODE = Read-Host "QuickNode"
+uv run ".\executar_pipeline.py" --de auditoria_rpc
 ```
 
-## 6. Comparação opcional com Label Cloud
+Os provedores são testados antes da execução. Somente os aprovados recebem
+janelas; provedores ausentes ou incompatíveis são ignorados. Com apenas um
+endpoint aprovado, o processamento continua válido, porém sequencial.
 
-```powershell
-uv run ".\04-pos-processamento\02_preparar_labelcloud_historico.py" `
-  --input-csv ".\04-pos-processamento\resultados-labelcloud\etherscan_labl_cloud_202609172241.csv" `
-  --output-dir $labels
+O cache fica em `cache-compartilhado` e é reutilizado entre execuções. Os
+resultados permanecem separados em `execucoes/<id>`.
 
-uv run ".\04-pos-processamento\03_vincular_labelcloud_candidatos.py" `
-  --tags "$labels\01_labelcloud_historico_normalizado.parquet" `
-  --candidates-dir "$analysis\candidatos" `
-  --output-dir "$labels\vinculos-candidatos" --temp-dir $tmp
+## Retomada
 
-uv run ".\04-pos-processamento\04_gerar_rotulos_hipoteticos_labelcloud.py" `
-  --tags "$labels\01_labelcloud_historico_normalizado.parquet" `
-  --split-manifest "$features\resultados-splits\00_manifest_splits_temporais.json" `
-  --output-dir $labels --temp-dir $tmp
+Repita o mesmo comando com a mesma configuração. O executor confere o marcador
+de cada etapa concluída e a ignora. Se a configuração tiver sido modificada
+depois do início, a retomada é recusada para preservar a comparabilidade.
 
-uv run ".\05-analise-resultados\03_avaliar_labelcloud_hipotetico.py" `
-  --labels "$labels\05_rotulos_binarios_hipoteticos_labelcloud.parquet" `
-  --ae-results-dir $aeResult --if-results-dir $ifResult `
-  --split-manifest "$features\resultados-splits\00_manifest_splits_temporais.json" `
-  --output-dir "$run\05-analise-resultados\resultados-labelcloud-hipotetico" `
-  --temp-dir $tmp
+O estado detalhado fica em:
+
+```text
+execucoes/<id>/00_manifest_multiexecucao.json
 ```
 
-## 7. Candidatos estruturais em C#
-
-```powershell
-$csharpProject = ".\04-pos-processamento\05-rotulador-front-running-csharp"
-$csharpOut = "$run\04-pos-processamento\05-rotulador-front-running-csharp\resultados-v3"
-$csharpWindows = "$csharpOut\sampled\independent_sampled"
-
-dotnet run --project $csharpProject --configuration Release -- `
-  --input $features --input-mode sampled `
-  --output-dir $csharpOut --detectors all --memory-limit 12GB --threads 8
-```
-
-## 8. Auditoria das saídas C#
-
-```powershell
-uv run ".\04-pos-processamento\06-validacao-semantica-front-running\07_auditar_saidas_csharp.py" `
-  --csharp-root $csharpWindows `
-  --output-dir "$semanticResults\auditoria-csharp"
-```
-
-## 9. Validação semântica e adjudicação
-
-Para reutilizar o cache RPC disponível:
-
-```powershell
-Copy-Item `
-  -LiteralPath ".\04-pos-processamento\06-validacao-semantica-front-running\cache" `
-  -Destination $semanticCache -Recurse
-
-$env:ETH_RPC_URL = Read-Host "Endpoint RPC Ethereum"
-
-uv run ".\04-pos-processamento\06-validacao-semantica-front-running\11_executar_pipeline_janelas.py" `
-  --csharp-root $csharpWindows --results-root $semanticResults `
-  --cache-root $semanticCache `
-  --audit-manifest "$semanticResults\auditoria-csharp\02_manifest_auditoria_csharp.json" `
-  --regression-manifest ".\04-pos-processamento\06-validacao-semantica-front-running\resultados-blocos\transicao_dencun_2024\04_regressao_rpc.json"
-```
-
-## 10. Consolidação dos rótulos
-
-```powershell
-uv run ".\04-pos-processamento\06-validacao-semantica-front-running\12_consolidar_rotulos_semanticos.py" `
-  --results-root $semanticResults --output-dir "$semanticResults\consolidado"
-```
-
-## 11. Avaliação final com rótulos semânticos
-
-```powershell
-uv run ".\05-analise-resultados\02_avaliar_rotulos_semanticos.py" `
-  --labels "$semanticResults\consolidado\03_rotulos_transacao.parquet" `
-  --event-roles "$semanticResults\consolidado\02_papeis_evento.parquet" `
-  --ae-results-dir $aeResult --if-results-dir $ifResult `
-  --split-manifest "$features\resultados-splits\00_manifest_splits_temporais.json" `
-  --output-dir "$run\05-analise-resultados\resultados-rotulos-semanticos" `
-  --temp-dir $tmp
-```
-
-## 12. Interface de consulta
-
-```powershell
-$env:SEMANTIC_RESULTS_ROOT = $semanticResults
-uv run --with streamlit --with duckdb streamlit run `
-  ".\04-pos-processamento\06-validacao-semantica-front-running\05_interface_dossie_semantico.py"
-```
-
-A descrição de cada artefato está no README da etapa que o produz.
+Ao finalizar a última etapa, um resumo pequeno e versionável é criado em
+`historico-execucoes/<id>.json`.

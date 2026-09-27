@@ -6,14 +6,60 @@ Enriquecer os candidatos C# com transaction, calldata, receipt, logs e
 metadados ERC-20; validar as regras; gerar o dossiê; adjudicar os eventos; e
 consolidar os rótulos por transação.
 
-## Execução das sete janelas
+## Execução concorrente das sete janelas
+
+Os provedores são definidos em `configuracao/rpc_providers.json`. O arquivo
+contém somente nomes de variáveis, limites e preferências de distribuição; as
+URLs privadas nunca são gravadas no repositório ou nos manifestos.
+
+Defina apenas as variáveis correspondentes aos provedores disponíveis:
+
+```powershell
+$env:ETH_RPC_ALCHEMY = Read-Host "Alchemy"
+$env:ETH_RPC_INFURA = Read-Host "Infura"
+$env:ETH_RPC_DRPC = Read-Host "dRPC"
+$env:ETH_RPC_ANKR = Read-Host "Ankr"
+$env:ETH_RPC_QUICKNODE = Read-Host "QuickNode"
+$env:ETH_RPC_BLASTAPI_PUBLIC = "https://eth-mainnet.public.blastapi.io"
+$env:ETH_RPC_MEWAPI_PUBLIC = "https://nodes.mewapi.io/rpc/eth"
+```
+
+As variáveis existem somente no processo atual do PowerShell. Portanto, elas
+devem ser definidas na mesma janela em que o pipeline será iniciado. O arquivo
+de configuração define em `minimum_approved_providers` o mínimo de provedores
+aprovados; o valor atual é `1`. Retire da sessão as variáveis dos provedores
+com cota esgotada antes da homologação, para que não recebam novas janelas.
+Antes da coleta, execute a partir da raiz do
+repositório:
+
+```powershell
+uv run ".\executar_pipeline.py" --de auditoria_rpc
+```
+
+`15_testar_provedores_rpc.py` homologa `eth_chainId`, batch JSON-RPC, bloco
+histórico, `eth_getBlockReceipts` e `eth_call`. Somente provedores aprovados são
+entregues ao executor paralelo.
+
+`16_executar_pipeline_janelas_paralelo.py` mantém uma fila dinâmica. As janelas
+com maior quantidade de blocos ainda ausentes são entregues primeiro aos
+provedores com maior velocidade efetiva. Quando um trabalhador termina, ele
+recebe a próxima janela pendente. Se uma coleta RPC ou consulta de metadados
+falhar, a janela é reenfileirada para outro provedor, que reutiliza o cache e
+consulta somente os blocos ainda ausentes. O terminal apresenta, a cada 30
+segundos, janela ativa, progresso, velocidade, ETA e fila restante.
+
+Não existe associação fixa entre janela e provedor. O arquivo
+`configuracao/rpc_providers.json` registra limites operacionais e uma estimativa
+inicial de desempenho. O escalonador atualiza essa estimativa a partir dos
+tempos observados e registra todas as atribuições e recuperações no manifesto
+`00_manifest_pipeline_paralelo.json`.
+
+## Execução sequencial de diagnóstico
+
+O executor anterior permanece disponível para testes com um único endpoint:
 
 ```powershell
 $env:ETH_RPC_URL = Read-Host "Endpoint RPC Ethereum"
-
-uv run ".\04-pos-processamento\06-validacao-semantica-front-running\07_auditar_saidas_csharp.py" `
-  --csharp-root ".\04-pos-processamento\05-rotulador-front-running-csharp\resultados-v3\sampled\independent_sampled" `
-  --output-dir ".\04-pos-processamento\06-validacao-semantica-front-running\resultados\auditoria-csharp"
 
 uv run ".\04-pos-processamento\06-validacao-semantica-front-running\11_executar_pipeline_janelas.py" `
   --csharp-root ".\04-pos-processamento\05-rotulador-front-running-csharp\resultados-v3\sampled\independent_sampled" `
@@ -108,3 +154,5 @@ A interface é somente leitura.
 | `10_validar_regressao_rpc.py` | compara os dois coletores |
 | `13_executar_adjudicacao_global.py` | regenera e consolida as adjudicações |
 | `14_reconstruir_cache_rpc.py` | recompõe cache a partir dos Parquets enriquecidos |
+| `15_testar_provedores_rpc.py` | homologa provedores sem registrar URLs ou chaves |
+| `16_executar_pipeline_janelas_paralelo.py` | distribui janelas entre provedores concorrentes |

@@ -4,13 +4,30 @@ from __future__ import annotations
 
 import json
 import math
+import re
 import sys
+from dataclasses import dataclass
 from pathlib import Path
 from typing import Sequence
 
 
 class ConfiguracaoPipelineError(ValueError):
     """Indica configuração ausente ou inválida."""
+
+
+@dataclass(frozen=True)
+class ConfiguracaoExecucao:
+    """Diretórios isolados da execução e cache reutilizável do pipeline."""
+
+    identificador: str
+    raiz_projeto: Path
+    diretorio_execucao: Path
+    diretorio_historico: Path
+    diretorio_cache: Path
+    cache_rpc_blocks: Path
+    cache_rpc_transactions: Path
+    cache_token_metadata: Path
+    proteger_resultados_existentes: bool
 
 
 def _carregar_documento(caminho: Path) -> dict[str, object]:
@@ -29,6 +46,11 @@ def _carregar_documento(caminho: Path) -> dict[str, object]:
             f"A raiz da configuração deve ser um objeto JSON: {caminho}"
         )
     return documento
+
+
+def carregar_documento_pipeline(caminho: Path) -> dict[str, object]:
+    """Retorna a configuração JSON validada como objeto."""
+    return _carregar_documento(caminho.resolve())
 
 
 def _caminho_solicitado(
@@ -105,3 +127,113 @@ def carregar_amostragem_blocos(caminho: Path) -> tuple[float, int]:
             "20, 25, 50 ou 100)."
         )
     return percentual, int(modulo)
+
+
+def _texto_obrigatorio(documento: dict[str, object], *chaves: str) -> str:
+    valor: object = documento
+    try:
+        for chave in chaves:
+            valor = valor[chave]  # type: ignore[index]
+    except (KeyError, TypeError) as exc:
+        caminho = ".".join(chaves)
+        raise ConfiguracaoPipelineError(
+            f"Configuração inválida: esperado {caminho}."
+        ) from exc
+    if not isinstance(valor, str) or not valor.strip():
+        caminho = ".".join(chaves)
+        raise ConfiguracaoPipelineError(f"{caminho} deve ser um texto não vazio.")
+    return valor.strip()
+
+
+def _resolver_caminho_interno(raiz: Path, valor: str, campo: str) -> Path:
+    caminho = Path(valor)
+    if caminho.is_absolute():
+        raise ConfiguracaoPipelineError(
+            f"{campo} deve ser relativo à raiz do projeto: {valor}"
+        )
+    resolvido = (raiz / caminho).resolve()
+    try:
+        resolvido.relative_to(raiz)
+    except ValueError as exc:
+        raise ConfiguracaoPipelineError(
+            f"{campo} aponta para fora da raiz do projeto: {valor}"
+        ) from exc
+    return resolvido
+
+
+def carregar_configuracao_execucao(caminho: Path) -> ConfiguracaoExecucao:
+    """Carrega os destinos isolados da execução e o cache compartilhado.
+
+    A função apenas valida e resolve caminhos; nenhum diretório é criado e
+    nenhum resultado existente é alterado.
+    """
+    caminho = caminho.resolve()
+    documento = _carregar_documento(caminho)
+    raiz_projeto = caminho.parent.parent.resolve()
+
+    identificador = _texto_obrigatorio(documento, "execucao", "id")
+    if not re.fullmatch(r"[a-z0-9]+(?:-[a-z0-9]+)*", identificador):
+        raise ConfiguracaoPipelineError(
+            "execucao.id deve usar somente letras minúsculas, números e hífens."
+        )
+
+    raiz_execucoes = _resolver_caminho_interno(
+        raiz_projeto,
+        _texto_obrigatorio(documento, "execucao", "raiz"),
+        "execucao.raiz",
+    )
+    diretorio_historico = _resolver_caminho_interno(
+        raiz_projeto,
+        _texto_obrigatorio(documento, "execucao", "historico_raiz"),
+        "execucao.historico_raiz",
+    )
+    diretorio_cache = _resolver_caminho_interno(
+        raiz_projeto,
+        _texto_obrigatorio(documento, "cache_compartilhado", "raiz"),
+        "cache_compartilhado.raiz",
+    )
+
+    try:
+        proteger = documento["execucao"]["proteger_resultados_existentes"]  # type: ignore[index]
+    except (KeyError, TypeError) as exc:
+        raise ConfiguracaoPipelineError(
+            "Configuração inválida: esperado "
+            "execucao.proteger_resultados_existentes."
+        ) from exc
+    if not isinstance(proteger, bool):
+        raise ConfiguracaoPipelineError(
+            "execucao.proteger_resultados_existentes deve ser true ou false."
+        )
+
+    def cache(nome: str) -> Path:
+        return _resolver_caminho_interno(
+            diretorio_cache,
+            _texto_obrigatorio(documento, "cache_compartilhado", nome),
+            f"cache_compartilhado.{nome}",
+        )
+
+    return ConfiguracaoExecucao(
+        identificador=identificador,
+        raiz_projeto=raiz_projeto,
+        diretorio_execucao=(raiz_execucoes / identificador).resolve(),
+        diretorio_historico=diretorio_historico,
+        diretorio_cache=diretorio_cache,
+        cache_rpc_blocks=cache("rpc_blocks"),
+        cache_rpc_transactions=cache("rpc_transactions"),
+        cache_token_metadata=cache("token_metadata"),
+        proteger_resultados_existentes=proteger,
+    )
+
+
+def validar_destino_execucao(configuracao: ConfiguracaoExecucao) -> None:
+    """Recusa reutilizar uma execução não vazia quando a proteção está ativa."""
+    destino = configuracao.diretorio_execucao
+    if (
+        configuracao.proteger_resultados_existentes
+        and destino.is_dir()
+        and next(destino.iterdir(), None) is not None
+    ):
+        raise ConfiguracaoPipelineError(
+            f"A execução '{configuracao.identificador}' já possui resultados em "
+            f"{destino}. Escolha outro execucao.id para preservar o histórico."
+        )

@@ -1,0 +1,9 @@
+{
+  "execution_id": "amostra-02pct",
+  "status": "completed",
+  "sampling_percentage": 2.0,
+  "block_modulus": 50,
+  "configuration_sha256": "8c48ccd45b5e57d753f8565659e7d69c6940d190d048b7782c0a1d169de7e87f",
+  "completed_at_utc": "2026-09-25T06:52:06.282273+00:00",
+  "execution_manifest": "execucoes\\amostra-02pct\\00_manifest_multiexecucao.json"
+}

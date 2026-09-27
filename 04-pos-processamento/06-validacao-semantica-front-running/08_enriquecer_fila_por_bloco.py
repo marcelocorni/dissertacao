@@ -94,7 +94,14 @@ class BlockRpcClient:
                 return result
             except (requests.RequestException, ValueError, RuntimeError) as exc:
                 if attempt == 5:
-                    raise RuntimeError(f"Falha RPC após 6 tentativas: {exc}") from exc
+                    detail = (
+                        type(exc).__name__
+                        if isinstance(exc, requests.RequestException)
+                        else str(exc)
+                    )
+                    raise RuntimeError(
+                        f"Falha RPC após 6 tentativas: {detail}"
+                    ) from exc
                 time.sleep(min(2 ** (attempt + 1), 30))
         raise RuntimeError("Falha RPC sem resposta válida após todas as tentativas")
 
@@ -163,7 +170,9 @@ def main() -> int:
             {"transaction": tx_by_hash[hash_value], "receipt": receipt_by_hash[hash_value]}
             for hash_value in requested[block]
         ]
-        (cache / f"{block}.json").write_text(
+        path = cache / f"{block}.json"
+        temporary = path.with_suffix(".json.tmp")
+        temporary.write_text(
             json.dumps(
                 {
                     "fetched_at_utc": datetime.now(timezone.utc).isoformat(),
@@ -177,6 +186,7 @@ def main() -> int:
             ),
             encoding="utf-8",
         )
+        temporary.replace(path)
 
     for start in range(0, len(pending), args.blocks_per_batch):
         batch = pending[start : start + args.blocks_per_batch]
@@ -185,20 +195,21 @@ def main() -> int:
             for block in batch:
                 block_data, receipts = results[block]
                 persist_block(block, block_data, receipts)
-            print(f"[{min(start + len(batch), len(pending))}/{len(pending)} blocos novos] OK {batch[0]}..{batch[-1]}")
+            print(f"[{min(start + len(batch), len(pending))}/{len(pending)} blocos novos] OK {batch[0]}..{batch[-1]}", flush=True)
         except Exception as exc:
             print(
                 f"AVISO lote {batch[0]}..{batch[-1]}: {exc}; "
-                "tentando os blocos individualmente"
+                "tentando os blocos individualmente",
+                flush=True,
             )
             for block in batch:
                 try:
                     block_data, receipts = client.blocks([block])[block]
                     persist_block(block, block_data, receipts)
-                    print(f"RECUPERADO bloco {block}")
+                    print(f"RECUPERADO bloco {block}", flush=True)
                 except Exception as block_exc:
                     errors.append({"block_number": block, "error": str(block_exc)})
-                    print(f"ERRO bloco {block}: {block_exc}")
+                    print(f"ERRO bloco {block}: {block_exc}", flush=True)
 
     records = []
     for block, hashes in requested.items():
@@ -233,7 +244,7 @@ def main() -> int:
         "queue_fingerprint": hashlib.sha256("\n".join(all_hashes).encode()).hexdigest(),
     }
     (output / "03_manifest_rpc.json").write_text(json.dumps(manifest, indent=2, ensure_ascii=False), encoding="utf-8")
-    print(f"Enriquecimento por bloco: {len(records)}/{len(all_hashes)} transações; erros de bloco: {len(errors)}")
+    print(f"Enriquecimento por bloco: {len(records)}/{len(all_hashes)} transações; erros de bloco: {len(errors)}", flush=True)
     return 0 if not errors and len(records) == len(all_hashes) else 2
 
 

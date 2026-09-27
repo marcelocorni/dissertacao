@@ -1,0 +1,28 @@
+{
+  "execucao_id": "amostra-01pct",
+  "status": "baseline_importado",
+  "registrado_em_utc": "2026-09-24T23:03:41.732Z",
+  "amostragem": {
+    "percentual_blocos": 1.0,
+    "modulo_blocos": 100
+  },
+  "origem_codigo": {
+    "commit": "5d07a243bf2d9a5b6c8821c16d99c99d526e9e3f",
+    "observacao": "Artefatos copiados para esta worktree; não há dependência operacional de outro diretório."
+  },
+  "artefatos": {
+    "diretorio": "execucoes/amostra-01pct",
+    "arquivos": 621,
+    "bytes": 5114475173,
+    "copia_verificada": true,
+    "manifestos_relocalizados": 85,
+    "prefixos_antigos_remanescentes": 0
+  },
+  "cache_compartilhado": {
+    "diretorio": "cache-compartilhado",
+    "arquivos": 43991,
+    "bytes": 687773555,
+    "copia_verificada": true,
+    "incluido_no_total_de_artefatos": false
+  }
+}

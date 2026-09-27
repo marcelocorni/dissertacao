@@ -3,6 +3,27 @@
     "root_template": "F:\\ethereum-{year}"
   },
   "amostragem": {
-    "percentual_blocos": 1.0
+    "percentual_blocos": 5.0
+  },
+  "execucao": {
+    "id": "amostra-05pct",
+    "raiz": "execucoes",
+    "historico_raiz": "historico-execucoes",
+    "proteger_resultados_existentes": true
+  },
+  "cache_compartilhado": {
+    "raiz": "cache-compartilhado",
+    "rpc_blocks": "blocks",
+    "rpc_transactions": "rpc",
+    "token_metadata": "token_metadata"
+  },
+  "recursos": {
+    "memory_limit": "32GB",
+    "threads": 8,
+    "temp_dir": ".tmp/duckdb"
+  },
+  "dados_auxiliares": {
+    "labelcloud_csv": "04-pos-processamento/resultados-labelcloud/etherscan_labl_cloud_202609172241.csv",
+    "regressao_rpc": "04-pos-processamento/06-validacao-semantica-front-running/resultados-blocos/transicao_dencun_2024/04_regressao_rpc.json"
   }
 }

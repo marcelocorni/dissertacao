@@ -1,0 +1,39 @@
+{
+  "generated_at_utc": "2026-09-26T23:54:19.147721+00:00",
+  "s3_prefix": "s3://aws-public-blockchain/v1.0/eth/transactions/",
+  "local_root_template": "F:\\ethereum-{year}",
+  "method": "S3 object Size versus local file stat; no Parquet content read",
+  "interpretation": "remocao de input mais recompressao ZSTD; nao isola o efeito da coluna",
+  "results": [
+    {
+      "ano": 2024,
+      "arquivos_s3": 366,
+      "arquivos_locais": 366,
+      "arquivos_pareados": 366,
+      "somente_s3": 0,
+      "somente_local": 0,
+      "cobertura_identica": true,
+      "s3_gib": 216.779,
+      "local_gib": 31.102,
+      "diferenca_pareada_gib": 185.677,
+      "reducao_pareada_pct": 85.65,
+      "s3_total_gib": 216.779,
+      "local_total_gib": 31.102
+    },
+    {
+      "ano": 2025,
+      "arquivos_s3": 365,
+      "arquivos_locais": 365,
+      "arquivos_pareados": 365,
+      "somente_s3": 0,
+      "somente_local": 0,
+      "cobertura_identica": true,
+      "s3_gib": 175.494,
+      "local_gib": 40.846,
+      "diferenca_pareada_gib": 134.648,
+      "reducao_pareada_pct": 76.73,
+      "s3_total_gib": 175.494,
+      "local_total_gib": 40.846
+    }
+  ]
+}

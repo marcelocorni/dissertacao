@@ -119,7 +119,14 @@ class RpcClient:
                 }
             except (requests.RequestException, ValueError, RuntimeError) as exc:
                 if attempt == 5:
-                    raise RuntimeError(f"Falha RPC após 6 tentativas: {exc}") from exc
+                    detail = (
+                        type(exc).__name__
+                        if isinstance(exc, requests.RequestException)
+                        else str(exc)
+                    )
+                    raise RuntimeError(
+                        f"Falha RPC após 6 tentativas: {detail}"
+                    ) from exc
                 time.sleep(min(2 ** (attempt + 1), 30))
         raise AssertionError("fluxo de repetição inválido")
 

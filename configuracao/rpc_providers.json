@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "minimum_approved_providers": 1,
+  "providers": {
+    "alchemy": {
+      "env": "ETH_RPC_ALCHEMY",
+      "fallback_env": "ETH_RPC_URL",
+      "blocks_per_batch": 5,
+      "requests_per_second": 1.0,
+      "token_calls_per_second": 2.0,
+      "initial_effective_blocks_per_second": 2.0
+    },
+    "infura": {
+      "env": "ETH_RPC_INFURA",
+      "blocks_per_batch": 5,
+      "requests_per_second": 1.0,
+      "token_calls_per_second": 2.0,
+      "initial_effective_blocks_per_second": 1.8
+    },
+    "drpc": {
+      "env": "ETH_RPC_DRPC",
+      "blocks_per_batch": 1,
+      "requests_per_second": 1.0,
+      "token_calls_per_second": 1.0,
+      "initial_effective_blocks_per_second": 0.8
+    },
+    "ankr": {
+      "env": "ETH_RPC_ANKR",
+      "blocks_per_batch": 5,
+      "requests_per_second": 1.0,
+      "token_calls_per_second": 2.0,
+      "initial_effective_blocks_per_second": 2.5
+    },
+    "quicknode": {
+      "env": "ETH_RPC_QUICKNODE",
+      "blocks_per_batch": 5,
+      "requests_per_second": 1.0,
+      "token_calls_per_second": 2.0,
+      "initial_effective_blocks_per_second": 2.2
+    },
+    "chanstack": {
+      "env": "ETH_RPC_CHAINSTACK",
+      "blocks_per_batch": 5,
+      "requests_per_second": 1.0,
+      "token_calls_per_second": 2.0,
+      "initial_effective_blocks_per_second": 2.2
+    },
+    "mevblocker": {
+      "env": "ETH_RPC_MEVBLOCKER",
+      "blocks_per_batch": 1,
+      "requests_per_second": 0.5,
+      "token_calls_per_second": 0.5,
+      "initial_effective_blocks_per_second": 0.5
+    },
+    "blastapi_public": {
+      "env": "ETH_RPC_BLASTAPI_PUBLIC",
+      "blocks_per_batch": 1,
+      "requests_per_second": 1.0,
+      "token_calls_per_second": 0.5,
+      "initial_effective_blocks_per_second": 1.0
+    },
+    "mewapi_public": {
+      "env": "ETH_RPC_MEWAPI_PUBLIC",
+      "blocks_per_batch": 1,
+      "requests_per_second": 1.0,
+      "token_calls_per_second": 0.5,
+      "initial_effective_blocks_per_second": 1.0
+    }
+  }
+}

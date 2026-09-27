@@ -57,6 +57,7 @@ def command_for_stage(
     results_root: Path,
     cache_root: Path,
     reviewer: str,
+    rpc_url_env: str,
 ) -> list[str]:
     source = csharp_root / split
     output = results_root / split
@@ -67,6 +68,7 @@ def command_for_stage(
             "--queue", str(queue), "--dataset-name", split,
             "--output-dir", str(output),
             "--cache-root", str(cache_root / "blocks"),
+            "--rpc-url-env", rpc_url_env,
             "--blocks-per-batch", str(blocks_per_batch),
             "--requests-per-second", str(requests_per_second),
         ],
@@ -87,6 +89,7 @@ def command_for_stage(
             "--flows", str(output / "09_fluxos_tokens_atacante.parquet"),
             "--output-dir", str(output),
             "--cache-dir", str(cache_root / "token_metadata" / split),
+            "--rpc-url-env", rpc_url_env,
             "--calls-per-second", str(token_calls_per_second),
         ],
         "adjudicacao": [
@@ -131,6 +134,7 @@ def validate_preconditions(
     audit_path: Path,
     regression_path: Path,
     dry_run: bool,
+    rpc_url_env: str,
 ) -> None:
     if not audit_path.is_file():
         raise RuntimeError(f"Auditoria C# ausente: {audit_path}")
@@ -144,8 +148,8 @@ def validate_preconditions(
         for filename in ("01_detection_events.parquet", "05_enrichment_queue.parquet"):
             if not (source / filename).is_file():
                 raise RuntimeError(f"Entrada ausente: {source / filename}")
-    if not dry_run and not os.environ.get("ETH_RPC_URL", "").strip():
-        raise RuntimeError("Defina ETH_RPC_URL na sessao antes da execucao.")
+    if not dry_run and not os.environ.get(rpc_url_env, "").strip():
+        raise RuntimeError(f"Defina {rpc_url_env} na sessao antes da execucao.")
 
 
 def main() -> int:
@@ -174,6 +178,9 @@ def main() -> int:
     parser.add_argument("--blocks-per-batch", type=int, default=5)
     parser.add_argument("--requests-per-second", type=float, default=1.0)
     parser.add_argument("--token-calls-per-second", type=float, default=2.0)
+    parser.add_argument("--rpc-url-env", default="ETH_RPC_URL")
+    parser.add_argument("--provider-name", default="default")
+    parser.add_argument("--manifest-path", type=Path)
     parser.add_argument("--force-rpc", action="store_true")
     parser.add_argument("--continue-on-error", action="store_true")
     parser.add_argument(
@@ -198,6 +205,7 @@ def main() -> int:
             args.audit_manifest.resolve(),
             args.regression_manifest.resolve(),
             args.dry_run,
+            args.rpc_url_env,
         )
     except (OSError, ValueError, RuntimeError) as error:
         parser.error(str(error))
@@ -213,12 +221,18 @@ def main() -> int:
             "Há janelas já concluídas na raiz de resultados. Use outra --results-root "
             "ou informe --allow-existing-results conscientemente."
         )
-    manifest_path = results_root / "00_manifest_pipeline_global.json"
+    manifest_path = (
+        args.manifest_path.resolve()
+        if args.manifest_path
+        else results_root / "00_manifest_pipeline_global.json"
+    )
     manifest: dict[str, Any] = {
         "started_at_utc": utc_now(),
         "updated_at_utc": utc_now(),
         "completed_at_utc": None,
-        "reviewer": "Marcelo Corni Alves",
+        "reviewer": args.reviewer,
+        "provider_name": args.provider_name,
+        "rpc_url_env": args.rpc_url_env,
         "rpc_url_stored": False,
         "regression_approved": True,
         "csharp_audit_approved": True,
@@ -241,6 +255,7 @@ def main() -> int:
             uv, here, csharp_root, split, args.blocks_per_batch,
             args.requests_per_second, args.token_calls_per_second,
             results_root, cache_root, args.reviewer,
+            args.rpc_url_env,
         )
         for stage in selected_stages:
             if stage == "rpc" and not args.force_rpc and rpc_is_complete(
