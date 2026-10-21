@@ -1,0 +1,503 @@
+{
+  "protocol": {
+    "version": 1,
+    "sampling_seed": 20261018,
+    "model_seed": 42,
+    "block_modulus": 20,
+    "internal_modulus": 10,
+    "search_modulus": 10,
+    "if_target_rows": 500000,
+    "max_epochs": 200,
+    "batch_size": 65536,
+    "patience": 12,
+    "min_delta": 1e-05,
+    "threads": 4,
+    "bootstrap_repetitions": 2000,
+    "bootstrap_seed": 20261018,
+    "quantiles": {
+      "q990": 0.99,
+      "q995": 0.995,
+      "q999": 0.999
+    },
+    "selection": "mean_five_AP_validation_strict",
+    "test_previously_inspected": true,
+    "rpc_allowed": false,
+    "paired_conflicts": "exclude_whole_event_approved"
+  },
+  "grid": {
+    "AE": [
+      {
+        "id": "ae-00",
+        "parameters": {
+          "hidden_dims": [
+            16,
+            8
+          ],
+          "latent_dim": 4,
+          "learning_rate": 0.001,
+          "weight_decay": 1e-05
+        }
+      },
+      {
+        "id": "ae-01",
+        "parameters": {
+          "hidden_dims": [
+            16,
+            8
+          ],
+          "latent_dim": 2,
+          "learning_rate": 0.0003,
+          "weight_decay": 0.0
+        }
+      },
+      {
+        "id": "ae-02",
+        "parameters": {
+          "hidden_dims": [
+            16,
+            8
+          ],
+          "latent_dim": 2,
+          "learning_rate": 0.0003,
+          "weight_decay": 1e-05
+        }
+      },
+      {
+        "id": "ae-03",
+        "parameters": {
+          "hidden_dims": [
+            16,
+            8
+          ],
+          "latent_dim": 2,
+          "learning_rate": 0.001,
+          "weight_decay": 0.0
+        }
+      },
+      {
+        "id": "ae-04",
+        "parameters": {
+          "hidden_dims": [
+            16,
+            8
+          ],
+          "latent_dim": 2,
+          "learning_rate": 0.001,
+          "weight_decay": 1e-05
+        }
+      },
+      {
+        "id": "ae-05",
+        "parameters": {
+          "hidden_dims": [
+            16,
+            8
+          ],
+          "latent_dim": 4,
+          "learning_rate": 0.0003,
+          "weight_decay": 0.0
+        }
+      },
+      {
+        "id": "ae-06",
+        "parameters": {
+          "hidden_dims": [
+            16,
+            8
+          ],
+          "latent_dim": 4,
+          "learning_rate": 0.0003,
+          "weight_decay": 1e-05
+        }
+      },
+      {
+        "id": "ae-07",
+        "parameters": {
+          "hidden_dims": [
+            16,
+            8
+          ],
+          "latent_dim": 4,
+          "learning_rate": 0.001,
+          "weight_decay": 0.0
+        }
+      },
+      {
+        "id": "ae-08",
+        "parameters": {
+          "hidden_dims": [
+            32,
+            16
+          ],
+          "latent_dim": 8,
+          "learning_rate": 0.0003,
+          "weight_decay": 0.0
+        }
+      },
+      {
+        "id": "ae-09",
+        "parameters": {
+          "hidden_dims": [
+            32,
+            16
+          ],
+          "latent_dim": 8,
+          "learning_rate": 0.0003,
+          "weight_decay": 1e-05
+        }
+      },
+      {
+        "id": "ae-10",
+        "parameters": {
+          "hidden_dims": [
+            32,
+            16
+          ],
+          "latent_dim": 8,
+          "learning_rate": 0.001,
+          "weight_decay": 0.0
+        }
+      },
+      {
+        "id": "ae-11",
+        "parameters": {
+          "hidden_dims": [
+            32,
+            16
+          ],
+          "latent_dim": 8,
+          "learning_rate": 0.001,
+          "weight_decay": 1e-05
+        }
+      }
+    ],
+    "IF": [
+      {
+        "id": "if-00",
+        "parameters": {
+          "n_estimators": 200,
+          "max_samples": 8192
+        }
+      },
+      {
+        "id": "if-01",
+        "parameters": {
+          "n_estimators": 100,
+          "max_samples": 16384
+        }
+      },
+      {
+        "id": "if-02",
+        "parameters": {
+          "n_estimators": 200,
+          "max_samples": 16384
+        }
+      },
+      {
+        "id": "if-03",
+        "parameters": {
+          "n_estimators": 400,
+          "max_samples": 16384
+        }
+      },
+      {
+        "id": "if-04",
+        "parameters": {
+          "n_estimators": 100,
+          "max_samples": 2048
+        }
+      },
+      {
+        "id": "if-05",
+        "parameters": {
+          "n_estimators": 200,
+          "max_samples": 2048
+        }
+      },
+      {
+        "id": "if-06",
+        "parameters": {
+          "n_estimators": 400,
+          "max_samples": 2048
+        }
+      },
+      {
+        "id": "if-07",
+        "parameters": {
+          "n_estimators": 100,
+          "max_samples": 4096
+        }
+      },
+      {
+        "id": "if-08",
+        "parameters": {
+          "n_estimators": 200,
+          "max_samples": 4096
+        }
+      },
+      {
+        "id": "if-09",
+        "parameters": {
+          "n_estimators": 400,
+          "max_samples": 4096
+        }
+      },
+      {
+        "id": "if-10",
+        "parameters": {
+          "n_estimators": 100,
+          "max_samples": 8192
+        }
+      },
+      {
+        "id": "if-11",
+        "parameters": {
+          "n_estimators": 400,
+          "max_samples": 8192
+        }
+      }
+    ]
+  },
+  "source_run": "E:\\Mestrado\\src-multiexecucoes\\execucoes\\amostra-05pct",
+  "device_requested": "auto",
+  "inputs": {
+    "E:\\Mestrado\\src-multiexecucoes\\execucoes\\amostra-05pct\\03-machine-learning\\01-features\\resultados\\09_correlacao_pearson.csv": {
+      "sha256": "2223a53e7dc5334af6e97d9e4049aee29a3ea7a361d351d74ed0836e8c9e9b3d",
+      "bytes": 14486
+    },
+    "E:\\Mestrado\\src-multiexecucoes\\execucoes\\amostra-05pct\\03-machine-learning\\01-features\\resultados\\10_correlacao_spearman.csv": {
+      "sha256": "10106349682ecfc2ee4152fb922013938724511d4ba383b4f9bd350218715c83",
+      "bytes": 14428
+    },
+    "E:\\Mestrado\\src-multiexecucoes\\execucoes\\amostra-05pct\\03-machine-learning\\01-features\\resultados\\15_resultado_execucao.json": {
+      "sha256": "2fd4f128bc279ed8ced8d7377e0d2e28884cb1121b88e9f76f88273c76435626",
+      "bytes": 2059
+    },
+    "E:\\Mestrado\\src-multiexecucoes\\execucoes\\amostra-05pct\\03-machine-learning\\01-features\\resultados-matrizes\\05_metadados.parquet": {
+      "sha256": "9e55fa7889a3aad87cd023a339c72fe5e4e9f935a9232848c490accba2d58868",
+      "bytes": 1385831320
+    },
+    "E:\\Mestrado\\src-multiexecucoes\\execucoes\\amostra-05pct\\03-machine-learning\\01-features\\resultados-matrizes\\06_matriz_A_baseline.parquet": {
+      "sha256": "556a94aedaa07f504ed72bd4e9fcda749e426f7e8b965e061a6c8e8ba4e2a6b9",
+      "bytes": 587012552
+    },
+    "E:\\Mestrado\\src-multiexecucoes\\execucoes\\amostra-05pct\\03-machine-learning\\01-features\\resultados-matrizes\\07_matriz_B_contexto.parquet": {
+      "sha256": "f49fdd94842d81ca805738e801b6dcc6a2fc16d062cbf94bc87f4239f82bae18",
+      "bytes": 657447247
+    },
+    "E:\\Mestrado\\src-multiexecucoes\\execucoes\\amostra-05pct\\03-machine-learning\\01-features\\resultados-matrizes\\08_matriz_C_estendida.parquet": {
+      "sha256": "fa385e17fb94799bdfa39eac0b2224d546ddb6bd4d4c32062845839c09b39c15",
+      "bytes": 813325762
+    },
+    "E:\\Mestrado\\src-multiexecucoes\\execucoes\\amostra-05pct\\03-machine-learning\\01-features\\resultados-matrizes\\10_manifest_execucao.json": {
+      "sha256": "f8b082967a0ad8045614e9e82a219111bb0e432cfa5fc171514198859ca7eb46",
+      "bytes": 3080
+    },
+    "E:\\Mestrado\\src-multiexecucoes\\execucoes\\amostra-05pct\\03-machine-learning\\01-features\\resultados-splits\\00_manifest_splits_temporais.json": {
+      "sha256": "05e5d559b22716ee503c8ec59bf814751ed9261ffbe0cf62adfb8e87d3c3e3db",
+      "bytes": 5895
+    },
+    "E:\\Mestrado\\src-multiexecucoes\\execucoes\\amostra-05pct\\03-machine-learning\\01-features\\resultados-splits\\01-estresse_pre_dencun_2024\\05_metadados.parquet": {
+      "sha256": "f88b05560782f04374bc1dd9f6e028d4ad5c8736fa45afe26e49bb53ea35bf1a",
+      "bytes": 302542347
+    },
+    "E:\\Mestrado\\src-multiexecucoes\\execucoes\\amostra-05pct\\03-machine-learning\\01-features\\resultados-splits\\01-estresse_pre_dencun_2024\\06_matriz_A_baseline.parquet": {
+      "sha256": "a3e0bc5a26e5910370fd6172bd4c3f97356109da5fb8b2d4bf26259483c72b91",
+      "bytes": 145063439
+    },
+    "E:\\Mestrado\\src-multiexecucoes\\execucoes\\amostra-05pct\\03-machine-learning\\01-features\\resultados-splits\\01-estresse_pre_dencun_2024\\07_matriz_B_contexto.parquet": {
+      "sha256": "b4d8b54246cb909e3e79d42e2244b2187510ce9ef9dab89ef4fd955901402f5c",
+      "bytes": 162218209
+    },
+    "E:\\Mestrado\\src-multiexecucoes\\execucoes\\amostra-05pct\\03-machine-learning\\01-features\\resultados-splits\\01-estresse_pre_dencun_2024\\08_matriz_C_estendida.parquet": {
+      "sha256": "683e8f0394cd7ae262d74741251c0bb6fad7c4df2ad8c4822061aad9452ba622",
+      "bytes": 201706917
+    },
+    "E:\\Mestrado\\src-multiexecucoes\\execucoes\\amostra-05pct\\03-machine-learning\\01-features\\resultados-splits\\01-estresse_pre_dencun_2024\\10_manifest_execucao.json": {
+      "sha256": "868638226f4836bb287eb5a54a453c80a8d0dfbdeeaecc28dd0746bdf3ffd943",
+      "bytes": 3207
+    },
+    "E:\\Mestrado\\src-multiexecucoes\\execucoes\\amostra-05pct\\03-machine-learning\\01-features\\resultados-splits\\02-transicao_dencun_2024\\05_metadados.parquet": {
+      "sha256": "493433d9cc8e26fd4d4a692622cf9915c09457a40f209f4ad0a5270ea85ef995",
+      "bytes": 84908504
+    },
+    "E:\\Mestrado\\src-multiexecucoes\\execucoes\\amostra-05pct\\03-machine-learning\\01-features\\resultados-splits\\02-transicao_dencun_2024\\06_matriz_A_baseline.parquet": {
+      "sha256": "f9a3a2ba3eb6ab9075ba24d1c80254c51ef2893b28fef90493bc5fab2a427591",
+      "bytes": 42363927
+    },
+    "E:\\Mestrado\\src-multiexecucoes\\execucoes\\amostra-05pct\\03-machine-learning\\01-features\\resultados-splits\\02-transicao_dencun_2024\\07_matriz_B_contexto.parquet": {
+      "sha256": "f95feca183b9ddb029ff3974de4ff9963916d7e215e50400da95c3a0f64c622e",
+      "bytes": 47874521
+    },
+    "E:\\Mestrado\\src-multiexecucoes\\execucoes\\amostra-05pct\\03-machine-learning\\01-features\\resultados-splits\\02-transicao_dencun_2024\\08_matriz_C_estendida.parquet": {
+      "sha256": "5f622405bcd0ee2a4f5f49220247d553a00c3bc0af7beedc3688b7a0fdea40c6",
+      "bytes": 59317334
+    },
+    "E:\\Mestrado\\src-multiexecucoes\\execucoes\\amostra-05pct\\03-machine-learning\\01-features\\resultados-splits\\02-transicao_dencun_2024\\10_manifest_execucao.json": {
+      "sha256": "7a5f109ac9997cfd93920bd6f585f279084d89fb74b2680545f23401e2077c3c",
+      "bytes": 3167
+    },
+    "E:\\Mestrado\\src-multiexecucoes\\execucoes\\amostra-05pct\\03-machine-learning\\01-features\\resultados-splits\\04-validacao_2025_pre_pectra\\05_metadados.parquet": {
+      "sha256": "23e99ffd7594678db803c52ae6555e2310ef5af395cafe8df5ab29333f96a80d",
+      "bytes": 540426941
+    },
+    "E:\\Mestrado\\src-multiexecucoes\\execucoes\\amostra-05pct\\03-machine-learning\\01-features\\resultados-splits\\04-validacao_2025_pre_pectra\\06_matriz_A_baseline.parquet": {
+      "sha256": "cf3c19627f9def6e2755cccaa49eadfa4dbb590dacac0b066d30413d0f3785c9",
+      "bytes": 260903419
+    },
+    "E:\\Mestrado\\src-multiexecucoes\\execucoes\\amostra-05pct\\03-machine-learning\\01-features\\resultados-splits\\04-validacao_2025_pre_pectra\\07_matriz_B_contexto.parquet": {
+      "sha256": "95ba7caecb1d0ff0a717cf69164d4575646c528d18dbbde9ec19922519304cab",
+      "bytes": 293344094
+    },
+    "E:\\Mestrado\\src-multiexecucoes\\execucoes\\amostra-05pct\\03-machine-learning\\01-features\\resultados-splits\\04-validacao_2025_pre_pectra\\08_matriz_C_estendida.parquet": {
+      "sha256": "0a80521eac220a1bde18cba47ea953dfb791f75cfe709caec11c153ce81cf0dc",
+      "bytes": 360883713
+    },
+    "E:\\Mestrado\\src-multiexecucoes\\execucoes\\amostra-05pct\\03-machine-learning\\01-features\\resultados-splits\\04-validacao_2025_pre_pectra\\10_manifest_execucao.json": {
+      "sha256": "6c2ed2bd6aa0ecf524171fc9e361bd0c65891fc7283bc708e8b4651414f2212d",
+      "bytes": 3192
+    },
+    "E:\\Mestrado\\src-multiexecucoes\\execucoes\\amostra-05pct\\03-machine-learning\\01-features\\resultados-splits\\05-transicao_pectra_2025\\05_metadados.parquet": {
+      "sha256": "f4585a193a8138ae10bbb8323323c6648e99538c60965ca529e8ab1cd7b022fe",
+      "bytes": 145714681
+    },
+    "E:\\Mestrado\\src-multiexecucoes\\execucoes\\amostra-05pct\\03-machine-learning\\01-features\\resultados-splits\\05-transicao_pectra_2025\\06_matriz_A_baseline.parquet": {
+      "sha256": "cca76bafd9dfbb3f801f1ce0133f82b32603f9d3d7ca8bdca4aeeabdcf335ba8",
+      "bytes": 75065800
+    },
+    "E:\\Mestrado\\src-multiexecucoes\\execucoes\\amostra-05pct\\03-machine-learning\\01-features\\resultados-splits\\05-transicao_pectra_2025\\07_matriz_B_contexto.parquet": {
+      "sha256": "b6a7135d6abf3b5b9efa148ae83193711800b16ce092142a45611f07e997ac47",
+      "bytes": 84448147
+    },
+    "E:\\Mestrado\\src-multiexecucoes\\execucoes\\amostra-05pct\\03-machine-learning\\01-features\\resultados-splits\\05-transicao_pectra_2025\\08_matriz_C_estendida.parquet": {
+      "sha256": "5dc14c5d29d600983923ab339c5da2dafd68113cf9bec63c05e90403465d5862",
+      "bytes": 103788888
+    },
+    "E:\\Mestrado\\src-multiexecucoes\\execucoes\\amostra-05pct\\03-machine-learning\\01-features\\resultados-splits\\05-transicao_pectra_2025\\10_manifest_execucao.json": {
+      "sha256": "6ba98fa4e66269605e2fd2e7908d4e0a52dee5cb085cdfaa1b64b3db7ddae7ac",
+      "bytes": 3169
+    },
+    "E:\\Mestrado\\src-multiexecucoes\\execucoes\\amostra-05pct\\03-machine-learning\\01-features\\resultados-splits\\06-teste_final_2025\\05_metadados.parquet": {
+      "sha256": "8e8307e1c402df65aa1dde4b8dac09e1d433372b3ac8b3f9fb444ab704e9a494",
+      "bytes": 1169893939
+    },
+    "E:\\Mestrado\\src-multiexecucoes\\execucoes\\amostra-05pct\\03-machine-learning\\01-features\\resultados-splits\\06-teste_final_2025\\06_matriz_A_baseline.parquet": {
+      "sha256": "e13abd5fa1c55cd955a56b2bcf9f18c5e1bd4dc6533a4f8a3e1308de29f91408",
+      "bytes": 513905722
+    },
+    "E:\\Mestrado\\src-multiexecucoes\\execucoes\\amostra-05pct\\03-machine-learning\\01-features\\resultados-splits\\06-teste_final_2025\\07_matriz_B_contexto.parquet": {
+      "sha256": "6f51f0c8d4e64d2b89e4ad38906b18effb2c5b6bd98977874a26e7bc2af45ab1",
+      "bytes": 577390618
+    },
+    "E:\\Mestrado\\src-multiexecucoes\\execucoes\\amostra-05pct\\03-machine-learning\\01-features\\resultados-splits\\06-teste_final_2025\\08_matriz_C_estendida.parquet": {
+      "sha256": "66162ee9583f0c30b6fef693a50d1dc11de027e425be35644cc7e8ba4ec521c6",
+      "bytes": 705602090
+    },
+    "E:\\Mestrado\\src-multiexecucoes\\execucoes\\amostra-05pct\\03-machine-learning\\01-features\\resultados-splits\\06-teste_final_2025\\10_manifest_execucao.json": {
+      "sha256": "8f5f10b384cfc64d9609fc4b577eb2704ddc04878b07687fd15313c221efd7d3",
+      "bytes": 3150
+    },
+    "E:\\Mestrado\\src-multiexecucoes\\execucoes\\amostra-05pct\\03-machine-learning\\01-features\\resultados-splits\\07-estresse_fusaka_2025\\05_metadados.parquet": {
+      "sha256": "508ebdb24f7a135fe4cef92257a5b1a24edb03c928b93b70fec494cdcae1a9b4",
+      "bytes": 174155153
+    },
+    "E:\\Mestrado\\src-multiexecucoes\\execucoes\\amostra-05pct\\03-machine-learning\\01-features\\resultados-splits\\07-estresse_fusaka_2025\\06_matriz_A_baseline.parquet": {
+      "sha256": "6623208af648362f0e1266d88e68eb65dbdc4cb3be91b9110fddca00d60317ad",
+      "bytes": 88809818
+    },
+    "E:\\Mestrado\\src-multiexecucoes\\execucoes\\amostra-05pct\\03-machine-learning\\01-features\\resultados-splits\\07-estresse_fusaka_2025\\07_matriz_B_contexto.parquet": {
+      "sha256": "e98361f106fb10b9ef08c9d2a70ded84a8b95fb4cdbc45ab98fdd73f9c152bac",
+      "bytes": 100347244
+    },
+    "E:\\Mestrado\\src-multiexecucoes\\execucoes\\amostra-05pct\\03-machine-learning\\01-features\\resultados-splits\\07-estresse_fusaka_2025\\08_matriz_C_estendida.parquet": {
+      "sha256": "ef32ba68726edc66735af420edd97d036111c0cd8461092c28b22b333bf587ac",
+      "bytes": 123178600
+    },
+    "E:\\Mestrado\\src-multiexecucoes\\execucoes\\amostra-05pct\\03-machine-learning\\01-features\\resultados-splits\\07-estresse_fusaka_2025\\10_manifest_execucao.json": {
+      "sha256": "f5e19a4074d72e83e8c60a4c7f99bad92ad4ed896722b49ac65890398224dccf",
+      "bytes": 3165
+    },
+    "E:\\Mestrado\\src-multiexecucoes\\execucoes\\amostra-05pct\\04-pos-processamento\\06-validacao-semantica-front-running\\resultados\\consolidado\\02_papeis_evento.parquet": {
+      "sha256": "26fa13877bf1e81869b42a5af488872239790f2693c1e58a8b15810316324ae8",
+      "bytes": 1923360
+    },
+    "E:\\Mestrado\\src-multiexecucoes\\execucoes\\amostra-05pct\\04-pos-processamento\\06-validacao-semantica-front-running\\resultados\\consolidado\\03_rotulos_transacao.parquet": {
+      "sha256": "da1eb44ace744d8cb8fb7651b9ce5a66c879a0f60c75901962a6bb1dc10673db",
+      "bytes": 1931302
+    },
+    "E:\\Mestrado\\src-multiexecucoes\\execucoes\\amostra-05pct\\04-pos-processamento\\06-validacao-semantica-front-running\\resultados\\estresse_fusaka_2025\\07_manifest_validacao.json": {
+      "sha256": "66a6a1c1d483ec1c4ecf9157a8e117e95842a000695a99e44d78f021cabf4889",
+      "bytes": 1057
+    },
+    "E:\\Mestrado\\src-multiexecucoes\\execucoes\\amostra-05pct\\04-pos-processamento\\06-validacao-semantica-front-running\\resultados\\estresse_pre_dencun_2024\\07_manifest_validacao.json": {
+      "sha256": "48fee4fde7e945bd75b2acd9fc18bd671e48336c6165caad02557d24642d615a",
+      "bytes": 1068
+    },
+    "E:\\Mestrado\\src-multiexecucoes\\execucoes\\amostra-05pct\\04-pos-processamento\\06-validacao-semantica-front-running\\resultados\\teste_final_2025\\07_manifest_validacao.json": {
+      "sha256": "999a3c76d5cd0e1bdd637ca6802136189094ce1e9b8171d32de5610900dce20a",
+      "bytes": 1057
+    },
+    "E:\\Mestrado\\src-multiexecucoes\\execucoes\\amostra-05pct\\04-pos-processamento\\06-validacao-semantica-front-running\\resultados\\transicao_dencun_2024\\07_manifest_validacao.json": {
+      "sha256": "d339bfd20d04b0e8b7c189f6645bc44924c774885ef2e8bdaefafdd06501bf37",
+      "bytes": 1056
+    },
+    "E:\\Mestrado\\src-multiexecucoes\\execucoes\\amostra-05pct\\04-pos-processamento\\06-validacao-semantica-front-running\\resultados\\transicao_pectra_2025\\07_manifest_validacao.json": {
+      "sha256": "3202e5223864c2aaa1167ce1dff69d4d40c2245d7d6f612b78fdee324ffe508f",
+      "bytes": 1059
+    },
+    "E:\\Mestrado\\src-multiexecucoes\\execucoes\\amostra-05pct\\04-pos-processamento\\06-validacao-semantica-front-running\\resultados\\treino_2024_pos_dencun\\07_manifest_validacao.json": {
+      "sha256": "469747cad87d4cd963aca54ff87f2c3aca02c5e05c3d47ba780e871f98074917",
+      "bytes": 1069
+    },
+    "E:\\Mestrado\\src-multiexecucoes\\execucoes\\amostra-05pct\\04-pos-processamento\\06-validacao-semantica-front-running\\resultados\\validacao_2025_pre_pectra\\07_manifest_validacao.json": {
+      "sha256": "709b87396d821a8a48aaef341e0914f59bec7b7b0a128246c1bc2187fedface9",
+      "bytes": 1071
+    },
+    "E:\\Mestrado\\src-multiexecucoes\\execucoes\\amostra-05pct\\04-pos-processamento\\resultados-labelcloud\\05_rotulos_binarios_hipoteticos_labelcloud.parquet": {
+      "sha256": "d23fab7231351154ba873417aa2c38d4037233709c2c203676a146160287ba9d",
+      "bytes": 49834584
+    }
+  },
+  "code": {
+    "git_head": "47c01fed065a95201b67c681cf84c9d34f0c94a2",
+    "git_status": "?? executar_revisao.py\n?? revisao_experimental/",
+    "python": "3.13.14",
+    "code_hashes": {
+      "revisao_experimental\\__init__.py": "0a2051e23d0f607678e1f95b8cb4020eb96cc414d1e521b2137f55b654df84c1",
+      "revisao_experimental\\cli.py": "e8926be1ce03278ed76eabf214148399be50b90ff9106b309bf58b7219c16a2c",
+      "revisao_experimental\\complementos.py": "d8a474b31b70b265bf1685987511d4b2f3f2cf5a24b9b92677053b05aa89891c",
+      "revisao_experimental\\core.py": "6b386b476b9b50259900312732fb6abc6514d1de1280c4ba63568ab16aa29bfc",
+      "revisao_experimental\\dados.py": "aef9ffdf0eff2e801bf7abfccb024de783b48e35b88b295672518601d2156cde",
+      "revisao_experimental\\exportacao.py": "7879c90c97b1092e322ea43621af815ba72705da13e9ef28423ab727f53ef797",
+      "revisao_experimental\\figuras.py": "656248cff9db34784f1569f65e2b517007b940c54a33a6e692e1ecbc3efe407c",
+      "revisao_experimental\\fluxo.py": "00be358e26f699d8fbf0b9d34edfeba9a04b019162a82b385d628f145d0f9abc",
+      "revisao_experimental\\metricas.py": "c11b4dafebbc44df90ef793a832f35db91c972b7b8f0d4797abcdc66ef93d66e",
+      "revisao_experimental\\modelos.py": "bf1142458d1c076f0ff4d42b6684c288fa0adbb017cc25406e0283830d38b9d1",
+      "executar_revisao.py": "084e59aab0ad932fc684c31627c4d0990f8b3d893a77120f4a4112a60fb13b29",
+      "03-machine-learning\\01-features\\01_auditoria_selecao_features.py": "c4da74b5291d00d1fc5c53c728e1ef3128e9ac0fd084594926db0322225f3124",
+      "03-machine-learning\\01-features\\02_gerar_matrizes_features.py": "241c37a32323f6e82ca4e8ce4005250448a5f16f679f74bb83b4652cedaafdf6",
+      "03-machine-learning\\01-features\\03_gerar_splits_temporais.py": "1aaad29a5d0deef749706ffeba2ba909215459052908b54eb3ce679dc8260562",
+      "03-machine-learning\\01-features\\04_gerar_figuras_correlacao_pdf.py": "39ab872145d589f381dd3c88aaf72b531cda99b45bb29a3232d830625a2145ae",
+      "03-machine-learning\\01-features\\05_preprocessar_matrizes.py": "04f703431da983b4c2dd92bb2b107af67f44565dd7342587869b529ae63f3e27",
+      "03-machine-learning\\01-features\\06_analisar_drift_temporal.py": "70884f8c480a4e2bbbb6ab14f2facd2713eb9596d801139fecb56668273a6b1b",
+      "03-machine-learning\\02-ae\\01_treinar_autoencoder.py": "6a3ddead4a4e6779e669e6e3db75682c6fa3f7cf022d85bb532a9f38210e164e",
+      "03-machine-learning\\03-if\\01_treinar_isolation_forest.py": "e2239179cf83c5c4cf844db9570f123bc502bdf38eb3ea0c99612f50df8098c2",
+      "05-analise-resultados\\01_analisar_ae_if.py": "f40bf212d86bf1b913d51115032a323cd43886066142f63d992528e71b252915",
+      "05-analise-resultados\\02_avaliar_rotulos_semanticos.py": "b5a01895c81efa5bcd575f115a9d71393984f6421a0019cc9d7262c3a39fc319",
+      "05-analise-resultados\\03_avaliar_labelcloud_hipotetico.py": "8e5ddb1fbbfc349310d044f99deae68d5b50f92807cf58216aeff3329a46d543"
+    }
+  },
+  "versions": {
+    "torch": "2.14.0+cu130",
+    "numpy": "2.5.3",
+    "duckdb": "1.5.5",
+    "pyarrow": "23.0.1",
+    "scikit-learn": "1.9.1",
+    "scipy": "1.18.1",
+    "matplotlib": "3.11.2",
+    "joblib": "1.6.0",
+    "threadpoolctl": "3.7.0",
+    "pandas": "2.3.3",
+    "pypdf": "6.10.0"
+  }
+}

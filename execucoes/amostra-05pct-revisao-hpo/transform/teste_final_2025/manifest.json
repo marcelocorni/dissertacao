@@ -1,0 +1,11 @@
+{
+  "status": "completed",
+  "started_at": "2026-10-19T03:59:08.199848+00:00",
+  "completed_at": "2026-10-19T03:59:34.422335+00:00",
+  "protocol_signature": "9ce899c88f73af1492ded7f9aa41b428c04c0cd483b1613ecbf7441f34614108",
+  "outputs": {
+    "splits\\teste_final_2025\\12_matriz_A_preprocessada.parquet": "03e7d175b3bf5bedf26e98c99d81788d6f3541bb9c7e528fa0c929e379d43d9f",
+    "splits\\teste_final_2025\\13_matriz_B_preprocessada.parquet": "4a8b740c21a7f814b636a37a5169c38f958a5dafa805e4dda66901e3ee81d04b",
+    "splits\\teste_final_2025\\14_matriz_C_preprocessada.parquet": "45e4b2077d4837ca74d31407d08d3a92577545a8c5edd9da3e63f33246b4600f"
+  }
+}

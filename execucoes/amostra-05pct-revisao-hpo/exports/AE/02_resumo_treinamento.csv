@@ -1,0 +1,6 @@
+configuration,matrix,family,features,fit_seconds,training_rows_fit,internal_validation_rows,best_epoch,epochs_executed,best_internal_validation_loss,device,peak_gpu_memory_bytes
+a_completa,A,completa,13,186.88213890000043,14498093,1582554,198,200,0.02797377719116587,cuda,1719109120
+b_completa,B,completa,21,162.85613000000012,14498093,1582554,200,200,0.1360357716657408,cuda,2234298880
+c_completa,C,completa,23,162.86052669999845,14498093,1582554,198,200,0.12605692278759803,cuda,2362339328
+b_sem_taxas_absolutas,B,sem_taxas_absolutas,18,169.92787989999852,14498093,1582554,199,200,0.07076046121445233,cuda,2041244672
+c_sem_taxas_absolutas,C,sem_taxas_absolutas,19,168.036732200002,14498093,1582554,187,199,0.10530745226190394,cuda,2105048576

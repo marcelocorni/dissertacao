@@ -1,0 +1,11 @@
+{
+  "status": "completed",
+  "started_at": "2026-10-19T04:19:55.679467+00:00",
+  "completed_at": "2026-10-19T04:21:15.970633+00:00",
+  "protocol_signature": "9ce899c88f73af1492ded7f9aa41b428c04c0cd483b1613ecbf7441f34614108",
+  "outputs": {
+    "funnel.csv": "612d35382488b30590d1a3f4debae73bccba0d5208236c03c71227eff8dbc992",
+    "reuse.csv": "4d53a4203fac4df91ef517d2fe1126d920716801bef0b720f6a293d17ca1916d",
+    "transaction_types.csv": "f1defe77025a95f076df15865b3e95733ea0b18a9f0b26d6649cbad5c942c2bb"
+  }
+}

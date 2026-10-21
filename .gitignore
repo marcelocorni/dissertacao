@@ -33,6 +33,11 @@ Chaves_RPC.md
 !**/resultados*/**/*.joblib
 !**/resultados*/**/*.pt
 
+# Resultados leves da revisão com seleção de hiperparâmetros
+!/execucoes/amostra-05pct-revisao-hpo/**/*.csv
+!/execucoes/amostra-05pct-revisao-hpo/**/*.pdf
+!/execucoes/amostra-05pct-revisao-hpo/**/*.png
+
 # Python e ambientes locais
 **/__pycache__/
 **/.venv/
@@ -56,3 +61,12 @@ Chaves_RPC.md
 
 # cache-compartilhado compactado
 cache-compartilhado.7z
+
+# Auditoria humana: estado e pacotes privados nunca são publicados pelo Git
+/06-auditoria-humana/
+**/estado-local/
+**/postgres-credential.clixml
+**/initdb-password.tmp
+**/pacote-privado.json
+**/manifesto-privado.json
+**/appsettings.Local.json

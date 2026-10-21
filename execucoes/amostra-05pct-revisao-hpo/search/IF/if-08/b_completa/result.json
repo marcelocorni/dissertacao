@@ -1,0 +1,47 @@
+{
+  "method": "IF",
+  "candidate": {
+    "id": "if-08",
+    "parameters": {
+      "n_estimators": 200,
+      "max_samples": 4096
+    }
+  },
+  "configuration": {
+    "key": "b_completa",
+    "matrix": "B",
+    "family": "completa",
+    "features": [
+      "gas_used_log",
+      "gas_used_ratio",
+      "effective_gas_price_log",
+      "max_fee_per_gas_log",
+      "max_priority_fee_log",
+      "fee_cap_utilization",
+      "transaction_value_log",
+      "nonce_log",
+      "receipt_status",
+      "tx_type_0",
+      "tx_type_1",
+      "tx_type_3",
+      "transaction_index_pct",
+      "block_tx_count_log",
+      "sender_tx_count_block_log",
+      "receiver_tx_count_block_log",
+      "gas_price_rank_block",
+      "hour_sin",
+      "hour_cos",
+      "weekday_sin",
+      "weekday_cos"
+    ]
+  },
+  "rows": 5170,
+  "load_seconds": 1.3543836999997438,
+  "infer_seconds": 0.07826620000196272,
+  "roc_auc": 0.7971614414489784,
+  "average_precision": 0.8692698384485077,
+  "fit_seconds": 2.3299299999998766,
+  "fit_rows": 500122,
+  "max_samples_effective": 4096,
+  "history": []
+}

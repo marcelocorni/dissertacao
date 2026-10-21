@@ -1,0 +1,11 @@
+{
+  "status": "completed",
+  "started_at": "2026-10-19T03:48:52.202456+00:00",
+  "completed_at": "2026-10-19T03:48:55.420858+00:00",
+  "protocol_signature": "9ce899c88f73af1492ded7f9aa41b428c04c0cd483b1613ecbf7441f34614108",
+  "outputs": {
+    "splits\\transicao_dencun_2024\\12_matriz_A_preprocessada.parquet": "4e9e9b0f7309a95b500631186f844811b77661094be3ddad69a7f60c6345a566",
+    "splits\\transicao_dencun_2024\\13_matriz_B_preprocessada.parquet": "fe5027d9da426e66fbdd3c95bdc0738c9258e1afd172d6e28e8202c26d874f0b",
+    "splits\\transicao_dencun_2024\\14_matriz_C_preprocessada.parquet": "296772e190eeb8a80ff5e622e0d596408f8839d6f95347b3153260802f020350"
+  }
+}

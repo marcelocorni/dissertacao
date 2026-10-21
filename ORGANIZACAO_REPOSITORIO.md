@@ -8,12 +8,16 @@ por exemplo, `amostra-05pct`.
 src-multiexecucoes/
 ├── configuracao/                 parâmetros, percentual e provedores RPC
 ├── executar_pipeline.py          execução e retomada do experimento
+├── executar_revisao.py           revisão opt-in com hiperparâmetros e avaliações
+├── revisao_experimental/         protocolo, dados, modelos, métricas e relatórios
+├── tests/                        testes artificiais sem rede
 ├── 01-coleta-dados/              instruções de obtenção dos Parquets
 ├── 02-pre-processamento/         remoção opcional da coluna input
 ├── 03-machine-learning/          features, recortes, AE e IF
 ├── 04-pos-processamento/         Label Cloud, rotulador C# e semântica RPC
 ├── 05-analise-resultados/        métricas e figuras
 ├── 06-painel-resultados/         consulta e comparação das execuções
+├── 06-auditoria-humana/          Blazor/PostgreSQL, amostragem e revisão independente
 ├── execucoes/<id>/               resultados isolados de cada percentual
 ├── historico-execucoes/          resumo de cada execução concluída
 ├── cache-compartilhado/          blocos RPC e metadados reutilizáveis
@@ -26,6 +30,13 @@ Cada percentual deve ter um `<id>` próprio; assim, alterar a configuração de
 uma nova execução não substitui os resultados das anteriores.
 
 ## Resultados de cada execução
+
+O fluxo opcional `executar_revisao.py` utiliza outro `<id>`, definido por
+`--output`, e não altera `configuracao/pipeline.json`. Seu layout é próprio:
+`prepare/`, `search/`, `selection/`, `final/`, `scores/`, `exports/` e análises
+complementares, com `protocol.json` e manifestos por etapa. Não confundir
+esse formato com o layout histórico descrito abaixo. Ver
+[revisao_experimental/README.md](./revisao_experimental/README.md).
 
 Cada pasta `execucoes/<id>/` contém
 `00_manifest_multiexecucao.json`, que registra as etapas e o estado geral.
@@ -52,6 +63,13 @@ Na validação semântica, cada janela possui uma subpasta própria em
 provedores em `.../resultados/00_manifest_pipeline_paralelo.json`.
 
 ## Histórico, cache e versionamento
+
+A ferramenta opcional de [auditoria humana](06-auditoria-humana/README.md)
+mantém os pareceres em PostgreSQL, separados da adjudicação automatizada.
+O exportador lê apenas artefatos existentes e gera um pacote privado de eventos
+fora do repositório. O servidor não precisa dos Parquet nem do cache completo.
+Pacotes privados, credenciais e dados da auditoria não integram o versionamento
+público. Sua utilização não reexecuta a pipeline científica.
 
 `historico-execucoes/<id>.json` resume uma execução concluída. O
 `cache-compartilhado/` contém dados RPC reaproveitáveis entre percentuais e

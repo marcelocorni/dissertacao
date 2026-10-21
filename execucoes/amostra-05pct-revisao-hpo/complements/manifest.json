@@ -1,0 +1,16 @@
+{
+  "status": "completed",
+  "started_at": "2026-10-19T04:09:07.053427+00:00",
+  "completed_at": "2026-10-19T04:19:55.669172+00:00",
+  "protocol_signature": "9ce899c88f73af1492ded7f9aa41b428c04c0cd483b1613ecbf7441f34614108",
+  "outputs": {
+    "baselines.csv": "fbcf9edb0cee120406bc7d02537bbb7a4a58e2f6dd3f78d069ac6aad77be9598",
+    "clustered_intervals.json": "8a000fbc195a28b0d7cfdf394969a0ddf737474bdb2b83e2ed6379b71c32384c",
+    "discrimination.csv": "0d6c92dcd2a73d11e24e3c00aa9ac0b1c0c36fecacee9d8e5bec6399e4df4e23",
+    "paired.csv": "363d0539580e07ef969cf2574345560df3397c5c8b17a9f7059638353958f057",
+    "role_population_audit.csv": "2d17f5eae9f16b49eb381f73b42bf93541abe8309d0817857b621b7d4faa1ba1",
+    "selection.csv": "144048dfb1820ba1b888a72ab3b04c6c54ee094b317ee264b372ea7fae1a5f20",
+    "thresholds.csv": "aa514d04a0dbaff16b5d38c3743dfb5cadea5fdb9522081dd4c40b31cebdc35a",
+    "top.csv": "b11791162ebc18e7ab589e90b7f1ac7035f606a79723008d61ffa05964931478"
+  }
+}

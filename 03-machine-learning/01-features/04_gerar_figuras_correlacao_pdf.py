@@ -66,7 +66,7 @@ def load_context(results_dir: Path) -> str:
     end = data.get("end_date", "")
     rows = data.get("correlation_rows_used")
     row_text = f"n = {int(rows):,}".replace(",", ".") if rows else ""
-    return f"Treinamento {start} a {end} | {row_text} | blocos completos"
+    return f"Treinamento {start} a {end} | {row_text} | subamostra de transações"
 
 
 def create_figure(

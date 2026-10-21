@@ -1,0 +1,14 @@
+{
+  "script": "05-analise-resultados/03_avaliar_labelcloud_hipotetico.py",
+  "arguments": [
+    "--labels",
+    "E:\\Mestrado\\src-multiexecucoes\\execucoes\\amostra-05pct\\04-pos-processamento\\resultados-labelcloud\\05_rotulos_binarios_hipoteticos_labelcloud.parquet",
+    "--split-manifest",
+    "E:\\Mestrado\\src-multiexecucoes\\execucoes\\amostra-05pct\\03-machine-learning\\01-features\\resultados-splits\\00_manifest_splits_temporais.json",
+    "--ae-results-dir",
+    "E:\\Mestrado\\src-multiexecucoes\\execucoes\\amostra-05pct-revisao-hpo\\exports\\AE",
+    "--if-results-dir",
+    "E:\\Mestrado\\src-multiexecucoes\\execucoes\\amostra-05pct-revisao-hpo\\exports\\IF"
+  ],
+  "note": "Análise local revisada; teste histórico previamente consultado. Sem RPC."
+}

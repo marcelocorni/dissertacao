@@ -1,0 +1,5 @@
+policy,method,configuration,threshold,cut
+strict,AE,b_sem_taxas_absolutas,q990,0.3554132282733917
+strict,IF,b_completa,q990,0.5887474417686462
+sensitivity,AE,b_sem_taxas_absolutas,q990,0.3554132282733917
+sensitivity,IF,c_completa,q990,0.586368978023529

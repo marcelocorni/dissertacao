@@ -14,6 +14,21 @@ RPC e metadados reutilizáveis ficam em `cache-compartilhado/`.
 | `configuracao/pipeline.json` | define dados externos, percentual, identificador e recursos | configuração da execução |
 | `configuracao/rpc_providers.json` | define provedores e limites operacionais, sem armazenar endpoints | utilizado na homologação e no escalonamento RPC |
 
+## Revisão experimental opcional
+
+O detalhamento e a ordem estão em [revisao_experimental/README.md](./revisao_experimental/README.md).
+
+| Código | Função |
+| --- | --- |
+| `executar_revisao.py`, `revisao_experimental/cli.py` | entrada opt-in, planejamento e etapas isoladas |
+| `revisao_experimental/core.py` | grades, partições, assinaturas e retomada |
+| `revisao_experimental/dados.py` | contratos, joins e pré-processamento sem blocos internos |
+| `revisao_experimental/modelos.py`, `fluxo.py` | ajuste, checkpoint, busca e pontuação |
+| `revisao_experimental/metricas.py`, `complementos.py` | baselines, métricas semânticas, bootstrap, funil e reutilização |
+| `revisao_experimental/exportacao.py`, `figuras.py` | exportação, gráficos e relatórios locais |
+| `tests/test_revisao_experimental.py`, `tests/fixtures_revisao.py` | testes artificiais sem rede |
+| `04-pos-processamento/fontes-historicas/labelcloud_20260203.py` | cópia do scraper histórico para inspeção; não executado pelo fluxo |
+
 ## Etapas executadas pelo pipeline
 
 | Ordem | Código | Função | Resultados em `execucoes/<id>/` |
@@ -53,6 +68,13 @@ janela. Este executa, nessa ordem, `08_enriquecer_fila_por_bloco.py`,
 | `04-pos-processamento/06-validacao-semantica-front-running/14_reconstruir_cache_rpc.py` | reconstrói o cache em uma recuperação específica |
 | `06-painel-resultados/painel_resultados.py` | compara as execuções e apresenta os resultados sem ler Parquet |
 | `06-painel-resultados/01_medir_armazenamento_s3.py` | estima a diferença de armazenamento entre os objetos originais da AWS e as bases locais |
+| `06-auditoria-humana/exportar_amostra.py` | seleciona eventos deterministicamente por estrato e exporta evidências RPC locais, sem rede |
+| `06-auditoria-humana/selecionar_12_eventos.py` | seleciona 12 eventos do quadro congelado de 45, com perfis explícitos de limitação de evidência |
+| `06-auditoria-humana/Auditoria.Admin/` | substituição CLI autorizada de campanha sem pareceres, com backup e verificação transacional de escopo |
+| `06-auditoria-humana/Auditoria.Web/` | aplicação Blazor/PostgreSQL com contas individuais, revisão cega, histórico e comparação após fechamento |
+| `06-auditoria-humana/iniciar-local.ps1` | prepara e executa instância PostgreSQL isolada e servidor local |
+| `06-auditoria-humana/testar_exportador.py` | contratos de seleção, expansão acumulativa e evidências neutras |
+| `06-auditoria-humana/testar_integracao.py` | testes HTTP com PostgreSQL próprio, contas fictícias e controle do cegamento |
 
 Para interpretar os arquivos produzidos em cada etapa, consulte o README do
 respectivo diretório e o [guia de reprodução](GUIA_REPRODUCAO_SEGURA.md).

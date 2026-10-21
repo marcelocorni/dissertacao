@@ -1,0 +1,45 @@
+{
+  "method": "IF",
+  "candidate": {
+    "id": "if-01",
+    "parameters": {
+      "n_estimators": 100,
+      "max_samples": 16384
+    }
+  },
+  "configuration": {
+    "key": "c_sem_taxas_absolutas",
+    "matrix": "C",
+    "family": "sem_taxas_absolutas",
+    "features": [
+      "gas_used_log",
+      "gas_used_ratio",
+      "fee_cap_utilization",
+      "transaction_value_log",
+      "nonce_log",
+      "receipt_status",
+      "tx_type_0",
+      "tx_type_1",
+      "tx_type_3",
+      "transaction_index_pct",
+      "block_tx_count_log",
+      "sender_tx_count_block_log",
+      "receiver_tx_count_block_log",
+      "gas_price_rank_block",
+      "hour_sin",
+      "hour_cos",
+      "weekday_sin",
+      "weekday_cos",
+      "gas_limit_log"
+    ]
+  },
+  "rows": 5170,
+  "load_seconds": 1.1907950999993773,
+  "infer_seconds": 0.042005999999673804,
+  "roc_auc": 0.7514047643946207,
+  "average_precision": 0.8069515333045043,
+  "fit_seconds": 1.2732847000006586,
+  "fit_rows": 500122,
+  "max_samples_effective": 16384,
+  "history": []
+}

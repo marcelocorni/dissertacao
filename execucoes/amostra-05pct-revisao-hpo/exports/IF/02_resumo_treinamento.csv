@@ -1,0 +1,6 @@
+configuration,matrix,family,features,fit_seconds,training_rows_fit,internal_validation_rows,best_epoch,epochs_executed,best_internal_validation_loss,device,peak_gpu_memory_bytes
+a_completa,A,completa,13,0.79070540000248,500122,0,,,,cpu,0
+b_completa,B,completa,21,0.7841989000007743,500122,0,,,,cpu,0
+c_completa,C,completa,23,0.8125751999978092,500122,0,,,,cpu,0
+b_sem_taxas_absolutas,B,sem_taxas_absolutas,18,0.7741027000010945,500122,0,,,,cpu,0
+c_sem_taxas_absolutas,C,sem_taxas_absolutas,19,0.7712625000021944,500122,0,,,,cpu,0

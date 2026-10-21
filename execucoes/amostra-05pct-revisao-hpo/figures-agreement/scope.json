@@ -1,0 +1,4 @@
+{
+  "new_semantic_candidates": false,
+  "note": "Relatórios de escores não regeneram a referência semântica nem solicitam RPC."
+}

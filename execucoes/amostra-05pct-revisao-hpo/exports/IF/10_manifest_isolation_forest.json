@@ -1,0 +1,13 @@
+{
+  "configurations": [
+    "a_completa",
+    "b_completa",
+    "c_completa",
+    "b_sem_taxas_absolutas",
+    "c_sem_taxas_absolutas"
+  ],
+  "preprocessing_signature": "831fc24e8393fa1f71c5210a3f39509da27400471ce12a703fb632197bda7ebe",
+  "experiment_signature": "9ce899c88f73af1492ded7f9aa41b428c04c0cd483b1613ecbf7441f34614108",
+  "scores_directory": "E:\\Mestrado\\src-multiexecucoes\\execucoes\\amostra-05pct-revisao-hpo\\exports\\IF\\escores",
+  "source_split_manifest": "E:\\Mestrado\\src-multiexecucoes\\execucoes\\amostra-05pct\\03-machine-learning\\01-features\\resultados-splits\\00_manifest_splits_temporais.json"
+}

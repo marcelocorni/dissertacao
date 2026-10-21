@@ -1,0 +1,17 @@
+{
+  "status": "completed",
+  "started_at": "2026-10-19T02:38:48.918850+00:00",
+  "completed_at": "2026-10-19T02:54:44.812250+00:00",
+  "protocol_signature": "9ce899c88f73af1492ded7f9aa41b428c04c0cd483b1613ecbf7441f34614108",
+  "outputs": {
+    "blocks.json": "96598dce4f55700f851edb5eb9b58a958d79776a547b28ef9bcdb7a4771daec7",
+    "fit_c.parquet": "c6ec79475e8dd2cb4b154ab3e463c19161403ffebaafcf36d1025cad6ecf9c21",
+    "preprocessing.json": "a534ee480b0c63317deb5e337d29043fb518faf6d703dc2252cd2d366db77e44",
+    "splits\\treino_2024_pos_dencun\\12_matriz_A_preprocessada.parquet": "44780ac0baedcb7d5947bf521bebc27cf5fde5949c81060339ef3fe69fb5f598",
+    "splits\\treino_2024_pos_dencun\\13_matriz_B_preprocessada.parquet": "a8aaebb01bf739a5953a70154396a064becfb84ae73013fe89fced4570df42e6",
+    "splits\\treino_2024_pos_dencun\\14_matriz_C_preprocessada.parquet": "ae8136cd3ff7cf5d7b015231eb6f929c0e89faae4c7ed906d21cede91a0d3aa9",
+    "splits\\validacao_2025_pre_pectra\\12_matriz_A_preprocessada.parquet": "bb9366f7184d78935354905d3e289df8e5364cd43e3e2efdbacab9f5bcd2a6eb",
+    "splits\\validacao_2025_pre_pectra\\13_matriz_B_preprocessada.parquet": "548a0ed0003e3a4e1f8179b8fac265f812e2545ba5e3a5924b746eef0f61c39c",
+    "splits\\validacao_2025_pre_pectra\\14_matriz_C_preprocessada.parquet": "6b404e1dd3a69e1ce1cb42ee4c59c79c3e9794484d5da21747ff0c15242e93c9"
+  }
+}

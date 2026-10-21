@@ -1,0 +1,23 @@
+{
+  "status": "completed",
+  "started_at": "2026-10-19T04:21:22.562357+00:00",
+  "completed_at": "2026-10-19T04:21:55.878353+00:00",
+  "protocol_signature": "9ce899c88f73af1492ded7f9aa41b428c04c0cd483b1613ecbf7441f34614108",
+  "outputs": {
+    "ae_training.pdf": "8b9dc3028d1c6f3a9208b43a264e95d82f4579cc68d880f10c15936513405289",
+    "ae_training.png": "4016d0e348d7ba576070a0dcafb3aad7f6f9f0dee6f98c094a40bf1cfe4f60fc",
+    "ap_positions.pdf": "a17fa31cd472e4f7dea03d47d7c33ac213562d2707e857ebb35fd94547d677c6",
+    "ap_positions.png": "9d467a769aad5b6463f3a0fee007c41f92c45268172dd6b1cff4ebef4ceae15f",
+    "confusion_sensitivity.pdf": "be374999e3034639be03ceabcd33c59d010bbda50e786f9fdfe78be74078fe36",
+    "confusion_sensitivity.png": "009f716718deaf3df8fbac7f5d8be72e71609ef79e9f0b168f6795f2648b8902",
+    "confusion_strict.pdf": "cacdd52c7e165a0d20d0be76192b1ca433cb32c7e21a8dea5121a491fce15286",
+    "confusion_strict.png": "79d7e95a1346d04dc630f8b09091a567e2e17784b9592c5d33b40fbe502ce6ee",
+    "context.json": "e894a0dc8d2d04aa6cb1b6b30a10abb634202027288ae08ae4ef5f4dcf2534a3",
+    "curves_sensitivity.pdf": "b0f15b7e72d02c1c6ba74174becf7f196cba88415b8c32d2a62fccf03853a6ee",
+    "curves_sensitivity.png": "5a3082871af4e9b51592d05d403e15c7572f52269087f2aa79e83659aa1205e8",
+    "curves_strict.pdf": "b069a557772e53f7b804dfeadb12171230d890680f18704ca1bd31a5764e2610",
+    "curves_strict.png": "a5d1cb6b0dee1bf2fcf14b13f278d1b6f1cbc91588d06822f827fca2df413b76",
+    "paired_strict.pdf": "e3883d0e192d20fd761bf6edf7e08918901cf5d1a2bde131a9f36a8b632e8509",
+    "paired_strict.png": "f4c8a4fdc12c9d357fa926b920bdc89ea22613950c27fd75b396a692ae9ee280"
+  }
+}

@@ -1,0 +1,146 @@
+{
+  "configurations": [
+    {
+      "key": "a_completa",
+      "matrix": "A",
+      "family": "completa",
+      "features": [
+        "gas_used_log",
+        "gas_used_ratio",
+        "effective_gas_price_log",
+        "max_fee_per_gas_log",
+        "max_priority_fee_log",
+        "fee_cap_utilization",
+        "transaction_value_log",
+        "nonce_log",
+        "receipt_status",
+        "tx_type_0",
+        "tx_type_1",
+        "tx_type_3",
+        "transaction_index_pct"
+      ]
+    },
+    {
+      "key": "b_completa",
+      "matrix": "B",
+      "family": "completa",
+      "features": [
+        "gas_used_log",
+        "gas_used_ratio",
+        "effective_gas_price_log",
+        "max_fee_per_gas_log",
+        "max_priority_fee_log",
+        "fee_cap_utilization",
+        "transaction_value_log",
+        "nonce_log",
+        "receipt_status",
+        "tx_type_0",
+        "tx_type_1",
+        "tx_type_3",
+        "transaction_index_pct",
+        "block_tx_count_log",
+        "sender_tx_count_block_log",
+        "receiver_tx_count_block_log",
+        "gas_price_rank_block",
+        "hour_sin",
+        "hour_cos",
+        "weekday_sin",
+        "weekday_cos"
+      ]
+    },
+    {
+      "key": "c_completa",
+      "matrix": "C",
+      "family": "completa",
+      "features": [
+        "gas_used_log",
+        "gas_used_ratio",
+        "effective_gas_price_log",
+        "max_fee_per_gas_log",
+        "max_priority_fee_log",
+        "fee_cap_utilization",
+        "transaction_value_log",
+        "nonce_log",
+        "receipt_status",
+        "tx_type_0",
+        "tx_type_1",
+        "tx_type_3",
+        "transaction_index_pct",
+        "block_tx_count_log",
+        "sender_tx_count_block_log",
+        "receiver_tx_count_block_log",
+        "gas_price_rank_block",
+        "hour_sin",
+        "hour_cos",
+        "weekday_sin",
+        "weekday_cos",
+        "gas_limit_log",
+        "transaction_fee_paid_log"
+      ]
+    },
+    {
+      "key": "b_sem_taxas_absolutas",
+      "matrix": "B",
+      "family": "sem_taxas_absolutas",
+      "features": [
+        "gas_used_log",
+        "gas_used_ratio",
+        "fee_cap_utilization",
+        "transaction_value_log",
+        "nonce_log",
+        "receipt_status",
+        "tx_type_0",
+        "tx_type_1",
+        "tx_type_3",
+        "transaction_index_pct",
+        "block_tx_count_log",
+        "sender_tx_count_block_log",
+        "receiver_tx_count_block_log",
+        "gas_price_rank_block",
+        "hour_sin",
+        "hour_cos",
+        "weekday_sin",
+        "weekday_cos"
+      ]
+    },
+    {
+      "key": "c_sem_taxas_absolutas",
+      "matrix": "C",
+      "family": "sem_taxas_absolutas",
+      "features": [
+        "gas_used_log",
+        "gas_used_ratio",
+        "fee_cap_utilization",
+        "transaction_value_log",
+        "nonce_log",
+        "receipt_status",
+        "tx_type_0",
+        "tx_type_1",
+        "tx_type_3",
+        "transaction_index_pct",
+        "block_tx_count_log",
+        "sender_tx_count_block_log",
+        "receiver_tx_count_block_log",
+        "gas_price_rank_block",
+        "hour_sin",
+        "hour_cos",
+        "weekday_sin",
+        "weekday_cos",
+        "gas_limit_log"
+      ]
+    }
+  ],
+  "selected_hyperparameters": {
+    "id": "ae-05",
+    "parameters": {
+      "hidden_dims": [
+        16,
+        8
+      ],
+      "latent_dim": 4,
+      "learning_rate": 0.0003,
+      "weight_decay": 0.0
+    },
+    "mean_ap": 0.7570955467727986
+  }
+}

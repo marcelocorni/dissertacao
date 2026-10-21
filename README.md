@@ -27,6 +27,13 @@ Parquets Ethereum
 O Label Cloud constitui uma comparação externa opcional. Seus dados não entram
 nas features nem no treinamento dos modelos.
 
+## Revisão experimental opcional
+
+O fluxo de [seleção de hiperparâmetros e avaliações complementares](./revisao_experimental/README.md)
+utiliza `executar_revisao.py`, com identificador separado e entradas históricas
+somente de leitura. Não altera a configuração canônica nem executa coleta RPC.
+O modo padrão é planejamento; o processamento exige `--execute`.
+
 ## Entradas principais
 
 | Entrada | Caminho |
@@ -185,3 +192,13 @@ reprodutível sem sorteio e mantém todas as transações de cada bloco escolhid
 Aceitar qualquer percentual exigiria substituir a regra por outro mecanismo de
 amostragem, o que alteraria a metodologia e a comparabilidade com o baseline de
 `1%`.
+
+## Auditoria humana opcional
+
+A [ferramenta Blazor/PostgreSQL](06-auditoria-humana/README.md) permite revisar
+amostras estratificadas de eventos com autenticação e pareceres individuais.
+A seleção utiliza artefatos já coletados, sem novas consultas RPC. Ampliações
+preservam os eventos e pareceres anteriores. Os resultados automáticos, AE/IF
+e Label Cloud permanecem ocultos até o encerramento da fase independente.
+A auditoria não altera automaticamente os resultados científicos. Evidências
+privadas, banco e credenciais ficam fora do repositório público.

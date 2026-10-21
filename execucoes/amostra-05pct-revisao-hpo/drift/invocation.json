@@ -1,0 +1,12 @@
+{
+  "script": "03-machine-learning/01-features/06_analisar_drift_temporal.py",
+  "arguments": [
+    "--split-manifest",
+    "E:\\Mestrado\\src-multiexecucoes\\execucoes\\amostra-05pct-revisao-hpo\\exports\\splits.json",
+    "--preprocessing-manifest",
+    "E:\\Mestrado\\src-multiexecucoes\\execucoes\\amostra-05pct-revisao-hpo\\exports\\preprocessing.json",
+    "--transformation-dictionary",
+    "E:\\Mestrado\\src-multiexecucoes\\execucoes\\amostra-05pct-revisao-hpo\\exports\\transformations.csv"
+  ],
+  "note": "Análise local revisada; teste histórico previamente consultado. Sem RPC."
+}

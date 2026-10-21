@@ -1,0 +1,21 @@
+{
+  "status": "completed",
+  "started_at": "2026-10-19T04:34:39.348223+00:00",
+  "completed_at": "2026-10-19T04:45:27.424646+00:00",
+  "protocol_signature": "9ce899c88f73af1492ded7f9aa41b428c04c0cd483b1613ecbf7441f34614108",
+  "outputs": {
+    "01_drift_features_recortes.csv": "9f4bf01416ef4b8a19a59166a30de2b994442c6687b554fcd209c096631c6d4f",
+    "02_resumo_drift_recortes.csv": "ba6db2a7039aa384bf901f52127239a30e92afd26a2e9b536bd78f86f8c3c2ef",
+    "03_ranking_features_drift.csv": "51055ea32b89b4dcfd189338cb98537541bf3545786e6f7decf049ec27f781e4",
+    "04_drift_por_matriz.csv": "1731a674ff5951aacd35f01cbbd20f0b839786023394724f357e86362e1dce1b",
+    "05_drift_transacoes_tipo_4.csv": "e1aa0a0b4a1a6f500856de0a10c1df24f63249e7a0c2aeca5c7072015a7689f1",
+    "06_distribuicao_tipos_transacao.csv": "b21ec46ad05d7ba3146c5c819d5aad3bf05095fa16060a7c7f83373df4a7d256",
+    "07_heatmap_psi.pdf": "725e3fd4271b4c9e21052f5df0da88d94ca3e22aea5a0e6a149bca2072171704",
+    "07_heatmap_psi.png": "bc91b6b7edc374d8722beaaf37361d256e1ad70e1f9d8cc9ea58c50e9d1c026d",
+    "08_heatmap_ks_aproximado.pdf": "13f0963c49d3781f94ce831f9d3511538b73cf85c67d3b897c1e5ba74ea37f2d",
+    "08_heatmap_ks_aproximado.png": "0f1e96bc8709a5349c76fc148c7bb0d862974924b332ae9f100bc7e9f3b46501",
+    "09_metodologia_drift.md": "5aed4057ff2df9a6a0e3c8483fc577b67df1fff1c7c71e439d2f37e3d845934c",
+    "10_manifest_drift.json": "13f328133d7539276416c4462c738e0276739a792a18996bef1db8b959a2b37f",
+    "invocation.json": "12624dd041c4d9b120931287caeeaa5d318e6faf43c4ffd5743a37484b44a54d"
+  }
+}

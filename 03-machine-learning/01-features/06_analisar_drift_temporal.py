@@ -132,6 +132,8 @@ def matrix_path(split: dict[str, object], matrix: str = "C") -> Path:
 
 
 def metadata_path(split: dict[str, object]) -> Path:
+    if split.get("metadata_path"):
+        return Path(str(split["metadata_path"]))
     return Path(str(split["output_directory"])) / METADATA_FILE
 
 

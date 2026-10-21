@@ -1,0 +1,11 @@
+{
+  "status": "completed",
+  "started_at": "2026-10-19T03:57:57.689553+00:00",
+  "completed_at": "2026-10-19T03:58:01.836352+00:00",
+  "protocol_signature": "9ce899c88f73af1492ded7f9aa41b428c04c0cd483b1613ecbf7441f34614108",
+  "outputs": {
+    "splits\\transicao_pectra_2025\\12_matriz_A_preprocessada.parquet": "4693f7957100818c6cecaa96a1b07ed9f33cb7ee8f833a8c02cc20405325efed",
+    "splits\\transicao_pectra_2025\\13_matriz_B_preprocessada.parquet": "44e5fe5817ea842db42962a01905b20fadba49cd23925b08110a0ba52499a637",
+    "splits\\transicao_pectra_2025\\14_matriz_C_preprocessada.parquet": "352eb7a13e7d079673560a490159f1dfe481856ce6f402a4363e5a41cf8c90e2"
+  }
+}

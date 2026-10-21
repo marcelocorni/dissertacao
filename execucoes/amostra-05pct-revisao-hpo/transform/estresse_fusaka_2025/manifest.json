@@ -1,0 +1,11 @@
+{
+  "status": "completed",
+  "started_at": "2026-10-19T04:07:01.313941+00:00",
+  "completed_at": "2026-10-19T04:07:06.161492+00:00",
+  "protocol_signature": "9ce899c88f73af1492ded7f9aa41b428c04c0cd483b1613ecbf7441f34614108",
+  "outputs": {
+    "splits\\estresse_fusaka_2025\\12_matriz_A_preprocessada.parquet": "11b447bfad00d2acb4001e64a96ab94ca6065fdbc2209abc30cb7c443162c12a",
+    "splits\\estresse_fusaka_2025\\13_matriz_B_preprocessada.parquet": "a556d46b0774f73f7019e3d4b67dc81e40ab7b162f4d07d03b2ce2e90ce45a14",
+    "splits\\estresse_fusaka_2025\\14_matriz_C_preprocessada.parquet": "f60207c404b90064c84ff1014708e702c8b8fd18f092c233ffba2e389b73c38b"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "status": "completed",
+  "started_at": "2026-10-19T04:45:27.426431+00:00",
+  "completed_at": "2026-10-19T04:45:29.846797+00:00",
+  "protocol_signature": "9ce899c88f73af1492ded7f9aa41b428c04c0cd483b1613ecbf7441f34614108",
+  "outputs": {
+    "09_correlacao_pearson.csv": "2223a53e7dc5334af6e97d9e4049aee29a3ea7a361d351d74ed0836e8c9e9b3d",
+    "10_correlacao_spearman.csv": "10106349682ecfc2ee4152fb922013938724511d4ba383b4f9bd350218715c83",
+    "15_resultado_execucao.json": "2fd4f128bc279ed8ced8d7377e0d2e28884cb1121b88e9f76f88273c76435626",
+    "16_correlacao_pearson_vetorial.pdf": "e8064fd6e5557d1e122d131b7a16e236099832ec3058e28aa70e238156019218",
+    "17_correlacao_spearman_vetorial.pdf": "b9c46fa26897c10de1a59a76fa108096c02287454544f2f127e26c8b646be2ad",
+    "18_matrizes_correlacao_vetorial.pdf": "9d9d12f3b6d32ba6b3475ccae75d8c23baa54a87f7f6d41e289ed48b523630ef"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "status": "completed",
+  "started_at": "2026-10-19T03:46:36.444181+00:00",
+  "completed_at": "2026-10-19T03:46:44.957631+00:00",
+  "protocol_signature": "9ce899c88f73af1492ded7f9aa41b428c04c0cd483b1613ecbf7441f34614108",
+  "outputs": {
+    "splits\\estresse_pre_dencun_2024\\12_matriz_A_preprocessada.parquet": "95a91741dd995c072ab2346854ed14efa74347b4f60b49ef0a528076b547b383",
+    "splits\\estresse_pre_dencun_2024\\13_matriz_B_preprocessada.parquet": "e5ea2ca8f3bb6cf4ea8dc63edf1952746d03ced3df640b8431e9ad11a41dd191",
+    "splits\\estresse_pre_dencun_2024\\14_matriz_C_preprocessada.parquet": "ae1256c4611b643e8274d6cd2794ce996a8e0b4e5ce117352913a42c7c734d0e"
+  }
+}

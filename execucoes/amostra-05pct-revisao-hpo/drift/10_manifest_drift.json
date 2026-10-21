@@ -1,0 +1,63 @@
+{
+  "generated_at": "2026-10-19T01:45:27.251256-03:00",
+  "analysis_signature": "42bce058c0618ceef691bb09b7ced7f17e9a7308f4fa1a8d7945db5a242bca1a",
+  "source_split_manifest": "E:\\Mestrado\\src-multiexecucoes\\execucoes\\amostra-05pct-revisao-hpo\\exports\\splits.json",
+  "source_preprocessing_manifest": "E:\\Mestrado\\src-multiexecucoes\\execucoes\\amostra-05pct-revisao-hpo\\exports\\preprocessing.json",
+  "preprocessing_signature": "831fc24e8393fa1f71c5210a3f39509da27400471ce12a703fb632197bda7ebe",
+  "reference_split": "treino_2024_pos_dencun",
+  "features": [
+    "gas_used_log",
+    "gas_used_ratio",
+    "effective_gas_price_log",
+    "max_fee_per_gas_log",
+    "max_priority_fee_log",
+    "fee_cap_utilization",
+    "transaction_value_log",
+    "nonce_log",
+    "receipt_status",
+    "tx_type_0",
+    "tx_type_1",
+    "tx_type_3",
+    "transaction_index_pct",
+    "block_tx_count_log",
+    "sender_tx_count_block_log",
+    "receiver_tx_count_block_log",
+    "gas_price_rank_block",
+    "hour_sin",
+    "hour_cos",
+    "weekday_sin",
+    "weekday_cos",
+    "gas_limit_log",
+    "transaction_fee_paid_log"
+  ],
+  "settings": {
+    "preprocessing_signature": "831fc24e8393fa1f71c5210a3f39509da27400471ce12a703fb632197bda7ebe",
+    "reference_split": "treino_2024_pos_dencun",
+    "psi_quantiles": 10,
+    "ks_grid_size": 101,
+    "psi_thresholds": [
+      0.1,
+      0.25
+    ],
+    "ks_thresholds": [
+      0.1,
+      0.2
+    ]
+  },
+  "outputs": [
+    ".lock",
+    "01_drift_features_recortes.csv",
+    "02_resumo_drift_recortes.csv",
+    "03_ranking_features_drift.csv",
+    "04_drift_por_matriz.csv",
+    "05_drift_transacoes_tipo_4.csv",
+    "06_distribuicao_tipos_transacao.csv",
+    "07_heatmap_psi.pdf",
+    "07_heatmap_psi.png",
+    "08_heatmap_ks_aproximado.pdf",
+    "08_heatmap_ks_aproximado.png",
+    "09_metodologia_drift.md",
+    "10_manifest_drift.json",
+    "manifest.json"
+  ]
+}

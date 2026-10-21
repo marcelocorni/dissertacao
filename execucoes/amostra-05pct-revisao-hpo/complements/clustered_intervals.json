@@ -1,0 +1,350 @@
+[
+  {
+    "split": "validacao_2025_pre_pectra",
+    "policy": "strict",
+    "unit": "unique_transaction",
+    "status": "completed",
+    "replications": 2000,
+    "invalid": 0,
+    "seed": 20261018,
+    "blocks": 1723,
+    "intervals": {
+      "ae_roc_auc": [
+        0.7167266994289879,
+        0.7486267564358589
+      ],
+      "if_roc_auc": [
+        0.7552475002427377,
+        0.7771071782442917
+      ],
+      "if_minus_ae_roc_auc": [
+        0.019811653174171173,
+        0.045748665471574836
+      ],
+      "ae_ap": [
+        0.7942715128796588,
+        0.8220050000963105
+      ],
+      "if_ap": [
+        0.8515061476753267,
+        0.8733110722708916
+      ],
+      "if_minus_ae_ap": [
+        0.04234394878150988,
+        0.06604255520230792
+      ]
+    },
+    "estimand": "conditional_on_fitted_models_not_training_variability"
+  },
+  {
+    "split": "validacao_2025_pre_pectra",
+    "policy": "strict",
+    "unit": "pair",
+    "status": "completed",
+    "replications": 2000,
+    "invalid": 0,
+    "seed": 20261018,
+    "blocks": 1723,
+    "intervals": {
+      "ae": [
+        0.7510135402505673,
+        0.7881382577917024
+      ],
+      "if": [
+        0.7856896048780178,
+        0.810692585359613
+      ],
+      "if_minus_ae": [
+        0.009066912369643942,
+        0.046161043907183764
+      ]
+    },
+    "estimand": "conditional_on_fitted_models_not_training_variability"
+  },
+  {
+    "split": "validacao_2025_pre_pectra",
+    "policy": "strict",
+    "unit": "event",
+    "status": "completed",
+    "replications": 2000,
+    "invalid": 0,
+    "seed": 20261018,
+    "blocks": 1723,
+    "intervals": {
+      "ae": [
+        0.7085466805858682,
+        0.7497178510098944
+      ],
+      "if": [
+        0.5935858670565005,
+        0.6389776409006073
+      ],
+      "if_minus_ae": [
+        -0.1391118501504488,
+        -0.08866732243101817
+      ]
+    },
+    "estimand": "conditional_on_fitted_models_not_training_variability"
+  },
+  {
+    "split": "teste_final_2025",
+    "policy": "strict",
+    "unit": "unique_transaction",
+    "status": "completed",
+    "replications": 2000,
+    "invalid": 0,
+    "seed": 20261018,
+    "blocks": 2368,
+    "intervals": {
+      "ae_roc_auc": [
+        0.8016090346778242,
+        0.8257357226441463
+      ],
+      "if_roc_auc": [
+        0.7203801158699848,
+        0.740676872916092
+      ],
+      "if_minus_ae_roc_auc": [
+        -0.09482871827890178,
+        -0.07168911344552716
+      ],
+      "ae_ap": [
+        0.8528875289292278,
+        0.8750433563617621
+      ],
+      "if_ap": [
+        0.8231915710023694,
+        0.8457449561247813
+      ],
+      "if_minus_ae_ap": [
+        -0.03955392261918211,
+        -0.018838355081914837
+      ]
+    },
+    "estimand": "conditional_on_fitted_models_not_training_variability"
+  },
+  {
+    "split": "teste_final_2025",
+    "policy": "strict",
+    "unit": "pair",
+    "status": "completed",
+    "replications": 2000,
+    "invalid": 0,
+    "seed": 20261018,
+    "blocks": 2368,
+    "intervals": {
+      "ae": [
+        0.8340733022384865,
+        0.8616849471380523
+      ],
+      "if": [
+        0.7412836423964816,
+        0.7635332272989168
+      ],
+      "if_minus_ae": [
+        -0.1112771429083994,
+        -0.07994791302837467
+      ]
+    },
+    "estimand": "conditional_on_fitted_models_not_training_variability"
+  },
+  {
+    "split": "teste_final_2025",
+    "policy": "strict",
+    "unit": "event",
+    "status": "completed",
+    "replications": 2000,
+    "invalid": 0,
+    "seed": 20261018,
+    "blocks": 2368,
+    "intervals": {
+      "ae": [
+        0.7986668640582417,
+        0.82995760022098
+      ],
+      "if": [
+        0.5070273189164259,
+        0.5480269482310299
+      ],
+      "if_minus_ae": [
+        -0.3103200816594123,
+        -0.2637271214642263
+      ]
+    },
+    "estimand": "conditional_on_fitted_models_not_training_variability"
+  },
+  {
+    "split": "validacao_2025_pre_pectra",
+    "policy": "sensitivity",
+    "unit": "unique_transaction",
+    "status": "completed",
+    "replications": 2000,
+    "invalid": 0,
+    "seed": 20261018,
+    "blocks": 2050,
+    "intervals": {
+      "ae_roc_auc": [
+        0.6708281082659104,
+        0.7015032933818902
+      ],
+      "if_roc_auc": [
+        0.7042998896512153,
+        0.7260973312902419
+      ],
+      "if_minus_ae_roc_auc": [
+        0.01678552467697108,
+        0.04112856893712867
+      ],
+      "ae_ap": [
+        0.7485281491910009,
+        0.776864434383024
+      ],
+      "if_ap": [
+        0.8123087755737265,
+        0.8353178489025137
+      ],
+      "if_minus_ae_ap": [
+        0.0497049907393277,
+        0.07278325462941987
+      ]
+    },
+    "estimand": "conditional_on_fitted_models_not_training_variability"
+  },
+  {
+    "split": "validacao_2025_pre_pectra",
+    "policy": "sensitivity",
+    "unit": "pair",
+    "status": "completed",
+    "replications": 2000,
+    "invalid": 0,
+    "seed": 20261018,
+    "blocks": 2036,
+    "intervals": {
+      "ae": [
+        0.7073412513909226,
+        0.744305205084994
+      ],
+      "if": [
+        0.715705151234682,
+        0.7439737635188742
+      ],
+      "if_minus_ae": [
+        -0.013624417244421247,
+        0.02222803436250744
+      ]
+    },
+    "estimand": "conditional_on_fitted_models_not_training_variability"
+  },
+  {
+    "split": "validacao_2025_pre_pectra",
+    "policy": "sensitivity",
+    "unit": "event",
+    "status": "completed",
+    "replications": 2000,
+    "invalid": 0,
+    "seed": 20261018,
+    "blocks": 2036,
+    "intervals": {
+      "ae": [
+        0.6393194539644631,
+        0.6836188118811881
+      ],
+      "if": [
+        0.5162006213936973,
+        0.5584639492794172
+      ],
+      "if_minus_ae": [
+        -0.14625583943308793,
+        -0.1008801325695678
+      ]
+    },
+    "estimand": "conditional_on_fitted_models_not_training_variability"
+  },
+  {
+    "split": "teste_final_2025",
+    "policy": "sensitivity",
+    "unit": "unique_transaction",
+    "status": "completed",
+    "replications": 2000,
+    "invalid": 0,
+    "seed": 20261018,
+    "blocks": 2888,
+    "intervals": {
+      "ae_roc_auc": [
+        0.7607347219329484,
+        0.7868826112185598
+      ],
+      "if_roc_auc": [
+        0.6739048825660883,
+        0.6915140566834306
+      ],
+      "if_minus_ae_roc_auc": [
+        -0.10206979892234921,
+        -0.08013877966424074
+      ],
+      "ae_ap": [
+        0.8155634465804158,
+        0.8416113372336933
+      ],
+      "if_ap": [
+        0.7857744728459294,
+        0.8063326806329423
+      ],
+      "if_minus_ae_ap": [
+        -0.043899856731311526,
+        -0.021469244382019095
+      ]
+    },
+    "estimand": "conditional_on_fitted_models_not_training_variability"
+  },
+  {
+    "split": "teste_final_2025",
+    "policy": "sensitivity",
+    "unit": "pair",
+    "status": "completed",
+    "replications": 2000,
+    "invalid": 0,
+    "seed": 20261018,
+    "blocks": 2857,
+    "intervals": {
+      "ae": [
+        0.7938904871554601,
+        0.8227141795205352
+      ],
+      "if": [
+        0.6890441269084399,
+        0.7140213842208866
+      ],
+      "if_minus_ae": [
+        -0.12180699935482155,
+        -0.0929281149974752
+      ]
+    },
+    "estimand": "conditional_on_fitted_models_not_training_variability"
+  },
+  {
+    "split": "teste_final_2025",
+    "policy": "sensitivity",
+    "unit": "event",
+    "status": "completed",
+    "replications": 2000,
+    "invalid": 0,
+    "seed": 20261018,
+    "blocks": 2857,
+    "intervals": {
+      "ae": [
+        0.7356384541288246,
+        0.7716717620169682
+      ],
+      "if": [
+        0.47485895534144335,
+        0.511439084692434
+      ],
+      "if_minus_ae": [
+        -0.28210119447091936,
+        -0.24138656005796205
+      ]
+    },
+    "estimand": "conditional_on_fitted_models_not_training_variability"
+  }
+]

@@ -1,0 +1,18 @@
+{
+  "status": "completed",
+  "started_at": "2026-10-19T04:22:09.221473+00:00",
+  "completed_at": "2026-10-19T04:22:21.496639+00:00",
+  "protocol_signature": "9ce899c88f73af1492ded7f9aa41b428c04c0cd483b1613ecbf7441f34614108",
+  "outputs": {
+    "01_resumo_integrado_ae_if.csv": "a6d8c50c35ed421e9d49ffa1a4c21ec32dece14d6ca301de95c1c280f5ff515f",
+    "agreement.pdf": "324b242957a6aea758e8e2ae0f91301c3ed0641254bfdbbca47fb6b19ab4ff48",
+    "agreement.png": "c80b90020404de5a58b26c001020e4d0dec51763fee31c18dc025f296efa531a",
+    "if_quantiles.pdf": "ff10f5c235ffd517821b549fc7d72cf80250a38c637397a6712a09d6aef54ebd",
+    "if_quantiles.png": "496f39e2605a7727221afb3fe2ec6d5a42eb78bc3df3f04b561c148a0f0c6370",
+    "if_survival.pdf": "0422c13ad2a3488804b90bdccc1031665afaf9f9020b7db518ac0cf4527079b0",
+    "if_survival.png": "09ad0ada05603c7d69dd616c95fdf600197734e548cd3ee376c46ec959af941c",
+    "rates.pdf": "d8d60100e197943da1e465434cd86b72d7f862bc1908ed094ddd0ee82e985501",
+    "rates.png": "0d00637e8de804c91bf0594c9bb85caab5065b8c2133275a069e3ff9a2d39c6f",
+    "scope.json": "acafbbae3420721782d28b677568b3817e2994963c0350a9ca50e9858e5250dc"
+  }
+}

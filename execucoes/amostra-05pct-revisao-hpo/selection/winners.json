@@ -1,0 +1,23 @@
+{
+  "AE": {
+    "id": "ae-05",
+    "parameters": {
+      "hidden_dims": [
+        16,
+        8
+      ],
+      "latent_dim": 4,
+      "learning_rate": 0.0003,
+      "weight_decay": 0.0
+    },
+    "mean_ap": 0.7570955467727986
+  },
+  "IF": {
+    "id": "if-04",
+    "parameters": {
+      "n_estimators": 100,
+      "max_samples": 2048
+    },
+    "mean_ap": 0.8542945491935994
+  }
+}

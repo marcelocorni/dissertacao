@@ -1,0 +1,10 @@
+{
+  "status": "completed",
+  "started_at": "2026-10-19T03:24:09.944598+00:00",
+  "completed_at": "2026-10-19T03:24:16.333256+00:00",
+  "protocol_signature": "9ce899c88f73af1492ded7f9aa41b428c04c0cd483b1613ecbf7441f34614108",
+  "outputs": {
+    "result.json": "7b6085c31194672328b88613dfbe47d4c9c90ad20b975c293c0df1899d166847",
+    "validation.npz": "8e031b821259df574e094fd21a7b5cd28e53e7ae37732f9f3465f9e175af1e2a"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "execution": "E:\\Mestrado\\src-multiexecucoes\\execucoes\\amostra-05pct-revisao-hpo",
+  "semantic_scope": "contextual_attacker_victim",
+  "test_previously_inspected": true,
+  "quantiles": "calibrated_validation_only",
+  "paired_conflicts": "whole_event_excluded",
+  "intervals": "separate clustered_intervals.json"
+}

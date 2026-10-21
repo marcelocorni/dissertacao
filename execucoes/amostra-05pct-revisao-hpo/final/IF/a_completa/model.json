@@ -1,0 +1,32 @@
+{
+  "method": "IF",
+  "configuration": {
+    "key": "a_completa",
+    "matrix": "A",
+    "family": "completa",
+    "features": [
+      "gas_used_log",
+      "gas_used_ratio",
+      "effective_gas_price_log",
+      "max_fee_per_gas_log",
+      "max_priority_fee_log",
+      "fee_cap_utilization",
+      "transaction_value_log",
+      "nonce_log",
+      "receipt_status",
+      "tx_type_0",
+      "tx_type_1",
+      "tx_type_3",
+      "transaction_index_pct"
+    ]
+  },
+  "parameters": {
+    "n_estimators": 100,
+    "max_samples": 2048
+  },
+  "load_seconds": 1.206922500001383,
+  "fit_seconds": 0.79070540000248,
+  "fit_rows": 500122,
+  "max_samples_effective": 2048,
+  "history": []
+}
