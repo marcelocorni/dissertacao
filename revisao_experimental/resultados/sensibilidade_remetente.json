@@ -1,0 +1,83 @@
+{
+  "split": "teste_final_2025",
+  "policy": "strict",
+  "frozen_models": {
+    "AE B-ST": [
+      "AE",
+      "b_sem_taxas_absolutas",
+      "reconstruction_error"
+    ],
+    "IF B completa": [
+      "IF",
+      "b_completa",
+      "anomaly_score"
+    ]
+  },
+  "dominant_sender": "0xae2fc483527b8ef99eb5d9b44875f005ba1fae13",
+  "excluded_events": 1515,
+  "rule": "Exclude whole events in which the dominant sender has an attacker role. Keep only unique transactions represented by retained events, with original strict labels and scores.",
+  "full": {
+    "events": 2409,
+    "transactions": 7118,
+    "positive": 4709,
+    "negative": 2409,
+    "prevalence": 0.6615622365833099,
+    "patterns": {
+      "insertion": 2302,
+      "displacement": 107
+    },
+    "blocks": 2368,
+    "models": {
+      "AE B-ST": {
+        "ap": 0.8635949971750161,
+        "roc_auc": 0.8136220432668214,
+        "pairs": 4711,
+        "higher": 3993,
+        "tied": 0,
+        "superiority": 0.8475907450647421,
+        "complete_event_superiority": 0.8140307181403071
+      },
+      "IF B completa": {
+        "ap": 0.8341780371407796,
+        "roc_auc": 0.7308475745860293,
+        "pairs": 4711,
+        "higher": 3546,
+        "tied": 0,
+        "superiority": 0.7527064317554659,
+        "complete_event_superiority": 0.5276048152760482
+      }
+    }
+  },
+  "without_dominant": {
+    "events": 894,
+    "transactions": 2575,
+    "positive": 1681,
+    "negative": 894,
+    "prevalence": 0.6528155339805826,
+    "patterns": {
+      "insertion": 787,
+      "displacement": 107
+    },
+    "blocks": 877,
+    "models": {
+      "AE B-ST": {
+        "ap": 0.7109087221991004,
+        "roc_auc": 0.6209843666614764,
+        "pairs": 1681,
+        "higher": 1128,
+        "tied": 0,
+        "superiority": 0.6710291493158834,
+        "complete_event_superiority": 0.6118568232662193
+      },
+      "IF B completa": {
+        "ap": 0.7606116084781424,
+        "roc_auc": 0.7033614938375607,
+        "pairs": 1681,
+        "higher": 1308,
+        "tied": 0,
+        "superiority": 0.7781082688875669,
+        "complete_event_superiority": 0.6096196868008948
+      }
+    }
+  }
+}

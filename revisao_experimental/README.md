@@ -63,6 +63,20 @@ O bootstrap utiliza 2.000 sorteios de blocos com reposição, semente 20261018, 
 
 O endereço remetente é uma unidade observável, não prova de identidade de operador. A exclusão do tipo 4 não demonstra causalidade nem simula um retreinamento. A associação Label Cloud usa os dados históricos, sem reaquisição ou correção automática de categorias. A auditoria humana é uma atividade separada e não será declarada concluída pelo fluxo.
 
+## Sensibilidade ao remetente mais recorrente
+
+A análise complementar da revisão 04 reutiliza os escores congelados de AE B-ST e IF B completa no teste estrito de 2025. Ela reproduz a avaliação completa e exclui os eventos inteiros nos quais o remetente mais recorrente tem papel atacante. AP e ROC-AUC usam transações únicas ainda representadas nos eventos retidos. A superioridade por par mantém apenas pares de eventos completos.
+
+Na raiz do repositório, com DuckDB instalado e as duas execuções locais disponíveis:
+
+```powershell
+python revisao_experimental/sensibilidade_remetente.py --source-run execucoes/amostra-05pct --scores-run execucoes/amostra-05pct-revisao-hpo
+```
+
+O script lê os Parquets locais de rótulos, papéis, metadados e escores. Os caminhos padrão apontam para as execuções acima. Ele valida os denominadores e as métricas de referência; imprime JSON, ou grava em um arquivo novo se `--output` for fornecido. Não é necessário executar outra etapa do pipeline, retreinar modelos ou consultar RPC.
+
+O [resultado versionado](resultados/sensibilidade_remetente.json) registra a exclusão de 1.515 eventos de inserção. Nos 894 eventos restantes, o IF passa à frente em AP, ROC-AUC e superioridade por par. A exclusão altera a composição por padrão, e o contraste não isola um efeito causal do endereço nem mede incerteza entre remetentes.
+
 ## Retomada e segurança
 
 Repetir a chamada da etapa reutiliza somente saídas concluídas com assinatura e hashes válidos. Mudanças de entradas, código, ambiente, dispositivo ou protocolo exigem outra saída. Uma grade incompleta não publica vencedor. Não há opção `--force` para sobrescrever a execução histórica.
