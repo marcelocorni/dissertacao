@@ -1,0 +1,151 @@
+{
+  "schema_version": 1,
+  "revision": "05",
+  "window": "teste_final_2025",
+  "reviewer_count": 1,
+  "sampling": "directed_stratified",
+  "total": {
+    "n": 1000,
+    "compatible": 460,
+    "not_supported": 198,
+    "inconclusive": 342,
+    "compatible_insertion": 329,
+    "compatible_other": 131,
+    "general_concordance": 623,
+    "including_pattern": 500
+  },
+  "strata": [
+    {
+      "stratum": "insertion_confirmed_weth",
+      "counts": {
+        "n": 216,
+        "compatible": 215,
+        "not_supported": 0,
+        "inconclusive": 1,
+        "compatible_insertion": 192,
+        "compatible_other": 23,
+        "general_concordance": 215,
+        "including_pattern": 192
+      }
+    },
+    {
+      "stratum": "insertion_confirmed_other",
+      "counts": {
+        "n": 232,
+        "compatible": 232,
+        "not_supported": 0,
+        "inconclusive": 0,
+        "compatible_insertion": 132,
+        "compatible_other": 100,
+        "general_concordance": 232,
+        "including_pattern": 132
+      }
+    },
+    {
+      "stratum": "displacement_confirmed",
+      "counts": {
+        "n": 106,
+        "compatible": 0,
+        "not_supported": 0,
+        "inconclusive": 106,
+        "compatible_insertion": 0,
+        "compatible_other": 0,
+        "general_concordance": 0,
+        "including_pattern": 0
+      }
+    },
+    {
+      "stratum": "displacement_probable",
+      "counts": {
+        "n": 222,
+        "compatible": 0,
+        "not_supported": 22,
+        "inconclusive": 200,
+        "compatible_insertion": 0,
+        "compatible_other": 0,
+        "general_concordance": 0,
+        "including_pattern": 0
+      }
+    },
+    {
+      "stratum": "insertion_rejected",
+      "counts": {
+        "n": 112,
+        "compatible": 13,
+        "not_supported": 79,
+        "inconclusive": 20,
+        "compatible_insertion": 5,
+        "compatible_other": 8,
+        "general_concordance": 79,
+        "including_pattern": 79
+      }
+    },
+    {
+      "stratum": "displacement_rejected",
+      "counts": {
+        "n": 112,
+        "compatible": 0,
+        "not_supported": 97,
+        "inconclusive": 15,
+        "compatible_insertion": 0,
+        "compatible_other": 0,
+        "general_concordance": 97,
+        "including_pattern": 97
+      }
+    }
+  ],
+  "campaigns": [
+    {
+      "campaign": "auditoria-12-v1",
+      "counts": {
+        "n": 12,
+        "compatible": 4,
+        "not_supported": 5,
+        "inconclusive": 3,
+        "compatible_insertion": 4,
+        "compatible_other": 0,
+        "general_concordance": 7,
+        "including_pattern": 7
+      }
+    },
+    {
+      "campaign": "auditoria-100-saulo-v1",
+      "counts": {
+        "n": 100,
+        "compatible": 40,
+        "not_supported": 38,
+        "inconclusive": 22,
+        "compatible_insertion": 31,
+        "compatible_other": 9,
+        "general_concordance": 58,
+        "including_pattern": 49
+      }
+    },
+    {
+      "campaign": "auditoria-500-saulo-v1",
+      "counts": {
+        "n": 500,
+        "compatible": 223,
+        "not_supported": 76,
+        "inconclusive": 201,
+        "compatible_insertion": 154,
+        "compatible_other": 69,
+        "general_concordance": 292,
+        "including_pattern": 226
+      }
+    },
+    {
+      "campaign": "auditoria-388-saulo-v1",
+      "counts": {
+        "n": 388,
+        "compatible": 193,
+        "not_supported": 79,
+        "inconclusive": 116,
+        "compatible_insertion": 140,
+        "compatible_other": 53,
+        "general_concordance": 266,
+        "including_pattern": 218
+      }
+    }
+  ]
+}

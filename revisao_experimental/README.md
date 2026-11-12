@@ -77,6 +77,14 @@ O script lê os Parquets locais de rótulos, papéis, metadados e escores. Os ca
 
 O [resultado versionado](resultados/sensibilidade_remetente.json) registra a exclusão de 1.515 eventos de inserção. Nos 894 eventos restantes, o IF passa à frente em AP, ROC-AUC e superioridade por par. A exclusão altera a composição por padrão, e o contraste não isola um efeito causal do endereço nem mede incerteza entre remetentes.
 
+## Revisão humana de 1.000 eventos
+
+A [consolidação da revisão 05](resultados/pareceres_1000_agregados.json) reúne os pareceres finalizados de um único avaliador, vinculado à orientação, em quatro campanhas (12, 100, 500 e 388 eventos do teste de 2025). A amostra foi dirigida por estratos, sem repetição de eventos ou transações.
+
+Dos 1.000 pareceres, 460 foram compatíveis, 198 não sustentados e 342 inconclusivos. A concordância descritiva foi de 623/1.000: 447 confirmados operacionalmente com parecer compatível e 176 rejeitados com parecer não sustentado. Exigindo também o mesmo padrão nos confirmados, foram 500/1.000. Dos 448 eventos de inserção confirmados operacionalmente, 123 receberam interpretação de outro mecanismo; os 106 deslocamentos confirmados revisados ficaram inconclusivos.
+
+Essas proporções descrevem o cruzamento entre parecer e referência operacional na amostra; não estimam acurácia populacional. A consolidação preserva os rótulos e as métricas do pipeline. O JSON contém apenas contagens agregadas por campanha e por estrato; os CSVs brutos e os registros individuais não integram a publicação.
+
 ## Retomada e segurança
 
 Repetir a chamada da etapa reutiliza somente saídas concluídas com assinatura e hashes válidos. Mudanças de entradas, código, ambiente, dispositivo ou protocolo exigem outra saída. Uma grade incompleta não publica vencedor. Não há opção `--force` para sobrescrever a execução histórica.
