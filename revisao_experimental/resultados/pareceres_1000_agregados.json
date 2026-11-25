@@ -109,7 +109,7 @@
       }
     },
     {
-      "campaign": "auditoria-100-saulo-v1",
+      "campaign": "auditoria-100-v1",
       "counts": {
         "n": 100,
         "compatible": 40,
@@ -122,7 +122,7 @@
       }
     },
     {
-      "campaign": "auditoria-500-saulo-v1",
+      "campaign": "auditoria-500-v1",
       "counts": {
         "n": 500,
         "compatible": 223,
@@ -135,7 +135,7 @@
       }
     },
     {
-      "campaign": "auditoria-388-saulo-v1",
+      "campaign": "auditoria-388-v1",
       "counts": {
         "n": 388,
         "compatible": 193,

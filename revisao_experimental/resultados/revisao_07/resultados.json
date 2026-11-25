@@ -1,0 +1,1100 @@
+{
+  "created_utc": "2026-11-25T04:26:08.946666+00:00",
+  "policy": "strict",
+  "frozen_models": {
+    "AE B-ST": [
+      "AE",
+      "b_sem_taxas_absolutas",
+      "reconstruction_error"
+    ],
+    "IF B completa": [
+      "IF",
+      "b_completa",
+      "anomaly_score"
+    ]
+  },
+  "audit_provenance": [
+    {
+      "campaign_size": 12,
+      "csv_sha256": "4f614e25ab0c3cccc38f4a516c74c12d45a9aa5d1d57a52f2966c0d66c676d2f"
+    },
+    {
+      "campaign_size": 100,
+      "csv_sha256": "567b54108c7e768589674b6e9a6b92fee9db94a6239a18adabbae312845e2bbf"
+    },
+    {
+      "campaign_size": 500,
+      "csv_sha256": "11ddb5f9a358827d8639ee7d277039c0d22cd59dccfe181c6aa56a0b813bbb85"
+    },
+    {
+      "campaign_size": 388,
+      "csv_sha256": "19ec769059e9a588ccc306144abdb888b421d4413b6322e51ce79ac7a1201119"
+    }
+  ],
+  "audit_strict": [
+    {
+      "group": "insercao_interpretada",
+      "audited_events": 329,
+      "events": 324,
+      "transactions": 972,
+      "positive": 648,
+      "negative": 324,
+      "prevalence": 0.6666666666666666,
+      "patterns": {
+        "insertion": 324
+      },
+      "blocks": 322,
+      "models": {
+        "AE B-ST": {
+          "ap": 0.8697382907424118,
+          "roc_auc": 0.7984539323273891,
+          "pairs": 648,
+          "higher": 536,
+          "tied": 0,
+          "superiority": 0.8271604938271605,
+          "complete_event_superiority": 0.8117283950617284
+        },
+        "IF B completa": {
+          "ap": 0.8904010983739189,
+          "roc_auc": 0.7644985520499924,
+          "pairs": 648,
+          "higher": 503,
+          "tied": 0,
+          "superiority": 0.7762345679012346,
+          "complete_event_superiority": 0.5709876543209876
+        }
+      }
+    },
+    {
+      "group": "outro_mecanismo",
+      "audited_events": 131,
+      "events": 123,
+      "transactions": 369,
+      "positive": 246,
+      "negative": 123,
+      "prevalence": 0.6666666666666666,
+      "patterns": {
+        "insertion": 123
+      },
+      "blocks": 123,
+      "models": {
+        "AE B-ST": {
+          "ap": 0.8965171249184752,
+          "roc_auc": 0.8732236102848834,
+          "pairs": 246,
+          "higher": 212,
+          "tied": 0,
+          "superiority": 0.8617886178861789,
+          "complete_event_superiority": 0.8292682926829268
+        },
+        "IF B completa": {
+          "ap": 0.9028201610142168,
+          "roc_auc": 0.7971445568114218,
+          "pairs": 246,
+          "higher": 196,
+          "tied": 0,
+          "superiority": 0.7967479674796748,
+          "complete_event_superiority": 0.6016260162601627
+        }
+      }
+    },
+    {
+      "group": "nao_sustentado",
+      "audited_events": 198,
+      "events": 0,
+      "transactions": 0,
+      "models": {},
+      "reason": "no_original_strict_labels"
+    },
+    {
+      "group": "inconclusivo",
+      "audited_events": 342,
+      "events": 107,
+      "transactions": 215,
+      "positive": 108,
+      "negative": 107,
+      "prevalence": 0.5023255813953489,
+      "patterns": {
+        "displacement": 106,
+        "insertion": 1
+      },
+      "blocks": 107,
+      "models": {
+        "AE B-ST": {
+          "ap": 0.3157660846987075,
+          "roc_auc": 0.05494980962270682,
+          "pairs": 108,
+          "higher": 4,
+          "tied": 0,
+          "superiority": 0.037037037037037035,
+          "complete_event_superiority": 0.037383177570093455
+        },
+        "IF B completa": {
+          "ap": 0.31293500206614727,
+          "roc_auc": 0.022239529248875043,
+          "pairs": 108,
+          "higher": 2,
+          "tied": 0,
+          "superiority": 0.018518518518518517,
+          "complete_event_superiority": 0.009345794392523364
+        }
+      }
+    }
+  ],
+  "audit_candidate_pairs": [
+    {
+      "group": "insercao_interpretada",
+      "model": "AE B-ST",
+      "events": 329,
+      "transactions": 987,
+      "pairs": 658,
+      "higher": 544,
+      "ties": 0,
+      "superiority": 0.8267477203647416,
+      "score_median": 0.08792351186275482,
+      "insertion_candidates": 329,
+      "displacement_candidates": 0,
+      "meaning": "original_candidate_roles_only_no_new_binary_labels"
+    },
+    {
+      "group": "insercao_interpretada",
+      "model": "IF B completa",
+      "events": 329,
+      "transactions": 987,
+      "pairs": 658,
+      "higher": 512,
+      "ties": 0,
+      "superiority": 0.7781155015197568,
+      "score_median": 0.5146089792251587,
+      "insertion_candidates": 329,
+      "displacement_candidates": 0,
+      "meaning": "original_candidate_roles_only_no_new_binary_labels"
+    },
+    {
+      "group": "outro_mecanismo",
+      "model": "AE B-ST",
+      "events": 131,
+      "transactions": 393,
+      "pairs": 262,
+      "higher": 228,
+      "ties": 0,
+      "superiority": 0.8702290076335878,
+      "score_median": 0.10635019838809967,
+      "insertion_candidates": 131,
+      "displacement_candidates": 0,
+      "meaning": "original_candidate_roles_only_no_new_binary_labels"
+    },
+    {
+      "group": "outro_mecanismo",
+      "model": "IF B completa",
+      "events": 131,
+      "transactions": 393,
+      "pairs": 262,
+      "higher": 209,
+      "ties": 0,
+      "superiority": 0.7977099236641222,
+      "score_median": 0.5248590111732483,
+      "insertion_candidates": 131,
+      "displacement_candidates": 0,
+      "meaning": "original_candidate_roles_only_no_new_binary_labels"
+    },
+    {
+      "group": "nao_sustentado",
+      "model": "AE B-ST",
+      "events": 198,
+      "transactions": 475,
+      "pairs": 277,
+      "higher": 209,
+      "ties": 0,
+      "superiority": 0.7545126353790613,
+      "score_median": 0.08733826875686646,
+      "insertion_candidates": 79,
+      "displacement_candidates": 119,
+      "meaning": "original_candidate_roles_only_no_new_binary_labels"
+    },
+    {
+      "group": "nao_sustentado",
+      "model": "IF B completa",
+      "events": 198,
+      "transactions": 475,
+      "pairs": 277,
+      "higher": 206,
+      "ties": 2,
+      "superiority": 0.7436823104693141,
+      "score_median": 0.5060499310493469,
+      "insertion_candidates": 79,
+      "displacement_candidates": 119,
+      "meaning": "original_candidate_roles_only_no_new_binary_labels"
+    },
+    {
+      "group": "inconclusivo",
+      "model": "AE B-ST",
+      "events": 342,
+      "transactions": 705,
+      "pairs": 363,
+      "higher": 139,
+      "ties": 0,
+      "superiority": 0.38292011019283745,
+      "score_median": 0.09361869096755981,
+      "insertion_candidates": 21,
+      "displacement_candidates": 321,
+      "meaning": "original_candidate_roles_only_no_new_binary_labels"
+    },
+    {
+      "group": "inconclusivo",
+      "model": "IF B completa",
+      "events": 342,
+      "transactions": 705,
+      "pairs": 363,
+      "higher": 127,
+      "ties": 4,
+      "superiority": 0.349862258953168,
+      "score_median": 0.5021018385887146,
+      "insertion_candidates": 21,
+      "displacement_candidates": 321,
+      "meaning": "original_candidate_roles_only_no_new_binary_labels"
+    }
+  ],
+  "insertion_contrast": {
+    "full": {
+      "events": 2302,
+      "transactions": 6904,
+      "positive": 4602,
+      "negative": 2302,
+      "prevalence": 0.6665701042873696,
+      "patterns": {
+        "insertion": 2302
+      },
+      "blocks": 2265,
+      "models": {
+        "AE B-ST": {
+          "ap": 0.8927025045734127,
+          "roc_auc": 0.8448242010141022,
+          "pairs": 4604,
+          "higher": 3989,
+          "tied": 0,
+          "superiority": 0.8664205039096438,
+          "complete_event_superiority": 0.8501303214596003
+        },
+        "IF B completa": {
+          "ap": 0.8899940611104125,
+          "roc_auc": 0.7639245071930725,
+          "pairs": 4604,
+          "higher": 3546,
+          "tied": 0,
+          "superiority": 0.7701998262380538,
+          "complete_event_superiority": 0.552128583840139
+        }
+      }
+    },
+    "without_dominant": {
+      "events": 787,
+      "transactions": 2361,
+      "positive": 1574,
+      "negative": 787,
+      "prevalence": 0.6666666666666666,
+      "patterns": {
+        "insertion": 787
+      },
+      "blocks": 773,
+      "models": {
+        "AE B-ST": {
+          "ap": 0.7870543931953865,
+          "roc_auc": 0.6924208347527887,
+          "pairs": 1574,
+          "higher": 1124,
+          "tied": 0,
+          "superiority": 0.7141041931385006,
+          "complete_event_superiority": 0.6899618805590851
+        },
+        "IF B completa": {
+          "ap": 0.9032164922481679,
+          "roc_auc": 0.8023565112235195,
+          "pairs": 1574,
+          "higher": 1308,
+          "tied": 0,
+          "superiority": 0.8310038119440915,
+          "complete_event_superiority": 0.6925031766200762
+        }
+      }
+    }
+  },
+  "top_k": [
+    {
+      "population": "full",
+      "method": "AE B-ST",
+      "fraction": 0.01,
+      "n": 7118,
+      "k": 72,
+      "positive_total": 4709,
+      "hits": 64,
+      "precision": 0.8888888888888888,
+      "recall": 0.013590995965173073,
+      "lift": 1.343620962223638,
+      "cutoff": 0.2084011286497116,
+      "tied_at_cutoff": 1,
+      "slots_from_tie": 1,
+      "positives_in_tie": 1,
+      "min_hits_over_tie": 64,
+      "max_hits_over_tie": 64,
+      "tie_rule": "ascending_score_then_ascending_lower_hash_take_last_k_matches_frozen_implementation"
+    },
+    {
+      "population": "full",
+      "method": "AE B-ST",
+      "fraction": 0.05,
+      "n": 7118,
+      "k": 356,
+      "positive_total": 4709,
+      "hits": 316,
+      "precision": 0.8876404494382022,
+      "recall": 0.06710554257804205,
+      "lift": 1.3417338541306272,
+      "cutoff": 0.1617351472377777,
+      "tied_at_cutoff": 1,
+      "slots_from_tie": 1,
+      "positives_in_tie": 1,
+      "min_hits_over_tie": 316,
+      "max_hits_over_tie": 316,
+      "tie_rule": "ascending_score_then_ascending_lower_hash_take_last_k_matches_frozen_implementation"
+    },
+    {
+      "population": "full",
+      "method": "AE B-ST",
+      "fraction": 0.1,
+      "n": 7118,
+      "k": 712,
+      "positive_total": 4709,
+      "hits": 622,
+      "precision": 0.8735955056179775,
+      "recall": 0.1320874920365258,
+      "lift": 1.3205038880842566,
+      "cutoff": 0.1431255042552948,
+      "tied_at_cutoff": 1,
+      "slots_from_tie": 1,
+      "positives_in_tie": 1,
+      "min_hits_over_tie": 622,
+      "max_hits_over_tie": 622,
+      "tie_rule": "ascending_score_then_ascending_lower_hash_take_last_k_matches_frozen_implementation"
+    },
+    {
+      "population": "full",
+      "method": "IF B completa",
+      "fraction": 0.01,
+      "n": 7118,
+      "k": 72,
+      "positive_total": 4709,
+      "hits": 50,
+      "precision": 0.6944444444444444,
+      "recall": 0.010617965597791464,
+      "lift": 1.049703876737217,
+      "cutoff": 0.602410078048706,
+      "tied_at_cutoff": 1,
+      "slots_from_tie": 1,
+      "positives_in_tie": 1,
+      "min_hits_over_tie": 50,
+      "max_hits_over_tie": 50,
+      "tie_rule": "ascending_score_then_ascending_lower_hash_take_last_k_matches_frozen_implementation"
+    },
+    {
+      "population": "full",
+      "method": "IF B completa",
+      "fraction": 0.05,
+      "n": 7118,
+      "k": 356,
+      "positive_total": 4709,
+      "hits": 304,
+      "precision": 0.8539325842696629,
+      "recall": 0.0645572308345721,
+      "lift": 1.2907819356193375,
+      "cutoff": 0.584283173084259,
+      "tied_at_cutoff": 1,
+      "slots_from_tie": 1,
+      "positives_in_tie": 1,
+      "min_hits_over_tie": 304,
+      "max_hits_over_tie": 304,
+      "tie_rule": "ascending_score_then_ascending_lower_hash_take_last_k_matches_frozen_implementation"
+    },
+    {
+      "population": "full",
+      "method": "IF B completa",
+      "fraction": 0.1,
+      "n": 7118,
+      "k": 712,
+      "positive_total": 4709,
+      "hits": 641,
+      "precision": 0.9002808988764045,
+      "recall": 0.13612231896368657,
+      "lift": 1.3608408235723608,
+      "cutoff": 0.5747997760772705,
+      "tied_at_cutoff": 1,
+      "slots_from_tie": 1,
+      "positives_in_tie": 1,
+      "min_hits_over_tie": 641,
+      "max_hits_over_tie": 641,
+      "tie_rule": "ascending_score_then_ascending_lower_hash_take_last_k_matches_frozen_implementation"
+    },
+    {
+      "population": "full",
+      "method": "gas_price_rank_block",
+      "fraction": 0.01,
+      "n": 7118,
+      "k": 72,
+      "positive_total": 4709,
+      "hits": 72,
+      "precision": 1.0,
+      "recall": 0.015289870460819708,
+      "lift": 1.5115735825015926,
+      "cutoff": -0.0,
+      "tied_at_cutoff": 2350,
+      "slots_from_tie": 72,
+      "positives_in_tie": 2350,
+      "min_hits_over_tie": 72,
+      "max_hits_over_tie": 72,
+      "tie_rule": "ascending_score_then_ascending_lower_hash_take_last_k_matches_frozen_implementation"
+    },
+    {
+      "population": "full",
+      "method": "gas_price_rank_block",
+      "fraction": 0.05,
+      "n": 7118,
+      "k": 356,
+      "positive_total": 4709,
+      "hits": 356,
+      "precision": 1.0,
+      "recall": 0.07559991505627522,
+      "lift": 1.5115735825015926,
+      "cutoff": -0.0,
+      "tied_at_cutoff": 2350,
+      "slots_from_tie": 356,
+      "positives_in_tie": 2350,
+      "min_hits_over_tie": 356,
+      "max_hits_over_tie": 356,
+      "tie_rule": "ascending_score_then_ascending_lower_hash_take_last_k_matches_frozen_implementation"
+    },
+    {
+      "population": "full",
+      "method": "gas_price_rank_block",
+      "fraction": 0.1,
+      "n": 7118,
+      "k": 712,
+      "positive_total": 4709,
+      "hits": 712,
+      "precision": 1.0,
+      "recall": 0.15119983011255045,
+      "lift": 1.5115735825015926,
+      "cutoff": -0.0,
+      "tied_at_cutoff": 2350,
+      "slots_from_tie": 712,
+      "positives_in_tie": 2350,
+      "min_hits_over_tie": 712,
+      "max_hits_over_tie": 712,
+      "tie_rule": "ascending_score_then_ascending_lower_hash_take_last_k_matches_frozen_implementation"
+    },
+    {
+      "population": "full",
+      "method": "transaction_index_pct",
+      "fraction": 0.01,
+      "n": 7118,
+      "k": 72,
+      "positive_total": 4709,
+      "hits": 72,
+      "precision": 1.0,
+      "recall": 0.015289870460819708,
+      "lift": 1.5115735825015926,
+      "cutoff": -0.0,
+      "tied_at_cutoff": 490,
+      "slots_from_tie": 72,
+      "positives_in_tie": 490,
+      "min_hits_over_tie": 72,
+      "max_hits_over_tie": 72,
+      "tie_rule": "ascending_score_then_ascending_lower_hash_take_last_k_matches_frozen_implementation"
+    },
+    {
+      "population": "full",
+      "method": "transaction_index_pct",
+      "fraction": 0.05,
+      "n": 7118,
+      "k": 356,
+      "positive_total": 4709,
+      "hits": 356,
+      "precision": 1.0,
+      "recall": 0.07559991505627522,
+      "lift": 1.5115735825015926,
+      "cutoff": -0.0,
+      "tied_at_cutoff": 490,
+      "slots_from_tie": 356,
+      "positives_in_tie": 490,
+      "min_hits_over_tie": 356,
+      "max_hits_over_tie": 356,
+      "tie_rule": "ascending_score_then_ascending_lower_hash_take_last_k_matches_frozen_implementation"
+    },
+    {
+      "population": "full",
+      "method": "transaction_index_pct",
+      "fraction": 0.1,
+      "n": 7118,
+      "k": 712,
+      "positive_total": 4709,
+      "hits": 568,
+      "precision": 0.797752808988764,
+      "recall": 0.12062008919091102,
+      "lift": 1.2058620714338548,
+      "cutoff": -0.0040650406504065045,
+      "tied_at_cutoff": 5,
+      "slots_from_tie": 3,
+      "positives_in_tie": 1,
+      "min_hits_over_tie": 568,
+      "max_hits_over_tie": 569,
+      "tie_rule": "ascending_score_then_ascending_lower_hash_take_last_k_matches_frozen_implementation"
+    },
+    {
+      "population": "full",
+      "method": "gas_used_ratio",
+      "fraction": 0.01,
+      "n": 7118,
+      "k": 72,
+      "positive_total": 4709,
+      "hits": 59,
+      "precision": 0.8194444444444444,
+      "recall": 0.012529199405393926,
+      "lift": 1.2386505745499161,
+      "cutoff": 0.9090928893503627,
+      "tied_at_cutoff": 1,
+      "slots_from_tie": 1,
+      "positives_in_tie": 1,
+      "min_hits_over_tie": 59,
+      "max_hits_over_tie": 59,
+      "tie_rule": "ascending_score_then_ascending_lower_hash_take_last_k_matches_frozen_implementation"
+    },
+    {
+      "population": "full",
+      "method": "gas_used_ratio",
+      "fraction": 0.05,
+      "n": 7118,
+      "k": 356,
+      "positive_total": 4709,
+      "hits": 326,
+      "precision": 0.9157303370786517,
+      "recall": 0.06922913569760034,
+      "lift": 1.3841937862233686,
+      "cutoff": 0.8891757893913205,
+      "tied_at_cutoff": 1,
+      "slots_from_tie": 1,
+      "positives_in_tie": 1,
+      "min_hits_over_tie": 326,
+      "max_hits_over_tie": 326,
+      "tie_rule": "ascending_score_then_ascending_lower_hash_take_last_k_matches_frozen_implementation"
+    },
+    {
+      "population": "full",
+      "method": "gas_used_ratio",
+      "fraction": 0.1,
+      "n": 7118,
+      "k": 712,
+      "positive_total": 4709,
+      "hits": 491,
+      "precision": 0.6896067415730337,
+      "recall": 0.10426842217031217,
+      "lift": 1.0423913328768006,
+      "cutoff": 0.7829418450464103,
+      "tied_at_cutoff": 1,
+      "slots_from_tie": 1,
+      "positives_in_tie": 1,
+      "min_hits_over_tie": 491,
+      "max_hits_over_tie": 491,
+      "tie_rule": "ascending_score_then_ascending_lower_hash_take_last_k_matches_frozen_implementation"
+    },
+    {
+      "population": "without_dominant",
+      "method": "AE B-ST",
+      "fraction": 0.01,
+      "n": 2575,
+      "k": 26,
+      "positive_total": 1681,
+      "hits": 13,
+      "precision": 0.5,
+      "recall": 0.007733491969066032,
+      "lift": 0.7659131469363474,
+      "cutoff": 0.18752625584602356,
+      "tied_at_cutoff": 1,
+      "slots_from_tie": 1,
+      "positives_in_tie": 0,
+      "min_hits_over_tie": 13,
+      "max_hits_over_tie": 13,
+      "tie_rule": "ascending_score_then_ascending_lower_hash_take_last_k_matches_frozen_implementation"
+    },
+    {
+      "population": "without_dominant",
+      "method": "AE B-ST",
+      "fraction": 0.05,
+      "n": 2575,
+      "k": 129,
+      "positive_total": 1681,
+      "hits": 79,
+      "precision": 0.6124031007751938,
+      "recall": 0.046995835812016655,
+      "lift": 0.9380951722166114,
+      "cutoff": 0.1449889838695526,
+      "tied_at_cutoff": 1,
+      "slots_from_tie": 1,
+      "positives_in_tie": 1,
+      "min_hits_over_tie": 79,
+      "max_hits_over_tie": 79,
+      "tie_rule": "ascending_score_then_ascending_lower_hash_take_last_k_matches_frozen_implementation"
+    },
+    {
+      "population": "without_dominant",
+      "method": "AE B-ST",
+      "fraction": 0.1,
+      "n": 2575,
+      "k": 258,
+      "positive_total": 1681,
+      "hits": 184,
+      "precision": 0.7131782945736435,
+      "recall": 0.10945865556216537,
+      "lift": 1.0924652638471932,
+      "cutoff": 0.13564549386501312,
+      "tied_at_cutoff": 1,
+      "slots_from_tie": 1,
+      "positives_in_tie": 1,
+      "min_hits_over_tie": 184,
+      "max_hits_over_tie": 184,
+      "tie_rule": "ascending_score_then_ascending_lower_hash_take_last_k_matches_frozen_implementation"
+    },
+    {
+      "population": "without_dominant",
+      "method": "IF B completa",
+      "fraction": 0.01,
+      "n": 2575,
+      "k": 26,
+      "positive_total": 1681,
+      "hits": 9,
+      "precision": 0.34615384615384615,
+      "recall": 0.005353955978584176,
+      "lift": 0.5302475632636251,
+      "cutoff": 0.6062779426574707,
+      "tied_at_cutoff": 2,
+      "slots_from_tie": 2,
+      "positives_in_tie": 2,
+      "min_hits_over_tie": 9,
+      "max_hits_over_tie": 9,
+      "tie_rule": "ascending_score_then_ascending_lower_hash_take_last_k_matches_frozen_implementation"
+    },
+    {
+      "population": "without_dominant",
+      "method": "IF B completa",
+      "fraction": 0.05,
+      "n": 2575,
+      "k": 129,
+      "positive_total": 1681,
+      "hits": 67,
+      "precision": 0.5193798449612403,
+      "recall": 0.03985722784057109,
+      "lift": 0.7955997030191516,
+      "cutoff": 0.5794122219085693,
+      "tied_at_cutoff": 1,
+      "slots_from_tie": 1,
+      "positives_in_tie": 1,
+      "min_hits_over_tie": 67,
+      "max_hits_over_tie": 67,
+      "tie_rule": "ascending_score_then_ascending_lower_hash_take_last_k_matches_frozen_implementation"
+    },
+    {
+      "population": "without_dominant",
+      "method": "IF B completa",
+      "fraction": 0.1,
+      "n": 2575,
+      "k": 258,
+      "positive_total": 1681,
+      "hits": 181,
+      "precision": 0.7015503875968992,
+      "recall": 0.10767400356930398,
+      "lift": 1.0746533301975107,
+      "cutoff": 0.5687059164047241,
+      "tied_at_cutoff": 1,
+      "slots_from_tie": 1,
+      "positives_in_tie": 1,
+      "min_hits_over_tie": 181,
+      "max_hits_over_tie": 181,
+      "tie_rule": "ascending_score_then_ascending_lower_hash_take_last_k_matches_frozen_implementation"
+    },
+    {
+      "population": "without_dominant",
+      "method": "gas_price_rank_block",
+      "fraction": 0.01,
+      "n": 2575,
+      "k": 26,
+      "positive_total": 1681,
+      "hits": 26,
+      "precision": 1.0,
+      "recall": 0.015466983938132063,
+      "lift": 1.5318262938726948,
+      "cutoff": -0.0,
+      "tied_at_cutoff": 834,
+      "slots_from_tie": 26,
+      "positives_in_tie": 834,
+      "min_hits_over_tie": 26,
+      "max_hits_over_tie": 26,
+      "tie_rule": "ascending_score_then_ascending_lower_hash_take_last_k_matches_frozen_implementation"
+    },
+    {
+      "population": "without_dominant",
+      "method": "gas_price_rank_block",
+      "fraction": 0.05,
+      "n": 2575,
+      "k": 129,
+      "positive_total": 1681,
+      "hits": 129,
+      "precision": 1.0,
+      "recall": 0.07674003569303986,
+      "lift": 1.5318262938726948,
+      "cutoff": -0.0,
+      "tied_at_cutoff": 834,
+      "slots_from_tie": 129,
+      "positives_in_tie": 834,
+      "min_hits_over_tie": 129,
+      "max_hits_over_tie": 129,
+      "tie_rule": "ascending_score_then_ascending_lower_hash_take_last_k_matches_frozen_implementation"
+    },
+    {
+      "population": "without_dominant",
+      "method": "gas_price_rank_block",
+      "fraction": 0.1,
+      "n": 2575,
+      "k": 258,
+      "positive_total": 1681,
+      "hits": 258,
+      "precision": 1.0,
+      "recall": 0.15348007138607972,
+      "lift": 1.5318262938726948,
+      "cutoff": -0.0,
+      "tied_at_cutoff": 834,
+      "slots_from_tie": 258,
+      "positives_in_tie": 834,
+      "min_hits_over_tie": 258,
+      "max_hits_over_tie": 258,
+      "tie_rule": "ascending_score_then_ascending_lower_hash_take_last_k_matches_frozen_implementation"
+    },
+    {
+      "population": "without_dominant",
+      "method": "transaction_index_pct",
+      "fraction": 0.01,
+      "n": 2575,
+      "k": 26,
+      "positive_total": 1681,
+      "hits": 26,
+      "precision": 1.0,
+      "recall": 0.015466983938132063,
+      "lift": 1.5318262938726948,
+      "cutoff": -0.0,
+      "tied_at_cutoff": 126,
+      "slots_from_tie": 26,
+      "positives_in_tie": 126,
+      "min_hits_over_tie": 26,
+      "max_hits_over_tie": 26,
+      "tie_rule": "ascending_score_then_ascending_lower_hash_take_last_k_matches_frozen_implementation"
+    },
+    {
+      "population": "without_dominant",
+      "method": "transaction_index_pct",
+      "fraction": 0.05,
+      "n": 2575,
+      "k": 129,
+      "positive_total": 1681,
+      "hits": 126,
+      "precision": 0.9767441860465116,
+      "recall": 0.07495538370017847,
+      "lift": 1.4962024265733296,
+      "cutoff": -0.002364066193853428,
+      "tied_at_cutoff": 1,
+      "slots_from_tie": 1,
+      "positives_in_tie": 0,
+      "min_hits_over_tie": 126,
+      "max_hits_over_tie": 126,
+      "tie_rule": "ascending_score_then_ascending_lower_hash_take_last_k_matches_frozen_implementation"
+    },
+    {
+      "population": "without_dominant",
+      "method": "transaction_index_pct",
+      "fraction": 0.1,
+      "n": 2575,
+      "k": 258,
+      "positive_total": 1681,
+      "hits": 176,
+      "precision": 0.6821705426356589,
+      "recall": 0.10469958358120167,
+      "lift": 1.0449667741147064,
+      "cutoff": -0.006211180124223602,
+      "tied_at_cutoff": 3,
+      "slots_from_tie": 3,
+      "positives_in_tie": 0,
+      "min_hits_over_tie": 176,
+      "max_hits_over_tie": 176,
+      "tie_rule": "ascending_score_then_ascending_lower_hash_take_last_k_matches_frozen_implementation"
+    },
+    {
+      "population": "without_dominant",
+      "method": "gas_used_ratio",
+      "fraction": 0.01,
+      "n": 2575,
+      "k": 26,
+      "positive_total": 1681,
+      "hits": 21,
+      "precision": 0.8076923076923077,
+      "recall": 0.012492563950029744,
+      "lift": 1.237244314281792,
+      "cutoff": 0.9090956443230355,
+      "tied_at_cutoff": 1,
+      "slots_from_tie": 1,
+      "positives_in_tie": 1,
+      "min_hits_over_tie": 21,
+      "max_hits_over_tie": 21,
+      "tie_rule": "ascending_score_then_ascending_lower_hash_take_last_k_matches_frozen_implementation"
+    },
+    {
+      "population": "without_dominant",
+      "method": "gas_used_ratio",
+      "fraction": 0.05,
+      "n": 2575,
+      "k": 129,
+      "positive_total": 1681,
+      "hits": 114,
+      "precision": 0.8837209302325582,
+      "recall": 0.0678167757287329,
+      "lift": 1.3537069573758698,
+      "cutoff": 0.9000058102376387,
+      "tied_at_cutoff": 1,
+      "slots_from_tie": 1,
+      "positives_in_tie": 1,
+      "min_hits_over_tie": 114,
+      "max_hits_over_tie": 114,
+      "tie_rule": "ascending_score_then_ascending_lower_hash_take_last_k_matches_frozen_implementation"
+    },
+    {
+      "population": "without_dominant",
+      "method": "gas_used_ratio",
+      "fraction": 0.1,
+      "n": 2575,
+      "k": 258,
+      "positive_total": 1681,
+      "hits": 243,
+      "precision": 0.9418604651162791,
+      "recall": 0.14455681142177276,
+      "lift": 1.4427666256242822,
+      "cutoff": 0.9000012946492147,
+      "tied_at_cutoff": 1,
+      "slots_from_tie": 1,
+      "positives_in_tie": 1,
+      "min_hits_over_tie": 243,
+      "max_hits_over_tie": 243,
+      "tie_rule": "ascending_score_then_ascending_lower_hash_take_last_k_matches_frozen_implementation"
+    }
+  ],
+  "baseline_metrics": [
+    {
+      "population": "full",
+      "method": "AE B-ST",
+      "ap": 0.8635949971750161,
+      "roc_auc": 0.8136220432668214
+    },
+    {
+      "population": "full",
+      "method": "IF B completa",
+      "ap": 0.8341780371407796,
+      "roc_auc": 0.7308475745860293
+    },
+    {
+      "population": "full",
+      "method": "gas_price_rank_block",
+      "ap": 0.8289377165896613,
+      "roc_auc": 0.5848946238538305
+    },
+    {
+      "population": "full",
+      "method": "transaction_index_pct",
+      "ap": 0.7005705641966236,
+      "roc_auc": 0.5097676909014569
+    },
+    {
+      "population": "full",
+      "method": "gas_used_ratio",
+      "ap": 0.7409981933935257,
+      "roc_auc": 0.6931262490654736
+    },
+    {
+      "population": "without_dominant",
+      "method": "AE B-ST",
+      "ap": 0.7109087221991004,
+      "roc_auc": 0.6209843666614764
+    },
+    {
+      "population": "without_dominant",
+      "method": "IF B completa",
+      "ap": 0.7606116084781424,
+      "roc_auc": 0.7033614938375607
+    },
+    {
+      "population": "without_dominant",
+      "method": "gas_price_rank_block",
+      "ap": 0.8600878287420807,
+      "roc_auc": 0.6706744813396734
+    },
+    {
+      "population": "without_dominant",
+      "method": "transaction_index_pct",
+      "ap": 0.6885555619233392,
+      "roc_auc": 0.5199941576269584
+    },
+    {
+      "population": "without_dominant",
+      "method": "gas_used_ratio",
+      "ap": 0.7968825774507241,
+      "roc_auc": 0.7068160131593131
+    }
+  ],
+  "rate_q99_composition": {
+    "transactions": 2350,
+    "dominant_sender_transactions": 1516,
+    "in_excluded_events": 1516,
+    "retained_after_exclusion": 834,
+    "pattern_memberships": {
+      "insertion": 2350
+    }
+  },
+  "status_by_pattern": [
+    {
+      "pattern": "insertion",
+      "model": "AE B-ST",
+      "role": "attacker",
+      "status": 1,
+      "n": 4602,
+      "median": 0.1141408160328865
+    },
+    {
+      "pattern": "insertion",
+      "model": "AE B-ST",
+      "role": "victim",
+      "status": 1,
+      "n": 2302,
+      "median": 0.053987281396985054
+    },
+    {
+      "pattern": "insertion",
+      "model": "IF B completa",
+      "role": "attacker",
+      "status": 1,
+      "n": 4602,
+      "median": 0.5432444512844086
+    },
+    {
+      "pattern": "insertion",
+      "model": "IF B completa",
+      "role": "victim",
+      "status": 1,
+      "n": 2302,
+      "median": 0.4945225119590759
+    },
+    {
+      "pattern": "displacement",
+      "model": "AE B-ST",
+      "role": "attacker",
+      "status": 1,
+      "n": 107,
+      "median": 0.058198168873786926
+    },
+    {
+      "pattern": "displacement",
+      "model": "AE B-ST",
+      "role": "victim",
+      "status": 0,
+      "n": 107,
+      "median": 0.13105274736881256
+    },
+    {
+      "pattern": "displacement",
+      "model": "IF B completa",
+      "role": "attacker",
+      "status": 1,
+      "n": 107,
+      "median": 0.49534371495246887
+    },
+    {
+      "pattern": "displacement",
+      "model": "IF B completa",
+      "role": "victim",
+      "status": 0,
+      "n": 107,
+      "median": 0.582893967628479
+    }
+  ],
+  "original_full": {
+    "events": 2409,
+    "transactions": 7118,
+    "positive": 4709,
+    "negative": 2409,
+    "prevalence": 0.6615622365833099,
+    "patterns": {
+      "insertion": 2302,
+      "displacement": 107
+    },
+    "blocks": 2368,
+    "models": {
+      "AE B-ST": {
+        "ap": 0.8635949971750161,
+        "roc_auc": 0.8136220432668214,
+        "pairs": 4711,
+        "higher": 3993,
+        "tied": 0,
+        "superiority": 0.8475907450647421,
+        "complete_event_superiority": 0.8140307181403071
+      },
+      "IF B completa": {
+        "ap": 0.8341780371407796,
+        "roc_auc": 0.7308475745860293,
+        "pairs": 4711,
+        "higher": 3546,
+        "tied": 0,
+        "superiority": 0.7527064317554659,
+        "complete_event_superiority": 0.5276048152760482
+      }
+    }
+  },
+  "original_without_dominant": {
+    "events": 894,
+    "transactions": 2575,
+    "positive": 1681,
+    "negative": 894,
+    "prevalence": 0.6528155339805826,
+    "patterns": {
+      "insertion": 787,
+      "displacement": 107
+    },
+    "blocks": 877,
+    "models": {
+      "AE B-ST": {
+        "ap": 0.7109087221991004,
+        "roc_auc": 0.6209843666614764,
+        "pairs": 1681,
+        "higher": 1128,
+        "tied": 0,
+        "superiority": 0.6710291493158834,
+        "complete_event_superiority": 0.6118568232662193
+      },
+      "IF B completa": {
+        "ap": 0.7606116084781424,
+        "roc_auc": 0.7033614938375607,
+        "pairs": 1681,
+        "higher": 1308,
+        "tied": 0,
+        "superiority": 0.7781082688875669,
+        "complete_event_superiority": 0.6096196868008948
+      }
+    }
+  },
+  "runtime_seconds": 262.3224291000006,
+  "no_retraining": true,
+  "no_rpc": true,
+  "new_human_labels": false,
+  "new_intervals": false
+}

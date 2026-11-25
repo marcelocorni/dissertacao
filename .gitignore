@@ -64,9 +64,13 @@ cache-compartilhado.7z
 
 # Auditoria humana: estado e pacotes privados nunca são publicados pelo Git
 /06-auditoria-humana/
+/resultados-eth-audit/
 **/estado-local/
 **/postgres-credential.clixml
 **/initdb-password.tmp
 **/pacote-privado.json
 **/manifesto-privado.json
 **/appsettings.Local.json
+
+# Apresentação local da defesa
+/apresentacao-defesa/

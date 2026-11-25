@@ -1,0 +1,9 @@
+﻿pattern,model,role,status,n,median
+insertion,AE B-ST,attacker,1,4602,0.1141408160328865
+insertion,AE B-ST,victim,1,2302,0.053987281396985054
+insertion,IF B completa,attacker,1,4602,0.5432444512844086
+insertion,IF B completa,victim,1,2302,0.4945225119590759
+displacement,AE B-ST,attacker,1,107,0.058198168873786926
+displacement,AE B-ST,victim,0,107,0.13105274736881256
+displacement,IF B completa,attacker,1,107,0.49534371495246887
+displacement,IF B completa,victim,0,107,0.582893967628479

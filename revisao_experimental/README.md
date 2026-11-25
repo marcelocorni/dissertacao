@@ -85,6 +85,19 @@ Dos 1.000 pareceres, 460 foram compatíveis, 198 não sustentados e 342 inconclu
 
 Essas proporções descrevem o cruzamento entre parecer e referência operacional na amostra; não estimam acurácia populacional. A consolidação preserva os rótulos e as métricas do pipeline. O JSON contém apenas contagens agregadas por campanha e por estrato; os CSVs brutos e os registros individuais não integram a publicação.
 
+## Complementos retrospectivos da revisão 07
+
+Os [resultados agregados](resultados/revisao_07/resultados.json) usam os escores persistidos da execução `amostra-05pct-revisao-hpo` e os rótulos estritos da execução `amostra-05pct`. O cálculo reutilizou os modelos, os cortes e as orientações das heurísticas, sem retreino ou consultas RPC.
+
+| Análise | População e resultados |
+| --- | --- |
+| Estratos da revisão humana | Comparação pareada dos papéis candidatos nos 1.000 casos. AP e ROC-AUC usam apenas os 554 eventos elegíveis com rótulos estritos originais. Os pareceres definem os grupos de análise. |
+| Remetente dominante em inserção | Contraste dos escores de AE B-ST e IF B completa em 2.302 eventos de inserção, dos quais 787 permanecem após a exclusão definida na população estrita completa. |
+| Orçamento de inspeção e empates | [Top-k e intervalos de recuperação devidos a empates](resultados/revisao_07/top_k_empates.csv) em três orçamentos. Na fronteira, a regra histórica dá prioridade aos hashes maiores para escores iguais. |
+| Status da execução | [Distribuições de escores](resultados/revisao_07/escores_por_status.csv) nas sete janelas e dez configurações, [por papel estrito](resultados/revisao_07/status_papeis_estritos.csv) e [por padrão no teste](resultados/revisao_07/status_padrao_teste.csv). O código 0 inclui o preenchimento de valores ausentes na matriz. |
+
+Esses contrastes descrevem a composição da referência operacional, dos grupos revisados e dos eventos retidos. Os arquivos versionados contêm métricas e contagens agregadas. Os pareceres individuais permanecem em armazenamento local.
+
 ## Retomada e segurança
 
 Repetir a chamada da etapa reutiliza somente saídas concluídas com assinatura e hashes válidos. Mudanças de entradas, código, ambiente, dispositivo ou protocolo exigem outra saída. Uma grade incompleta não publica vencedor. Não há opção `--force` para sobrescrever a execução histórica.
